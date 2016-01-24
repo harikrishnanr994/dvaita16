@@ -233,3 +233,12 @@ $(window).load(function() {
     nextText: "<i class='icon-angle-right'></i>",
   });
 });
+
+$(document).ready(function() {
+
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $('h1').css('color','#222222');
+    }, 3000);
+
+});
