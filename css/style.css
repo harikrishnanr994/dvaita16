@@ -14,7 +14,23 @@
 html {
 	overflow-x: hidden;
 }
-
+.countdown {
+    text-align: center;
+    background: rgba(83,129,228,0.10);
+    padding: 80px 0;
+}
+.styled div {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+    margin:0 15px;
+    padding:0 30px;
+    color:#fff;
+    text-shadow:none;
+    vertical-align: middle;
+}
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -32,6 +48,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, p span {
 	padding: 19px;
 	max-width: 300px;
 	border: 1px solid #FFF;
+    z-index:2;
 	display: block;
 }
 a {
@@ -67,6 +84,7 @@ hr {
 .lead {
 	font-family: Open Sans, Arial, Helvetica, sans-serif;
 	text-align: center;
+    z-index: 2;
 }
 .hero-unit {
 	padding: 50px;
@@ -122,34 +140,46 @@ hr {
 	box-shadow: 0 2px 5px rgba(0,0,0,0.25);
 }
 
+
+/* banner */
+
+
+.pic {
+    width: 77%;
+    height: auto;
+    margin: 0 auto 15px 10%;
+    padding: 19px;
+}
+
 /* Logo */
 .logo {
 	width: 42%;
 	height: 20%;
-	background: #FFF;
-	line-height: 40%;
+	line-height: 10%;
 	position: absolute;
-	top: 60%;
-	left: 0;
+	top: 2%;
+	left: 10px;
 	z-index: 2;
 }
+
+
 .logo p {
 	margin-bottom:50px;
 }
 .logo img {
 	vertical-align: inherit;
-	width: 100%;
-	height: 100%;
+	width: 70%;
+	height: 70%;
 
 }
 
 /* Sections */
 .section {
 	margin-bottom : -5px;
-	width: 11.8%;
+	width: 12%;
 	height: 20%;
 	position: absolute ;
-	top: 60%;
+	bottom: 0;
 	transition: all linear 0.25s;
 	-ms-transition: all linear 0.25s;
 	-moz-transition: all linear 0.25s;
@@ -173,25 +203,29 @@ hr {
 	animation: none;
 	-webkit-animation: none;
 }
+/* Sections About */
+.section#hacknight {
+    right: 60%;
+}
 
 /* Sections About */
 .section#about {
-	right: 600px;
+	right: 48%;
 }
 
 /* Sections Services */
 .section#services {
-	right: 450px;
+	right: 36%;
 }
 
 /* Sections Portfolio */
 .section#folio {
-	right: 300px;
+	right: 24%;
 }
 
 /* Sections register */
 .section#register {
-	right: 150px;
+	right: 12%;
 }
 
 /* Sections Contact */
@@ -228,7 +262,7 @@ hr {
 	top: 50%;
 	left: 0;
 }
-.section-about i, .section-services i, .section-folio i, .section-register i, .section-contact i {
+.section-about i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i {
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -243,10 +277,14 @@ hr {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
-.section-about i:hover, .section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover {
+.section-about i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover {
 	background: rgba(0,0,0,0.1);
 	font-size: 30px;
 	opacity: 1;
+}
+.section-hacknight i.active {
+    font-size: 30px;
+    opacity: 1;
 }
 .section-about i.active {
 	font-size: 30px;
@@ -812,21 +850,34 @@ body {
 .section .section-title strong, .section .section-title p {
 	display: none;
 }
-.section#about {
-	right: 384px;
-}
-.section#services {
-	right: 288px;
-}
-.section#folio {
-	right: 192px;
-}
-.section#register {
-	right: 96px;
-}
-.section#contact {
-	right: 0;
-}
+    .section#hacknight {
+        right: 57%;
+    }
+
+    /* Sections About */
+    .section#about {
+        right: 45.2%;
+    }
+
+    /* Sections Services */
+    .section#services {
+        right: 34.4%;
+    }
+
+    /* Sections Portfolio */
+    .section#folio {
+        right: 23.6%;
+    }
+
+    /* Sections register */
+    .section#register {
+        right: 11.8%;
+    }
+
+    /* Sections Contact */
+    .section#contact {
+        right: 0;
+    }
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email]{
 	margin: 0 auto 10px;
 	min-width: 300px;
@@ -858,8 +909,8 @@ body {
 }
 .section {
 	margin-top: -139px;
-	width: 64px;
-	height: 64px;
+	width: 15%;
+	height: 15%;
 }
 .section .section-title {
 	margin: 17px 5px;
@@ -867,21 +918,34 @@ body {
 .section .section-title strong, .section .section-title p {
 	display: none;
 }
-.section#about {
-	right: 256px;
-}
-.section#services {
-	right: 192px;
-}
-.section#folio {
-	right: 128px;
-}
-.section#register {
-	right: 64px;
-}
-.section#contact {
-	right: 0;
-}
+    .section#hacknight {
+        right: 75%;
+    }
+
+    /* Sections About */
+    .section#about {
+        right: 60%;
+    }
+
+    /* Sections Services */
+    .section#services {
+        right: 45%;
+    }
+
+    /* Sections Portfolio */
+    .section#folio {
+        right: 30%;
+    }
+
+    /* Sections register */
+    .section#register {
+        right: 15%;
+    }
+
+    /* Sections Contact */
+    .section#contact {
+        right: 0%;
+    }
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email] {
 	margin: 0 auto 10px;
 	min-width: 300px;

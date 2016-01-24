@@ -29,3 +29,8 @@
 .section#contact, .section-contact i.active {
 	background: #F33;
 }
+
+/* Sections About */
+.section#hacknight, .section-hacknight i.active {
+	background: #de7500;
+}
