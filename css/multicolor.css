@@ -34,3 +34,9 @@
 .section#hacknight, .section-hacknight i.active {
 	background: #de7500;
 }
+.section#swatthebug, .section-swatthebug i.active {
+	background: #de6dc6;
+}
+.section#boombox, .section-boombox i.active {
+	background: #2196f3;
+}

@@ -15,7 +15,7 @@ $(document).ready(function () {
     $(".section").removeClass("section-expand");
     $(".switch-section").hide(250);
     $(".section-close").hide(250);
-    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-hacknight i, .section-contact i").removeClass("active");
+    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hacknight i, .section-contact i").removeClass("active");
   })
 
   /* --- Side Menu --- */
@@ -33,6 +33,21 @@ $(document).ready(function () {
   })
 
   /* --- event Section start --- */
+    $(".section-boombox").click(function () {
+        $(".section").removeClass("section-expand");
+        $("#boombox").addClass("section-expand");
+    })
+    $("#boombox").click(function () {
+        $(".section-boombox i").toggleClass("active");
+    })
+
+    $(".section-swatthebug").click(function () {
+        $(".section").removeClass("section-expand");
+        $("#swatthebug").addClass("section-expand");
+    })
+    $("#swatthebug").click(function () {
+        $(".section-swatthebug i").toggleClass("active");
+    })
 
   $(".section-hacknight").click(function () {
     $(".section").removeClass("section-expand");
@@ -80,11 +95,24 @@ $(document).ready(function () {
   /* --- GoTo Section --- */
 
   /* --- GoTo Event Section start--- */
+    $(".goto-boombox").click(function (e) {
+        $("#boombox").addClass("section-expand").siblings().removeClass("section-expand");
+        $(".section-boombox i").addClass("active");
+        $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+        e.stopPropagation();
+    })
+
+    $(".goto-swatthebug").click(function (e) {
+        $("#swatthebug").addClass("section-expand").siblings().removeClass("section-expand");
+        $(".section-swatthebug i").addClass("active");
+        $(".section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+        e.stopPropagation();
+    })
 
   $(".goto-hacknight").click(function (e) {
     $("#hacknight").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-hacknight i").addClass("active");
-    $(".section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
   })
 
@@ -93,31 +121,31 @@ $(document).ready(function () {
   $(".goto-about").click(function (e) {
     $("#about").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-about i").addClass("active");
-    $(".section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    $(".section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
   $(".goto-services").click(function (e) {
     $("#services").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-services i").addClass("active");
-    $(".section-about i, .section-folio i,.section-hacknight i, .section-register i, .section-contact i").removeClass("active");
+    $(".section-hacknight i,.section-swatthebug i,.section-about i, .section-folio i,.section-hacknight i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
   $(".goto-folio").click(function (e) {
     $("#folio").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-folio i").addClass("active");
-    $(".section-about i, .section-hacknight i,.section-services i, .section-register i, .section-contact i").removeClass("active");
+    $(".section-hacknight i,.section-swatthebug i,.section-about i, .section-services i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
   $(".goto-register").click(function (e) {
     $("#register").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-register i").addClass("active");
-    $(".section-about i, .section-hacknight i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
+    $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
   $(".goto-contact").click(function (e) {
     $("#contact").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-contact i").addClass("active");
-    $(".section-about i, .section-hacknight i,.section-services i, .section-folio i, .section-register i").removeClass("active");
+    $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i").removeClass("active");
 	e.stopPropagation();
   })
 

@@ -204,33 +204,39 @@ hr {
 	-webkit-animation: none;
 }
 /* Sections About */
+.section#boombox {
+    right: 86%;
+}
+.section#swatthebug {
+    right: 74%;
+}
 .section#hacknight {
-    right: 60%;
+    right: 62%;
 }
 
 /* Sections About */
 .section#about {
-	right: 48%;
+    right: 50%;
 }
 
 /* Sections Services */
 .section#services {
-	right: 36%;
+    right: 38%;
 }
 
 /* Sections Portfolio */
 .section#folio {
-	right: 24%;
+    right: 26%;
 }
 
 /* Sections register */
 .section#register {
-	right: 12%;
+    right: 14%;
 }
 
 /* Sections Contact */
 .section#contact {
-	right: 0;
+    right: 2%;
 }
 
 /* Switch Section */
@@ -262,7 +268,7 @@ hr {
 	top: 50%;
 	left: 0;
 }
-.section-about i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i {
+.section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i {
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -277,10 +283,18 @@ hr {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
-.section-about i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover {
+.section-about i:hover, .section-boombox i:hover,.section-swatthebug i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover {
 	background: rgba(0,0,0,0.1);
 	font-size: 30px;
 	opacity: 1;
+}
+.section-boombox i.active {
+    font-size: 30px;
+    opacity: 1;
+}
+.section-swatthebug i.active {
+    font-size: 30px;
+    opacity: 1;
 }
 .section-hacknight i.active {
     font-size: 30px;
@@ -841,8 +855,8 @@ body {
 }
 .section {
 	margin-top: -171px;
-	width: 96px;
-	height: 96px;
+	width: 12%;
+	height: 15%;
 }
 .section .section-title {
 	margin: 33px 0;
@@ -850,33 +864,39 @@ body {
 .section .section-title strong, .section .section-title p {
 	display: none;
 }
+    .section#boombox {
+        right: 86%;
+    }
+    .section#swatthebug {
+        right: 74%;
+    }
     .section#hacknight {
-        right: 57%;
+        right: 62%;
     }
 
     /* Sections About */
     .section#about {
-        right: 45.2%;
+        right: 50%;
     }
 
     /* Sections Services */
     .section#services {
-        right: 34.4%;
+        right: 38%;
     }
 
     /* Sections Portfolio */
     .section#folio {
-        right: 23.6%;
+        right: 26%;
     }
 
     /* Sections register */
     .section#register {
-        right: 11.8%;
+        right: 14%;
     }
 
     /* Sections Contact */
     .section#contact {
-        right: 0;
+        right: 2%;
     }
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email]{
 	margin: 0 auto 10px;
@@ -918,33 +938,39 @@ body {
 .section .section-title strong, .section .section-title p {
 	display: none;
 }
+    .section#boombox {
+        right: 86%;
+    }
+    .section#swatthebug {
+        right: 74%;
+    }
     .section#hacknight {
-        right: 75%;
+        right: 62%;
     }
 
     /* Sections About */
     .section#about {
-        right: 60%;
+        right: 50%;
     }
 
     /* Sections Services */
     .section#services {
-        right: 45%;
+        right: 38%;
     }
 
     /* Sections Portfolio */
     .section#folio {
-        right: 30%;
+        right: 26%;
     }
 
     /* Sections register */
     .section#register {
-        right: 15%;
+        right: 14%;
     }
 
     /* Sections Contact */
     .section#contact {
-        right: 0%;
+        right: 2%;
     }
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email] {
 	margin: 0 auto 10px;
