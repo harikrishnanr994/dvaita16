@@ -20,8 +20,8 @@
 	background: #0CC;
 }
 
-/* Sections Blog */
-.section#blog, .section-blog i.active, #blog .item .item-detail {
+/* Sections register */
+.section#register, .section-register i.active, #register .item .item-detail {
 	background: #669;
 }
 

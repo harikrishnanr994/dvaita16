@@ -189,8 +189,8 @@ hr {
 	right: 300px;
 }
 
-/* Sections Blog */
-.section#blog {
+/* Sections register */
+.section#register {
 	right: 150px;
 }
 
@@ -228,7 +228,7 @@ hr {
 	top: 50%;
 	left: 0;
 }
-.section-about i, .section-services i, .section-folio i, .section-blog i, .section-contact i {
+.section-about i, .section-services i, .section-folio i, .section-register i, .section-contact i {
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -243,7 +243,7 @@ hr {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
-.section-about i:hover, .section-services i:hover, .section-folio i:hover, .section-blog i:hover, .section-contact i:hover {
+.section-about i:hover, .section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover {
 	background: rgba(0,0,0,0.1);
 	font-size: 30px;
 	opacity: 1;
@@ -260,7 +260,7 @@ hr {
 	font-size: 30px;
 	opacity: 1;
 }
-.section-blog i.active {
+.section-register i.active {
 	font-size: 30px;
 	opacity: 1;
 }
@@ -646,11 +646,11 @@ address a:hover {
 	margin: 20px 0 50px;
 }
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email] {
-	margin: 0 10px 0 0;
+	margin: 10px 10px 0 20px;
 	padding: 15px;
 	min-width: 280px;
-	width: 280px;
-	max-width: 280px;
+	width: 300px;
+	max-width: 300px;
 	min-height: 20px;
 	height: 20px;
 	max-height: 20px;
@@ -720,7 +720,9 @@ address a:hover {
 
 .contact-form button, .contact-form button:hover, .contact-form button:focus {
 	margin: 0;
-	width: 210px;
+	width: 330px;
+    margin-top: 20px;
+    margin-left: 20px;
 	height: 50px;
 }
 
@@ -762,12 +764,14 @@ address a:hover {
 	margin-top: 0;
 }
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email]{
-	min-width: 220px;
-	width: 220px;
-	max-width: 220px;
+	margin-left: -10px;
+    min-width: 300px;
+	width: 300px;
+	max-width: 300px;
 }
 .contact-form button, .contact-form button:hover, .contact-form button:focus {
-	width: 160px;
+    margin-left: -10px;
+	width: 330px;
 }
 }
 
@@ -780,12 +784,14 @@ address a:hover {
 	margin-top: 0;
 }
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email]{
-	min-width: 145px;
-	width: 145px;
-	max-width: 145px;
+    margin-left: -50px;
+    min-width: 300px;
+    width: 300px;
+    max-width: 300px;
 }
 .contact-form button, .contact-form button:hover, .contact-form button:focus {
-	width: 169px;
+    margin-left: -50px;
+    width: 330px;
 }
 }
 
@@ -815,7 +821,7 @@ body {
 .section#folio {
 	right: 192px;
 }
-.section#blog {
+.section#register {
 	right: 96px;
 }
 .section#contact {
@@ -832,14 +838,14 @@ body {
 	float: none;
 }
 .contact-form textarea {
-	min-width: 270px;
-	width: 270px;
-	max-width: 270px;
+	min-width: 300px;
+	width: 300px;
+	max-width: 300px;
 	display: block;
 }
 .contact-form button, .contact-form button:hover, .contact-form button:focus {
 	margin: 0 auto;
-	width: 290px;
+	width: 300px;
 	display: block;
 }
 }
@@ -870,7 +876,7 @@ body {
 .section#folio {
 	right: 128px;
 }
-.section#blog {
+.section#register {
 	right: 64px;
 }
 .section#contact {
@@ -894,7 +900,7 @@ body {
 }
 .contact-form button, .contact-form button:hover, .contact-form button:focus {
 	margin: 0 auto;
-	width: 290px;
+	width: 300px;
 	display: block;
 }
 }

@@ -15,7 +15,7 @@ $(document).ready(function () {
     $(".section").removeClass("section-expand");
     $(".switch-section").hide(250);
     $(".section-close").hide(250);
-    $(".section-about i, .section-services i, .section-folio i, .section-blog i, .section-contact i").removeClass("active");
+    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
   })
 
   /* --- Side Menu --- */
@@ -48,12 +48,12 @@ $(document).ready(function () {
     $(".section-folio i").toggleClass("active");
   })
 
-  $(".section-blog").click(function () {
+  $(".section-register").click(function () {
     $(".section").removeClass("section-expand");
-    $("#blog").addClass("section-expand");
+    $("#register").addClass("section-expand");
   })
-  $("#blog").click(function () {
-    $(".section-blog i").toggleClass("active");
+  $("#register").click(function () {
+    $(".section-register i").toggleClass("active");
   })
 
   $(".section-contact").click(function () {
@@ -68,31 +68,31 @@ $(document).ready(function () {
   $(".goto-about").click(function (e) {
     $("#about").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-about i").addClass("active");
-    $(".section-services i, .section-folio i, .section-blog i, .section-contact i").removeClass("active");
+    $(".section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
   $(".goto-services").click(function (e) {
     $("#services").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-services i").addClass("active");
-    $(".section-about i, .section-folio i, .section-blog i, .section-contact i").removeClass("active");
+    $(".section-about i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
   $(".goto-folio").click(function (e) {
     $("#folio").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-folio i").addClass("active");
-    $(".section-about i, .section-services i, .section-blog i, .section-contact i").removeClass("active");
+    $(".section-about i, .section-services i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
-  $(".goto-blog").click(function (e) {
-    $("#blog").addClass("section-expand").siblings().removeClass("section-expand");
-	$(".section-blog i").addClass("active");
+  $(".goto-register").click(function (e) {
+    $("#register").addClass("section-expand").siblings().removeClass("section-expand");
+	$(".section-register i").addClass("active");
     $(".section-about i, .section-services i, .section-folio i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
   $(".goto-contact").click(function (e) {
     $("#contact").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-contact i").addClass("active");
-    $(".section-about i, .section-services i, .section-folio i, .section-blog i").removeClass("active");
+    $(".section-about i, .section-services i, .section-folio i, .section-register i").removeClass("active");
 	e.stopPropagation();
   })
 
@@ -104,7 +104,7 @@ $(document).ready(function () {
   });
   
   /* --- Masonry --- */
-  $("#folio, .section-folio, .goto-folio, #blog, .section-blog, .goto-blog").on("click",function(){
+  $("#folio, .section-folio, .goto-folio, #register, .section-register, .goto-register").on("click",function(){
 
   var $container = $(".masonry");
   $container.imagesLoaded(function () {
@@ -112,7 +112,7 @@ $(document).ready(function () {
       itemSelector: ".item",
     });
   });
-  $("#folio-filters a, #blog-filters a").click(function () {
+  $("#folio-filters a, #register-filters a").click(function () {
     var selector = $(this).attr("data-filter");
     $container.isotope({
       filter: selector
