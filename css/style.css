@@ -101,7 +101,7 @@ html {
     top: 0;
     width: 51%;
     height: 100%;
-    background: #222222;
+    background: #fff;
     z-index: 1000;
     -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: translateX(0);  /* IE 9 */
@@ -155,9 +155,6 @@ html {
 .no-js #loader-wrapper {
     display: none;
 }
-.no-js h1 {
-    color: #222222;
-}
 
 
 
@@ -183,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-weight: 300;
 	font-family: Open Sans, Arial, Helvetica, sans-serif;
-	color: #FFF;
+	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -194,7 +191,8 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, p span {
 	margin: 0 auto 15px;
 	padding: 19px;
 	max-width: 300px;
-	border: 1px solid #FFF;
+	border: 1px solid #FFFFFF;
+    color: #ffffff;
     z-index:2;
 	display: block;
 }
