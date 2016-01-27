@@ -40,3 +40,7 @@
 .section#boombox, .section-boombox i.active {
 	background: #2196f3;
 }
+
+.section#hackerjack, .section-hackerjack i.active {
+	background: #009688;
+}
