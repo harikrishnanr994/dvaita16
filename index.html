@@ -1,7 +1,7 @@
 <?php
 
 require_once("config.php");
-$conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
+$link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
 ?>
 <!DOCTYPE html>
 <html>
@@ -653,7 +653,7 @@ $conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span5 offset4">
 
-                <form action="contact.php" class="contact-form" method="post">
+                <form action="process.php" class="contact-form" method="post">
                     <fieldset>
                         <input type="text" placeholder="Name" class="span3" name="name" id="name" required/>
                         <input type="email" placeholder="Email" class="span3" name="email" id="email" required/>
@@ -670,7 +670,7 @@ $conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         </div>
                         <div class="input-group span6 label2">
                           <span class="input-group-addon">
-                            <input type="checkbox" aria-label="chbox for accom">
+                            <input type="checkbox" aria-label="chbox for accom" name="accom">
                           </span>
                             Need accommodation
                         </div>
