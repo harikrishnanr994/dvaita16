@@ -40,6 +40,10 @@ $(document).ready(function () {
     $("#boombox").click(function () {
         $(".section-boombox i").toggleClass("active");
     })
+    $(".section-hackerjack").click(function () {
+      $(".section").removeClass("section-expand");
+      $("#hackerjack").addClass("section-expand");
+    })
 
     $(".section-swatthebug").click(function () {
         $(".section").removeClass("section-expand");
