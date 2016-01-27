@@ -604,7 +604,7 @@ $conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!-- Contact Section -->
 <div id="contact" class="section">
     <div class="section-title"><i class="icon-envelope-alt"></i><strong>Contact</strong>
-        <p>some text <span>here</span></p>
+        <p>Connect to  <span> Us </span></p>
     </div>
 
     <!-- Contact Content -->
@@ -655,14 +655,36 @@ $conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <form action="contact.php" class="contact-form" method="post">
                     <fieldset>
+<<<<<<< HEAD
                         <input type="text" placeholder="Name" class="span3" name="name" id="name" required/>
                         <input type="email" placeholder="Email" class="span3" name="email" id="email" required/>
                         <input type="password" placeholder="Password" class="span3" name="pwd" id="pwd" required/>
                         <input type="password" placeholder="Confirm Password" class="span3" name="cpwd" id="cpwd" required/>
                         <input type="number" placeholder="Phone" class="span3" name="phone" id="phone" required/>
                         <input type="text" placeholder="College" class="span3" name="college" id="college" required/>
+=======
+                        <input type="text" placeholder="Name" class="span3" />
+                        <input type="email" placeholder="Email" class="span3" />
+                        <input type="password" placeholder="Password" class="span3" />
+                        <input type="password" placeholder="Confirm Password" class="span3" />
+                        <input type="number" placeholder="Phone" class="span3" />
+                        <input type="text" placeholder="College" class="span3" />
+                        <div class="span6 radio-group label1" >
+                            <br>
+                            <label >Gender<span class="radio-inline">*</span></label>
+                            <label class="radio-inline"><input type="radio" name="gender" value="male"  > Male</label>
+                            <label class="radio-inline"><input type="radio" name="gender" value="female" > Female</label>
+                        </div>
+                        <div class="input-group span6 label2">
+                          <span class="input-group-addon">
+                            <input type="checkbox" aria-label="chbox for accom">
+                          </span>
+                            Need accommodation
+                        </div>
+>>>>>>> origin/master
                         <button type="submit" class="btn btn-large">Submit</button>
                         <button type="reset" class="btn btn-large">Reset</button>
+
                     </fieldset>
                 </form>
             </div>
