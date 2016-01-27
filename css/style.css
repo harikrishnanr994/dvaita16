@@ -499,7 +499,9 @@ hr {
 .section#contact {
     right: 2%;
 }
-
+.section#hackerjack {
+	right: -100%;
+}
 /* Switch Section */
 .switch-section {
 	width: 5%;
@@ -981,7 +983,7 @@ address a:hover {
 .label2 {
 	margin: 10px 10px 0 20px;
 	min-width: 300px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	padding-top: 10px;
 	padding-left: 15px;
 	width: 315px;

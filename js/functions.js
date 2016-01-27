@@ -61,6 +61,13 @@ $(document).ready(function () {
     $(".section-hacknight i").toggleClass("active");
   })
 
+  $(".section-hackerjack").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#hackerjack").addClass("section-expand");
+  })
+  $("#hacknight").click(function () {
+    $(".section-hacknight i").toggleClass("active");
+  })
 
   /* --- event Section end --- */
 
