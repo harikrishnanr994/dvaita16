@@ -15,6 +15,122 @@ html {
 	overflow-x: hidden;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	/* IE8-9 */
+
+	line-height: normal;
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+
+.radio,
+.checkbox {
+	display: block;
+	min-height: 20px;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+.radio label,
+.checkbox label {
+	display: inline;
+	margin-bottom: 0;
+	font-weight: normal;
+	cursor: pointer;
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+	float: left;
+	margin-left: -20px;
+}
+
+.radio-inline,
+.checkbox-inline {
+	display: inline-block;
+	padding-left: 20px;
+	margin-bottom: 0;
+	vertical-align: middle;
+	font-weight: normal;
+	cursor: pointer;
+}
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+	margin-top: 0;
+	margin-left: 10px;
+}
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+.radio[disabled],
+.radio-inline[disabled],
+.checkbox[disabled],
+.checkbox-inline[disabled],
+fieldset[disabled] input[type="radio"],
+fieldset[disabled] input[type="checkbox"],
+fieldset[disabled] .radio,
+fieldset[disabled] .radio-inline,
+fieldset[disabled] .checkbox,
+fieldset[disabled] .checkbox-inline {
+	cursor: not-allowed;
+}
+
+.input-group-addon input[type="radio"],
+.input-group-addon input[type="checkbox"] {
+	margin-top: 0;
+}
+
+.form-horizontal .control-label,
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.form-horizontal .form-group {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+	content: " ";
+	/* 1 */
+
+	display: table;
+	/* 2 */
+
+}
+.form-horizontal .form-group:after {
+	clear: both;
+}
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+	content: " ";
+	/* 1 */
+
+	display: table;
+	/* 2 */
+
+}
+.form-horizontal .form-group:after {
+	clear: both;
+}
+
+
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -842,6 +958,46 @@ address a:hover {
 .contact-form {
 	margin: 20px 0 50px;
 }
+
+.label1{
+	margin: 10px 10px 0 20px;
+	min-width: 300px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	width: 315px;
+	max-width: 320px;
+	min-height: 50px;
+	height: 60px;
+	max-height: 80px;
+	background: rgba(0,0,0,0.1);
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	font: normal 14px/20px Open Sans, Arial, Helvetica, sans-serif;
+	color: #FFF;
+	float: left;
+}
+
+.label2 {
+	margin: 10px 10px 0 20px;
+	min-width: 300px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	width: 315px;
+	max-width: 320px;
+	min-height: 30px;
+	height: 30px;
+	max-height: 80px;
+	background: rgba(0,0,0,0.1);
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	font: normal 14px/20px Open Sans, Arial, Helvetica, sans-serif;
+	color: #FFF;
+	float: left;
+}
+
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email] {
 	margin: 10px 10px 0 20px;
 	padding: 15px;
@@ -960,6 +1116,12 @@ address a:hover {
 .section {
 	margin-top: 0;
 }
+	.label1 {
+		margin-left: -10px;
+		min-width: 300px;
+		width: 300px;
+		max-width: 300px;
+	}
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email]{
 	margin-left: -10px;
     min-width: 300px;
@@ -980,6 +1142,13 @@ address a:hover {
 .section {
 	margin-top: 0;
 }
+
+	.label1 {
+		margin-left: -50px;
+		min-width: 300px;
+		width: 300px;
+		max-width: 300px;
+	}
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email]{
     margin-left: -50px;
     min-width: 300px;
@@ -1043,6 +1212,17 @@ body {
     .section#contact {
         right: 2%;
     }
+
+	.label1 {
+		margin: 0 auto 10px;
+		min-width: 300px;
+		width: 300px;
+		max-width: 300px;
+		min-height: 60px;
+		height: 70px;
+		max-height: 70px;
+		float: none;
+	}
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email]{
 	margin: 0 auto 10px;
 	min-width: 300px;
@@ -1117,6 +1297,18 @@ body {
     .section#contact {
         right: 2%;
     }
+
+	.label1  {
+		margin: 0 auto 10px;
+		min-width: 300px;
+		width: 300px;
+		padding-bottom: 10px;
+		max-width: 300px;
+		min-height: 60px;
+		height: 70px;
+		max-height: 70px;
+		float: none;
+	}
 .contact-form input[type=text], .contact-form input[type=password],.contact-form input[type=number],.contact-form input[type=email] {
 	margin: 0 auto 10px;
 	min-width: 300px;
