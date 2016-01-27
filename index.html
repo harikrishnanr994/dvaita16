@@ -1,3 +1,8 @@
+<?php
+
+require_once("config.php");
+$conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -650,12 +655,12 @@
 
                 <form action="contact.php" class="contact-form" method="post">
                     <fieldset>
-                        <input type="text" placeholder="Name" class="span3" />
-                        <input type="email" placeholder="Email" class="span3" />
-                        <input type="password" placeholder="Password" class="span3" />
-                        <input type="password" placeholder="Confirm Password" class="span3" />
-                        <input type="number" placeholder="Phone" class="span3" />
-                        <input type="text" placeholder="College" class="span3" />
+                        <input type="text" placeholder="Name" class="span3" name="name" id="name" required/>
+                        <input type="email" placeholder="Email" class="span3" name="email" id="email" required/>
+                        <input type="password" placeholder="Password" class="span3" name="pwd" id="pwd" required/>
+                        <input type="password" placeholder="Confirm Password" class="span3" name="cpwd" id="cpwd" required/>
+                        <input type="number" placeholder="Phone" class="span3" name="phone" id="phone" required/>
+                        <input type="text" placeholder="College" class="span3" name="college" id="college" required/>
                         <button type="submit" class="btn btn-large">Submit</button>
                         <button type="reset" class="btn btn-large">Reset</button>
                     </fieldset>
@@ -852,5 +857,29 @@
 <script type="text/javascript" src="js/global.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/js/jquery.validation.functions.js"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            jQuery(function(){
+                jQuery("#phone").validate({
+                    expression: "if (!isNaN(VAL) && VAL) return true; else return false;",
+                    message: "Please enter a valid number"
+                });
+                jQuery("#email").validate({
+                    expression: "if (VAL.match(/^[^\\W][a-zA-Z0-9\\_\\-\\.]+([a-zA-Z0-9\\_\\-\\.]+)*\\@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9_]+)*\\.[a-zA-Z]{2,4}$/)) return true; else return false;",
+                    message: "Please enter a valid Email ID"
+                });
+                jQuery("#pwd").validate({
+                    expression: "if (VAL.length > 5 && VAL) return true; else return false;",
+                    message: "Please enter a valid Password"
+                });
+                jQuery("#cpwd").validate({
+                    expression: "if ((VAL == jQuery('#pwd').val()) && VAL) return true; else return false;",
+                    message: "Confirm password field doesn't match the password field"
+                });
+            });
+            /* ]]> */
+        </script>
 </body>
 </html>
