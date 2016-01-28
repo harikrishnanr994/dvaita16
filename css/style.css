@@ -508,10 +508,10 @@ hr {
 .section#boombox {
     right: 86%;
 }
-.section#swatthebug {
+.section#respawn {
     right: 74%;
 }
-.section#hacknight {
+.section#bestengineer  {
     right: 62%;
 }
 
@@ -547,7 +547,7 @@ hr {
 	right: -100%;
 }
 
-.section#bestengineer {
+.section#hacknight {
 	right: -100%;
 }
 
@@ -584,7 +584,7 @@ hr {
 	right: -100%;
 }
 
-.section#respawn {
+.section#swatthebug {
 	right: -100%;
 }
 
@@ -1346,13 +1346,12 @@ body {
     .section#boombox {
         right: 86%;
     }
-    .section#swatthebug {
-        right: 74%;
-    }
-    .section#hacknight {
-        right: 62%;
-    }
-
+	.section#respawn {
+		right: 74%;
+	}
+	.section#bestengineer{
+		right: 62%;
+	}
     /* Sections About */
     .section#about {
         right: 50%;
@@ -1431,12 +1430,12 @@ body {
     .section#boombox {
         right: 86%;
     }
-    .section#swatthebug {
-        right: 74%;
-    }
-    .section#hacknight {
-        right: 62%;
-    }
+	.section#respawn {
+		right: 74%;
+	}
+	.section#bestengineer  {
+		right: 62%;
+	}
 
     /* Sections About */
     .section#about {
