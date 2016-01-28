@@ -1,27 +1,34 @@
 $(document).ready(function() {
 
-	// process the form
-	$('form').submit(function(event) {
+	$('#register').submit(function(event) {
 
-		$('.form-group').removeClass('has-error'); // remove the error class
-		$('.help-block').remove(); // remove the error text
+		$('.form-group').removeClass('has-error');
+		$('.help-block').remove();
 
 		// get the form data
 		// there are many ways to get this data using jQuery (you can use the class or id also)
-		var formData = {
+		if($('input[name="security"]').prop('checked')){
+			var accom = "yes";
+		} else {
+			var accom = "no";
+		}
+
+		/*var formData = {
 			'name' 		: 	$('input[name=name]').val(),
 			'email' 	: 	$('input[name=email]').val(),
 			'pwd' 		: 	$('input[name=pwd]').val(),
 			'cpwd' 		: 	$('input[name=cpwd]').val(),
 			'phone' 	: 	$('input[name=phone]').val(),
-			'college' 	: 	$('input[name=college]').val()
-		};
+			'college' 	: 	$('input[name=college]').val(),
+			'gender' 	: 	$('input[type="radio"]:checked').val(),
+			'accom' 	: 	accom
+		};*/
 
 		// process the form
 		$.ajax({
 			type 		: 'POST', // define the type of HTTP verb we want to use (POST for our form)
 			url 		: 'process.php', // the url where we want to POST
-			data 		: formData, // our data object
+			data 		: $("#register").serialize(), // our data object
 			dataType 	: 'json', // what type of data do we expect back from the server
 			encode 		: true
 		})
@@ -44,12 +51,6 @@ $(document).ready(function() {
 					if (data.errors.email) {
 						$('#email-group').addClass('has-error'); // add the error class to show red input
 						$('#email-group').append('<div class="help-block">' + data.errors.email + '</div>'); // add the actual error message under our input
-					}
-
-					// handle errors for superhero alias ---------------
-					if (data.errors.superheroAlias) {
-						$('#superhero-group').addClass('has-error'); // add the error class to show red input
-						$('#superhero-group').append('<div class="help-block">' + data.errors.superheroAlias + '</div>'); // add the actual error message under our input
 					}
 
 				} else {
