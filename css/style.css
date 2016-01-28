@@ -414,7 +414,7 @@ hr {
 
 /* Logo */
 .logo {
-	width: 42%;
+	width: 33%;
 	height: 20%;
 	line-height: 10%;
 	position: absolute;
@@ -433,6 +433,29 @@ hr {
 	height: 70%;
 
 }
+
+
+.nssce {
+	width: 25%;
+	height: 20%;
+	line-height: 10%;
+	position: absolute;
+	top: 2%;
+	right: -5%;
+	z-index: 2;
+}
+
+
+.nssce p {
+	margin-bottom:50px;
+}
+.nssce img {
+	vertical-align: inherit;
+	width: 70%;
+	height: 70%;
+
+}
+
 
 /* Sections */
 .section {
@@ -502,6 +525,65 @@ hr {
 .section#hackerjack {
 	right: -100%;
 }
+
+.section#bashemup {
+	right: -100%;
+}
+
+.section#bestengineer {
+	right: -100%;
+}
+
+.section#maestro {
+	right: -100%;
+}
+
+.section#codeswap {
+	right: -100%;
+}
+
+.section#highq {
+	right: -100%;
+}
+
+.section#langx {
+	right: -100%;
+}
+
+.section#sidhandics {
+	right: -100%;
+}
+
+
+.section#startaction {
+	right: -100%;
+}
+
+.section#mrcad {
+	right: -100%;
+}
+
+.section#shutterbug {
+	right: -100%;
+}
+
+.section#respawn {
+	right: -100%;
+}
+
+.section#contraption {
+	right: -100%;
+}
+
+.section#crossfire {
+	right: -100%;
+}
+
+.section#pirate {
+	right: -100%;
+}
+
+
 /* Switch Section */
 .switch-section {
 	width: 5%;

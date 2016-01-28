@@ -32,15 +32,76 @@
 
 /* Sections About */
 .section#hacknight, .section-hacknight i.active {
-	background: #de7500;
+
+	background: #2196f3;
 }
 .section#swatthebug, .section-swatthebug i.active {
 	background: #de6dc6;
 }
 .section#boombox, .section-boombox i.active {
-	background: #2196f3;
+	background: #44e1f3;
 }
 
 .section#hackerjack, .section-hackerjack i.active {
 	background: #009688;
+}
+
+.section#bashemup, .section-bashemup i.active {
+    background: #607d8b;
+}
+
+
+.section#bestengineer, .section-bestengineer i.active {
+    background: #e91e63;
+}
+
+.section#maestro, .section-maestro i.active {
+    background: #FC0;
+}
+
+.section#codeswap, .section-codeswap i.active {
+    background: #009688;
+}
+
+.section#highq, .section-highq i.active {
+    background: #de7500;
+}
+
+.section#langx, .section-langx i.active {
+    background: #de6dc6;
+}
+
+.section#sidhandics, .section-sidhandics i.active {
+    background: #4caf50;
+}
+
+.section#startaction, .section-startaction i.active {
+    background: #fdd835;
+}
+
+.section#mrcad, .section-mrcad i.active {
+    background: #2196f3;
+}
+
+.section#shutterbug, .section-shutterbug i.active {
+    background: #009688;
+}
+
+
+.section#respawn, .section-respawn i.active {
+    background: #f44336;
+}
+
+.section#contraption, .section-contraption i.active {
+    background: #2196f3;
+}
+
+.section#crossfire, .section-crossfire i.active {
+    background: #009688;
+}
+
+
+.section#pirate, .section-pirate i.active {
+
+    background: #009688;
 }

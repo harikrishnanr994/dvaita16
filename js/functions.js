@@ -37,36 +37,89 @@ $(document).ready(function () {
         $(".section").removeClass("section-expand");
         $("#boombox").addClass("section-expand");
     })
-    $("#boombox").click(function () {
-        $(".section-boombox i").toggleClass("active");
-    })
+
+
     $(".section-hackerjack").click(function () {
       $(".section").removeClass("section-expand");
       $("#hackerjack").addClass("section-expand");
     })
 
+
+
     $(".section-swatthebug").click(function () {
         $(".section").removeClass("section-expand");
         $("#swatthebug").addClass("section-expand");
-    })
-    $("#swatthebug").click(function () {
-        $(".section-swatthebug i").toggleClass("active");
     })
 
   $(".section-hacknight").click(function () {
     $(".section").removeClass("section-expand");
     $("#hacknight").addClass("section-expand");
   })
-  $("#hacknight").click(function () {
-    $(".section-hacknight i").toggleClass("active");
+
+
+  $(".section-bashemup").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#bashemup").addClass("section-expand");
   })
 
-  $(".section-hackerjack").click(function () {
+  $(".section-bestengineer").click(function () {
     $(".section").removeClass("section-expand");
-    $("#hackerjack").addClass("section-expand");
+    $("#bestengineer").addClass("section-expand");
   })
-  $("#hacknight").click(function () {
-    $(".section-hacknight i").toggleClass("active");
+
+  $(".section-maestro").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#maestro").addClass("section-expand");
+  })
+
+  $(".section-codeswap").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#codeswap").addClass("section-expand");
+  })
+
+  $(".section-highq").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#highq").addClass("section-expand");
+  })
+
+  $(".section-langx").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#langx").addClass("section-expand");
+  })
+
+  $(".section-startaction").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#startaction").addClass("section-expand");
+  })
+
+  $(".section-mrcad").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#mrcad").addClass("section-expand");
+  })
+
+  $(".section-shutterbug").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#shutterbug").addClass("section-expand");
+  })
+
+  $(".section-respawn").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#respawn").addClass("section-expand");
+  })
+
+  $(".section-contraption").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#contraption").addClass("section-expand");
+  })
+
+  $(".section-crossfire").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#crossfire").addClass("section-expand");
+  })
+
+  $(".section-pirate").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#pirate").addClass("section-expand");
   })
 
   /* --- event Section end --- */
@@ -126,12 +179,113 @@ $(document).ready(function () {
     $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
   })
+
   $(".goto-hackerjack").click(function (e) {
     $("#hackerjack").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-hackerjack i").addClass("active");
     $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
   })
+
+  $(".goto-bashemup").click(function (e) {
+    $("#bashemup").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-bashemup i").addClass("active");
+    $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-maestro").click(function (e) {
+    $("#maestro").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-maestro i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-codeswap").click(function (e) {
+    $("#codeswap").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-codeswap i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-langx").click(function (e) {
+    $("#langx").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-langx i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-sidhandics").click(function (e) {
+    $("#sidhandics").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-sidhandics i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+
+  $(".goto-highq").click(function (e) {
+    $("#highq").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-highq i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-bestengineer").click(function (e) {
+    $("#bestengineer").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-bestengineer i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+    $(".goto-startaction").click(function (e) {
+      $("#startaction").addClass("section-expand").siblings().removeClass("section-expand");
+      $(".section-startaction i").addClass("active");
+      $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+      e.stopPropagation();
+  })
+
+  $(".goto-mrcad").click(function (e) {
+    $("#mrcad").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-mrcad i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+   $(".goto-shutterbug").click(function (e) {
+    $("#shutterbug").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-shutterbug i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-respawn").click(function (e) {
+    $("#respawn").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-respawn i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-contraption").click(function (e) {
+    $("#contraption").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-contraption i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-crossfire").click(function (e) {
+    $("#crossfire").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-crossfire i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+  $(".goto-pirate").click(function (e) {
+    $("#pirate").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-pirate i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
 
   /* --- GoTo Event Section stop--- */
 
