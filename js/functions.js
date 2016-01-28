@@ -14,8 +14,9 @@ $(document).ready(function () {
   $(".section-close").click(function () {
     $(".section").removeClass("section-expand");
     $(".switch-section").hide(250);
+    $("#switch").removeClass("switch-section");
     $(".section-close").hide(250);
-    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hackerjack i,.section-hacknight i, .section-contact i").removeClass("active");
+    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hackerjack i,.section-hacknight i, .section-contact i,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i").removeClass("active");
   })
 
   /* --- Side Menu --- */
@@ -36,97 +37,188 @@ $(document).ready(function () {
     $(".section-boombox").click(function () {
         $(".section").removeClass("section-expand");
         $("#boombox").addClass("section-expand");
+      $("#switch1").addClass("switch-section");
+      $("#switch").removeClass("switch-section");
     })
+    $("#boombox").click(function () {
+    $(".section-boombox i").toggleClass("active");
+   })
 
 
     $(".section-hackerjack").click(function () {
       $(".section").removeClass("section-expand");
       $("#hackerjack").addClass("section-expand");
+      $("#switch1").addClass("switch-section");
+      $("#switch").removeClass("switch-section");
     })
 
-
+  $("#hackerjack").click(function () {
+    $(".section-hackerjack i").toggleClass("active");
+  })
 
     $(".section-swatthebug").click(function () {
         $(".section").removeClass("section-expand");
         $("#swatthebug").addClass("section-expand");
+      $("#switch1").addClass("switch-section");
+      $("#switch").removeClass("switch-section");
+
     })
+
+  $("#swatthebug").click(function () {
+    $(".section-swatthebug i").toggleClass("active");
+  })
+
 
   $(".section-hacknight").click(function () {
     $(".section").removeClass("section-expand");
     $("#hacknight").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
   })
 
+
+  $("#hacknight").click(function () {
+    $(".section-hacknight i").toggleClass("active");
+  })
 
   $(".section-bashemup").click(function () {
     $(".section").removeClass("section-expand");
     $("#bashemup").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#bashemup").click(function () {
+    $(".section-bashemup i").toggleClass("active");
   })
 
   $(".section-bestengineer").click(function () {
     $(".section").removeClass("section-expand");
     $("#bestengineer").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#bestengineer").click(function () {
+    $(".section-bestengineer i").toggleClass("active");
   })
 
   $(".section-maestro").click(function () {
     $(".section").removeClass("section-expand");
     $("#maestro").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#maestro").click(function () {
+    $(".section-maestro i").toggleClass("active");
   })
 
   $(".section-codeswap").click(function () {
     $(".section").removeClass("section-expand");
     $("#codeswap").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#codeswap").click(function () {
+    $(".section-codeswap i").toggleClass("active");
   })
 
   $(".section-highq").click(function () {
     $(".section").removeClass("section-expand");
     $("#highq").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
   })
 
   $(".section-langx").click(function () {
     $(".section").removeClass("section-expand");
     $("#langx").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+  $("#langx").click(function () {
+    $(".section-langx i").toggleClass("active");
   })
 
   $(".section-startaction").click(function () {
     $(".section").removeClass("section-expand");
     $("#startaction").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#startaction").click(function () {
+    $(".section-startaction i").toggleClass("active");
   })
 
   $(".section-mrcad").click(function () {
     $(".section").removeClass("section-expand");
     $("#mrcad").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#mrcad").click(function () {
+    $(".section-mrcad i").toggleClass("active");
   })
 
   $(".section-shutterbug").click(function () {
     $(".section").removeClass("section-expand");
     $("#shutterbug").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+  $("#shutterbug").click(function () {
+    $(".section-shutterbug i").toggleClass("active");
   })
 
   $(".section-respawn").click(function () {
     $(".section").removeClass("section-expand");
     $("#respawn").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
   })
 
   $(".section-contraption").click(function () {
     $(".section").removeClass("section-expand");
     $("#contraption").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#contraption").click(function () {
+    $(".section-contraption i").toggleClass("active");
   })
 
   $(".section-crossfire").click(function () {
     $(".section").removeClass("section-expand");
     $("#crossfire").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
+  })
+
+  $("#crossfire").click(function () {
+    $(".section-crossfire i").toggleClass("active");
   })
 
   $(".section-pirate").click(function () {
     $(".section").removeClass("section-expand");
     $("#pirate").addClass("section-expand");
+    $("#switch1").addClass("switch-section");
+    $("#switch").removeClass("switch-section");
   })
-
+  $("#pirate").click(function () {
+    $(".section-pirate i").toggleClass("active");
+  })
   /* --- event Section end --- */
 
   $(".section-services").click(function () {
     $(".section").removeClass("section-expand");
     $("#services").addClass("section-expand");
+    $(".switch-section").removeClass("switch-section");
+
   })
   $("#services").click(function () {
     $(".section-services i").toggleClass("active");
@@ -135,6 +227,8 @@ $(document).ready(function () {
   $(".section-folio").click(function () {
     $(".section").removeClass("section-expand");
     $("#folio").addClass("section-expand");
+    $(".switch-section").removeClass("switch-section");
+
   })
   $("#folio").click(function () {
     $(".section-folio i").toggleClass("active");
@@ -143,6 +237,7 @@ $(document).ready(function () {
   $(".section-register").click(function () {
     $(".section").removeClass("section-expand");
     $("#register").addClass("section-expand");
+    $(".switch-section").removeClass("switch-section");
   })
   $("#register").click(function () {
     $(".section-register i").toggleClass("active");
@@ -151,6 +246,7 @@ $(document).ready(function () {
   $(".section-contact").click(function () {
     $(".section").removeClass("section-expand");
     $("#contact").addClass("section-expand");
+    $(".switch-section").removeClass("switch-section");
   })
   $("#contact").click(function () {
     $(".section-contact i").toggleClass("active");
@@ -162,7 +258,9 @@ $(document).ready(function () {
     $(".goto-boombox").click(function (e) {
         $("#boombox").addClass("section-expand").siblings().removeClass("section-expand");
         $(".section-boombox i").addClass("active");
+        $("#switch1").addClass("switch-section");
         $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+
         e.stopPropagation();
     })
 
@@ -233,6 +331,7 @@ $(document).ready(function () {
   $(".goto-bestengineer").click(function (e) {
     $("#bestengineer").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-bestengineer i").addClass("active");
+
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
   })
@@ -240,6 +339,7 @@ $(document).ready(function () {
     $(".goto-startaction").click(function (e) {
       $("#startaction").addClass("section-expand").siblings().removeClass("section-expand");
       $(".section-startaction i").addClass("active");
+
       $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
       e.stopPropagation();
   })
@@ -326,7 +426,9 @@ $(document).ready(function () {
     $(this).addClass("active");
     e.preventDefault();
   });
-  
+
+  ;
+
   /* --- Masonry --- */
   $("#folio, .section-folio, .goto-folio, #register, .section-register, .goto-register").on("click",function(){
 

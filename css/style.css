@@ -433,6 +433,23 @@ hr {
 	height: 70%;
 
 }
+.dept {
+	width: 33%;
+	border: 2px;
+	border-color: #fff;
+	height: 20%;
+	line-height: 10%;
+	position: absolute;
+	top: 2%;
+	left: 30%;
+	z-index: 2;
+}
+
+
+.dept p {
+	margin-bottom:50px;
+}
+
 
 
 .nssce {
@@ -613,7 +630,9 @@ hr {
 	top: 50%;
 	left: 0;
 }
-.section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i {
+
+
+.section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i ,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i{
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -628,7 +647,7 @@ hr {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
-.section-about i:hover, .section-boombox i:hover,.section-swatthebug i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover {
+.section-about i:hover, .section-boombox i:hover,.section-swatthebug i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover, .section-hackerjack i:hover, .section-bashemup i:hover , .section-bestengineer i:hover, .section-codeswap i:hover , .section-highq i:hover, .section-langx i:hover , .section-sidhandics i:hover, .section-startaction i:hover , .section-mrcad i:hover, .section-shutterbug i:hover , .section-respawn i:hover, .section-contraption i:hover , .section-crossfire i:hover , .section-pirate i:hover {
 	background: rgba(0,0,0,0.1);
 	font-size: 30px;
 	opacity: 1;
@@ -665,6 +684,68 @@ hr {
 	font-size: 30px;
 	opacity: 1;
 }
+
+
+.section-hackerjack i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-bashemup i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-bestengineer i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-maestro i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-codeswap i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-highq i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-langx i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-sidhandics i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-startaction i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-mrcad i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-shutterbug i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-respawn i.active {
+	font-size: 30px;
+	opacity: 1;
+}.section-contraption i.active {
+	 font-size: 30px;
+	 opacity: 1;
+ }
+.section-crossfire i.active {
+	 font-size: 30px;
+	 opacity: 1;
+ }
+.section-pirate i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+
 .section-close {
 	width: 50px;
 	height: 50px;
