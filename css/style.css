@@ -415,8 +415,10 @@ hr {
 /* Logo */
 .logo {
 	width: 33%;
-	height: 20%;
+	height: 17%;
 	line-height: 10%;
+	background-color: #oooooo;
+	background: auto;
 	position: absolute;
 	top: 2%;
 	left: 10px;
@@ -435,9 +437,7 @@ hr {
 }
 .dept {
 	width: 33%;
-	border: 2px;
-	border-color: #fff;
-	height: 20%;
+	height: 15%;
 	line-height: 10%;
 	position: absolute;
 	top: 2%;
@@ -453,8 +453,8 @@ hr {
 
 
 .nssce {
-	width: 25%;
-	height: 20%;
+	width: 22%;
+	height: 16%;
 	line-height: 10%;
 	position: absolute;
 	top: 2%;
@@ -555,6 +555,10 @@ hr {
 	right: -100%;
 }
 
+.section#codezilla {
+	right: -100%;
+}
+
 .section#codeswap {
 	right: -100%;
 }
@@ -599,6 +603,25 @@ hr {
 .section#pirate {
 	right: -100%;
 }
+.section#mysteriarch {
+	right: -100%;
+}
+.section#hudrolaunch {
+	right: -100%;
+}
+.section#disco {
+	right: -100%;
+}
+.section#cognizance {
+	right: -100%;
+}
+.section#wikisurf {
+	right: -100%;
+}
+.section#roadies {
+	right: -100%;
+}
+
 
 
 /* Switch Section */
@@ -609,9 +632,10 @@ hr {
 	box-shadow: inset -2px 0 5px rgba(0,0,0,0.25);
 	cursor: pointer;
 	display: none;
+	overflow: auto;
 	position: absolute;
 	top: 0;
-	left: -50px;
+	left: 0;
 	z-index: 10;
 	transition: all linear 0.25s;
 	-ms-transition: all linear 0.25s;
@@ -624,15 +648,24 @@ hr {
 }
 .switch-section-cont {
 	margin: -125px 0 0 0;
-	width: 50px;
+	width: 60px;
 	height: 250px;
 	position: absolute;
-	top: 50%;
+	top: 20%;
 	left: 0;
 }
 
 
-.section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i ,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i{
+.switch-header {
+	width: 5%;
+	margin: auto;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i ,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-codezilla i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-roadies i{
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -647,7 +680,7 @@ hr {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
-.section-about i:hover, .section-boombox i:hover,.section-swatthebug i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover, .section-hackerjack i:hover, .section-bashemup i:hover , .section-bestengineer i:hover, .section-codeswap i:hover , .section-highq i:hover, .section-langx i:hover , .section-sidhandics i:hover, .section-startaction i:hover , .section-mrcad i:hover, .section-shutterbug i:hover , .section-respawn i:hover, .section-contraption i:hover , .section-crossfire i:hover , .section-pirate i:hover {
+.section-about i:hover, .section-boombox i:hover,.section-swatthebug i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover, .section-hackerjack i:hover, .section-bashemup i:hover , .section-bestengineer i:hover, .section-codeswap i:hover , .section-codezilla i:hover , .section-highq i:hover, .section-langx i:hover , .section-sidhandics i:hover, .section-startaction i:hover , .section-mrcad i:hover, .section-shutterbug i:hover , .section-respawn i:hover, .section-contraption i:hover , .section-crossfire i:hover , .section-pirate i:hover {
 	background: rgba(0,0,0,0.1);
 	font-size: 30px;
 	opacity: 1;
@@ -706,6 +739,10 @@ hr {
 	font-size: 30px;
 	opacity: 1;
 }
+.section-codezilla i.active {
+	font-size: 30px;
+	opacity: 1;
+}
 .section-highq i.active {
 	font-size: 30px;
 	opacity: 1;
@@ -742,6 +779,30 @@ hr {
 	 opacity: 1;
  }
 .section-pirate i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+
+.section-mysteriarch i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-hudrolaunch i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-disco i.active {
+	font-size: 30px;
+	opacity: 1;
+}.section-cognizance i.active {
+	 font-size: 30px;
+	 opacity: 1;
+ }
+.section-wikisurf i.active {
+	font-size: 30px;
+	opacity: 1;
+}
+.section-roadies i.active {
 	font-size: 30px;
 	opacity: 1;
 }
@@ -1409,6 +1470,7 @@ body {
 	display: block;
 }
 }
+
 
 /* Mobile portrait layout */
 @media (max-width: 479px) {

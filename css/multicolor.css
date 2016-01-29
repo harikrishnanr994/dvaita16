@@ -63,6 +63,10 @@
     background: #009688;
 }
 
+.section#codezilla, .section-codezilla i.active {
+    background:#607d8b;;
+}
+
 .section#highq, .section-highq i.active {
     background: #de7500;
 }
