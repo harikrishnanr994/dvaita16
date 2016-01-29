@@ -644,6 +644,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </div>
 </div>
 
+
 <div id="register" class="section">
     <div class="section-title"><i class="icon-envelope-alt"></i><strong>Register</strong>
         <p>Register now</p>
@@ -658,7 +659,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span5 offset4">
 
-                <form id="register" action="process.php" class="contact-form" method="post">
+                <form id="register1" action="#" class="contact-form" method="post">
                     <fieldset>
                         <div id="name-group" class="form-group">
                         <input type="text" placeholder="Name" class="form-control" class="span3" name="name" id="name" required/>
@@ -675,12 +676,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         <div class="span6 radio-group label1" >
                             <br>
                             <label >Gender<span class="radio-inline">*</span></label>
-                            <label class="radio-inline"><input type="radio" name="gender" value="male"  > Male</label>
-                            <label class="radio-inline"><input type="radio" name="gender" value="female" > Female</label>
+                            <label class="radio-inline"><input type="radio" class ="gender" name="gender" id="male" value="male"  > Male</label>
+                            <label class="radio-inline"><input type="radio" class ="gender"  name="gender" id="female" value="female" > Female</label>
                         </div>
                         <div class="input-group span6 label2">
                           <span class="input-group-addon">
-                            <input type="checkbox" aria-label="chbox for accom" name="accom">
+                            <input type="checkbox" aria-label="chbox for accom" id="accomo" name="accom">
                           </span>
                             Need accommodation
                         </div>
@@ -700,7 +701,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!--Boombox Section -->
 <div id="boombox" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Boom BOX</strong>
+    <div class="section-title"><i class="icon-double-angle-down"></i><strong>Boom BOX</strong>
         <p><span> Dance</span> <span>Helm </span></p>
     </div>
 
@@ -755,7 +756,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!-- tech event Section -->
 <div id="hacknight" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>HackNight</strong>
+    <div class="section-title"><i class="icon-instagram"></i><strong>HackNight</strong>
         <p>The<span> Hackathon</span></p>
     </div>
 
@@ -809,7 +810,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="hackerjack" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Hacker Jack</strong>
+    <div class="section-title"><i class="icon-android"></i><strong>Hacker Jack</strong>
         <p>The<span> Hackathon</span></p>
     </div>
 
@@ -873,7 +874,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="langx" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Language X</strong>
+    <div class="section-title"><i class="icon-xing"></i><strong>Language X</strong>
         <p>The<span> Hacking Event</span></p>
     </div>
 
@@ -938,7 +939,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="sidhandics" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Sidhandics</strong>
+    <div class="section-title"><i class="icon-bookmark"></i><strong>Sidhandics</strong>
         <p>The<span> Hacking Event</span></p>
     </div>
 
@@ -1004,7 +1005,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="bashemup" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>BASH EM UP</strong>
+    <div class="section-title"><i class="icon-bar-chart"></i><strong>BASH EM UP</strong>
         <p>The<span> Bash </span></p>
     </div>
 
@@ -1069,7 +1070,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="swatthebug" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Swat The Bug !</strong>
+    <div class="section-title"><i class="icon-bug"></i><strong>Swat The Bug !</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1123,7 +1124,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="maestro" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Code Maestro</strong>
+    <div class="section-title"><i class="icon-magic"></i><strong>Code Maestro</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1176,7 +1177,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="codeswap" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Code Swap</strong>
+    <div class="section-title"><i class="icon-code-fork"></i><strong>Code Swap</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1230,7 +1231,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="codezilla" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>CodeZilla</strong>
+    <div class="section-title"><i class="icon-code"></i><strong>CodeZilla</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1287,7 +1288,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!-- Gen event Section -->
 
 <div id="bestengineer" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Mr / Ms Gamaya</strong>
+    <div class="section-title"><i class="icon-male"></i><strong>Mr / Ms Gamaya</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1340,7 +1341,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="highq" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>High Q</strong>
+    <div class="section-title"><i class="icon-question-sign"></i><strong>High Q</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1393,7 +1394,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="startaction" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Start Action Cut</strong>
+    <div class="section-title"><i class="icon-camera-retro"></i><strong>Start Action Cut</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1446,7 +1447,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="mrcad" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Mr. CAD</strong>
+    <div class="section-title"><i class="icon-building"></i><strong>Mr. CAD</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1499,7 +1500,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="shutterbug" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Shutter Bug</strong>
+    <div class="section-title"><i class="icon-camera"></i><strong>Shutter Bug</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1552,7 +1553,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="respawn" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>RESPAWN</strong>
+    <div class="section-title"><i class="icon-gamepad"></i><strong>RESPAWN</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1605,7 +1606,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="contraption" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Contraption</strong>
+    <div class="section-title"><i class="icon-cog"></i><strong>Contraption</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1658,7 +1659,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="crossfire" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Cross Fire</strong>
+    <div class="section-title"><i class="icon-fire"></i><strong>Cross Fire</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1711,7 +1712,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="pirate" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Be The Pirate</strong>
+    <div class="section-title"><i class="icon-map-marker"></i><strong>Be The Pirate</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1766,7 +1767,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="mysteriarch" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Mysteriarch</strong>
+    <div class="section-title"><i class="icon-question"></i><strong>Mysteriarch</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1819,7 +1820,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="hudrolaunch" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Hudro launch</strong>
+    <div class="section-title"><i class="icon-rocket"></i><strong>Hudro launch</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1872,7 +1873,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="disco" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Digital disco</strong>
+    <div class="section-title"><i class="icon-music"></i><strong>Digital disco</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1925,7 +1926,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="cognizance" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Cognizance</strong>
+    <div class="section-title"><i class="icon-cogs"></i><strong>Cognizance</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1978,7 +1979,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="wikisurf" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Wikisurf</strong>
+    <div class="section-title"><i class="icon-book"></i><strong>Wikisurf</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -2031,7 +2032,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="roadies" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Roadies</strong>
+    <div class="section-title"><i class="icon-road"></i><strong>Roadies</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -2088,10 +2089,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!-- Switch Section -->
 <div id="switch" class="switch-section "><i class="icon-reorder icon-label"></i><div class="switch-header"><h6 >Events</h6></div>
-    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-smile"></i></a> <a href="#" class="section-respawn"><i class="icon-cog"></i></a> <a href="#" class="section-bestengineer"><i class="icon-briefcase"></i></a> <a href="#" class="section-hacknight"><i class="icon-comments"></i></a> <a href="#" class="section-maestro"><i class="icon-envelope-alt"></i></a>
-                                          <a href="#" class="section-swatthebug"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-hackerjack"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-langx"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-bashemup"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-codezilla"><i class="icon-envelope-alt"></i></a>
-                                            <a href="#" class="section-codeswap"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-sidhandics"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-mrcad"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-shutterbug"><i class="icon-envelope-alt"></i></a>
-                                        <a href="#" class="section-highq"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-contraption"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-crossfire"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-pirate"><i class="icon-envelope-alt"></i></a>
+    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-hacknight"><i class="icon-star-half"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
+                                          <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-android"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
+                                            <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-bookmark"></i></a> <a href="#" class="section-startaction"><i class="icon-camera-retro"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
+                                        <a href="#" class="section-highq"><i class="icon-question-sign"></i></a> <a href="#" class="section-contraption"><i class="icon-cog"></i></a> <a href="#" class="section-crossfire"><i class="icon-fire"></i></a> <a href="#" class="section-pirate"><i class="icon-map-marker"></i></a><a href="#" class="section-mysteriarch"><i class="icon-question"></i></a>
+        <a href="#" class="section-hudrolaunch"><i class="icon-rocket"></i></a><a href="#" class="section-disco"><i class="icon-music"></i></a><a href="#" class="section-cognizance"><i class="icon-cogs"></i></a><a href="#" class="section-wikisurf"><i class="icon-book"></i></a><a href="#" class="section-roadies"><i class="icon-road"></i></a>
     </p>
 </div>
 
