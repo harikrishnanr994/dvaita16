@@ -415,12 +415,10 @@ hr {
 /* Logo */
 .logo {
 	width: 33%;
-	height: 17%;
+	height: 15%;
 	line-height: 10%;
-	background-color: #oooooo;
-	background: auto;
 	position: absolute;
-	top: 2%;
+	top: 1%;
 	left: 10px;
 	z-index: 2;
 }
@@ -437,10 +435,10 @@ hr {
 }
 .dept {
 	width: 33%;
-	height: 15%;
+	height: 13%;
 	line-height: 10%;
 	position: absolute;
-	top: 2%;
+	top: 1%;
 	left: 30%;
 	z-index: 2;
 }
@@ -454,10 +452,10 @@ hr {
 
 .nssce {
 	width: 22%;
-	height: 16%;
+	height: 15%;
 	line-height: 10%;
 	position: absolute;
-	top: 2%;
+	top: 1%;
 	right: -5%;
 	z-index: 2;
 }
