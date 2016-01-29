@@ -50,15 +50,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <ul class="slides-container">
 
         <!-- Slider Single Item -->
-        <li><a href="#"><img src="img/slide1.jpg" alt="swat" /></a>
+        <li><a href="#about" ><img src="img/slide1.jpg" alt="swat" /></a>
             <div class="slides-detail">
                 <div class="countdown styled"></div></div>
         </li>
 
         <!-- Slider Single Item -->
-        <li><a href="#"><img src="img/swatbug.gif" alt="Photo" /></a>
+        <li><a href="#swatthebug" class="goto-swatthebug"><img src="img/swatbug.gif" alt="Photo" /></a>
             <div class="slides-detail">
-                <h1>Swat the  <span>Bug</span></h1>
+                <a href="#swatthebug" ><h1>Swat the  <span>Bug</span></h1></a>
                 <span class="lead">Debug  <strong>the </strong>Codes</span></div>
         </li>
 
@@ -264,7 +264,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-maestro">
-                    <div class="thumbnail"><i class="icon-calendar"></i>
+                    <div class="thumbnail"><i class="icon-magic"></i>
                         <h3><span>Code Maestro</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -272,7 +272,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </li>
                 <!-- Service Detail -->
                 <li class=" goto-swatthebug">
-                    <div class="thumbnail"><i class="icon-camera"></i>
+                    <div class="thumbnail"><i class="icon-bug"></i>
                         <h3><span>Swat the bug!</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -281,7 +281,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-hackerjack">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-desktop"></i>
                         <h3><span>Hacker Jack</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -290,7 +290,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-langx">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-xing"></i>
                         <h3><span>Language X</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -299,7 +299,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-bashemup">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-bar-chart"></i>
                         <h3><span>Bash'em up!</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -308,7 +308,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-codezilla">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-code"></i>
                         <h3><span>Codezilla</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -317,7 +317,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-codeswap">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-code-fork"></i>
                         <h3><span>Code Swap</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -326,7 +326,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-sidhandics">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-file-alt"></i>
                         <h3><span>Sidhandhics</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -345,7 +345,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-bestengineer">
-                    <div class="thumbnail"><i class="icon-coffee"></i>
+                    <div class="thumbnail"><i class="icon-male"></i>
                         <h3><span>Mr./Ms. Dvaita</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -354,7 +354,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-startaction">
-                    <div class="thumbnail"><i class="icon-calendar"></i>
+                    <div class="thumbnail"><i class="icon-camera-retro"></i>
                         <h3><span>Start, Action, Cut</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -362,7 +362,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </li>
                 <!-- Service Detail -->
                 <li class=" goto-mrcad">
-                    <div class="thumbnail"><i class="icon-camera"></i>
+                    <div class="thumbnail"><i class="icon-building"></i>
                         <h3><span>Mr. CAD</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -371,7 +371,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-shutterbug">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-camera"></i>
                         <h3><span>ShutterBug</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -380,7 +380,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-respawn">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-gamepad"></i>
                         <h3><span>Respawn</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -389,14 +389,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-highq">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-question-sign"></i>
                         <h3><span>High Q</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-highq">Details</a></div>
                 </li>
                 <li class=" goto-contraption">
-                    <div class="thumbnail"><i class="icon-coffee"></i>
+                    <div class="thumbnail"><i class="icon-cog"></i>
                         <h3><span>Contraption</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -405,7 +405,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-crossfire">
-                    <div class="thumbnail"><i class="icon-calendar"></i>
+                    <div class="thumbnail"><i class="icon-fire"></i>
                         <h3><span>Crossfire</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -413,7 +413,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </li>
                 <!-- Service Detail -->
                 <li class=" goto-pirate">
-                    <div class="thumbnail"><i class="icon-camera"></i>
+                    <div class="thumbnail"><i class="icon-map-marker"></i>
                         <h3><span>Be the pirate!</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -422,7 +422,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-mysteriarch">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-question"></i>
                         <h3><span>Mysteriarch</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -431,7 +431,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-hudrolaunch">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-rocket"></i>
                         <h3><span>HudroLaunch</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -440,14 +440,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-disco">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-music"></i>
                         <h3><span>Digital Disco</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-disco">Details</a></div>
                 </li>
                 <li class=" goto-cognizance">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-cogs"></i>
                         <h3><span>Cognizance battle</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -456,7 +456,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-wikisurf">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-book"></i>
                         <h3><span>WIkiSurf</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -465,7 +465,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-roadies">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-road"></i>
                         <h3><span>Roadies</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -646,7 +646,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="register" class="section">
-    <div class="section-title"><i class="icon-envelope-alt"></i><strong>Register</strong>
+    <div class="section-title"><i class="icon-pencil"></i><strong>Register</strong>
         <p>Register now</p>
     </div>
 
@@ -701,7 +701,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!--Boombox Section -->
 <div id="boombox" class="section">
-    <div class="section-title"><i class="icon-double-angle-down"></i><strong>Boom BOX</strong>
+    <div class="section-title"><i class="icon-instagram"></i><strong>Boom BOX</strong>
         <p><span> Dance</span> <span>Helm </span></p>
     </div>
 
@@ -756,7 +756,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!-- tech event Section -->
 <div id="hacknight" class="section">
-    <div class="section-title"><i class="icon-instagram"></i><strong>HackNight</strong>
+    <div class="section-title"><i class="icon-coffee"></i><strong>HackNight</strong>
         <p>The<span> Hackathon</span></p>
     </div>
 
@@ -810,7 +810,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="hackerjack" class="section">
-    <div class="section-title"><i class="icon-android"></i><strong>Hacker Jack</strong>
+    <div class="section-title"><i class="icon-desktop"></i><strong>Hacker Jack</strong>
         <p>The<span> Hackathon</span></p>
     </div>
 
@@ -939,7 +939,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="sidhandics" class="section">
-    <div class="section-title"><i class="icon-bookmark"></i><strong>Sidhandics</strong>
+    <div class="section-title"><i class="icon-file-alt"></i><strong>Sidhandics</strong>
         <p>The<span> Hacking Event</span></p>
     </div>
 
@@ -2088,10 +2088,10 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <!-- Switch Section -->
-<div id="switch" class="switch-section "><i class="icon-reorder icon-label"></i><div class="switch-header"><h6 >Events</h6></div>
-    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-hacknight"><i class="icon-star-half"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
-                                          <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-android"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
-                                            <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-bookmark"></i></a> <a href="#" class="section-startaction"><i class="icon-camera-retro"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
+<div id="switch" class="switch-section "><i class="icon-reorder icon-label"></i><div class="switch-header"><h5 >Events</h5></div>
+    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-hacknight"><i class="icon-coffee"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
+                                          <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
+                                            <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-camera-retro"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
                                         <a href="#" class="section-highq"><i class="icon-question-sign"></i></a> <a href="#" class="section-contraption"><i class="icon-cog"></i></a> <a href="#" class="section-crossfire"><i class="icon-fire"></i></a> <a href="#" class="section-pirate"><i class="icon-map-marker"></i></a><a href="#" class="section-mysteriarch"><i class="icon-question"></i></a>
         <a href="#" class="section-hudrolaunch"><i class="icon-rocket"></i></a><a href="#" class="section-disco"><i class="icon-music"></i></a><a href="#" class="section-cognizance"><i class="icon-cogs"></i></a><a href="#" class="section-wikisurf"><i class="icon-book"></i></a><a href="#" class="section-roadies"><i class="icon-road"></i></a>
     </p>

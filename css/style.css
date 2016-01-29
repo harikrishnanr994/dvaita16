@@ -451,13 +451,14 @@ hr {
 
 
 .nssce {
-	width: 22%;
+	width: 20%;
 	height: 15%;
 	line-height: 10%;
 	position: absolute;
 	top: 1%;
 	right: -5%;
 	z-index: 2;
+
 }
 
 
@@ -621,7 +622,6 @@ hr {
 }
 
 
-
 /* Switch Section */
 .switch-section {
 	width: 5%;
@@ -633,34 +633,35 @@ hr {
 	overflow: auto;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -120px;
 	z-index: 10;
 	transition: all linear 0.25s;
 	-ms-transition: all linear 0.25s;
-	-moz-transition: all linear 0.25s;
+	transition: all linear 0.25s;
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
+
 }
 .switch-section-open {
 	left: 0;
 }
 .switch-section-cont {
 	margin: -125px 0 0 0;
-	width: 60px;
+	width: 10%;
 	height: 250px;
 	position: absolute;
 	top: 20%;
-	left: 0;
+	left: 2%;
 }
 
 
 .switch-header {
 	width: 5%;
-	margin: auto;
-	height: 100px;
-	position: absolute;
+	height: 20px;
+	position: fixed;
 	top: 0;
-	left: 0;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 20px;
 }
 
 .section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i ,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-codezilla i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-roadies i{
