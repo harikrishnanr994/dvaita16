@@ -349,8 +349,8 @@ hr {
 }
 .hero-unit {
 	padding: 50px;
-	margin-bottom: 50px;
-	font-weight: 300;
+	margin: 2%;
+	font-weight: 200;
 	background-color: rgba(0,0,0,0.1);
 	border-radius: 5px;
 }
