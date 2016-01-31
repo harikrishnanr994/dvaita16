@@ -22,7 +22,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <link rel="stylesheet" type="text/css" href="css/masonry.css" />
     <link rel="stylesheet" type="text/css" href="css/fancybox.css" />
     <link rel="stylesheet" type="text/css" href="css/multicolor.css" />
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.png" />
 
 </head>
 <body>
@@ -48,15 +48,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <ul class="slides-container">
 
         <!-- Slider Single Item -->
-        <li><a href="#"><img src="img/slide1.jpg" alt="swat" /></a>
+        <li><a href="#about" ><img src="img/slide1.jpg" alt="swat" /></a>
             <div class="slides-detail">
                 <div class="countdown styled"></div></div>
         </li>
 
         <!-- Slider Single Item -->
-        <li><a href="#"><img src="img/swatbug.gif" alt="Photo" /></a>
+        <li><a href="#swatthebug" class="goto-swatthebug"><img src="img/swatbug.gif" alt="Photo" /></a>
             <div class="slides-detail">
-                <h1>Swat the  <span>Bug</span></h1>
+                <a href="#swatthebug" ><h1>Swat the  <span>Bug</span></h1></a>
                 <span class="lead">Debug  <strong>the </strong>Codes</span></div>
         </li>
 
@@ -76,162 +76,35 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="about" class="section">
     <div class="section-title"><i class="icon-smile"></i><strong>About</strong>
-        <p>some text <span>here</span></p>
+
     </div>
 
     <!-- About Content -->
     <div class="container">
         <hr />
-        <h1 class="main-title">Our <span>Team</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <h1 class="main-title"><span>Dvaita'16</span></h1>
+        <p class="lead">Learn it , code it , hack it , loop it</p>
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">The Computer Science & Engineering department of NSS College of Engineering, Palakkad is organizing a National level Technical fest - DVAITA'16 on 19th and 20th February, 2016.<br>
+
+                    DVAITA that contributes some of the core Indian beliefs on the nature of reality finds its relevance on the Binary system of our scientific world. This is the reason why this event got entitled by the name "DVAITA".<br>
+
+                    The fest features various technical events that challenges the skills of any computer professional and general events for igniting the creativity of engineering minds. We expect it to reach out to more than 3000 bright minds and potential engineers from various colleges in India over 2 days.</p>
             </div>
         </div>
-        <div class="flexslider">
 
-            <!-- About Profile Carousel -->
-            <ul class="thumbnails slides">
-
-                <!-- About Profile Detail -->
-                <li>
-                    <div class="thumbnail">
-                        <h3>Susan <span>Meattr</span></h3>
-                        <img src="img/profile1.jpg" alt="About" class="thumb" />
-                        <div class="thumbnail-detail">
-                            <h5>Web Designer</h5>
-                            <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo scelerisque</p>
-                        </div>
-                        <div class="social-links"><a href="#" class="btn"><i class="icon-facebook"></i></a><a href="#" class="btn"><i class="icon-twitter"></i></a><a href="#" class="btn"><i class="icon-google-plus"></i></a><a href="#" class="btn"><i class="icon-pinterest"></i></a></div>
-                    </div>
-                </li>
-
-                <!-- About Profile Detail -->
-                <li>
-                    <div class="thumbnail">
-                        <h3>Ally <span>Holland</span></h3>
-                        <img src="img/profile2.jpg" alt="About" class="thumb" />
-                        <div class="thumbnail-detail">
-                            <h5>Developer</h5>
-                            <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo scelerisque</p>
-                        </div>
-                        <div class="social-links"><a href="#" class="btn"><i class="icon-facebook"></i></a><a href="#" class="btn"><i class="icon-twitter"></i></a><a href="#" class="btn"><i class="icon-google-plus"></i></a><a href="#" class="btn"><i class="icon-pinterest"></i></a></div>
-                    </div>
-                </li>
-
-                <!-- About Profile Detail -->
-                <li>
-                    <div class="thumbnail">
-                        <h3>Ally <span>Holland</span></h3>
-                        <img src="img/profile3.jpg" alt="About" class="thumb" />
-                        <div class="thumbnail-detail">
-                            <h5>Developer</h5>
-                            <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo scelerisque</p>
-                        </div>
-                        <div class="social-links"><a href="#" class="btn"><i class="icon-facebook"></i></a><a href="#" class="btn"><i class="icon-twitter"></i></a><a href="#" class="btn"><i class="icon-google-plus"></i></a><a href="#" class="btn"><i class="icon-pinterest"></i></a></div>
-                    </div>
-                </li>
-
-                <!-- About Profile Detail -->
-                <li>
-                    <div class="thumbnail">
-                        <h3>Ally <span>Holland</span></h3>
-                        <img src="img/profile4.jpg" alt="About" class="thumb" />
-                        <div class="thumbnail-detail">
-                            <h5>Developer</h5>
-                            <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo scelerisque</p>
-                        </div>
-                        <div class="social-links"><a href="#" class="btn"><i class="icon-facebook"></i></a><a href="#" class="btn"><i class="icon-twitter"></i></a><a href="#" class="btn"><i class="icon-google-plus"></i></a><a href="#" class="btn"><i class="icon-pinterest"></i></a></div>
-                    </div>
-                </li>
-
-                <!-- About Profile Detail -->
-                <li>
-                    <div class="thumbnail">
-                        <h3>Susan <span>Meattr</span></h3>
-                        <img src="img/profile5.jpg" alt="About" class="thumb" />
-                        <div class="thumbnail-detail">
-                            <h5>Web Designer</h5>
-                            <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo scelerisque</p>
-                        </div>
-                        <div class="social-links"><a href="#" class="btn"><i class="icon-facebook"></i></a><a href="#" class="btn"><i class="icon-twitter"></i></a><a href="#" class="btn"><i class="icon-google-plus"></i></a><a href="#" class="btn"><i class="icon-pinterest"></i></a></div>
-                    </div>
-                </li>
-
-                <!-- About Profile Detail -->
-                <li>
-                    <div class="thumbnail">
-                        <h3>Ally <span>Holland</span></h3>
-                        <img src="img/profile6.jpg" alt="About" class="thumb" />
-                        <div class="thumbnail-detail">
-                            <h5>Developer</h5>
-                            <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo scelerisque</p>
-                        </div>
-                        <div class="social-links"><a href="#" class="btn"><i class="icon-facebook"></i></a><a href="#" class="btn"><i class="icon-twitter"></i></a><a href="#" class="btn"><i class="icon-google-plus"></i></a><a href="#" class="btn"><i class="icon-pinterest"></i></a></div>
-                    </div>
-                </li>
-
-                <!-- About Profile Detail -->
-                <li>
-                    <div class="thumbnail">
-                        <h3>Ally <span>Holland</span></h3>
-                        <img src="img/profile7.jpg" alt="About" class="thumb" />
-                        <div class="thumbnail-detail">
-                            <h5>Developer</h5>
-                            <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo scelerisque</p>
-                        </div>
-                        <div class="social-links"><a href="#" class="btn"><i class="icon-facebook"></i></a><a href="#" class="btn"><i class="icon-twitter"></i></a><a href="#" class="btn"><i class="icon-google-plus"></i></a><a href="#" class="btn"><i class="icon-pinterest"></i></a></div>
-                    </div>
-                </li>
-            </ul>
-        </div>
         <hr />
 
         <!-- About Slogan -->
-        <h2>Our <span>Skills</span></h2>
-        <p class="lead">Lorem ipsum dolor sit amet, <span>consectetuer</span> adipiscing elit.<br />
-            Sed diam <span>nonummy nibh</span> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-        <div class="row">
-
-            <!-- About progress bar -->
-            <div class="span3">
-                <h5 class="progress-title">HTML <span>75%</span></h5>
-                <div class="progress">
-                    <div class="bar" style="width: 75%"></div>
-                </div>
-            </div>
-
-            <!-- About progress bar -->
-            <div class="span3">
-                <h5 class="progress-title">CSS <span>80%</span></h5>
-                <div class="progress">
-                    <div class="bar" style="width: 80%"></div>
-                </div>
-            </div>
-
-            <!-- About progress bar -->
-            <div class="span3">
-                <h5 class="progress-title">JS <span>85%</span></h5>
-                <div class="progress">
-                    <div class="bar" style="width: 85%"></div>
-                </div>
-            </div>
-
-            <!-- About progress bar -->
-            <div class="span3">
-                <h5 class="progress-title">Design <span>100%</span></h5>
-                <div class="progress">
-                    <div class="bar" style="width: 100%"></div>
-                </div>
-            </div>
-        </div>
 
         <!-- About ADV -->
         <div class="hero-unit text-center">
-            <h2>efficiency and <span>reliability</span></h2>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention</p>
-            <a class="btn btn-large">Ask your Question</a></div>
+            <h2> <span>NSS COLLEGE OF ENGINEERING</span></h2>
+            <p class="lead">NSS College of Engineering, Palakkad was established in 1960 with three branches during the second Five – Year plan with the assistance of Central and State Government under the Grand in – Aid scheme.<br><br>
+                Currently it is one of the most reputed, premier Engineering educational institutions in Kerala, managed by Nair Service Society affiliated to the University of Calicut.<br><br>
+                At present, the institution offers B-TECH degree courses in six branches and M-TECH degree courses in Communication engineering,Power Electronics,Computer Science & Engineering, Structural Engineering and Computer Integrated Manufacturing</p>
+            </div>
     </div>
 </div>
 
@@ -262,7 +135,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-maestro">
-                    <div class="thumbnail"><i class="icon-calendar"></i>
+                    <div class="thumbnail"><i class="icon-magic"></i>
                         <h3><span>Code Maestro</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -270,7 +143,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </li>
                 <!-- Service Detail -->
                 <li class=" goto-swatthebug">
-                    <div class="thumbnail"><i class="icon-camera"></i>
+                    <div class="thumbnail"><i class="icon-bug"></i>
                         <h3><span>Swat the bug!</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -279,7 +152,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-hackerjack">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-desktop"></i>
                         <h3><span>Hacker Jack</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -288,7 +161,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-langx">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-xing"></i>
                         <h3><span>Language X</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -297,7 +170,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-bashemup">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-bar-chart"></i>
                         <h3><span>Bash'em up!</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -306,7 +179,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-codezilla">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-code"></i>
                         <h3><span>Codezilla</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -315,7 +188,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-codeswap">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-code-fork"></i>
                         <h3><span>Code Swap</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -324,7 +197,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-sidhandics">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-file-alt"></i>
                         <h3><span>Sidhandhics</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -343,7 +216,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-bestengineer">
-                    <div class="thumbnail"><i class="icon-coffee"></i>
+                    <div class="thumbnail"><i class="icon-male"></i>
                         <h3><span>Mr./Ms. Dvaita</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -352,7 +225,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-startaction">
-                    <div class="thumbnail"><i class="icon-calendar"></i>
+                    <div class="thumbnail"><i class="icon-camera-retro"></i>
                         <h3><span>Start, Action, Cut</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -360,7 +233,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </li>
                 <!-- Service Detail -->
                 <li class=" goto-mrcad">
-                    <div class="thumbnail"><i class="icon-camera"></i>
+                    <div class="thumbnail"><i class="icon-building"></i>
                         <h3><span>Mr. CAD</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -369,7 +242,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-shutterbug">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-camera"></i>
                         <h3><span>ShutterBug</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -378,7 +251,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-respawn">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-gamepad"></i>
                         <h3><span>Respawn</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -387,14 +260,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-highq">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-question-sign"></i>
                         <h3><span>High Q</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-highq">Details</a></div>
                 </li>
                 <li class=" goto-contraption">
-                    <div class="thumbnail"><i class="icon-coffee"></i>
+                    <div class="thumbnail"><i class="icon-cog"></i>
                         <h3><span>Contraption</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -403,7 +276,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-crossfire">
-                    <div class="thumbnail"><i class="icon-calendar"></i>
+                    <div class="thumbnail"><i class="icon-fire"></i>
                         <h3><span>Crossfire</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -411,7 +284,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </li>
                 <!-- Service Detail -->
                 <li class=" goto-pirate">
-                    <div class="thumbnail"><i class="icon-camera"></i>
+                    <div class="thumbnail"><i class="icon-map-marker"></i>
                         <h3><span>Be the pirate!</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -420,7 +293,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-mysteriarch">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-question"></i>
                         <h3><span>Mysteriarch</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -429,7 +302,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-hudrolaunch">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-rocket"></i>
                         <h3><span>HudroLaunch</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -438,14 +311,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-disco">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-music"></i>
                         <h3><span>Digital Disco</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-disco">Details</a></div>
                 </li>
                 <li class=" goto-cognizance">
-                    <div class="thumbnail"><i class="icon-dashboard"></i>
+                    <div class="thumbnail"><i class="icon-cogs"></i>
                         <h3><span>Cognizance battle</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -454,7 +327,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-wikisurf">
-                    <div class="thumbnail"><i class="icon-desktop"></i>
+                    <div class="thumbnail"><i class="icon-book"></i>
                         <h3><span>WIkiSurf</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
@@ -463,12 +336,98 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-roadies">
-                    <div class="thumbnail"><i class="icon-lightbulb"></i>
+                    <div class="thumbnail"><i class="icon-road"></i>
                         <h3><span>Roadies</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-roadies">Details</a></div>
                 </li>
+            </ul>
+        </div>
+        <hr />
+
+
+    </div>
+</div>
+
+<div id="predvaita" class="section">
+    <div class="section-title"><i class="icon-cog"></i><strong>Pre Dvaita</strong>
+    </div>
+
+    <!-- events Content -->
+    <div class="container">
+        <hr />
+        <h1 class="main-title"><span>Technical Events </span></h1>
+        <div class="flexslider">
+
+            <!-- TECHnical List Carousel -->
+            <ul class="thumbnails slides">
+
+                <!-- Service Detail -->
+                <li class=" goto-embedded">
+                    <div class="thumbnail"><i class="icon-linux"></i>
+                        <h3>workshop on <span>Introduction to GNU/Linux and Embedded Systems</span></h3>
+
+                        <p>This is a beginner level hands-on workshop ideal for 1st/2nd year  B.Tech students with knowledge of C programming. </p>
+                        <a href="#" class="btn goto-embedded">Details</a></div>
+                </li>
+
+                <!-- Service Detail -->
+                <li class=" goto-python">
+                    <div class="thumbnail"><i class="icon-code"></i>
+                        <h3>Workshop on <span>Python</span> </h3>
+                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
+                        <a href="#" class="btn goto-python">Details</a></div>
+                </li>
+
+                <li class=" goto-python">
+                    <div class="thumbnail"><i class="icon-code"></i>
+                        <h3> <span>CodeZilla</span> </h3>
+                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
+                        <a href="#" class="btn goto-python">Details</a></div>
+                </li>
+
+
+
+
+            </ul>
+        </div>
+        <hr />
+
+        <h1 class="main-title"><span>General </span>events</h1>
+        <div class="flexslider">
+
+            <!-- TECHnical List Carousel -->
+            <ul class="thumbnails slides">
+
+                <!-- Service Detail -->
+                <li class=" goto-bestengineer">
+                    <div class="thumbnail"><i class="icon-male"></i>
+                        <h3><span>Mr./Ms. Dvaita</span> </h3>
+                        <h5>Subtitle here</h5>
+                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
+                        <a href="#" class="btn goto-bestengineer">Details</a></div>
+                </li>
+
+                <!-- Service Detail -->
+                <li class=" goto-startaction">
+                    <div class="thumbnail"><i class="icon-camera-retro"></i>
+                        <h3><span>Start, Action, Cut</span> </h3>
+                        <h5>Subtitle here</h5>
+                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
+                        <a href="#" class="btn goto-startaction">Details</a></div>
+                </li>
+                <!-- Service Detail -->
+                <li class=" goto-mrcad">
+                    <div class="thumbnail"><i class="icon-building"></i>
+                        <h3><span>Mr. CAD</span> </h3>
+                        <h5>Subtitle here</h5>
+                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
+                        <a href="#" class="btn goto-mrcad">Details</a></div>
+                </li>
+
+
+
             </ul>
         </div>
         <hr />
@@ -644,7 +603,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!-- Register Section -->
 <div id="register" class="section">
-    <div class="section-title"><i class="icon-envelope-alt"></i><strong>Register</strong>
+    <div class="section-title"><i class="icon-pencil"></i><strong>Register</strong>
         <p>Register now</p>
     </div>
 
@@ -683,8 +642,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         <div class="span6 radio-group label1" >
                             <br>
                             <label >Gender<span class="radio-inline">*</span></label>
-                            <label class="radio-inline"><input type="radio" name="gender" value="male"  > Male</label>
-                            <label class="radio-inline"><input type="radio" name="gender" value="female" > Female</label>
+                            <label class="radio-inline"><input type="radio" class ="gender" name="gender" id="male" value="male"  > Male</label>
+                            <label class="radio-inline"><input type="radio" class ="gender"  name="gender" id="female" value="female" > Female</label>
                         </div>
                         <div class="input-group span6 label2">
                           <span class="input-group-addon">
@@ -699,16 +658,13 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </form>
             </div>
         </div>
-
-        <!-- Google Map -->
-
     </div>
 </div>
 
 
 <!--Boombox Section -->
 <div id="boombox" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Boom BOX</strong>
+    <div class="section-title"><i class="icon-instagram"></i><strong>Boom BOX</strong>
         <p><span> Dance</span> <span>Helm </span></p>
     </div>
 
@@ -736,10 +692,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. A team should have a minimum of 3 members.</ol>
+                    <ol style="color: #ffffff;  "  > 2. There is no restriction on the maximum number of participants, </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;but a maximum of only 15 members are allowed at a time on stage.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Time limit for each team is 12 minutes (including narration, stage set up etc..)</ol>
+                    <ol style="color: #ffffff;  "  > 4. The teams should not use any kind of explosives that would disrupt the stage.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Spot registration is mandatory.</ol>
+                    <ol style="color: #ffffff;  "  > 6. There are no restrictions on the choice of music.</ol>
+                    <ol style="color: #ffffff;  "  > 7. The judges' decisions will be final.</ol>
                 </ul>
             </div>
         </div>
@@ -747,11 +709,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -763,7 +730,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!-- tech event Section -->
 <div id="hacknight" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>HackNight</strong>
+    <div class="section-title"><i class="icon-coffee"></i><strong>HackNight</strong>
         <p>The<span> Hackathon</span></p>
     </div>
 
@@ -791,7 +758,77 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
+                <ul  class="margin-bottom">
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                </ul>
+            </div>
+        </div>
+
+        <hr />
+        <!-- Contact -->
+        <h1 class="main-title"> <span>Contact</span></h1>
+        <p class="lead">Connect To us </p>
+
+        <div class="row">
+            <div class="span6 offset3">
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+<div id="embedded" class="section">
+    <div class="section-title"><i class="icon-coffee"></i><strong>Workshop on</strong>
+        <p><span> Introduction to GNU/Linux and Embedded Systems programming using TI Launchpads/Energia.</span></p>
+    </div>
+
+    <!-- About Content -->
+    <div class="container">
+        <hr />
+
+
+        <img class="pic" src="img/Hackathon.jpg"  alt="banner"  />
+
+
+        <h1 class="main-title"><span>Description</span></h1>
+
+
+        <div class="row">
+            <div class="span6 offset3">
+                <p class="text-center margin-bottom">This is a beginner level hands-on workshop ideal for 1st/2nd year  B.Tech students with knowledge of C programming. Topics covered<br>
+
+                    are: an introduction to GNU/Linux and Free Software,  working with Linux commands, programming Texas Instrument's ARM <br>
+
+                    microcontroller based "Launchpad" development boards  using an Arduino-like IDE called "Energia". Students will be provided  the<br>
+
+                    required hardware (TI Stellaris and MSP432 launchpads) by the workshop organizers.</p>
+            </div>
+        </div>
+
+        <hr />
+        <!-- Rules -->
+
+        <h1 class="main-title" > <span> Rules </span></h1>
+        <p class="lead">we are specialized in web</p>
+
+        <div class="row">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
                     <li > Lorem ipsum dolor sit amet, consectetuer  </li>
                     <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
@@ -802,11 +839,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -815,9 +857,66 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </div>
 </div>
 
+<div id="python" class="section">
+    <div class="section-title"><i class="icon-coffee"></i><strong>Workshop on</strong>
+        <p>The<span> Python</span></p>
+    </div>
+
+    <!-- About Content -->
+    <div class="container">
+        <hr />
+
+
+        <img class="pic" src="img/Hackathon.jpg"  alt="banner"  />
+
+
+        <h1 class="main-title"><span>Description</span></h1>
+        <p class="lead">we are specialized in web</p>
+
+        <div class="row">
+            <div class="span6 offset3">
+                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            </div>
+        </div>
+
+        <hr />
+        <!-- Rules -->
+
+        <h1 class="main-title" > <span> Rules </span></h1>
+        <p class="lead">we are specialized in web</p>
+
+        <div class="row">
+            <div class="span6 offset3">
+                <ul  class="margin-bottom">
+                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr />
+        <!-- Contact -->
+        <h1 class="main-title"> <span>Contact</span></h1>
+        <p class="lead">Connect To us </p>
+
+        <div class="row">
+            <div class="span6 offset3">
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
 
 <div id="hackerjack" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Hacker Jack</strong>
+    <div class="section-title"><i class="icon-desktop"></i><strong>Hacker Jack</strong>
         <p>The<span> Hackathon</span></p>
     </div>
 
@@ -856,10 +955,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -867,11 +972,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -881,7 +991,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="langx" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Language X</strong>
+    <div class="section-title"><i class="icon-xing"></i><strong>Language X</strong>
         <p>The<span> Hacking Event</span></p>
     </div>
 
@@ -921,10 +1031,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -932,11 +1048,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -946,7 +1067,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="sidhandics" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Sidhandics</strong>
+    <div class="section-title"><i class="icon-file-alt"></i><strong>Sidhandics</strong>
         <p>The<span> Hacking Event</span></p>
     </div>
 
@@ -986,10 +1107,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -997,11 +1124,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1012,7 +1144,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="bashemup" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>BASH EM UP</strong>
+    <div class="section-title"><i class="icon-bar-chart"></i><strong>BASH EM UP</strong>
         <p>The<span> Bash </span></p>
     </div>
 
@@ -1049,13 +1181,19 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title" > <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">The Rules and Regulations of the Event</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1.Participants can be single or a team of two.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Prelims will be conducted online, out of which ideally 7 teams will be selected.</ol>
+                    <ol style="color: #ffffff;  "  > 3.Prelims will be MCQ</ol>
+                    <ol style="color: #ffffff;  "  > 4.The next stage of the event will be conducted at NSSCE during the tech fest.</ol>
+                    <ol style="color: #ffffff;  "  > 5.This shall consist of maximum of two rounds.</ol>
+                    <ol style="color: #ffffff;  "  > 6.Round 2 will be conducted only if there is a tie in scores between teams in round 1.</ol>
+                    <ol style="color: #ffffff;  "  > 7.Rules are subjected to change as per the decision of the organizing committee.</ol>
+                    <ol style="color: #ffffff;  "  > 8.All participants should have proper ID cards.</ol>
                 </ul>
             </div>
         </div>
@@ -1063,11 +1201,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1077,7 +1220,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="swatthebug" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Swat The Bug !</strong>
+    <div class="section-title"><i class="icon-bug"></i><strong>Swat The Bug !</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1105,10 +1248,22 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. This event consists of team of two members. Both participants have to register for the event.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Unlimited participants per college/department are allowed. (College ID card is a must). </ol>
+                    <ol style="color: #ffffff;  "  > 3. Certificate of participation will be issued to each participant. Prizes and certificates will be given to the winners. </ol>
+                    <ol style="color: #ffffff;  "  > 4. Laptops, books or any type of written/printed materials, use of internet/mobile phones are strictly prohibited.</ol>
+                    <ol style="color: #ffffff;  "  > 5. The event is onsite and consists of two rounds. Total duration is 2 1/2 hours.</ol>
+                    <ol style="color: #ffffff;  "  > 6. The first round is a written objective test of 30 minutes. This is an elimination round and </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will consist of objective questions with/without multiple choices from basics of programming. </ol>
+                    <ol style="color: #ffffff;  "  > 7. The second and final round contains the implementation, debugging and</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error solving of one/ more complex programs in C/C++ programming language with prescribed time limit. </ol>
+                    <ol style="color: #ffffff;  "  > 8. Organizing committee has a right to disqualify a participant in case of any indiscipline.</ol>
+                    <ol style="color: #ffffff;  "  > 9. Decision of the judges shall be final and it will be binding to all. </ol>
+                    <ol style="color: #ffffff;  "  > 10.On the spot registration is allowed.
+                    </ol>
+
                 </ul>
             </div>
         </div>
@@ -1116,11 +1271,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1131,7 +1291,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="maestro" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Code Maestro</strong>
+    <div class="section-title"><i class="icon-magic"></i><strong>Code Maestro</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1159,10 +1319,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1.Individuals are allowed to compete (not in groups).</ol>
+                    <ol style="color: #ffffff;  "  > 2.All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 3.A preliminary MCQ  test based on programming will be conducted.</ol>
+                    <ol style="color: #ffffff;  "  > 4.Those contestants who qualify in the prelims can enter the next round of the competition.</ol>
+                    <ol style="color: #ffffff;  "  > 5.Contestants have to code the questions given to them in the stipulated period of time.</ol>
+                    <ol style="color: #ffffff;  "  > 6.Rules are subjected to change as per the decision of the organising committee.</ol>
                 </ul>
             </div>
         </div>
@@ -1170,11 +1334,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1184,7 +1353,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="codeswap" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Code Swap</strong>
+    <div class="section-title"><i class="icon-code-fork"></i><strong>Code Swap</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1197,11 +1366,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p style="color: #fff" class="lead">Calculate the Chemistry between you and your buddy</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Calculate the chemistry between you and your buddy. Operate on your skills ,Debug it and <strong>Expect a switch to the next</strong></p>
             </div>
         </div>
 
@@ -1212,10 +1381,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1223,11 +1398,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                    <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                    <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                    <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1238,7 +1418,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="codezilla" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>CodeZilla</strong>
+    <div class="section-title"><i class="icon-code"></i><strong>CodeZilla</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1266,10 +1446,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1277,11 +1463,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1290,12 +1481,10 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </div>
 </div>
 
-
-
 <!-- Gen event Section -->
 
 <div id="bestengineer" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Mr / Ms Gamaya</strong>
+    <div class="section-title"><i class="icon-male"></i><strong>Mr / Ms Dvaita</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1323,10 +1512,19 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1.Individuals are allowed to compete (not in groups).</ol>
+                    <ol style="color: #ffffff;  "  > 2. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Four rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUND 1: A sequence of written tests to test the thinking skills of the applicant.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUND 2: Challenges will be set up to test the presence of mind and creativity of the participant.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUND 3: Participant will be tested for the skill of working as a group.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Group Discussion/some other group involving activity).</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUND 4: Stress Interview.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Rules are subjected to change as per the decision of the organising committee.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Decision of judges will be final.</ol>
+
                 </ul>
             </div>
         </div>
@@ -1334,11 +1532,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1348,7 +1551,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="highq" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>High Q</strong>
+    <div class="section-title"><i class="icon-question-sign"></i><strong>High Q</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1376,10 +1579,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1387,11 +1596,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1401,7 +1615,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="startaction" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Start Action Cut</strong>
+    <div class="section-title"><i class="icon-film"></i><strong>Start Action Cut</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1426,13 +1640,30 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">The Rules and Regulations of the Event</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol    > 1. There is no subject /theme for the competition, any products, ideas, Or events can be advertised.</ol>
+                    <ol   > 2. The Contest is open to all (not only for students).</ol>
+                    <ol   > 3. Number of participants in a team: Min - 1; Max - 5</ol>
+                    <ol    > 4. Strict adherence to the time limit. Maximum 120 seconds Clip.</ol>
+                    <ol  > 5. Any character, prop, place can be taken as per your creativity.</ol>
+                    <ol   > 6. The video should not have any obscene or defamatory scenes in it.</ol>
+                    <ol   > 7. Videos in any language other than English and Malayalam is also accepted, </ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;but it needs to be subtitled in English.</ol>
+                    <ol   > 8. Submitted video must be original, unpublished work and free from copyright issues. </ol>
+                    <ol   > 9. Each team have to send their Ad film to us on startactioncut@dvaita16.com(change)  </ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by 17th February 2016(12 p.m.). </ol>
+                    <ol   > 10. Decisions of the judges shall be final and binding to all teams.</ol>
+                    <ol   >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No complaints or correspondence will be entertained in this regard </ol>
+                    <ol   >11. Attach a form containing the following details:</ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name of the film: </ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name of the director: </ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration of the film: </ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact address with phone number: </ol>
+
                 </ul>
             </div>
         </div>
@@ -1440,11 +1671,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1454,7 +1690,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="mrcad" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Mr. CAD</strong>
+    <div class="section-title"><i class="icon-building"></i><strong>Mr. CAD</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1482,10 +1718,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1493,11 +1735,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1507,7 +1754,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="shutterbug" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Shutter Bug</strong>
+    <div class="section-title"><i class="icon-camera"></i><strong>Shutter Bug</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1520,12 +1767,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead" style="color: #ffffff">Theme: “Colours of Life”</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-            </div>
+                        </div>
         </div>
 
         <hr />
@@ -1535,10 +1781,20 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. There is no registration procedures and no age limit for participation.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Photographs related to the specified theme only are accepted.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Only upto 3 photographs are accepted from a participant.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Participants must specify their name, age, place & contact number along with the photograph(s).</ol>
+                    <ol style="color: #ffffff;  "  > 5. All digital files must be 20 megabytes or smaller, must be in JPEG or JPG format, </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and must be at least 1,600 pixels wide (if a horizontal image) or 1,600 pixels tall (if a vertical image).</ol>
+                    <ol style="color: #ffffff;  "  > 6. Digital manipulation that distorts the reality of the images will not be allowed. </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only basic enhancements such as sharpening, contrast adjustment, focus or simple cropping will be allowed.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Participants with incorrect contact details will get disqualified. </ol>
+                    <ol style="color: #ffffff;  "  > 8. Selected pictures will be posted in Dvaita's official Facebook page everyday .  </ol>
+                    <ol style="color: #ffffff;  "  > 9. Number of likes to the pictures will also be a factor for selecting the winner. </ol>
+                    <ol style="color: #ffffff;  "  >10. Decisions taken by the event heads will be final </ol>
                 </ul>
             </div>
         </div>
@@ -1546,11 +1802,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1560,7 +1821,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="respawn" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>RESPAWN</strong>
+    <div class="section-title"><i class="icon-gamepad"></i><strong>RESPAWN Arena</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1586,24 +1847,101 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <h1 class="main-title"> <span> Rules </span></h1>
         <p class="lead">we are specialized in web</p>
-
+        <br><br><br><br>
+        <h4 class="main-title"> <span> NFS Most wanted </span></h4>
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
+
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Spot registration is compulsory.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Registration will be closed after prelims.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Qualification round:</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All tournament participants will play 3 laps and the qualifier </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for further rounds will be decided on best time basis(Top 32)</ol>
+                    <ol style="color: #ffffff;  "  > 4. At the end of each match,players must maintain the final screens and receive confirmation from a referee.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Any participants failing to complete the race will be disqualified.</ol>
+                    <ol style="color: #ffffff;  "  > 6. In case of unintentional disconnection , admin will decide on how to proceed.</ol>
+                    <ol style="color: #ffffff;  "  > 7. If at any time, a player intentionally disconnects/exits the game,he/she will be disqualified. </ol>
+                    <ol style="color: #ffffff;  "  > 8. In case of alt-tabbing, the admin will decide whether it was intentionally/mistake and </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what action  must be taken with disqualification being maximum penalty.</ol>
                 </ul>
             </div>
         </div>
 
+        <br><br><br><br>
+        <h4 class="main-title"> <span> FIFA 11 </span></h4>
+        <div class="row">
+            <div class="span9 offset3">
+
+                <ul  class="margin-bottom">
+                    <ol style="color: #ffffff;  "  > 1. All games will be classic 1 vs 1.</ol>
+                    <ol style="color: #ffffff;  "  > 2. There will be no practicing allowed.Participants are only allowed to change necessary control and check them.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Keyboard will be provided. Participants can use their own joysticks/gamepads/keyboards if necessary.</ol>
+                    <ol style="color: #ffffff;  "  > 4. The total number of rounds for prelims will be decided based on participation.</ol>
+                    <ol style="color: #ffffff;  "  > 5.  In case of unintentional disconnection , admin will decide on how to proceed.If game is within half time and </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;no goals have been scored,the game will be restarted with same teams for a full time game.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If not, the game will be played for the remaining time based on what time it disconnected with scores being carried over.</ol>
+
+                    <ol style="color: #ffffff;  "  > 6.  If at any time, a player intentionally disconnects/exits the game,he/she will be disqualified. </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In case of alt-tabbing, the admin will decide whether it was intentionally/mistake and what action</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;must be taken with disqualification being maximum penalty.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Teams can be either clubs or countries according users will (classic x1 and world x1 not allowed).</ol>
+                    <ol style="color: #ffffff;  "  > 8. The prelims and league will be classic 4 min half time matches quarter and semis will all be 5 min half time  </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matches and finals will be 6 min half time matches.</ol>
+                    <ol style="color: #ffffff;  "  > 9. The admin's decision will be final. </ol>
+                    <ol style="color: #ffffff;  "  > 10.Rules are subject to change as per the decision of the organising committee.</ol>
+                </ul>
+            </div>
+        </div>
+
+
+        <br><br><br><br>
+        <h4 class="main-title"> <span> Counter strike </span></h4>
+        <div class="row">
+            <div class="span9 offset3">
+
+                <ul  class="margin-bottom">
+                    <ol style="color: #ffffff;  "  > 1.  4 vs 4(Team play, 4 players per team).</ol>
+                    <ol style="color: #ffffff;  "  > 2. The first team to win 9 rounds wins the match.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Extra rounds will be played until winner is decide.</ol>
+                    <ol style="color: #ffffff;  "  > 4. A knockout tournament structure will be used or league structure if number of participants are less.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Rounds :</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16 rounds(Maximum round format)-</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 rounds as terrorist and 8 rounds as counter terrorist per team.If a team scores 9 rounds first ,</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  the match is ended immediately.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Victory condition :The first team to win 11 rounds.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Round time :3 minutes.</ol>
+                    <ol style="color: #ffffff;  "  > 8. Freeze Time:5 seconds.</ol>
+                    <ol style="color: #ffffff;  "  > 9. Buy time :25 seconds</ol>
+                    <ol style="color: #ffffff;  "  > 10. Counter strike,terrorist will be decided before the match or decided by the knifing.</ol>
+                    <ol style="color: #ffffff;  "  > 11. In case of a tie after regulation,6 extra rounds will be played (3 as terrorist and 3 as counter terrorist per team).</ol>
+                    <ol style="color: #ffffff;  "  > 12. Extra round restart money :$10,000. </ol>
+                    <ol style="color: #ffffff;  "  > 13. In the case of a retie after 6 rounds as stated above ,6 more extra rounds will be played until tie is broken.</ol>
+                    <ol style="color: #ffffff;  "  > 14. Official Maps : Defusal Maps </ol>
+                    <ol style="color: #ffffff;  "  > 15. The server master will record the process of the match. </ol>
+                    <ol style="color: #ffffff;  "  > 16. Approved grenade amounts per round: </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Flash bangs:2.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Grenades:1.</ol>
+
+
+                </ul>
+            </div>
+        </div>
+
+
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1613,7 +1951,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="contraption" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Contraption</strong>
+    <div class="section-title"><i class="icon-cog"></i><strong>Contraption</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1641,10 +1979,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1652,11 +1996,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1666,7 +2015,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="crossfire" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Cross Fire</strong>
+    <div class="section-title"><i class="icon-fire"></i><strong>Cross Fire</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1694,10 +2043,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1705,11 +2060,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1719,7 +2079,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="pirate" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Be The Pirate</strong>
+    <div class="section-title"><i class="icon-map-marker"></i><strong>Be The Pirate</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1747,10 +2107,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Aptitude test: It is an elimination round from which the top 12 team will be allowed on to the next round.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Having 3 levels to verify the team coordination. Best 8 team will be selected for the next round.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;level 1: Logical</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;level 2: Team activity</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;level 3: Gaming</ol>
+                    <ol style="color: #ffffff;  "  > 3. Group skills will be tested here by two levels. Top 4 teams will be selected to the next round.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Team tries to find some hidden objects or places by using a series of clues.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Decision of judges will be final.</ol>
                 </ul>
             </div>
         </div>
@@ -1758,11 +2124,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1774,7 +2145,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="mysteriarch" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Mysteriarch</strong>
+    <div class="section-title"><i class="icon-question"></i><strong>Mysteriarch</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1802,10 +2173,18 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+
+
                 </ul>
             </div>
         </div>
@@ -1813,11 +2192,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1827,7 +2211,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="hudrolaunch" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Hudro launch</strong>
+    <div class="section-title"><i class="icon-rocket"></i><strong>Hydro launch</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1855,10 +2239,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1866,11 +2256,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1880,7 +2275,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="disco" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Digital disco</strong>
+    <div class="section-title"><i class="icon-music"></i><strong>Digital disco</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1908,10 +2303,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1919,21 +2320,25 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
-
 
 
     </div>
 </div>
 
 <div id="cognizance" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Cognizance</strong>
+    <div class="section-title"><i class="icon-cogs"></i><strong>Cognizance</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -1961,10 +2366,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1972,11 +2383,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -1986,7 +2402,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="wikisurf" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Wikisurf</strong>
+    <div class="section-title"><i class="icon-book"></i><strong>Wikisurf</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -2014,10 +2430,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -2025,11 +2447,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
+                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
+                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -2039,7 +2466,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="roadies" class="section">
-    <div class="section-title"><i class="icon-smile"></i><strong>Roadies</strong>
+    <div class="section-title"><i class="icon-road"></i><strong>Roadies</strong>
         <p><span> Debug</span>The<span> Code</span></p>
     </div>
 
@@ -2067,10 +2494,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset4">
+            <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
+                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -2078,11 +2511,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <h4 style="color: #fff" align="center">Rahul V K    - +91 940 056 9317  </h4>
+                <h4 style="color: #fff" align="center">Akash G Krishnan   - +91 989 510 6147  </h4>
+                <h4 style="color: #fff" align="center">Vishnu Mohan K V  - +91 940 060 1776  </h4>
+                <br><br>
+
             </div>
         </div>
 
@@ -2092,11 +2530,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <!-- Switch Section -->
-<div id="switch" class="switch-section "><i class="icon-reorder icon-label"></i><div class="switch-header"><h6 >Events</h6></div>
-    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-smile"></i></a> <a href="#" class="section-respawn"><i class="icon-cog"></i></a> <a href="#" class="section-bestengineer"><i class="icon-briefcase"></i></a> <a href="#" class="section-hacknight"><i class="icon-comments"></i></a> <a href="#" class="section-maestro"><i class="icon-envelope-alt"></i></a>
-                                          <a href="#" class="section-swatthebug"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-hackerjack"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-langx"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-bashemup"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-codezilla"><i class="icon-envelope-alt"></i></a>
-                                            <a href="#" class="section-codeswap"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-sidhandics"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-mrcad"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-shutterbug"><i class="icon-envelope-alt"></i></a>
-                                        <a href="#" class="section-highq"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-contraption"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-crossfire"><i class="icon-envelope-alt"></i></a> <a href="#" class="section-pirate"><i class="icon-envelope-alt"></i></a>
+<div id="switch" class="switch-section "><i class="icon-reorder icon-label"></i><div class="switch-header"><h5 >Events</h5></div>
+    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-hacknight"><i class="icon-coffee"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
+                                          <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
+                                            <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-film"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
+                                        <a href="#" class="section-highq"><i class="icon-question-sign"></i></a> <a href="#" class="section-contraption"><i class="icon-cog"></i></a> <a href="#" class="section-crossfire"><i class="icon-fire"></i></a> <a href="#" class="section-pirate"><i class="icon-map-marker"></i></a><a href="#" class="section-mysteriarch"><i class="icon-question"></i></a>
+        <a href="#" class="section-hudrolaunch"><i class="icon-rocket"></i></a><a href="#" class="section-disco"><i class="icon-music"></i></a><a href="#" class="section-cognizance"><i class="icon-cogs"></i></a><a href="#" class="section-wikisurf"><i class="icon-book"></i></a><a href="#" class="section-roadies"><i class="icon-road"></i></a>
     </p>
 </div>
 
@@ -2118,5 +2557,29 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <script type="text/javascript" src="js/global.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.js"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            jQuery(function(){
+                jQuery("#phone").validate({
+                    expression: "if (!isNaN(VAL) && VAL) return true; else return false;",
+                    message: "Please enter a valid number"
+                });
+                jQuery("#email").validate({
+                    expression: "if (VAL.match(/^[^\\W][a-zA-Z0-9\\_\\-\\.]+([a-zA-Z0-9\\_\\-\\.]+)*\\@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9_]+)*\\.[a-zA-Z]{2,4}$/)) return true; else return false;",
+                    message: "Please enter a valid Email ID"
+                });
+                jQuery("#pwd").validate({
+                    expression: "if (VAL.length > 5 && VAL) return true; else return false;",
+                    message: "Please enter a valid Password"
+                });
+                jQuery("#cpwd").validate({
+                    expression: "if ((VAL == jQuery('#pwd').val()) && VAL) return true; else return false;",
+                    message: "Confirm password field doesn't match the password field"
+                });
+            });
+            /* ]]> */
+        </script>
 </body>
 </html>

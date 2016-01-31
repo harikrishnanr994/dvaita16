@@ -109,3 +109,38 @@
 
     background: #009688;
 }
+
+.section#mysteriarch, .section-mysteriarch i.active {
+    background: #de6dc6;
+}
+
+.section#hudrolaunch, .section-hudrolaunch i.active {
+    background: #4caf50;
+}
+
+.section#disco, .section-disco i.active {
+    background: #fdd835;
+}
+
+.section#cognizance, .section-cognizance i.active {
+    background: #2196f3;
+}
+
+.section#wikisurf, .section-wikisurf i.active {
+    background: #009688;
+}
+.section#roadies, .section-roadies i.active {
+    background: #de6dc6;
+}
+
+.section#predvaita, .section-predvaita i.active {
+    background: #de6dc6;
+}
+
+.section#embedded, .section-embedded i.active {
+    background: #2196f3;
+}
+
+.section#python, .section-python i.active {
+    background: #009688;
+}
