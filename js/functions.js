@@ -295,6 +295,14 @@ $(document).ready(function () {
     $(".section-contact i").toggleClass("active");
   })
 
+  $(".section-login").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#login").addClass("section-expand");
+  })
+  $("#login").click(function () {
+    $(".section-login i").toggleClass("active");
+  })
+
 
   /* --- GoTo Section --- */
 
@@ -483,6 +491,21 @@ $(document).ready(function () {
     e.stopPropagation();
   })
 
+  $(".goto-embedded").click(function (e) {
+    $("#embedded").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-embedded i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
+
+  $(".goto-python").click(function (e) {
+    $("#python").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-python i").addClass("active");
+    $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
 
   /* --- GoTo Event Section stop--- */
 
@@ -510,6 +533,14 @@ $(document).ready(function () {
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
+
+  $(".goto-login").click(function (e) {
+    $("#login").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-login i").addClass("active");
+    $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
+    e.stopPropagation();
+  })
+
   $(".goto-contact").click(function (e) {
     $("#contact").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-contact i").addClass("active");
