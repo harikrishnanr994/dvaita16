@@ -645,7 +645,7 @@ hr {
 	overflow: auto;
 	position: absolute;
 	top: 0;
-	left: -20px;
+	left: 0px;
 	z-index: 10;
 	transition: all linear 0.25s;
 	-ms-transition: all linear 0.25s;
@@ -700,7 +700,7 @@ hr {
 	opacity: 1;
 }
 .section-boombox i.active {
-    font-size: 30px;
+    font-size: 40px;
     opacity: 1;
 }
 .section-swatthebug i.active {
