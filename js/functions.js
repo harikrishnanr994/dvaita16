@@ -42,6 +42,23 @@ $(document).ready(function () {
     $(".section-boombox i").toggleClass("active");
    })
 
+  $(".section-python").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#python").addClass("section-expand");
+
+  })
+  $("#python").click(function () {
+    $(".section-python i").toggleClass("active");
+  })
+    $(".section-embedded").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#embedded").addClass("section-expand");
+
+  })
+  $("#embedded").click(function () {
+    $(".section-embedded i").toggleClass("active");
+  })
+
   $(".section-sidhandics").click(function () {
     $(".section").removeClass("section-expand");
     $("#sidhandics").addClass("section-expand");

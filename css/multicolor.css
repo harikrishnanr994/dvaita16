@@ -132,3 +132,15 @@
 .section#roadies, .section-roadies i.active {
     background: #de6dc6;
 }
+
+.section#predvaita, .section-predvaita i.active {
+    background: #de6dc6;
+}
+
+.section#embedded, .section-embedded i.active {
+    background: #2196f3;
+}
+
+.section#python, .section-python i.active {
+    background: #009688;
+}
