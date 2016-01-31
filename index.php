@@ -217,7 +217,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 <!-- Service Detail -->
                 <li class=" goto-bestengineer">
                     <div class="thumbnail"><i class="icon-male"></i>
-                        <h3><span>Mr./Ms. Dvaita</span> </h3>
+                        <h3><span>Best engineer</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-bestengineer">Details</a></div>
@@ -366,7 +366,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 <!-- Service Detail -->
                 <li class=" goto-embedded">
                     <div class="thumbnail"><i class="icon-linux"></i>
-                        <h3>workshop on <span>Introduction to GNU/Linux and Embedded Systems</span></h3>
+                        <h3>workshop on <span>GNU/Linux and Embedded Systems</span></h3>
 
                         <p>This is a beginner level hands-on workshop ideal for 1st/2nd year  B.Tech students with knowledge of C programming. </p>
                         <a href="#" class="btn goto-embedded">Details</a></div>
@@ -380,11 +380,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         <a href="#" class="btn goto-python">Details</a></div>
                 </li>
 
-                <li class=" goto-python">
+                <li class=" goto-codezilla">
                     <div class="thumbnail"><i class="icon-code"></i>
                         <h3> <span>CodeZilla</span> </h3>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
-                        <a href="#" class="btn goto-python">Details</a></div>
+                        <a href="#" class="btn goto-codezilla">Details</a></div>
                 </li>
 
 
@@ -615,6 +615,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span5 offset4">
+<<<<<<< HEAD:index.php
                 <div id="message" class="alert alert-success">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Success!</strong> You have been registered successfully with us!. Kindly check your mail to activate your account and ensure your accommodation.
@@ -624,6 +625,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>Registration failed!. Try again
                 </div>
+=======
+>>>>>>> origin/master:index.html
 
                 <form id="reg-form" action="process.php" class="contact-form" method="post">
                     <fieldset>
@@ -653,6 +656,47 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         </div>
                         <button type="submit" class="btn btn-large">Submit</button>
                         <button type="reset" class="btn btn-large">Reset</button>
+                        <button type="reset" class="btn btn-large goto-login">Already Registered ?</button>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <!-- Google Map -->
+
+    </div>
+</div>
+
+<div id="login" class="section">
+    <div class="section-title"><i class="icon-pencil"></i><strong>Login</strong>
+        <p>Login Now </p>
+    </div>
+
+    <!-- Contact Content -->
+    <div class="container">
+        <hr />
+        <h1 class="main-title"><span>Login</span> Now</h1>
+
+
+        <div class="row">
+            <div class="span5 offset4">
+
+                <form id="login11" action="#" class="contact-form" method="post">
+                    <fieldset>
+
+                        <div id="email-group1" class="form-group">
+                            <input type="email" placeholder="Email" class="form-control" class="span3" name="email" id="email" required/>
+                        </div>
+
+                        <input type="password" placeholder="Password" class="form-control" class="span3" name="pwd" id="pwd" required/>
+                        <input type="password" placeholder="Confirm Password" class="form-control" class="span3" name="cpwd" id="cpwd" required/>
+
+
+
+                        <button type="submit" class="btn btn-large">Submit</button>
+                        <button type="reset" class="btn btn-large">Reset</button>
+                        <button class="btn btn-large goto-register">Not Registered yet ?</button>
 
                     </fieldset>
                 </form>
@@ -665,7 +709,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!--Boombox Section -->
 <div id="boombox" class="section">
     <div class="section-title"><i class="icon-instagram"></i><strong>Boom BOX</strong>
-        <p><span> Dance</span> <span>Helm </span></p>
+        <p><span> Inter-college </span> <span>dance </span>competition</p>
     </div>
 
     <!-- About Content -->
@@ -731,7 +775,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!-- tech event Section -->
 <div id="hacknight" class="section">
     <div class="section-title"><i class="icon-coffee"></i><strong>HackNight</strong>
-        <p>The<span> Hackathon</span></p>
+        <p>A Group Coding Event <span> of Enthusiastic Coders.</span></p>
     </div>
 
     <!-- About Content -->
@@ -858,8 +902,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="python" class="section">
-    <div class="section-title"><i class="icon-coffee"></i><strong>Workshop on</strong>
-        <p>The<span> Python</span></p>
+    <div class="section-title"><i class="icon-laptop"></i><strong>Workshop on  Python</strong>
+        <p><span> </span></p>
     </div>
 
     <!-- About Content -->
@@ -917,7 +961,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="hackerjack" class="section">
     <div class="section-title"><i class="icon-desktop"></i><strong>Hacker Jack</strong>
-        <p>The<span> Hackathon</span></p>
+        <p>Offline <span> Hacking </span>Event.</p>
     </div>
 
     <!-- About Content -->
@@ -957,14 +1001,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 1. The competition will be based on individuals.</ol>
+                    <ol style="color: #ffffff;  "  > 2.The first prelims of the competition will be an aptitude test </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where in the top contenders will be selected for the next round</ol>
+                    <ol style="color: #ffffff;  "  > 3. The next stage will be a set of tasks having different points for each.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Internet connectivity will be provided in this round.</ol>
+                    <ol style="color: #ffffff;  "  > 5. The one who complete all the tasks first will be the winner.</ol>
+                    <ol style="color: #ffffff;  "  > 6. In case of non-completion of tasks, the one who scores the highest point will be the winner.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Organising committee’s decisions will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 8. College ID card is mandatory for registration.</ol>
                 </ul>
             </div>
         </div>
@@ -992,7 +1037,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="langx" class="section">
     <div class="section-title"><i class="icon-xing"></i><strong>Language X</strong>
-        <p>The<span> Hacking Event</span></p>
+        <p>How well can you<span> Adapt to a New Language ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -1068,7 +1113,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="sidhandics" class="section">
     <div class="section-title"><i class="icon-file-alt"></i><strong>Sidhandics</strong>
-        <p>The<span> Hacking Event</span></p>
+        <p>The<span> Paper presentation </span>event.</p>
     </div>
 
     <!-- About Content -->
@@ -1145,7 +1190,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="bashemup" class="section">
     <div class="section-title"><i class="icon-bar-chart"></i><strong>BASH EM UP</strong>
-        <p>The<span> Bash </span></p>
+        <p>The<span> UNIX shell scripting </span>competition. </p>
     </div>
 
     <!-- About Content -->
@@ -1186,7 +1231,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1.Participants can be single or a team of two.</ol>
+                    <ol style="color: #ffffff;  "  > 1. Participants can be single or a team of two.</ol>
                     <ol style="color: #ffffff;  "  > 2.Prelims will be conducted online, out of which ideally 7 teams will be selected.</ol>
                     <ol style="color: #ffffff;  "  > 3.Prelims will be MCQ</ol>
                     <ol style="color: #ffffff;  "  > 4.The next stage of the event will be conducted at NSSCE during the tech fest.</ol>
@@ -1221,7 +1266,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="swatthebug" class="section">
     <div class="section-title"><i class="icon-bug"></i><strong>Swat The Bug !</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Debug</span> The<span> Code</span></p>
     </div>
 
     <!-- About Content -->
@@ -1250,15 +1295,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. This event consists of team of two members. Both participants have to register for the event.</ol>
-                    <ol style="color: #ffffff;  "  > 2. Unlimited participants per college/department are allowed. (College ID card is a must). </ol>
-                    <ol style="color: #ffffff;  "  > 3. Certificate of participation will be issued to each participant. Prizes and certificates will be given to the winners. </ol>
-                    <ol style="color: #ffffff;  "  > 4. Laptops, books or any type of written/printed materials, use of internet/mobile phones are strictly prohibited.</ol>
-                    <ol style="color: #ffffff;  "  > 5. The event is onsite and consists of two rounds. Total duration is 2 1/2 hours.</ol>
-                    <ol style="color: #ffffff;  "  > 6. The first round is a written objective test of 30 minutes. This is an elimination round and </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will consist of objective questions with/without multiple choices from basics of programming. </ol>
-                    <ol style="color: #ffffff;  "  > 7. The second and final round contains the implementation, debugging and</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error solving of one/ more complex programs in C/C++ programming language with prescribed time limit. </ol>
+                    <ol style="color: #ffffff;  "  > 1. This event is to be competed in team of two members. Both participants have to register for the event.</ol>
+                    <ol style="color: #ffffff;  "  > 2. College ID card is mandatory for registration. </ol>
+                    <ol style="color: #ffffff;  "  > 3. Laptops, books or any type of written/printed materials, use of internet/mobile phones are strictly prohibited during the event. </ol>
+                    <ol style="color: #ffffff;  "  > 4. The event is onsite and will consist of two rounds.</ol>
+                    <ol style="color: #ffffff;  "  > 5. The first round is a written objective test of 30 minutes. This is an elimination round and</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will consist of objective questions with/without multiple choices from the basics of programming.</ol>
+                    <ol style="color: #ffffff;  "  > 6. The final round contains the implementation, debugging and error solving of one/ more complex </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;programs in C/C++ programming language with prescribed time limit. </ol>
                     <ol style="color: #ffffff;  "  > 8. Organizing committee has a right to disqualify a participant in case of any indiscipline.</ol>
                     <ol style="color: #ffffff;  "  > 9. Decision of the judges shall be final and it will be binding to all. </ol>
                     <ol style="color: #ffffff;  "  > 10.On the spot registration is allowed.
@@ -1292,7 +1336,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="maestro" class="section">
     <div class="section-title"><i class="icon-magic"></i><strong>Code Maestro</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Offline coding competition  </span>in a<span> particular language .</span></p>
     </div>
 
     <!-- About Content -->
@@ -1316,17 +1360,18 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead">The Rules and Regulations</p>
 
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1.Individuals are allowed to compete (not in groups).</ol>
-                    <ol style="color: #ffffff;  "  > 2.All contestants are required to present a valid student identification card.</ol>
-                    <ol style="color: #ffffff;  "  > 3.A preliminary MCQ  test based on programming will be conducted.</ol>
-                    <ol style="color: #ffffff;  "  > 4.Those contestants who qualify in the prelims can enter the next round of the competition.</ol>
-                    <ol style="color: #ffffff;  "  > 5.Contestants have to code the questions given to them in the stipulated period of time.</ol>
-                    <ol style="color: #ffffff;  "  > 6.Rules are subjected to change as per the decision of the organising committee.</ol>
+                    <ol   > 1.Code Maestro is not a team event. Only individuals are allowed to compete.</ol>
+                    <ol   > 2.All contestants are required to present a valid student identification card during the time of registration.</ol>
+                    <ol  > 3.A preliminary MCQ test based on programming will be conducted.</ol>
+                    <ol > 4.Those contestants who qualify in the prelims can enter the next round of the competition.</ol>
+                    <ol  > 5.Contestants have to code the questions given to them in the stipulated period of time.</ol>
+                    <ol   > 6.Rules are subjected to change as per the decision of the organising committee.</ol>
+                    <ol  > 7. Organising committee have the right to disqualify a participant, in the event of any misconduct or malpractices.</ol>
                 </ul>
             </div>
         </div>
@@ -1354,7 +1399,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="codeswap" class="section">
     <div class="section-title"><i class="icon-code-fork"></i><strong>Code Swap</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Offline coding event</span><span> for a team of 2.</span></p>
     </div>
 
     <!-- About Content -->
@@ -1419,7 +1464,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="codezilla" class="section">
     <div class="section-title"><i class="icon-code"></i><strong>CodeZilla</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span>An online coding   </span>event to be conducted<span> in Hackerrank.</span></p>
     </div>
 
     <!-- About Content -->
@@ -1484,8 +1529,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!-- Gen event Section -->
 
 <div id="bestengineer" class="section">
-    <div class="section-title"><i class="icon-male"></i><strong>Mr / Ms Dvaita</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+    <div class="section-title"><i class="icon-male"></i><strong>Best Engineer</strong>
+        <p><span> Are you </span>The<span> Best Engineer ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -1552,7 +1597,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="highq" class="section">
     <div class="section-title"><i class="icon-question-sign"></i><strong>High Q</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Quiz </span><span> competition</span></p>
     </div>
 
     <!-- About Content -->
@@ -1616,7 +1661,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="startaction" class="section">
     <div class="section-title"><i class="icon-film"></i><strong>Start Action Cut</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Ad Film</span><span> Competition</span></p>
     </div>
 
     <!-- About Content -->
@@ -1691,7 +1736,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="mrcad" class="section">
     <div class="section-title"><i class="icon-building"></i><strong>Mr. CAD</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Are you </span>The<span> Best Designer ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -1755,7 +1800,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="shutterbug" class="section">
     <div class="section-title"><i class="icon-camera"></i><strong>Shutter Bug</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Capture </span> the <span> Moments </span></p>
     </div>
 
     <!-- About Content -->
@@ -1822,7 +1867,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="respawn" class="section">
     <div class="section-title"><i class="icon-gamepad"></i><strong>RESPAWN Arena</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Ultimate</span><span> Virtual War Zone</span></p>
     </div>
 
     <!-- About Content -->
@@ -1952,7 +1997,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="contraption" class="section">
     <div class="section-title"><i class="icon-cog"></i><strong>Contraption</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Build </span> and <span> Break</span></p>
     </div>
 
     <!-- About Content -->
@@ -2016,7 +2061,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="crossfire" class="section">
     <div class="section-title"><i class="icon-fire"></i><strong>Cross Fire</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Debate</span><span> Master</span></p>
     </div>
 
     <!-- About Content -->
@@ -2080,7 +2125,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="pirate" class="section">
     <div class="section-title"><i class="icon-map-marker"></i><strong>Be The Pirate</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Who can</span>be  <span> Captain Jack Sparrow ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -2146,7 +2191,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="mysteriarch" class="section">
     <div class="section-title"><i class="icon-question"></i><strong>Mysteriarch</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Unleash </span>The<span> Sherlock Holmes </span>in you </p>
     </div>
 
     <!-- About Content -->
@@ -2212,7 +2257,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="hudrolaunch" class="section">
     <div class="section-title"><i class="icon-rocket"></i><strong>Hydro launch</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Who is gona </span><span> Join NASA ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -2276,7 +2321,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="disco" class="section">
     <div class="section-title"><i class="icon-music"></i><strong>Digital disco</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> Are you Jack  </span>of <span> Electronics ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -2288,7 +2333,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        <p class="lead"></p>
 
         <div class="row">
             <div class="span6 offset3">
@@ -2339,7 +2384,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="cognizance" class="section">
     <div class="section-title"><i class="icon-cogs"></i><strong>Cognizance</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> An event to honor the Best Project Idea.</span><span> </span></p>
     </div>
 
     <!-- About Content -->
@@ -2403,7 +2448,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="wikisurf" class="section">
     <div class="section-title"><i class="icon-book"></i><strong>Wikisurf</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> How well</span>have you <span> Wiki-ed ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -2467,7 +2512,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="roadies" class="section">
     <div class="section-title"><i class="icon-road"></i><strong>Roadies</strong>
-        <p><span> Debug</span>The<span> Code</span></p>
+        <p><span> How strong </span>are <span> You ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -2535,7 +2580,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                                           <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
                                             <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-film"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
                                         <a href="#" class="section-highq"><i class="icon-question-sign"></i></a> <a href="#" class="section-contraption"><i class="icon-cog"></i></a> <a href="#" class="section-crossfire"><i class="icon-fire"></i></a> <a href="#" class="section-pirate"><i class="icon-map-marker"></i></a><a href="#" class="section-mysteriarch"><i class="icon-question"></i></a>
-        <a href="#" class="section-hudrolaunch"><i class="icon-rocket"></i></a><a href="#" class="section-disco"><i class="icon-music"></i></a><a href="#" class="section-cognizance"><i class="icon-cogs"></i></a><a href="#" class="section-wikisurf"><i class="icon-book"></i></a><a href="#" class="section-roadies"><i class="icon-road"></i></a>
+        <a href="#" class="section-hudrolaunch"><i class="icon-rocket"></i></a><a href="#" class="section-disco"><i class="icon-music"></i></a><a href="#" class="section-cognizance"><i class="icon-cogs"></i></a><a href="#" class="section-wikisurf"><i class="icon-book"></i></a><a href="#" class="section-roadies"><i class="icon-road"></i></a><a href="#" class="section-python"><i class="icon-laptop"></i></a><a href="#" class="section-embedded"><i class="icon-linux"></i></a>
     </p>
 </div>
 
