@@ -129,6 +129,16 @@ fieldset[disabled] .checkbox-inline {
 .form-horizontal .form-group:after {
 	clear: both;
 }
+#error { 
+    display: none;
+    margin: 0 auto 15px;
+	max-width: 300px;
+} 
+#message { 
+    display: none; 
+    margin: 0 auto 15px;
+	max-width: 300px;
+} 
 
 
 #loader-wrapper {

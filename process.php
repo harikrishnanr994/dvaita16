@@ -40,7 +40,7 @@ if($pwd == $cpwd) {
       	$table_users = $row['email']; 
 	      	if($email == $table_users) {
 	      		$bool = false;
-	        $errors['email'] = 'This email is already registered with us!';
+	      echo  " $errors= 'This email is already registered with us!'";
 	    }
 	}
     
@@ -60,5 +60,6 @@ if($pwd == $cpwd) {
 		    $data['errors']  = $errors;
 	    }
 	}
+	echo json_encode( $data );
 }
 ?>

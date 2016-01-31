@@ -24,8 +24,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <link rel="stylesheet" type="text/css" href="css/multicolor.css" />
     <link rel="shortcut icon" href="img/favicon.ico" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-
 </head>
 <body>
 
@@ -644,12 +642,13 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </div>
 </div>
 
+<!-- Register Section -->
 <div id="register" class="section">
     <div class="section-title"><i class="icon-envelope-alt"></i><strong>Register</strong>
         <p>Register now</p>
     </div>
 
-    <!-- Contact Content -->
+    <!-- Register Content -->
     <div class="container">
         <hr />
         <h1 class="main-title"><span>Register</span> Now</h1>
@@ -657,8 +656,17 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span5 offset4">
+                <div id="message" class="alert alert-success">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Success!</strong> You have been registered successfully with us!. Kindly check your mail to activate your account and ensure your accommodation.
+                </div>
 
-                <form id="register" action="process.php" class="contact-form" method="post">
+                <div id="error" class="alert alert-danger">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Error!</strong>Registration failed!. Try again
+                </div>
+
+                <form id="reg-form" action="process.php" class="contact-form" method="post">
                     <fieldset>
                         <div id="name-group" class="form-group">
                         <input type="text" placeholder="Name" class="form-control" class="span3" name="name" id="name" required/>
@@ -680,7 +688,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         </div>
                         <div class="input-group span6 label2">
                           <span class="input-group-addon">
-                            <input type="checkbox" aria-label="chbox for accom" name="accom">
+                            <input type="checkbox" aria-label="chbox for accom" name="accom" value="yes">
                           </span>
                             Need accommodation
                         </div>
@@ -2083,9 +2091,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </div>
 </div>
 
-
-
-
 <!-- Switch Section -->
 <div id="switch" class="switch-section "><i class="icon-reorder icon-label"></i><div class="switch-header"><h6 >Events</h6></div>
     <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-smile"></i></a> <a href="#" class="section-respawn"><i class="icon-cog"></i></a> <a href="#" class="section-bestengineer"><i class="icon-briefcase"></i></a> <a href="#" class="section-hacknight"><i class="icon-comments"></i></a> <a href="#" class="section-maestro"><i class="icon-envelope-alt"></i></a>
@@ -2095,15 +2100,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </p>
 </div>
 
-
-
 <a href="#" class="section-close">×</a>
 
-<!-- Scripts -->
+<!-- Scripts -->  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/register.js"></script>
-<script src="http://malsup.github.com/jquery.form.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
-<script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+<script type="text/javascript" src="js/validate.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -2114,31 +2116,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="js/jquery.countdown.js"></script>
 <script type="text/javascript" src="js/global.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
-<script type="text/javascript" src="/js/jquery.validate.js"></script>
-<script type="text/javascript" src="/js/jquery.validation.functions.js"></script>
-        <script type="text/javascript">
-            /* <![CDATA[ */
-            jQuery(function(){
-                jQuery("#phone").validate({
-                    expression: "if (!isNaN(VAL) && VAL) return true; else return false;",
-                    message: "Please enter a valid number"
-                });
-                jQuery("#email").validate({
-                    expression: "if (VAL.match(/^[^\\W][a-zA-Z0-9\\_\\-\\.]+([a-zA-Z0-9\\_\\-\\.]+)*\\@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9_]+)*\\.[a-zA-Z]{2,4}$/)) return true; else return false;",
-                    message: "Please enter a valid Email ID"
-                });
-                jQuery("#pwd").validate({
-                    expression: "if (VAL.length > 5 && VAL) return true; else return false;",
-                    message: "Please enter a valid Password"
-                });
-                jQuery("#cpwd").validate({
-                    expression: "if ((VAL == jQuery('#pwd').val()) && VAL) return true; else return false;",
-                    message: "Confirm password field doesn't match the password field"
-                });
-            });
-            /* ]]> */
-        </script>
 </body>
 </html>
