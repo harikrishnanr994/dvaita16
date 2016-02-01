@@ -60,10 +60,10 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         </li>
 
         <!-- Slider Single Item -->
-        <li><a href="#"><img src="img/slide3.jpg" alt="Photo" /></a>
+        <li><a href="#"><img src="img/boombox_slide.gif" alt="boombox" /></a>
             <div class="slides-detail">
-                <h1>This is the third <span>title</span></h1>
-                <span class="lead">Dapibus ac <strong>Cras in</strong>, egestas justo odio</span></div>
+                <h1><span>BOOMBOX</span></h1>
+                <span class="lead"><strong>Dancing with the feet is one thing, but dancing with the heart is anothe</strong></span></div>
         </li>
     </ul>
 
