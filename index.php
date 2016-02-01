@@ -741,9 +741,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Ashwin Jayakumar  - +91 808 988 3350  </h4>
+                <h4 style="color: #fff" align="center">Manu   - +91 960 530 9092  </h4>
                 <br><br>
 
             </div>
