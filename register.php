@@ -40,7 +40,7 @@ if($pwd == $cpwd) {
       	$table_users = $row['email']; 
 	      	if($email == $table_users) {
 	      		$bool = false;
-	      echo  " $errors= 'This email is already registered with us!'";
+	      $errors['email']= 'This email is already registered with us!';
 	    }
 	}
     
@@ -52,6 +52,15 @@ if($pwd == $cpwd) {
 	    mysqli_query($link, "INSERT INTO users (uid, name, password, salt, email, mobile, college, accommodation, activation, activated, gender) VALUES ('$uuid','$name','$encrypted_password','$salt','$email','$phone','$college','$accom','$activation','$activated','$gender')"); 
 
 	    if (mysqli_affected_rows($link) == 1) {
+	    	// Send the email:
+                $message = " To activate your account, please click on this link:\n\n";
+                $message .= WEBSITE_URL . '/activate.php?email=' . urlencode($Email) . "&key=$activation";
+                mail($Email, 'Registration Confirmation', $message, 'From:'.EMAIL);
+ 
+            } else { // If it did not run OK.
+            	$errors['mail']= 'You could not be registered due to a system error. We apologize for any inconvenience.';
+            }
+
 	        $data['success'] = true;
 	        $data['message'] = 'Success!';
 	    }

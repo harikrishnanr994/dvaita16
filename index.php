@@ -23,7 +23,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <link rel="stylesheet" type="text/css" href="css/fancybox.css" />
     <link rel="stylesheet" type="text/css" href="css/multicolor.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
-
 </head>
 <body>
 
@@ -601,7 +600,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </div>
 </div>
 
-<!-- Register Section -->
+<!--  Section -->
 <div id="register" class="section">
     <div class="section-title"><i class="icon-pencil"></i><strong>Register</strong>
         <p>Register now</p>
@@ -615,7 +614,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span5 offset4">
-<<<<<<< HEAD:index.php
                 <div id="message" class="alert alert-success">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Success!</strong> You have been registered successfully with us!. Kindly check your mail to activate your account and ensure your accommodation.
@@ -625,20 +623,20 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>Registration failed!. Try again
                 </div>
-=======
->>>>>>> origin/master:index.html
-
                 <form id="reg-form" action="process.php" class="contact-form" method="post">
                     <fieldset>
                         <div id="name-group" class="form-group">
                         <input type="text" placeholder="Name" class="form-control" class="span3" name="name" id="name" required/>
                     </div>
                     <div id="email-group" class="form-group">
-                        <input type="email" placeholder="Email" class="form-control" class="span3" name="email" id="email" required/>
+                        <input type="email" placeholder="Email" class="form-control" class="span3" name="email" id="email" required onBlur="checkAvailability()"/><span id="availability-status"></span>
+                        <div id='email'></div>
                     </div>
 
                         <input type="password" placeholder="Password" class="form-control" class="span3" name="pwd" id="pwd" required/>
+                        <div id='password'></div>
                         <input type="password" placeholder="Confirm Password" class="form-control" class="span3" name="cpwd" id="cpwd" required/>
+                        <div id='cpassword'></div>
                         <input type="number" placeholder="Phone" class="form-control" class="span3" name="phone" id="phone" required/>
                         <input type="text" placeholder="College" class="form-control" class="span3" name="college" id="college" required/>
                         
@@ -654,7 +652,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                           </span>
                             Need accommodation
                         </div>
-                        <button type="submit" class="btn btn-large">Submit</button>
+                        <button type="submit" class="btn btn-large" id="submit-btn">Submit</button>
                         <button type="reset" class="btn btn-large">Reset</button>
                         <button type="reset" class="btn btn-large goto-login">Already Registered ?</button>
 
@@ -681,16 +679,22 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span5 offset4">
+                <div id="message" class="alert alert-success">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Success!</strong>
+                </div>
 
-                <form id="login11" action="#" class="contact-form" method="post">
+                <div id="error" class="alert alert-danger">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Error!</strong>Login failed!. Try again
+                </div>
+                <form id="login-form" action="#" class="contact-form" method="post">
                     <fieldset>
 
                         <div id="email-group1" class="form-group">
                             <input type="email" placeholder="Email" class="form-control" class="span3" name="email" id="email" required/>
                         </div>
-
                         <input type="password" placeholder="Password" class="form-control" class="span3" name="pwd" id="pwd" required/>
-                        <input type="password" placeholder="Confirm Password" class="form-control" class="span3" name="cpwd" id="cpwd" required/>
 
 
 
@@ -2589,7 +2593,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!-- Scripts -->  
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/register.js"></script>
-<script type="text/javascript" src="js/validate.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -2603,8 +2606,9 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.js"></script>
-<script type="text/javascript" src="/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/js/jquery.validation.functions.js"></script>
         <script type="text/javascript">
+
             /* <![CDATA[ */
             jQuery(function(){
                 jQuery("#phone").validate({
