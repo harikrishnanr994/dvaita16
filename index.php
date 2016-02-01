@@ -367,7 +367,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-linux"></i>
                         <h3>workshop on <span>GNU/Linux and Embedded Systems</span></h3>
 
-                        <p>This is a beginner level hands-on workshop ideal for 1st/2nd year  B.Tech students with knowledge of C programming. </p>
+                        <p>This is a beginner level hands-on workshop for   students with knowledge of C programming. </p>
                         <a href="#" class="btn goto-embedded">Details</a></div>
                 </li>
 
@@ -385,27 +385,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-codezilla">Details</a></div>
                 </li>
-
-
-
-
-            </ul>
-        </div>
-        <hr />
-
-        <h1 class="main-title"><span>General </span>events</h1>
-        <div class="flexslider">
-
-            <!-- TECHnical List Carousel -->
-            <ul class="thumbnails slides">
-
-                <!-- Service Detail -->
-                <li class=" goto-bestengineer">
-                    <div class="thumbnail"><i class="icon-male"></i>
-                        <h3><span>Mr./Ms. Dvaita</span> </h3>
+                <li class=" goto-shutterbug">
+                    <div class="thumbnail"><i class="icon-camera"></i>
+                        <h3><span>Shutterbug</span> </h3>
                         <h5>Subtitle here</h5>
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
-                        <a href="#" class="btn goto-bestengineer">Details</a></div>
+                        <a href="#" class="btn goto-shutterbug">Details</a></div>
                 </li>
 
                 <!-- Service Detail -->
@@ -416,20 +401,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-startaction">Details</a></div>
                 </li>
-                <!-- Service Detail -->
-                <li class=" goto-mrcad">
-                    <div class="thumbnail"><i class="icon-building"></i>
-                        <h3><span>Mr. CAD</span> </h3>
-                        <h5>Subtitle here</h5>
-                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
-                        <a href="#" class="btn goto-mrcad">Details</a></div>
-                </li>
 
 
 
             </ul>
         </div>
-        <hr />
+
 
 
     </div>
@@ -572,21 +549,17 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <div class="container">
         <hr />
         <h1 class="main-title"><span>Contact</span> Us</h1>
-        <p class="lead">we are specialized in web</p>
-        <div class="row">
-            <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-            </div>
-        </div>
+        <p class="lead"></p>
+
         <div class="row">
             <div class="span12">
 
                 <!-- Contact address -->
                 <h2>We Are <span>Here</span></h2>
                 <address>
-                    795 Folsom Ave, Suite 600<br />
-                    (123) 456-7890<br />
-                    <a href="mailto:#">first.last@example.com</a>
+                    NSS COLLEGE OF ENGINEERING<br />
+                    AKATHETHARA P.O. , PALAKKAD<br />
+                    <a href="mailto:contact@dvaita16.com">contact@dvaita16.com</a>
                 </address>
 
                 <!-- Contact form -->
@@ -614,12 +587,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span5 offset4">
-                <div id="message" class="alert alert-success">
+                <div id="message" class=" span3  alert alert-success">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Success!</strong> You have been registered successfully with us!. Kindly check your mail to activate your account and ensure your accommodation.
                 </div>
 
-                <div id="error" class="alert alert-danger">
+                <div id="error" class=" span3 alert alert-danger">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>Registration failed!. Try again
                 </div>
@@ -706,6 +679,9 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </form>
             </div>
         </div>
+    <hr />
+
+
     </div>
 </div>
 
@@ -713,7 +689,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!--Boombox Section -->
 <div id="boombox" class="section">
     <div class="section-title"><i class="icon-instagram"></i><strong>Boom BOX</strong>
-        <p><span> Inter-college </span> <span>dance </span>competition</p>
+        <p><span>“Dancing with the feet is one thing, but dancing with the heart is another"</span></p>
     </div>
 
     <!-- About Content -->
@@ -721,15 +697,19 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/banner.jpg"  alt="banner"  />
+        <img class="pic" src="img/boombox.jpg"  alt="boombox"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Dance is the most aesthetic form of art that our race has ever developed. <br>
+                    Dancing speaks a language right from the heart. Do you have what it takes to beat the best? <br>
+                    Then put on your dancing shoes, Compete with the finest crews across the nation and stand a chance to be the ultimate dancing crew.<br> 
+                    The stage is set, dancers pumped up. Let the dance begin.
+                </p>
             </div>
         </div>
 
@@ -737,15 +717,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. A team should have a minimum of 3 members.</ol>
-                    <ol style="color: #ffffff;  "  > 2. There is no restriction on the maximum number of participants, </ol>
+                    <ol style="color: #ffffff;  "  > 2. There is no restriction on the maximum number of participants,</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;but a maximum of only 15 members are allowed at a time on stage.</ol>
-                    <ol style="color: #ffffff;  "  > 3. Time limit for each team is 12 minutes (including narration, stage set up etc..)</ol>
+                    <ol style="color: #ffffff;  "  > 3. Time limit for each team is 12 minutes (including narration, stage set up etc.)</ol>
                     <ol style="color: #ffffff;  "  > 4. The teams should not use any kind of explosives that would disrupt the stage.</ol>
                     <ol style="color: #ffffff;  "  > 5. Spot registration is mandatory.</ol>
                     <ol style="color: #ffffff;  "  > 6. There are no restrictions on the choice of music.</ol>
@@ -843,7 +822,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="embedded" class="section">
     <div class="section-title"><i class="icon-coffee"></i><strong>Workshop on</strong>
-        <p><span> Introduction to GNU/Linux and Embedded Systems programming using TI Launchpads/Energia.</span></p>
+        <p><span> GNU/Linux and Embedded Systems .</span></p>
     </div>
 
     <!-- About Content -->
@@ -859,7 +838,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">This is a beginner level hands-on workshop ideal for 1st/2nd year  B.Tech students with knowledge of C programming. Topics covered<br>
+                <p class="text-center margin-bottom">This is a beginner level hands-on workshop ideal for  students with knowledge of C programming. Topics covered<br>
 
                     are: an introduction to GNU/Linux and Free Software,  working with Linux commands, programming Texas Instrument's ARM <br>
 
@@ -2452,7 +2431,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="wikisurf" class="section">
     <div class="section-title"><i class="icon-book"></i><strong>Wikisurf</strong>
-        <p><span> How well</span>have you <span> Wiki-ed ?</span></p>
+        <p><span> Have</span> you <span> Wiki-ed enough ?</span></p>
     </div>
 
     <!-- About Content -->
@@ -2579,7 +2558,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <!-- Switch Section -->
-<div id="switch" class="switch-section "><i class="icon-reorder icon-label"></i><div class="switch-header"><h5 >Events</h5></div>
+<div id="switch" class="switch-section "><div class="switch-header"><h5 >Events</h5></div>
     <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-hacknight"><i class="icon-coffee"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
                                           <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
                                             <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-film"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
