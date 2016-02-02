@@ -60,10 +60,10 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         </li>
 
         <!-- Slider Single Item -->
-        <li><a href="#"><img src="img/slide3.jpg" alt="Photo" /></a>
+        <li><a href="#"><img src="img/boombox_slide.gif" alt="boombox" /></a>
             <div class="slides-detail">
-                <h1>This is the third <span>title</span></h1>
-                <span class="lead">Dapibus ac <strong>Cras in</strong>, egestas justo odio</span></div>
+                <h1><span>BOOMBOX</span></h1>
+                <span class="lead"><strong>Dancing with the feet is one thing, but dancing with the heart is anothe</strong></span></div>
         </li>
     </ul>
 
@@ -741,9 +741,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Ashwin Jayakumar  - +91 808 988 3350  </h4>
+                <h4 style="color: #fff" align="center">Manu   - +91 960 530 9092  </h4>
                 <br><br>
 
             </div>
@@ -756,69 +755,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <!-- tech event Section -->
-<div id="hacknight" class="section">
-    <div class="section-title"><i class="icon-coffee"></i><strong>HackNight</strong>
-        <p>A Group Coding Event <span> of Enthusiastic Coders.</span></p>
-    </div>
 
-    <!-- About Content -->
-    <div class="container">
-        <hr />
-
-
-        <img class="pic" src="img/Hackathon.jpg"  alt="banner"  />
-
-
-        <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
-
-        <div class="row">
-            <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-            </div>
-        </div>
-
-        <hr />
-        <!-- Rules -->
-
-        <h1 class="main-title" > <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
-
-        <div class="row">
-            <div class="span6 offset3">
-                <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
-                </ul>
-            </div>
-        </div>
-
-        <hr />
-        <!-- Contact -->
-        <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
-
-        <div class="row">
-            <div class="span6 offset3">
-
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
-                <br><br>
-
-            </div>
-        </div>
-
-
-
-    </div>
-</div>
 
 <div id="embedded" class="section">
     <div class="section-title"><i class="icon-coffee"></i><strong>Workshop on</strong>
@@ -851,14 +788,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Rules -->
 
-        <h1 class="main-title" > <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
+        <h1 class="main-title" > <span> Regulations </span></h1>
 
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
+
                 </ul>
             </div>
         </div>
@@ -871,9 +806,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+
                 <br><br>
 
             </div>
@@ -1005,9 +938,9 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Suraj Suresh   - +91 994 692 0110  </h4>
+                <h4 style="color: #fff" align="center">Abel Kuruvila   - +91 808 935 2216  </h4>
+                <h4 style="color: #fff" align="center">Deepa S - +91 755 991 5153  </h4>
                 <br><br>
 
             </div>
@@ -1020,7 +953,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="langx" class="section">
     <div class="section-title"><i class="icon-xing"></i><strong>Language X</strong>
-        <p>How well can you<span> Adapt to a New Language ?</span></p>
+        <p><span>Learn the principle, Abide by the principle, Dissolve the principle”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1034,21 +967,18 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
            </div>
         <h1 class="main-title"><span>Description</span></h1>
         <p class="lead">
-            Hack jacker is mainly concerned with
+            The coding contest that pushes you beyond your comfort zones.<br>
+            The contest is aimed at the grasping power of contestants and their ability to learn and code <br>
+            in an esoteric programming language.Within a given time the participants have to study <br>
+            the language provided and solve problem based on the logic and codes of the program.
+
 
         </p>
 
         <div class="row">
             <div class="span6 offset3">
                 <p class="text-center margin-bottom"> <br>
-                    1. checking the contenders knowledge on current cyber vulnerability<br>
-                    2. Their skills on prevention measures<br>
-                    3. Penetration testing<br>
-                    4. Vulnerability Exploitation skills<br>
-                    5. Familiarisation with common used tools for vulnerability assessment.<br>
-                    6. Knowledge in dark web<br>
-                    7. Google hacks<br>
-                    8. Basic Linux and windows commands.</p>
+                    </p>
             </div>
         </div>
 
@@ -1056,19 +986,20 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title" style="color:#ffffff "> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 1.The competition will be conducted in two stages.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Preliminary screening round will contain 20 MCQ questions from basic C language.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Selected candidates will proceed to the coding round.</ol>
+                    <ol style="color: #ffffff;  "  > 4. In Coding round, the participants would be given the documentation for an esoteric coding language.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Participants has to code for a given problem using the syntax and logic of the given language.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Apart from the documentation, the participants are not allowed to refer anything else.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Quickest person to solve the problem will be declared as the winner.</ol>
+                    <ol style="color: #ffffff;  "  > 8. In case of a tie, the scores from the preliminary screening round would  be considered.</ol>
+                    <ol style="color: #ffffff;  "  > 9. Organising committee have the right to disqualify a participant, in the event of any misconduct or malpractice.</ol>
+                    <ol style="color: #ffffff;  "  > 10. College ID card is mandatory for registration.</ol>
                 </ul>
             </div>
         </div>
@@ -1081,9 +1012,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Anil - +918129542772  </h4>
                 <br><br>
 
             </div>
@@ -1096,7 +1025,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="sidhandics" class="section">
     <div class="section-title"><i class="icon-file-alt"></i><strong>Sidhandics</strong>
-        <p>The<span> Paper presentation </span>event.</p>
+        <p><span> “Exchange a thought provoking idea”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1110,41 +1039,33 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         </div>
         <h1 class="main-title"><span>Description</span></h1>
         <p class="lead">
-            Hack jacker is mainly concerned with
+            Sidhandhics provides a platform to put forward your innovative ideas related to computer science. <br>
+            Submit your ideas and get invited for a live presentation during Dvaita ‘16. <br>
+            Participation can be individual or group (not more than 5).
+
 
         </p>
 
-        <div class="row">
-            <div class="span6 offset3">
-                <p class="text-center margin-bottom"> <br>
-                    1. checking the contenders knowledge on current cyber vulnerability<br>
-                    2. Their skills on prevention measures<br>
-                    3. Penetration testing<br>
-                    4. Vulnerability Exploitation skills<br>
-                    5. Familiarisation with common used tools for vulnerability assessment.<br>
-                    6. Knowledge in dark web<br>
-                    7. Google hacks<br>
-                    8. Basic Linux and windows commands.</p>
-            </div>
-        </div>
+
 
         <hr />
         <!-- Rules -->
 
         <h1 class="main-title" > <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  >1. Maximum of five authors per paper.</ol>
+                    <ol style="color: #ffffff;  "  >2. Undergraduate students from any institute are eligible to participate.</ol>
+                    <ol style="color: #ffffff;  "  >3. Interested candidates may send the soft copy of the paper (PDF) to </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sidhandhics@dvaita16.com" > sidhandhics@dvaita16.com</a>on or before 12th February 2016.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Name, e-mail ID and contact number of authors should be mentioned in the e-mail.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Subject of the e-mail should specify the domain of CS under which the paper is</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;submitted. Eg:- Data mining, Cloud Computing etc.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Submitted papers should be in the following format:</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full length paper not exceeding 4 pages of A4 size in IEEE double column format.</ol>
+
                 </ul>
             </div>
         </div>
@@ -1157,9 +1078,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Durganand - +918281357181</h4>
                 <br><br>
 
             </div>

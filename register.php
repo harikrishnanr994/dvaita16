@@ -636,7 +636,6 @@ if($pwd == $cpwd) {
             	$errors['mail']= 'You could not be registered due to a system error.
             	 We apologize for any inconvenience.';
             }
-
 	        $data['success'] = true;
 	        $data['message'] = 'Success!';
 	    }
