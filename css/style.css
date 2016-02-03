@@ -527,7 +527,7 @@ hr {
 	right: 86%;
 }
 
-.section#register {
+.section#login {
 	right: 74%;
 }
 
@@ -662,7 +662,7 @@ hr {
 	right: -100%;
 }
 
-.section#login {
+.section#register {
 	right: -100%;
 }
 
@@ -1444,44 +1444,36 @@ body {
 }
 
 	/* Sections About */
-	.section#boombox {
+	.section#about {
 		right: 86%;
 	}
-	.section#respawn {
-		right: 76%;
-	}
-	.section#bestengineer  {
-		right: 66%;
+
+	.section#login {
+		right: 74%;
 	}
 
-	/* Sections About */
-	.section#about {
-		right: 56%;
-	}
-
-	/* Sections Services */
 	.section#services {
-		right: 46%;
+		right: 62%;
 	}
 
 	.section#predvaita {
-		right: 36%;
+		right: 50%;
 	}
 
-	/* Sections Portfolio */
-	.section#folio {
+	.section#contact {
+		right: 38%;
+	}
+	.section#bestengineer  {
 		right: 26%;
 	}
 
-	/* Sections register */
-	.section#register {
-		right: 16%;
+	.section#boombox {
+		right: 14%;
+	}
+	.section#respawn {
+		right: 2%;
 	}
 
-	/* Sections Contact */
-	.section#contact {
-		right: 6%;
-	}
 	.section#hackerjack {
 		right: -100%;
 	}
@@ -1562,6 +1554,9 @@ body {
 		right: -100%;
 	}
 	.section#roadies {
+		right: -100%;
+	}
+	.section#register {
 		right: -100%;
 	}
 
