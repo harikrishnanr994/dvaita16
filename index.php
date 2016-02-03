@@ -594,7 +594,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>Registration failed!. Try again
                 </div>
-                <form id="reg-form" action="process.php" class="contact-form" method="post">
+                <form id="reg-form" action="register.php" class="contact-form" method="post">
                     <fieldset>
                         <div id="name-group" class="form-group">
                         <input type="text" placeholder="Name" class="form-control" class="span3" name="name" id="name" required/>
