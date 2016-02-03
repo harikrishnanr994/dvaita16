@@ -490,7 +490,14 @@ hr {
 	height: 70%;
 
 }
+ol{
+	color: #ffffff;
+	font-size: 15px;
 
+}
+p{
+	color: #ffffff;
+}
 
 /* Sections */
 .section {
@@ -506,18 +513,7 @@ hr {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
-.section1{
-	width: 100%;
-	height: 100%;
-	position: absolute ;
-	top: 0;
-	left: 0;
-	transition: all linear 0.25s;
-	-ms-transition: all linear 0.25s;
-	-moz-transition: all linear 0.25s;
-	-webkit-transition: all linear 0.25s;
-	-o-transition: all linear 0.25s;
-}
+
 .section:hover {
 	cursor: pointer;
 }

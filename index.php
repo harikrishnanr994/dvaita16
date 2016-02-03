@@ -85,7 +85,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">Learn it , code it , hack it , loop it</p>
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">The Computer Science & Engineering department of NSS College of Engineering, Palakkad is organizing a National level Technical fest - DVAITA'16 on 19th and 20th February, 2016.<br>
+                <p class="text-center margin-bottom " style="color: #ffffff">The Computer Science & Engineering department of NSS College of Engineering, Palakkad is organizing a National level Technical fest - DVAITA'16 on 19th and 20th February, 2016.<br>
 
                     DVAITA that contributes some of the core Indian beliefs on the nature of reality finds its relevance on the Binary system of our scientific world. This is the reason why this event got entitled by the name "DVAITA".<br>
 
@@ -135,7 +135,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-magic"></i>
                         <h3><span>Code Maestro</span> </h3>
                         <h5>“Talk is cheap. Show me the code”</h5>
-                        <p>A battleground for programmers to unleash the coder in them.</p>
+                        <p style="color: #ffffff">A battleground for programmers to unleash the coder in them.</p>
                         <a href="#" class="btn goto-maestro">Details</a></div>
                 </li>
                 <!-- Service Detail -->
@@ -143,7 +143,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-bug"></i>
                         <h3><span>Swat the bug!</span> </h3>
                         <h5>“It’s not a bug, It’s an undocumented feature”</h5>
-                        <p>Programming is not just a science, but an art.</p>
+                        <p style="color: #ffffff">Programming is not just a science, but an art.</p>
                         <a href="#" class="btn goto-swatthebug">Details</a></div>
                 </li>
 
@@ -152,7 +152,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-desktop"></i>
                         <h3><span>Hacker Jack</span> </h3>
                         <h5>“Never trust a programmer in a suit”</h5>
-                        <p>He who exceeds the boundaries of literate knowledge excels in the art of penetration testing.</p>
+                        <p style="color: #ffffff">He who exceeds the boundaries of literate knowledge excels in the art of penetration testing.</p>
                         <a href="#" class="btn goto-hackerjack">Details</a></div>
                 </li>
 
@@ -161,7 +161,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-xing"></i>
                         <h3><span>Language X</span> </h3>
                         <h5>”Learn the principle, Abide by the principle, Dissolve the principle”</h5>
-                        <p>The coding contest that pushes you beyond your comfort zones.</p>
+                        <p style="color: #ffffff">The coding contest that pushes you beyond your comfort zones.</p>
                         <a href="#" class="btn goto-langx">Details</a></div>
                 </li>
 
@@ -170,7 +170,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-bar-chart"></i>
                         <h3><span>Bash'em up!</span> </h3>
                         <h5>“It is easier to port a shell than a shell script”e</h5>
-                        <p>Show off your advanced shell scripting skills</p>
+                        <p style="color: #ffffff">Show off your advanced shell scripting skills</p>
                         <a href="#" class="btn goto-bashemup">Details</a></div>
                 </li>
 
@@ -179,7 +179,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-code"></i>
                         <h3><span>Codezilla</span> </h3>
                         <h5>“Treat your code like poetry”</h5>
-                        <p>Think you have the mad skills to be a cracker jack programmer?</p>
+                        <p style="color: #ffffff">Think you have the mad skills to be a cracker jack programmer?</p>
                         <a href="#" class="btn goto-codezilla">Details</a></div>
                 </li>
 
@@ -188,7 +188,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-code-fork"></i>
                         <h3><span>Code Swap</span> </h3>
                         <h5>“It is all about teamwork”</h5>
-                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
+                        <p style="color: #ffffff">Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
                         <a href="#" class="btn goto-codeswap">Details</a></div>
                 </li>
 
@@ -197,7 +197,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-file-alt"></i>
                         <h3><span>Sidhandhics</span> </h3>
                         <h5>Subtitle here</h5>
-                        <p>Calculate the Chemistry between you and your buddy. Program and Debug it and Expect a Switch to the next.</p>
+                        <p style="color: #ffffff"> Calculate the Chemistry between you and your buddy. Program and Debug it and Expect a Switch to the next.</p>
                         <a href="#" class="btn goto-sidhandics">Details</a></div>
                 </li>
             </ul>
@@ -216,7 +216,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-male"></i>
                         <h3><span>Best engineer</span> </h3>
                         <h5>“Designed to lead, Lead to design”</h5>
-                        <p>The thing about being the best is that you can only get better.</p>
+                        <p style="color: #ffffff">The thing about being the best is that you can only get better.</p>
                         <a href="#" class="btn goto-bestengineer">Details</a></div>
                 </li>
 
@@ -225,7 +225,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-camera-retro"></i>
                         <h3><span>Start, Action, Cut</span> </h3>
                         <h5>“Creative without strategy is called art, creative with strategy is called advertising”</h5>
-                        <p>Start action cut is an Ad film contest which is bound to thrill the young talents.</p>
+                        <p style="color: #ffffff">Start action cut is an Ad film contest which is bound to thrill the young talents.</p>
                         <a href="#" class="btn goto-startaction">Details</a></div>
                 </li>
                 <!-- Service Detail -->
@@ -233,7 +233,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-building"></i>
                         <h3><span>Mr. CAD</span> </h3>
                         <h5>“CREATE A Difference”</h5>
-                        <p>Reveal the magic of new perspective and  manifest your skill in AutoCAD. </p>
+                        <p style="color: #ffffff">Reveal the magic of new perspective and  manifest your skill in AutoCAD. </p>
                         <a href="#" class="btn goto-mrcad">Details</a></div>
                 </li>
 
@@ -242,7 +242,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-camera"></i>
                         <h3><span>ShutterBug</span> </h3>
                         <h5>“Eyes like shutter, Mind like lens”</h5>
-                        <p>The Photography contest, "Shutterbug"</p>
+                        <p style="color: #ffffff">The Photography contest, "Shutterbug"</p>
                         <a href="#" class="btn goto-shutterbug">Details</a></div>
                 </li>
 
@@ -251,7 +251,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-gamepad"></i>
                         <h3><span>Respawn</span> </h3>
                         <h5>“Gamers  don’t  die, they  just RESPAWN!!!" </h5>
-                        <p>Ready for an astounding gaming experience? Here you go! </p>
+                        <p style="color: #ffffff">Ready for an astounding gaming experience? Here you go! </p>
                         <a href="#" class="btn goto-respawn">Details</a></div>
                 </li>
 
@@ -260,14 +260,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-question-sign"></i>
                         <h3><span>High Q</span> </h3>
                         <h5>“Quick on Buzz. Right.”</h5>
-                        <p>Flex you neurones to catch hold of the fleeting facts.</p>
+                        <p style="color: #ffffff">Flex you neurones to catch hold of the fleeting facts.</p>
                         <a href="#" class="btn goto-highq">Details</a></div>
                 </li>
                 <li class=" goto-contraption">
                     <div class="thumbnail"><i class="icon-cog"></i>
                         <h3><span>Break In Style</span> </h3>
                         <h5>“d-STRUCT 2 re-STRUCT”</h5>
-                        <p>Break In Style is the kind of event which puts your engineering skill set to the test.</p>
+                        <p style="color: #ffffff">Break In Style is the kind of event which puts your engineering skill set to the test.</p>
                         <a href="#" class="btn goto-contraption">Details</a></div>
                 </li>
 
@@ -276,7 +276,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-fire"></i>
                         <h3><span>Crossfire</span> </h3>
                         <h5>“Intellectuals Debate. Idiots Argue”</h5>
-                        <p>It is better to debate a question than to settling it than to settle a question without debating it.</p>
+                        <p style="color: #ffffff">It is better to debate a question than to settling it than to settle a question without debating it.</p>
                         <a href="#" class="btn goto-crossfire">Details</a></div>
                 </li>
                 <!-- Service Detail -->
@@ -284,7 +284,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-map-marker"></i>
                         <h3><span>Be the pirate!</span> </h3>
                         <h5>“Lost at Sea? Let the hunt begin”</h5>
-                        <p>Be The Pirate! Is a game  in which a team try to find hidden objects or places by using a series of clues.</p>
+                        <p style="color: #ffffff">Be The Pirate! Is a game  in which a team try to find hidden objects or places by using a series of clues.</p>
                         <a href="#" class="btn goto-pirate">Details</a></div>
                 </li>
 
@@ -293,7 +293,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-question"></i>
                         <h3><span>Mysteriarch</span> </h3>
                         <h5>“Not so Elementary, dear Watson”</h5>
-                        <p>Do you have a team of two to be the next Sherlock and Watson to unravel the mysteries behind the scenes?</p>
+                        <p style="color: #ffffff">Do you have a team of two to be the next Sherlock and Watson to unravel the mysteries behind the scenes?</p>
                         <a href="#" class="btn goto-mysteriarch">Details</a></div>
                 </li>
 
@@ -302,7 +302,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-rocket"></i>
                         <h3><span>HydroLaunch</span> </h3>
                         <h5>“ Let’s splash off!!!”</h5>
-                        <p>Have you ever experienced the magic of Aerodynamics?</p>
+                        <p style="color: #ffffff">Have you ever experienced the magic of Aerodynamics?</p>
                         <a href="#" class="btn goto-hudrolaunch">Details</a></div>
                 </li>
 
@@ -311,7 +311,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-lightbulb"></i>
                         <h3><span>Digital Disco</span> </h3>
                         <h5>“Turn on the lights in your head”</h5>
-                        <p>Are you fascinated by the twinkling of LEDs?</p>
+                        <p style="color: #ffffff">Are you fascinated by the twinkling of LEDs?</p>
                         <a href="#" class="btn goto-disco">Details</a></div>
                 </li>
                 <li class=" goto-cognizance">
@@ -730,8 +730,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <ol style="color: #ffffff;  "  > 3. Time limit for each team is 12 minutes (including narration, stage set up etc.)</ol>
                     <ol style="color: #ffffff;  "  > 4. The teams should not use any kind of explosives that would disrupt the stage.</ol>
                     <ol style="color: #ffffff;  "  > 5. Spot registration is mandatory.</ol>
-                    <ol style="color: #ffffff;  "  > 6. There are no restrictions on the choice of music.</ol>
-                    <ol style="color: #ffffff;  "  > 7. The judges' decisions will be final.</ol>
+                    <ol style="color: #ffffff;"  > 6. There are no restrictions on the choice of music.</ol>
+                    <ol style="color: #ffffff;"  > 7. The judges' decisions will be final.</ol>
                 </ul>
             </div>
         </div>

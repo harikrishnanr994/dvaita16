@@ -245,7 +245,7 @@ $message = '<!DOCTYPE html>
 				                                                         <tr>
 				                                                            <td width="auto" align="center" valign="middle" height="40" style="background-color:#ea3a52; border-top-left-radius:5px; border-bottom-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px; background-clip: padding-box; font-size:17px; font-family: Helvetica, Arial, sans-serif; text-align:center; color:#ffffff; font-weight: bold; letter-spacing: 1px; padding-left:42px; padding-right:42px;">
 				                                                               <span style="color: #ffffff; font-size:17px;">
-				                                                               <a style="color: #ffffff; text-align:center;text-decoration: none;" href="www.dvaita16.com/activate.php?email=' . urlencode($email) . '&key='.$activation.'">Confirm my email</a>
+				                                                               <a style="color: #ffffff; text-align:center;text-decoration: none;" href="www.dvaita16.com/activated.php?email=' . urlencode($email) . '&key='.$activation.'">Confirm my email</a>
 				                                                               </span>
 				                                                            </td>
 				                                                         </tr>                                                     
