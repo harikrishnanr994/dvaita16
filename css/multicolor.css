@@ -148,3 +148,6 @@
 .section#login, .section-login i.active {
     background: #4caf50;
 }
+.section1#activate{
+    background: #009688;
+}
