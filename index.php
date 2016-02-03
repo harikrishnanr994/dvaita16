@@ -55,8 +55,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Slider Single Item -->
         <li><a href="#swatthebug" class="goto-swatthebug"><img src="img/swatbug.gif" alt="Photo" /></a>
             <div class="slides-detail">
-                <a href="#swatthebug" ><h1>“It’s not a bug, It’s an undocumented feature”</h1></a>
-                <span class="lead">Debug  <strong>the </strong>Codes</span></div>
+                <a href="#swatthebug" ><h1>Swat the Bug</h1></a>
+                <span class="lead">“It’s not a bug, It’s an undocumented feature”</span></div>
         </li>
 
         <!-- Slider Single Item -->
