@@ -47,7 +47,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <ul class="slides-container">
 
         <!-- Slider Single Item -->
-        <li><a href="#about" ><img src="img/slide1.jpg" alt="swat" /></a>
+        <li><a href="#about" ><img src="img/banner.jpg" alt="swat" /></a>
             <div class="slides-detail">
                 <div class="countdown styled"></div></div>
         </li>
