@@ -493,7 +493,7 @@ hr {
 /* Sections */
 .section {
 	margin-bottom : -5px;
-	width: 10%;
+	width: 12%;
 	height: 18%;
 	background-color: #000;
 	position: absolute ;
@@ -522,44 +522,56 @@ hr {
 	-webkit-animation: none;
 }
 /* Sections About */
-.section#boombox {
-    right: 86%;
-}
-.section#respawn {
-    right: 76%;
-}
-.section#bestengineer  {
-    right: 66%;
-}
 
-/* Sections About */
 .section#about {
-    right: 56%;
+	right: 88%;
 }
 
-/* Sections Services */
+.section#register {
+	right: 76%;
+}
+
 .section#services {
-    right: 46%;
+	right: 64%;
 }
 
 .section#predvaita {
-	right: 36%;
+	right: 52%;
 }
 
-/* Sections Portfolio */
-.section#folio {
-    right: 26%;
+.section#contact {
+	right: 40%;
+}
+.section#bestengineer  {
+	right: 28%;
 }
 
-/* Sections register */
-.section#register {
+.section#boombox {
     right: 16%;
 }
+.section#respawn {
+    right: 4%;
+}
+
+
+/* Sections About */
+
+
+/* Sections Services */
+
+
+
+
+/* Sections Portfolio */
+
+
+/* Sections register */
+
 
 /* Sections Contact */
-.section#contact {
-    right: 6%;
-}
+
+
+
 .section#hackerjack {
 	right: -100%;
 }

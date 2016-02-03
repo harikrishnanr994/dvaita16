@@ -410,8 +410,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     </div>
 </div>
 
-<!-- Portoflio Section -->
-<div id="folio" class="section">
+<!-- Portoflio Section
+<div  class="section">
     <div class="section-title"><i class="icon-briefcase"></i><strong>Sponsors</strong>
         <p> Sponsors  <span>Not available at present</span></p>
     </div>
@@ -532,9 +532,9 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="hero-unit text-center">
             <h2>efficiency and <span>reliability</span></h2>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention</p>
-            <a class="btn btn-large">Get a Quote</a></div>-->
+            <a class="btn btn-large">Get a Quote</a></div>
     </div>
-</div>
+</div>-->
 
 
 <!-- Contact Section -->
