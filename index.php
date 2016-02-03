@@ -707,7 +707,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <p class="text-center margin-bottom">Dance is the most aesthetic form of art that our race has ever developed. <br>
                     Dancing speaks a language right from the heart. Do you have what it takes to beat the best? <br>
                     Then put on your dancing shoes, Compete with the finest crews across the nation and stand a chance to be the ultimate dancing crew.<br> 
@@ -777,7 +777,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <p class="text-center margin-bottom">This is a beginner level hands-on workshop ideal for  students with knowledge of C programming. Topics covered<br>
 
                     are: an introduction to GNU/Linux and Free Software,  working with Linux commands, programming Texas Instrument's ARM <br>
@@ -846,7 +846,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
             </div>
         </div>
@@ -909,7 +909,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         </p>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <p class="text-center margin-bottom"> <br>
                     1. checking the contenders knowledge on current cyber vulnerability<br>
                     2. Their skills on prevention measures<br>
@@ -928,7 +928,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title" > <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. The competition will be based on individuals.</ol>
                     <ol style="color: #ffffff;  "  > 2.The first prelims of the competition will be an aptitude test </ol>
@@ -1001,7 +1001,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title" style="color:#ffffff "> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1.The competition will be conducted in two stages.</ol>
                     <ol style="color: #ffffff;  "  > 2. Preliminary screening round will contain 20 MCQ questions from basic C language.</ol>
@@ -1067,7 +1067,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title" > <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  >1. Maximum of five authors per paper.</ol>
                     <ol style="color: #ffffff;  "  >2. Undergraduate students from any institute are eligible to participate.</ol>
@@ -1334,7 +1334,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Code Swap is a team event consisting of 2 members in each team.</ol>
                     <ol style="color: #ffffff;  "  > 2. Participants should have basic programming knowledge of Java, Python, C/C++.</ol>
@@ -1404,7 +1404,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Codezilla is an online coding contest for individuals commencing on February 13, 2016.</ol>
                     <ol style="color: #ffffff;  "  > 2. Codezilla is hosted by HackerRank.</ol>
@@ -1537,7 +1537,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Participation is open to students from colleges and schools.</ol>
                     <ol style="color: #ffffff;  "  > 2. A team should not exceed a maximum of 3 members.</ol>
@@ -1676,7 +1676,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. There will be three rounds each with a deadline.</ol>
                     <ol style="color: #ffffff;  "  > 2. The FIRST ROUND consists of a task to complete a 2D figure within 10 minutes.</ol>
@@ -1966,7 +1966,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. College ID card is mandatory for registration.</ol>
                     <ol style="color: #ffffff;  "  > 2. Each team can have a maximum of 5 members.</ol>
@@ -2038,7 +2038,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Crossfire will be a team event comprising of two members in each team.</ol>
                     <ol style="color: #ffffff;  "  > 2. College ID card is mandatory for registration.</ol>
@@ -2185,7 +2185,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <p class="lead">we are specialized in web</p>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
                     <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
@@ -2252,7 +2252,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Only plastic soft drink bottles are to be used for the rocket body.</ol>
                     <ol style="color: #ffffff;  "  > 2. The water rocket must use only compressed ambient atmospheric air as its source of energy. </ol>
@@ -2321,7 +2321,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. The team should not consist of more than two members.</ol>
                     <ol style="color: #ffffff;  "  > 2. A preliminary MCQ test regarding digital and analog circuits will be conducted.</ol>
@@ -2392,7 +2392,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Each team shall consist a maximum of 2 participants.</ol>
                     <ol style="color: #ffffff;  "  > 2. All the participants must submit their college ID card during registration.</ol>
@@ -2457,7 +2457,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. A source page and a destination page will be given.</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eg. Source page: Boeing 747 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Destination page: Jackie Chan</ol>
@@ -2545,7 +2545,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. The participants will have to compete individually, and there is no groups.</ol>
                     <ol style="color: #ffffff;  "  > 2. The decisions of organising committee will be final and non-negotiable.</ol>
