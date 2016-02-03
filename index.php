@@ -421,7 +421,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <h1 class="main-title">Our <span>Sponsors</span></h1>
         <p class="lead">Lorem ipsum dolor sit amet, <span>consectetuer</span> adipiscing elit.<br />
-            Sed diam <span>nonummy nibh</span> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>-->
+            Sed diam <span>nonummy nibh</span> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <!-- Filter
         <div id="folio-filters" class="filter">
@@ -695,7 +695,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/boombox.jpg"  alt="boombox"  />
+        <img class="pic" src="img/BoomBox.png"  alt="boombox"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -892,7 +892,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Hacking.jpg"  alt="Hacking"  />
+        <img class="pic" src="img/Hacking.png"  alt="Hacking"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -970,7 +970,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
        <div>
 
-        <img class="pic" src="img/Languagex.jpg"  alt="Languagex"  />
+        <img class="pic" src="img/Languagex.png"  alt="Languagex"  />
 
            </div>
         <h1 class="main-title"><span>Description</span></h1>
@@ -1042,7 +1042,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div>
 
-            <img class="pic" src="img/Psidhandics.jpg"  alt="Psidhandics"  />
+            <img class="pic" src="img/sidhandics.png"  alt="sidhandics"  />
 
         </div>
         <h1 class="main-title"><span>Description</span></h1>
@@ -1109,7 +1109,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div>
 
-            <img class="pic" src="img/Bashemup.jpg"  alt="Bashemup"  />
+            <img class="pic" src="img/Bashemup.png"  alt="Bashemup"  />
 
         </div>
         <h1 class="main-title"><span>Description</span></h1>
@@ -1172,7 +1172,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Swatthebug.jpg"  alt="banner"  />
+        <img class="pic" src="img/Swatthebug.png"  alt="swat the bug"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1240,7 +1240,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Codemeastro.jpg"  alt="Codemeastro"  />
+        <img class="pic" src="img/Codemaestro.png"  alt="Code meastro"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1303,7 +1303,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Codeswap.jpg"  alt="Codeswap"  />
+        <img class="pic" src="img/Codeswap.png"  alt="Code swap"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1379,7 +1379,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="codezilla"  />
+        <img class="pic" src="img/Codezilla.png"  alt="code zilla"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1445,7 +1445,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Bestengineer.jpg"  alt="Best Engineer"  />
+        <img class="pic" src="img/Bestengineer.png"  alt="Best Engineer"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1513,7 +1513,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/HighQ.jpg"  alt="HighQ"  />
+        <img class="pic" src="img/HighQ.png"  alt="HighQ"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1576,7 +1576,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Startactioncut.jpg"  alt="Startactioncut"  />
+        <img class="pic" src="img/Startactioncut.png"  alt="Start action cut"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1653,7 +1653,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Mrcad.jpg"  alt="Mrcad"  />
+        <img class="pic" src="img/Mrcad.png"  alt="Mr cad"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1713,7 +1713,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Shutterbug.jpg"  alt="Shutterbug"  />
+        <img class="pic" src="img/Shutterbug.png"  alt="Shutter bug"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1781,7 +1781,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Respawnarena.jpg"  alt="Respawn"  />
+        <img class="pic" src="img/Respawnarena.png"  alt="Respawn arena"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -1943,7 +1943,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="Mrcad"  />
+        <img class="pic" src="img/Contraption.png"  alt="Break in style"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2016,7 +2016,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="Shutterbug"  />
+        <img class="pic" src="img/Crossfire.png"  alt="Crossfire"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2087,7 +2087,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/Bethepirate.jpg"  alt="Bethepirate"  />
+        <img class="pic" src="img/Bethepirate.png"  alt="Be the pirate"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2160,7 +2160,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="Mrcad"  />
+        <img class="pic" src="img/Mysteriarch.png"  alt="Mysteryarch"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2225,7 +2225,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/waterrocket.jpg"  alt="Shutterbug"  />
+        <img class="pic" src="img/Hydrolaunch.png"  alt="Hydrolaunc"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2296,7 +2296,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="Respawn"  />
+        <img class="pic" src="img/digitaldisco.png"  alt="Digital Disco"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2367,7 +2367,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="Mrcad"  />
+        <img class="pic" src="img/Cognizance.png"  alt="Cognizance Battle"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2431,7 +2431,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="Shutterbug"  />
+        <img class="pic" src="img/wiki.png"  alt="WikiSurf"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
@@ -2520,7 +2520,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="Bethepirate"  />
+        <img class="pic" src="img/Roadies.png"  alt="Roadies"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
