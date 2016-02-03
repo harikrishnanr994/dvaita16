@@ -50,8 +50,8 @@ if($pwd == $cpwd) {
 
 
 
-/*
-$message = '<!DOCTYPE html>
+
+$message = <!DOCTYPE html>
 				<html>
 				   <head>
 				      <style type="text/css">        
@@ -152,7 +152,7 @@ $message = '<!DOCTYPE html>
 				                                             <!-- Logo: 179x40 pixels -->
 				                                             <tr>
 				                                                <td width="100%" align="center" valign="middle" class="devicewidthinner" style="text-align:center;">
-				                                                   <img width="179" height="40" src="img/logo-mail.png" alt="logo" border="0" style="border:none; outline:none; text-decoration:none;">
+				                                                   <img width="179" height="40" src="http://www.dvaita16.com/img/logo-mail.png" alt="logo" border="0" style="border:none; outline:none; text-decoration:none;">
 				                                                </td>
 				                                             </tr>
 				                                             <!-- End of Logo -->
@@ -181,7 +181,7 @@ $message = '<!DOCTYPE html>
 				               <table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
 				                     <tr>
 				                        <td width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
-				                          <img width="600" border="0" height="203" alt="main image" style="display:block; border:none; outline:none; text-decoration:none;" src="img/main-image.jpg" class="bigimage">
+				                          <img width="600" border="0" height="203" alt="main image" style="display:block; border:none; outline:none; text-decoration:none;" src="http://www.dvaita16.com/img/main-image.jpg" class="bigimage">
 				                        </td>
 				                     </tr>
 				                     <tr>
@@ -310,7 +310,7 @@ $message = '<!DOCTYPE html>
 				                                             <tr>
 				                                                 <td width="187" height="116" align="center">
 				                                                   <a href="#">
-				                                                   <img src="img/features.jpg" alt="features" border="0" width="187" height="116" style="display:block; border:none; outline:none; text-decoration:none;" class="features">
+				                                                   <img src="http://www.dvaita16.com/img/features.jpg" alt="features" border="0" width="187" height="116" style="display:block; border:none; outline:none; text-decoration:none;" class="features">
 				                                                   </a>
 				                                                </td>
 				                                             </tr>
@@ -421,7 +421,7 @@ $message = '<!DOCTYPE html>
 				                                             <!-- Graph: 252x103 pixels -->
 				                                             <tr>
 				                                                <td width="260" height="103" align="center">
-				                                                   <img src="img/graph.png" alt="graph" border="0" width="260" height="103" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img">
+				                                                   <img src="http://www.dvaita16.com/img/graph.png" alt="graph" border="0" width="260" height="103" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img">
 				                                                </td>
 				                                             </tr>
 				                                             <!-- End of Graph -->
@@ -493,7 +493,7 @@ $message = '<!DOCTYPE html>
 				                                             <!-- Community: 252x103 pixels -->
 				                                             <tr>
 				                                                <td width="260" height="103" align="center">
-				                                                   <img src="img/community.png" alt="community" border="0" width="260" height="103" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img2">
+				                                                   <img src="http://www.dvaita16.com/img/community.png" alt="community" border="0" width="260" height="103" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img2">
 				                                                </td>
 				                                             </tr>
 				                                             <!-- End of Community -->
@@ -609,14 +609,14 @@ $message = '<!DOCTYPE html>
 				   </table>
 
 				  </body>
-				</html>';*/
+				</html>';
 				$subject = 'Registration Confirmation';
 				$headers  = 'MIME-Version: 1.0' . "\r\n";
 				$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 				$headers .= 'From: no-reply@dvaita16.com'."\r\n".
 				    'Reply-To: '."\r\n" .
 				    'X-Mailer: PHP/' . phpversion();
-				mail($email, $subject , "$message", $headers);
+				mail($email, $subject , $message, $headers);
 
 
 
