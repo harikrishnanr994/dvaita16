@@ -45,13 +45,7 @@ if($pwd == $cpwd) {
 	      
 	    mysqli_query($link, "INSERT INTO users (uid, name, password, salt, email, mobile, college, accommodation, activation, activated, gender) VALUES ('$uuid','$name','$encrypted_password','$salt','$email','$phone','$college','$accom','$activation','$activated','$gender')"); 
 	    if (mysqli_affected_rows($link) == 1) {
-
-
-
-
-
-
-$message = '<!DOCTYPE html>
+			$message = '<!DOCTYPE html>
 				<html>
 				   <head>
 				      <style type="text/css">        
@@ -245,7 +239,10 @@ $message = '<!DOCTYPE html>
 				                                                         <tr>
 				                                                            <td width="auto" align="center" valign="middle" height="40" style="background-color:#ea3a52; border-top-left-radius:5px; border-bottom-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px; background-clip: padding-box; font-size:17px; font-family: Helvetica, Arial, sans-serif; text-align:center; color:#ffffff; font-weight: bold; letter-spacing: 1px; padding-left:42px; padding-right:42px;">
 				                                                               <span style="color: #ffffff; font-size:17px;">
-				                                                               <a style="color: #ffffff; text-align:center;text-decoration: none;" href="www.dvaita16.com/activated.php?email=' . urlencode($email) . '&key='.$activation.'">Confirm my email</a>
+
+
+				                                                               <a style="color: #ffffff; text-align:center;text-decoration: none;" href="www.dvaita16.com/activate.php?email=' . $email . '&key='.$activation.'">Confirm my email</a>
+
 				                                                               </span>
 				                                                            </td>
 				                                                         </tr>                                                     
@@ -612,23 +609,11 @@ $message = '<!DOCTYPE html>
 				</html>';
 				$subject = 'Registration Confirmation';
 				$headers  = 'MIME-Version: 1.0' . "\r\n";
-				$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+				$headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
 				$headers .= 'From: no-reply@dvaita16.com'."\r\n".
 				    'Reply-To: '."\r\n" .
 				    'X-Mailer: PHP/' . phpversion();
 				mail($email, $subject , $message, $headers);
-
-
-
-
-
-
-
-
-
-
-
-
 	    
 	        $data['success'] = true;
 	        $data['message'] = 'Success!';
