@@ -4,7 +4,7 @@ require_once("config.php");
 $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
 ?>
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
@@ -877,7 +877,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="hackerjack" class="section">
     <div class="section-title"><i class="icon-desktop"></i><strong>Hacker Jack</strong>
-        <p>Offline <span> Hacking </span>Event.</p>
+        <p> <span>“Never trust a programmer in a suit”</span></p>
     </div>
 
     <!-- About Content -->
@@ -890,6 +890,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <h1 class="main-title"><span>Description</span></h1>
         <p class="lead">
+            He who exceeds the boundaries of literate knowledge excels in the art of penetration testing.<br>
+            So explore yourself in the world of cyber security and hack the Jack prize<br>
             Hack jacker is mainly concerned with
 
         </p>
@@ -912,7 +914,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title" > <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
@@ -1092,7 +1093,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="bashemup" class="section">
     <div class="section-title"><i class="icon-bar-chart"></i><strong>BASH EM UP</strong>
-        <p>The<span> UNIX shell scripting </span>competition. </p>
+        <p><span> “It is easier to port a shell than a shell script”</span> </p>
     </div>
 
     <!-- About Content -->
@@ -1106,30 +1107,19 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         </div>
         <h1 class="main-title"><span>Description</span></h1>
         <p class="lead">
-            Bash Em Up
+            Show off your advanced shell scripting skills and compete to win exciting prizes.<br>
+            Work your way through interesting tasks using only the bash shell.<br>
+            So get your terminals ready to Bash 'em Up!
+
 
         </p>
 
-        <div class="row">
-            <div class="span6 offset3">
-                <p class="text-center margin-bottom"> <br>
-                    1. checking the contenders knowledge on current cyber vulnerability<br>
-                    2. Their skills on prevention measures<br>
-                    3. Penetration testing<br>
-                    4. Vulnerability Exploitation skills<br>
-                    5. Familiarisation with common used tools for vulnerability assessment.<br>
-                    6. Knowledge in dark web<br>
-                    7. Google hacks<br>
-                    8. Basic Linux and windows commands.</p>
-            </div>
-        </div>
+
 
         <hr />
         <!-- Rules -->
 
         <h1 class="main-title" > <span> Rules </span></h1>
-        <p class="lead">The Rules and Regulations of the Event</p>
-
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
@@ -1153,9 +1143,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Shafeeq - +91 808 965 2690  </h4>
+                <h4 style="color: #fff" align="center">Sachin Krishnan - +91 812 959 8421  </h4>
                 <br><br>
 
             </div>
@@ -1168,7 +1157,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="swatthebug" class="section">
     <div class="section-title"><i class="icon-bug"></i><strong>Swat The Bug !</strong>
-        <p><span> Debug</span> The<span> Code</span></p>
+        <p><span>“It’s not a bug, It’s an undocumented feature”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1180,11 +1169,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Programming is not just a science, but an art. This event focuses on testing the <br>
+                    conceptual understanding of programming methodology to implement, test and debug the programs.</p>
             </div>
         </div>
 
@@ -1192,7 +1181,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span8 offset3">
@@ -1222,9 +1210,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Febin - +91 904 802 5743 </h4>
+                <h4 style="color: #fff" align="center">Vivek A V - +91 902 007 8321</h4>
                 <br><br>
 
             </div>
@@ -1238,7 +1225,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="maestro" class="section">
     <div class="section-title"><i class="icon-magic"></i><strong>Code Maestro</strong>
-        <p><span> Offline coding competition  </span>in a<span> particular language .</span></p>
+        <p><span> “Talk is cheap. Show me the code”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1250,11 +1237,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">A battleground for programmers to unleash the coder in them.<br>
+
+                    Do not miss this opportunity to  gratify the creative longings built deep within you. Come and have fun coding.</p>
             </div>
         </div>
 
@@ -1286,9 +1274,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Sreya - +91 949 525 8405  </h4>
+                <h4 style="color: #fff" align="center">Sathyasree - +91 815 697 4942  </h4>
                 <br><br>
 
             </div>
@@ -1301,7 +1288,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="codeswap" class="section">
     <div class="section-title"><i class="icon-code-fork"></i><strong>Code Swap</strong>
-        <p><span> Offline coding event</span><span> for a team of 2.</span></p>
+        <p><span> “It is all about teamwork”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1317,7 +1304,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Calculate the chemistry between you and your buddy. Operate on your skills ,Debug it and <strong>Expect a switch to the next</strong></p>
+                <p class="text-center margin-bottom">Code Swap is a coordination based programming challenge where the players <br>
+                    in a team will interchange their codes while coding.SWAPPING allows the players to code for, not only one, <br>
+                    but more than one program in different languages which makes it all more interesting and challenging.<br>
+                    However, the players must note that, in the event, time plays an important factor.<br>
+                    Here, the players must construct a code such that, it gets executed by using your programming <br>
+                    capabilities with the ability to get the desired result.<br>
+
+                    <strong>PREREQUISITE: Basic Programming knowledge of Java ,python,c/c++</strong>
+                </p>
             </div>
         </div>
 
@@ -1325,19 +1320,22 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 1. Code Swap is a team event consisting of 2 members in each team.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Participants should have basic programming knowledge of Java, Python, C/C++.</ol>
+                    <ol style="color: #ffffff;  "  > 3. The event will proceed in two rounds: Prelims and Finals.</ol>
+                    <ol style="color: #ffffff;  "  > 4. The Prelims will be a written test, based on logical and programming questions.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Both the members should score minimum marks in prelims to qualify for the final round.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Finals round will comprise of multiple language programs to check the team’s coordination </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skill and ability to correlate multiple task.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Both members will be asked to code two different programs in two different languages.</ol>
+                    <ol style="color: #ffffff;  "  > 8. Members will be asked to swap at a particular point of time and continue the coding.</ol>
+                    <ol style="color: #ffffff;  "  > 9. Apart from these, some additional rules will be disclosed on the spot. </ol>
+                    <ol style="color: #ffffff;  "  > 10. Organising committee have the right to disqualify a team, in the event of any misconduct or malpractice.</ol>
+                    <ol style="color: #ffffff;  "  > 11. College ID card is mandatory for registration.</ol>
                 </ul>
             </div>
         </div>
@@ -1366,7 +1364,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="codezilla" class="section">
     <div class="section-title"><i class="icon-code"></i><strong>CodeZilla</strong>
-        <p><span>An online coding   </span>event to be conducted<span> in Hackerrank.</span></p>
+        <p><span>“Treat your code like poetry”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1378,11 +1376,13 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Think you have the mad skills to be a cracker jack programmer? <br>
+                    Waiting for a cool way to show off your coding skills or are you just a super geek too <br>
+                    lazy to move out of your room? Then this is the right place for you!! Take part in our <br><strong></strong>International</strong> <br>
+                    level online coding contest and have a go at the amazing prizes up for grabs.</p>
             </div>
         </div>
 
@@ -1390,19 +1390,18 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 1. Codezilla is an online coding contest for individuals commencing on February 13, 2016.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Codezilla is hosted by HackerRank.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Participants can code directly on HackerRank interface.</ol>
+                    <ol style="color: #ffffff;  "  > 4. HackerRank supports 20 major languages.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Any case of code plagiarism will result in disqualification of both the users from the contest.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Please refrain from discussing strategy during the contest.</ol>
                     <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 7. For details regarding the rules, please visit: <a href="https://www.hackerrank.com/contests"> https://www.hackerrank.com/contests</a></ol>
                 </ul>
             </div>
         </div>
@@ -1415,9 +1414,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Sony - +91 944 768 2785  </h4>
+                <h4 style="color: #fff" align="center">Harikrishnan M K  - +91 940 084 3565  </h4>
                 <br><br>
 
             </div>
@@ -1432,7 +1430,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="bestengineer" class="section">
     <div class="section-title"><i class="icon-male"></i><strong>Best Engineer</strong>
-        <p><span> Are you </span>The<span> Best Engineer ?</span></p>
+        <p><span> “Designed to lead, Lead to design”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1448,7 +1446,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">The thing about being the best is that you can only get better.<br>
+                    A set of tasks have been set that shall test your grey matter.Those who can adapt, <br>
+                    improvise and implement easily shall find this as a cake walk.<br>
+
+                   <strong> To be the best you need to beat the rest.</strong> </p>
             </div>
         </div>
 
@@ -1456,7 +1458,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span8 offset3">
@@ -1484,9 +1485,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Ashwin Jayakumar - +91 808 988 3350  </h4>
                 <br><br>
 
             </div>
@@ -1499,7 +1498,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="highq" class="section">
     <div class="section-title"><i class="icon-question-sign"></i><strong>High Q</strong>
-        <p><span> Quiz </span><span> competition</span></p>
+        <p><span>“Quick on Buzz. Right.”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1515,7 +1514,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Flex you neurones to catch hold of the fleeting facts. Here is a chance to iterate your knowledge and unload your answers. If you think you have got what it takes to leave everyone biting the dust with your knowledge, this brain battle extravaganza is just the place to be. Welcome to the open quiz of Dvaita!!!</p>
             </div>
         </div>
 
@@ -1528,14 +1527,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 1. Participation is open to students from colleges and schools.</ol>
+                    <ol style="color: #ffffff;  "  > 2. A team should not exceed a maximum of 3 members.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Cross college teams are allowed.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Mr. Shibin Azad will be the Quiz Master.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Registration can be done online or on spot.</ol>
+                    <ol style="color: #ffffff;  "  > 6. The quiz will be dealing with general topics.</ol>
+                    <ol style="color: #ffffff;  "  > 7. The quiz will proceed in two stages.</ol>
+                    <ol style="color: #ffffff;  "  > 8. Eight teams will qualify to the final round.</ol>
+                    <ol style="color: #ffffff;  "  > 9. All the participants must submit their college ID card during registration.</ol>
                 </ul>
             </div>
         </div>
@@ -1548,9 +1548,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Hariprasad - +91 984 718 9695  </h4>
                 <br><br>
 
             </div>
@@ -1563,7 +1561,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="startaction" class="section">
     <div class="section-title"><i class="icon-film"></i><strong>Start Action Cut</strong>
-        <p><span> Ad Film</span><span> Competition</span></p>
+        <p><span> “Creative without strategy is called art, creative with strategy is called advertising”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1575,11 +1573,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Start action cut is an Ad film contest which is bound to thrill the young talents.
+                    It has become a necessity for students and institutes offering professional courses to develop their understanding
+                    of present marketing and advertising trends. Ad film making requires knowledge, sensibility and great communication
+                    skills to create an instant effect on audience. It is an excellent opportunity to exercise their creative skill and
+                    win exciting prizes.</p>
             </div>
         </div>
 
@@ -1592,16 +1593,17 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <ol    > 1. There is no subject /theme for the competition, any products, ideas, Or events can be advertised.</ol>
-                    <ol   > 2. The Contest is open to all (not only for students).</ol>
-                    <ol   > 3. Number of participants in a team: Min - 1; Max - 5</ol>
-                    <ol    > 4. Strict adherence to the time limit. Maximum 120 seconds Clip.</ol>
+                    <ol    > 1. There is no subject /theme for the competition, any products, ideas, or events can be advertised.</ol>
+                    <ol   > 2. The contest is open to all (anybody can participate).</ol>
+                    <ol   > 3. Number of participants in a team: Min - 1, Max - 5</ol>
+                    <ol    > 4. There will be strict adherence to time limit. The duration of the </ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AD film can be no longer than 120 seconds.</ol>
                     <ol  > 5. Any character, prop, place can be taken as per your creativity.</ol>
                     <ol   > 6. The video should not have any obscene or defamatory scenes in it.</ol>
                     <ol   > 7. Videos in any language other than English and Malayalam is also accepted, </ol>
-                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;but it needs to be subtitled in English.</ol>
+                    <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;but it needs to be subtitled in English. </ol>
                     <ol   > 8. Submitted video must be original, unpublished work and free from copyright issues. </ol>
-                    <ol   > 9. Each team have to send their Ad film to us on startactioncut@dvaita16.com(change)  </ol>
+                    <ol   > 9. Each team have to send their Ad film to us on <a href="mailto:startactioncut@dvaita16.com" >startactioncut@dvaita16.com</a> </ol>
                     <ol   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by 17th February 2016(12 p.m.). </ol>
                     <ol   > 10. Decisions of the judges shall be final and binding to all teams.</ol>
                     <ol   >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No complaints or correspondence will be entertained in this regard </ol>
@@ -1623,9 +1625,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Midhun - +91 890 784 5767  </h4>
                 <br><br>
 
             </div>
@@ -1638,7 +1638,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="mrcad" class="section">
     <div class="section-title"><i class="icon-building"></i><strong>Mr. CAD</strong>
-        <p><span> Are you </span>The<span> Best Designer ?</span></p>
+        <p><span>“CREATE A Difference”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1650,11 +1650,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Reveal the magic of new perspective. Manifest your skill in AutoCAD.
+                    Get the 2d,imagine the 3d, build the figure & beat d Euclid.</p>
             </div>
         </div>
 
@@ -1662,19 +1662,17 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
+                    <ol style="color: #ffffff;  "  > 1. There will be three rounds each with a deadline.</ol>
+                    <ol style="color: #ffffff;  "  > 2. The FIRST ROUND consists of a task to complete a 2D figure within 10 minutes.</ol>
+                    <ol style="color: #ffffff;  "  > 3. The SECOND ROUND will be to complete a 3D figure with a time limit of 20 minutes.</ol>
+                    <ol style="color: #ffffff;  "  > 4. In the THIRD ROUND, the candidate has to draw the front view, back view, top view</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and side view of the given figure in another 20 minutes.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All the participants must submit their college ID card during registration.</ol>
                     <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
                 </ul>
             </div>
         </div>
@@ -1687,9 +1685,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Susan - +91 828 156 2611  </h4>
                 <br><br>
 
             </div>
@@ -1702,7 +1698,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="shutterbug" class="section">
     <div class="section-title"><i class="icon-camera"></i><strong>Shutter Bug</strong>
-        <p><span> Capture </span> the <span> Moments </span></p>
+        <p><span>“Eyes like shutter, Mind like lens”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1714,10 +1710,12 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead" style="color: #ffffff">Theme: “Colours of Life”</p>
+        <p class="lead" style="color: #ffffff">Theme: “Colours of Life</p>
 
         <div class="row">
-            <div class="span6 offset3">
+            <div class="span6 offset3"><p>The Photography contest, named as "Shutterbug", is going to be conducted between
+                    12th and 18th of this february. Pictures should be sent to an e-mail id, in the dates specified.
+                    Winner will be announced on the first day of Dvaita'16.</p>
                         </div>
         </div>
 
@@ -1725,7 +1723,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span8 offset3">
@@ -1733,13 +1730,14 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <ol style="color: #ffffff;  "  > 1. There is no registration procedures and no age limit for participation.</ol>
                     <ol style="color: #ffffff;  "  > 2. Photographs related to the specified theme only are accepted.</ol>
                     <ol style="color: #ffffff;  "  > 3. Only upto 3 photographs are accepted from a participant.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Participants must specify their name, age, place & contact number along with the photograph(s).</ol>
-                    <ol style="color: #ffffff;  "  > 5. All digital files must be 20 megabytes or smaller, must be in JPEG or JPG format, </ol>
+                    <ol style="color: #ffffff;  "  > 4. Participants are to send the photos to <a href="mailto:shutterbug@dvaita16.com" >shutterbug@dvaita16.com.</a></ol>
+                    <ol style="color: #ffffff;  "  > 5. Participants must specify their name, age, place & contact number along with the photograph(s).</ol>
+                    <ol style="color: #ffffff;  "  > 6. Participants with incorrect contact details will get disqualified.</ol>
+                    <ol style="color: #ffffff;  "  > 7. All digital files must be 20 megabytes or smaller, must be in JPEG or JPG format,</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and must be at least 1,600 pixels wide (if a horizontal image) or 1,600 pixels tall (if a vertical image).</ol>
-                    <ol style="color: #ffffff;  "  > 6. Digital manipulation that distorts the reality of the images will not be allowed. </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only basic enhancements such as sharpening, contrast adjustment, focus or simple cropping will be allowed.</ol>
-                    <ol style="color: #ffffff;  "  > 7. Participants with incorrect contact details will get disqualified. </ol>
-                    <ol style="color: #ffffff;  "  > 8. Selected pictures will be posted in Dvaita's official Facebook page everyday .  </ol>
+                    <ol style="color: #ffffff;  "  > 8. Digital manipulation that distorts the reality of the images will not be allowed. Only  </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;basic enhancements such as sharpening, contrast adjustment, focus or simple cropping will be allowed.</ol>
+                    <ol style="color: #ffffff;  "  > 9. Selected pictures will be posted in Dvaita's official Facebook page everyday </ol>
                     <ol style="color: #ffffff;  "  > 9. Number of likes to the pictures will also be a factor for selecting the winner. </ol>
                     <ol style="color: #ffffff;  "  >10. Decisions taken by the event heads will be final </ol>
                 </ul>
@@ -1754,9 +1752,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Sarath - +91 859 282 2923  </h4>
+                <h4 style="color: #fff" align="center">Pradeep C V -  +91 964 580 2847  </h4>
                 <br><br>
 
             </div>
@@ -1769,7 +1766,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="respawn" class="section">
     <div class="section-title"><i class="icon-gamepad"></i><strong>RESPAWN Arena</strong>
-        <p><span> Ultimate</span><span> Virtual War Zone</span></p>
+        <p><span> “Gamers  don’t  die, they  just RESPAWN!!! “</span></p>
     </div>
 
     <!-- About Content -->
@@ -1781,11 +1778,10 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Ready for an astounding gaming experience? Here you go! Swank your gaming skills the way you want to..!!</p>
             </div>
         </div>
 
@@ -1793,24 +1789,44 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
         <br><br><br><br>
-        <h4 class="main-title"> <span> NFS Most wanted </span></h4>
+        <h4 class="main-title"> <span> General Guidelines </span></h4>
         <div class="row">
             <div class="span8 offset3">
 
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Spot registration is compulsory.</ol>
                     <ol style="color: #ffffff;  "  > 2.Registration will be closed after prelims.</ol>
-                    <ol style="color: #ffffff;  "  > 3. Qualification round:</ol>
+                    <ol style="color: #ffffff;  "  > 3. In case of unintentional disconnection, admin will decide on how to proceed.</ol>
+                    <ol style="color: #ffffff;  "  > 4. If at any time, a player intentionally disconnects/exits the game, he/she will be disqualified. </ol>
+                    <ol style="color: #ffffff;  "  > 5. In case of alt-tabbing, the admin will decide whether it was intentionally/mistake and </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what action must be taken, with disqualification being maximum penalty.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Rules are subject to change as per the decision of the organising committee.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Organising committee’s decisions are final.</ol>
+                    <ol style="color: #ffffff;  "  > 8. There will be no practicing allowed.  </ol>
+                    <ol style="color: #ffffff;  "  > 9. Participants are only allowed to change necessary controls and check them.</ol>
+                    <ol style="color: #ffffff;  "  > 10. The total number of rounds for prelims will depend on the total no. of participants.</ol>
+                    <ol style="color: #ffffff;  "  > 11. Keyboards will be provided.</ol>
+                    <ol style="color: #ffffff;  "  > 13. If referee decides that external conditions (press, team, player, spectator etc..) give </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unfair advantages to a player, the team/individual may be given a warning or lose by</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default at the referee's sole discretion.</ol>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <h4 class="main-title"> <span> NFS Most wanted </span></h4>
+        <div class="row">
+            <div class="span8 offset3">
+
+                <ul  class="margin-bottom">
+                    <ol style="color: #ffffff;  "  > 1. Qualification round:</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All tournament participants will play 3 laps and the qualifier </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for further rounds will be decided on best time basis(Top 32)</ol>
-                    <ol style="color: #ffffff;  "  > 4. At the end of each match,players must maintain the final screens and receive confirmation from a referee.</ol>
-                    <ol style="color: #ffffff;  "  > 5. Any participants failing to complete the race will be disqualified.</ol>
-                    <ol style="color: #ffffff;  "  > 6. In case of unintentional disconnection , admin will decide on how to proceed.</ol>
-                    <ol style="color: #ffffff;  "  > 7. If at any time, a player intentionally disconnects/exits the game,he/she will be disqualified. </ol>
-                    <ol style="color: #ffffff;  "  > 8. In case of alt-tabbing, the admin will decide whether it was intentionally/mistake and </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what action  must be taken with disqualification being maximum penalty.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for further rounds will be decided on best time basis (Top 32). </ol>
+                    <ol style="color: #ffffff;  "  > 2. At the end of each match, players must maintain the final screens and receive confirmation from a referee.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Any participants failing to complete the race will be disqualified.</ol>
                 </ul>
             </div>
         </div>
@@ -1822,21 +1838,16 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. All games will be classic 1 vs 1.</ol>
-                    <ol style="color: #ffffff;  "  > 2. There will be no practicing allowed.Participants are only allowed to change necessary control and check them.</ol>
-                    <ol style="color: #ffffff;  "  > 3. Keyboard will be provided. Participants can use their own joysticks/gamepads/keyboards if necessary.</ol>
-                    <ol style="color: #ffffff;  "  > 4. The total number of rounds for prelims will be decided based on participation.</ol>
-                    <ol style="color: #ffffff;  "  > 5.  In case of unintentional disconnection , admin will decide on how to proceed.If game is within half time and </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;no goals have been scored,the game will be restarted with same teams for a full time game.</ol>
+                    <ol style="color: #ffffff;  "  > 2. In case of unintentional disconnection, admin will decide on how to proceed.</ol>
+                    <ol style="color: #ffffff;  "  > 3. If game is within half time, and no goals have been scored, the game will be restarted</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with same teams for a full time game.</ol>
+                    <ol style="color: #ffffff;  "  > 4. If not, the game will be played for the remaining time based on what time it was </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disconnected with scores being carried over.</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If not, the game will be played for the remaining time based on what time it disconnected with scores being carried over.</ol>
-
-                    <ol style="color: #ffffff;  "  > 6.  If at any time, a player intentionally disconnects/exits the game,he/she will be disqualified. </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In case of alt-tabbing, the admin will decide whether it was intentionally/mistake and what action</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;must be taken with disqualification being maximum penalty.</ol>
-                    <ol style="color: #ffffff;  "  > 7. Teams can be either clubs or countries according users will (classic x1 and world x1 not allowed).</ol>
-                    <ol style="color: #ffffff;  "  > 8. The prelims and league will be classic 4 min half time matches quarter and semis will all be 5 min half time  </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matches and finals will be 6 min half time matches.</ol>
-                    <ol style="color: #ffffff;  "  > 9. The admin's decision will be final. </ol>
-                    <ol style="color: #ffffff;  "  > 10.Rules are subject to change as per the decision of the organising committee.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Teams can be either clubs or countries (classic x1 and world x1 is not allowed).</ol>
+                    <ol style="color: #ffffff;  "  > 6. The prelims and league will be classic 4 min half time matches.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Quarter and Semis will all be 5 min half time matches.</ol>
+                    <ol style="color: #ffffff;  "  > 8. Final will be 6 min half time match. </ol>
                 </ul>
             </div>
         </div>
@@ -1848,27 +1859,45 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
             <div class="span9 offset3">
 
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1.  4 vs 4(Team play, 4 players per team).</ol>
+                    <ol style="color: #ffffff;  "  > 1. 4 vs 4 (Team play, 4 players per team).</ol>
                     <ol style="color: #ffffff;  "  > 2. The first team to win 9 rounds wins the match.</ol>
-                    <ol style="color: #ffffff;  "  > 3. Extra rounds will be played until winner is decide.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Extra rounds will be played until winner is decided.</ol>
                     <ol style="color: #ffffff;  "  > 4. A knockout tournament structure will be used or league structure if number of participants are less.</ol>
-                    <ol style="color: #ffffff;  "  > 5. Rounds :</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16 rounds(Maximum round format)-</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 rounds as terrorist and 8 rounds as counter terrorist per team.If a team scores 9 rounds first ,</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  the match is ended immediately.</ol>
-                    <ol style="color: #ffffff;  "  > 6. Victory condition :The first team to win 11 rounds.</ol>
-                    <ol style="color: #ffffff;  "  > 7. Round time :3 minutes.</ol>
-                    <ol style="color: #ffffff;  "  > 8. Freeze Time:5 seconds.</ol>
-                    <ol style="color: #ffffff;  "  > 9. Buy time :25 seconds</ol>
-                    <ol style="color: #ffffff;  "  > 10. Counter strike,terrorist will be decided before the match or decided by the knifing.</ol>
-                    <ol style="color: #ffffff;  "  > 11. In case of a tie after regulation,6 extra rounds will be played (3 as terrorist and 3 as counter terrorist per team).</ol>
-                    <ol style="color: #ffffff;  "  > 12. Extra round restart money :$10,000. </ol>
-                    <ol style="color: #ffffff;  "  > 13. In the case of a retie after 6 rounds as stated above ,6 more extra rounds will be played until tie is broken.</ol>
-                    <ol style="color: #ffffff;  "  > 14. Official Maps : Defusal Maps </ol>
-                    <ol style="color: #ffffff;  "  > 15. The server master will record the process of the match. </ol>
-                    <ol style="color: #ffffff;  "  > 16. Approved grenade amounts per round: </ol>
+                    <ol style="color: #ffffff;  "  > 5. Round Description:</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16 rounds (Maximum round format):- </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 rounds as terrorist and 8 rounds as counter terrorist per team.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Victory condition: The first team to win 9 rounds.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Round time: 3 minutes.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Freeze Time: 5 seconds.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buy time: 25 seconds.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Counter strike, terrorist will be decided before the match or decided by the knifing.</ol>
+                    <ol style="color: #ffffff;  "  > 7. In case of a tie after regulation, 6 extra rounds will be played (3 as terrorist and 3 as counter terrorist per team)</ol>
+                    <ol style="color: #ffffff;  "  > 8. Extra round restart money : $10,000.</ol>
+                    <ol style="color: #ffffff;  "  > 9. In the case of a retie after 6 rounds as stated above, 6 more extra rounds will be played until tie is broken.</ol>
+                    <ol style="color: #ffffff;  "  > 10. Official Maps: Defusal Maps.</ol>
+                    <ol style="color: #ffffff;  "  > 11. The server master will record the process of the match.</ol>
+                    <ol style="color: #ffffff;  "  > 12. Approved grenade amounts per round: </ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Flash bangs:2.</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Grenades:1.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Smoke Grenades:1.</ol>
+                    <ol style="color: #ffffff;  "  > 13. Approved commands: </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Adjust crosshair size</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mp-autokicko</ol>
+                    <ol style="color: #ffffff;  "  > 14. Default skins must be used</ol>
+                    <ol style="color: #ffffff;  "  > 15. Any other use of map or program bugs can result in warning at the minimum or lose</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by default for the offending team after deliberation and decision by the board of referees at discretion.</ol>
+                    <ol style="color: #ffffff;  "  > 16. Mouse fix and unfix will be provided in the arena. </ol>
+                    <ol style="color: #ffffff;  "  > 17. The server master can and will check for the use of any unfair practice or script,  </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;even those not listed during the match.</ol>
+                    <ol style="color: #ffffff;  "  > 18. HLTV proxy will join the game server for tournament broadcasts. </ol>
+                    <ol style="color: #ffffff;  "  > 19. To test for HLTV Flash, players must follow the direction of the server master and/or the referees. </ol>
+                    <ol style="color: #ffffff;  "  > 20. The use of consoles will be monitored by the officials in the arena. </ol>
+                    <ol style="color: #ffffff;  "  > 21. Players are allowed to adjust the multiplayer settings using commands like </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mp-autokicko, but they are not allowed to use any other commands. The permissible </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiplayer commands and server commands shall be specified by the organizers in the arena. </ol>
+
+
+
 
 
                 </ul>
@@ -1884,9 +1913,9 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Sony - +91 940 055 5121  </h4>
+                <h4 style="color: #fff" align="center">Harish - +91 854 758 8659  </h4>
+                <h4 style="color: #fff" align="center">Sachin Giridhar - +91 974 478 2170   </h4>
                 <br><br>
 
             </div>
@@ -1898,8 +1927,8 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <div id="contraption" class="section">
-    <div class="section-title"><i class="icon-cog"></i><strong>Contraption</strong>
-        <p><span> Build </span> and <span> Break</span></p>
+    <div class="section-title"><i class="icon-cog"></i><strong>Break In Style</strong>
+        <p><span> “d-STRUCT 2 re-STRUCT”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1911,11 +1940,11 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Break In Style is the kind of event which puts your engineering skill set to the test.
+                    Unlock your imagination and build a complex structure based on engineering principles to perform a task.</p>
             </div>
         </div>
 
@@ -1923,19 +1952,30 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
 
         <div class="row">
             <div class="span6 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Team of two members.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Three rounds will be there.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Aptitude</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Video perception</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Crime scene investigation</ol>
-                    <ol style="color: #ffffff;  "  > 3. Details about the rounds will be given on the spot.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 5. All contestants are required to present a valid student identification card.</ol>
+                    <ol style="color: #ffffff;  "  > 1. College ID card is mandatory for registration.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Each team can have a maximum of 5 members.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Same person could not be member of more than one team.</ol>
+                    <ol style="color: #ffffff;  "  > 4. All teams involving common person as participant will be disqualified.</ol>
+                    <ol style="color: #ffffff;  "  > 5. All participants are requested to bring two copies of properly printed abstract of their</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contraption, clearly mentioning steps charts,which shows all energy conversions.</ol>
+                    <ol style="color: #ffffff;  "  > 6. A space of 5 ft * 6 ft * 7 ft provided.</ol>
+                    <ol style="color: #ffffff;  "  > 7. No chemical explosions are allowed during the working of contraption.</ol>
+                    <ol style="color: #ffffff;  "  > 8. 180 minutes will be given to each team for the initial setup.</ol>
+                    <ol style="color: #ffffff;  "  > 9. Setup time of 45 minutes will be given before second trial.</ol>
+                    <ol style="color: #ffffff;  "  > 10. Only two trials will be allowed.</ol>
+                    <ol style="color: #ffffff;  "  > 11. Teams taking more than 2 trial will be disqualified.</ol>
+                    <ol style="color: #ffffff;  "  > 12. Maximum of 3 hand touches are allowed including the starting bit.</ol>
+                    <ol style="color: #ffffff;  "  > 13. 10,30, and 50 points will be deducted for 4th, 5th, and  6th handtouch respectively.</ol>
+                    <ol style="color: #ffffff;  "  > 14. Participants will have only have 15 minutes for displaying the contraption to judges.</ol>
+                    <ol style="color: #ffffff;  "  > 15. Less points will be allotted for repeated conversions.</ol>
+                    <ol style="color: #ffffff;  "  > 16. The steps performed for energy conversion by any readymade product will not be scored.</ol>
+                    <ol style="color: #ffffff;  "  >17. Nobody other than the participating team may involve in setting up the contraption.</ol>
+
+
                 </ul>
             </div>
         </div>
@@ -1948,9 +1988,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Varis - +91 980 946 4672  </h4>
                 <br><br>
 
             </div>
