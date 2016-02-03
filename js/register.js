@@ -18,6 +18,7 @@ $(document).ready(function() {
 				if ( ! data.success) {
 					if (data.errors.email) {
 						$("#error").fadeIn().show();
+						$("#error").html(data);
 						$('#email-group').addClass('has-error');
 						$('#email-group').append('<div class="help-block">' + data.errors.email + '</div>'); 
 					}
