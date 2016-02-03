@@ -363,6 +363,8 @@ hr {
 .lead {
 	font-family: Open Sans, Arial, Helvetica, sans-serif;
 	text-align: center;
+	font-size: 25px;
+	color: #ffffff;
     z-index: 2;
 }
 .hero-unit {
