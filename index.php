@@ -38,7 +38,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div class="logo"><img src="img/logo.png" alt="logo"/></div>
-<div class="dept"><h1>Computer science Department </h1><h4>Presents</h4></div>
+<div class="dept "><h1>Department of Computer Science and Engineering</h1></div>
 <div class="nssce"><img src="img/nssce.png" alt="nssce"/></div>
 
 
@@ -2528,7 +2528,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Series of surprise tasks</p>
+                <p class="text-center margin-bottom"></p>
             </div>
         </div>
 
