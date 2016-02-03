@@ -735,7 +735,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -809,7 +809,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
 
         <div class="row">
             <div class="span6 offset3">
@@ -866,7 +865,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -943,7 +942,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1017,7 +1016,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1083,7 +1082,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1147,7 +1146,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1214,7 +1213,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1278,7 +1277,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1352,7 +1351,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1418,7 +1417,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1489,7 +1488,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1552,7 +1551,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1629,7 +1628,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1689,7 +1688,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1756,7 +1755,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1917,7 +1916,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1992,7 +1991,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2063,7 +2062,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2134,7 +2133,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2201,7 +2200,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2272,7 +2271,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2343,7 +2342,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2407,7 +2406,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2495,7 +2494,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2557,7 +2556,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
-        <p class="lead">Connect To us </p>
+        
 
         <div class="row">
             <div class="span6 offset3">
