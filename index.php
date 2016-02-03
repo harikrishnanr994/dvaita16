@@ -55,15 +55,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Slider Single Item -->
         <li><a href="#swatthebug" class="goto-swatthebug"><img src="img/swatbug.gif" alt="Photo" /></a>
             <div class="slides-detail">
-                <a href="#swatthebug" ><h1>Swat the  <span>Bug</span></h1></a>
+                <a href="#swatthebug" ><h1>“It’s not a bug, It’s an undocumented feature”</h1></a>
                 <span class="lead">Debug  <strong>the </strong>Codes</span></div>
         </li>
 
         <!-- Slider Single Item -->
         <li><a href="#"><img src="img/boombox_slide.gif" alt="boombox" /></a>
             <div class="slides-detail">
-                <h1><span>BOOMBOX</span></h1>
-                <span class="lead"><strong>Dancing with the feet is one thing, but dancing with the heart is anothe</strong></span></div>
+                <h1><span>BOOM BOX</span></h1>
+                <span class="lead"><strong>Dancing with the feet is one thing, but dancing with the heart is anothers</strong></span></div>
         </li>
     </ul>
 
@@ -2578,7 +2578,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <!-- Switch Section -->
 <div id="switch" class="switch-section "><div class="switch-header"><h5 >Events</h5></div>
-    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-hacknight"><i class="icon-coffee"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
+    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
                                           <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
                                             <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-film"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
                                         <a href="#" class="section-highq"><i class="icon-question-sign"></i></a> <a href="#" class="section-contraption"><i class="icon-cog"></i></a> <a href="#" class="section-crossfire"><i class="icon-fire"></i></a> <a href="#" class="section-pirate"><i class="icon-map-marker"></i></a><a href="#" class="section-mysteriarch"><i class="icon-question"></i></a>
