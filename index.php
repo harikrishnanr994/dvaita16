@@ -110,7 +110,6 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!-- Events Section -->
 <div id="services" class="section">
     <div class="section-title"><i class="icon-cog"></i><strong>Events</strong>
-        <p>some text <span>here</span></p>
     </div>
 
     <!-- events Content -->
