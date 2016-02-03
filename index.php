@@ -659,7 +659,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>Login failed!. Try again
                 </div>
-                <form id="login-form" action="#" class="contact-form" method="post" style="display: none">
+                <form id="login-form" action="#" class="contact-form" method="post">
                     <fieldset>
 
                         <div id="email-group1" class="form-group">

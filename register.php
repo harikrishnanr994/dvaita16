@@ -1,11 +1,8 @@
 <?php
-
 include("config.php");
 $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
-
 $errors = array();
 $data = array(); 
-
 $name = mysqli_real_escape_string($link,$_POST['name']);
 $pwd = mysqli_real_escape_string($link,$_POST['pwd']);
 $cpwd = mysqli_real_escape_string($link,$_POST['cpwd']);
@@ -18,7 +15,6 @@ $gender =  mysqli_real_escape_string($link,$_POST['gender']);
 $activation = md5(uniqid(rand(), true));
 $activated = "0";
 $bool = true;
-
 function hashSSHA($password) {
     $salt = sha1(rand());
     $salt = substr($salt, 0, 10);
@@ -26,7 +22,6 @@ function hashSSHA($password) {
     $hash = array("salt" => $salt, "encrypted" => $encrypted);
     return $hash;
 }
-
 if($pwd == $cpwd) { 
     $id = mysqli_query($link, "Select *  from users ORDER BY id DESC limit 1 ");
     $row = mysqli_fetch_array($id);
@@ -35,7 +30,6 @@ if($pwd == $cpwd) {
     $uid++;
     $uuid="D16".$uid;
     $query = mysqli_query($link, "Select * from users");
-
     while($row = mysqli_fetch_array($query)) {
       	$table_users = $row['email']; 
 	      	if($email == $table_users) {
@@ -50,16 +44,17 @@ if($pwd == $cpwd) {
 	    $salt = $hash["salt"];
 	      
 	    mysqli_query($link, "INSERT INTO users (uid, name, password, salt, email, mobile, college, accommodation, activation, activated, gender) VALUES ('$uuid','$name','$encrypted_password','$salt','$email','$phone','$college','$accom','$activation','$activated','$gender')"); 
-
 	    if (mysqli_affected_rows($link) == 1) {
-	    	// Send the email:
-           $message = '<!DOCTYPE html>
+
+
+
+
+
+/*
+$message = '<!DOCTYPE html>
 				<html>
 				   <head>
-				      <style type="text/css">
-				        /* ------------------------------------- 
-				        		General styles 
-				        ------------------------------------- */         
+				      <style type="text/css">        
 				         body {width:100% !important; margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
 				         #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
 				         img {outline:none; text-decoration:none; border:none; -ms-interpolation-mode: bicubic;}
@@ -70,24 +65,17 @@ if($pwd == $cpwd) {
 				         table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;}
 				         table[class=full] { width: 100%; }
 				         
-				          /* Client-specific Styles */
-				         #outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
-				         /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
-				         .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
-				         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.*/
-
-				        /* ------------------------------------- 
-				        		Typography 
-				        ------------------------------------- */        
+				         #outlook a {padding:0;} 
+				         
+				         .ExternalClass {width:100%;} 
+				         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} 
+       
 				         body, td {font-family: Helvetica, Arial, sans-serif; font-size:14px; color: #000000;}
 				                 
-				        /* ------------------------------------- 
-				        		Tablet styles 
-				        ------------------------------------- */
 				         @media only screen and (max-width: 640px) {
 				         a[href^="tel"], a[href^="sms"] {
 				         text-decoration: none;
-				         color: #ffffff; /* or whatever your want */
+				         color: #ffffff; 
 				         pointer-events: none;
 				         cursor: default;
 				         }
@@ -114,13 +102,11 @@ if($pwd == $cpwd) {
 				         td[class=footer] {width: 100%; padding-left: 10px; padding-right: 10px; text-align:center !important;}                   
 				         }
 				         
-				        /* ------------------------------------- 
-				        		Mobile styles 
-				        ------------------------------------- */
+				       
 				         @media only screen and (max-width: 480px) {
 				         a[href^="tel"], a[href^="sms"] {
 				         text-decoration: none;
-				         color: #ffffff; /* or whatever your want */
+				         color: #ffffff; 
 				         pointer-events: none;
 				         cursor: default;
 				         }
@@ -623,19 +609,27 @@ if($pwd == $cpwd) {
 				   </table>
 
 				  </body>
-				</html>';
+				</html>';*/
 				$subject = 'Registration Confirmation';
 				$headers  = 'MIME-Version: 1.0' . "\r\n";
 				$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 				$headers .= 'From: no-reply@dvaita16.com'."\r\n".
 				    'Reply-To: '."\r\n" .
 				    'X-Mailer: PHP/' . phpversion();
-				mail($email, $subject , $message, $headers);
- 
-            } else {
-            	$errors['mail']= 'You could not be registered due to a system error.
-            	 We apologize for any inconvenience.';
-            }
+				mail($email, $subject , "$message", $headers);
+
+
+
+
+
+
+
+
+
+
+
+
+	    
 	        $data['success'] = true;
 	        $data['message'] = 'Success!';
 	    }
