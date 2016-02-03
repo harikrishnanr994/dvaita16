@@ -336,7 +336,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <div class="thumbnail"><i class="icon-road"></i>
                         <h3><span>Roadies</span> </h3>
                         <h5>“Rare to Dare. Actually, you can, We Swear”</h5>
-                        <p>Sed augue lorem, <strong>dignissim eget</strong> bibendum vitae, scelerisque eget justo</p>
+                        <p>Roadies - the name that strikes terror into the weakhearted</p>
                         <a href="#" class="btn goto-roadies">Details</a></div>
                 </li>
             </ul>
@@ -625,7 +625,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         </div>
                         <button type="submit" class="btn btn-large" id="submit-btn">Submit</button>
                         <button type="reset" class="btn btn-large">Reset</button>
-                        <button type="reset" class="btn btn-large goto-login">Already Registered ?</button>
+                        <button  class="btn btn-large goto-login">Already Registered ?</button>
 
                     </fieldset>
                 </form>
@@ -659,7 +659,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>Login failed!. Try again
                 </div>
-                <form id="login-form" action="#" class="contact-form" method="post">
+                <form id="login-form" action="#" class="contact-form" method="post" style="display: none">
                     <fieldset>
 
                         <div id="email-group1" class="form-group">
@@ -762,7 +762,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 <div id="embedded" class="section">
     <div class="section-title"><i class="icon-coffee"></i><strong>Workshop on</strong>
-        <p><span> GNU/Linux and Embedded Systems .</span></p>
+        <p><span> GNU/Linux and Embedded Systems. </span></p>
     </div>
 
     <!-- About Content -->
@@ -2532,7 +2532,10 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom"></p>
+                <p class="text-center margin-bottom">Roadies - the name that strikes terror into the weakhearted, the one that makes the brave impatient for the next adventure.
+                    DVAITA'16 brings you ROADIES in all its true spirit.
+                    Push yourself to the limits that you never knew existed. Face the unknown and struggle through obstacles.
+                    Wake up the warrior in you and fight against all odds till your last breath, or until you win.</p>
             </div>
         </div>
 
