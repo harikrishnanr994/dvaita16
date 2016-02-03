@@ -625,7 +625,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                         </div>
                         <button type="submit" class="btn btn-large" id="submit-btn">Submit</button>
                         <button type="reset" class="btn btn-large">Reset</button>
-                        <button type="reset" class="btn btn-large goto-login">Already Registered ?</button>
+                        <button  class="btn btn-large goto-login">Already Registered ?</button>
 
                     </fieldset>
                 </form>
