@@ -51,7 +51,7 @@ if($pwd == $cpwd) {
 
 
 
-$message = <!DOCTYPE html>
+$message = '<!DOCTYPE html>
 				<html>
 				   <head>
 				      <style type="text/css">        
