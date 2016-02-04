@@ -205,7 +205,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
         <h1 class="main-title"><span>General </span>events</h1>
-        <p class="lead">we are specialized in web</p>
+        
         <div class="flexslider">
 
             <!-- TECHnical List Carousel -->
@@ -843,7 +843,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span8 offset3">
@@ -855,7 +855,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title" > <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1454,7 +1454,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1522,7 +1522,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -1534,7 +1534,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span8 offset3">
@@ -2182,7 +2182,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span8 offset3">
@@ -2234,7 +2234,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2376,7 +2376,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span6 offset3">
@@ -2440,7 +2440,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">we are specialized in web</p>
+        
 
         <div class="row">
             <div class="span6 offset3">
