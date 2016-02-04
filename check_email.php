@@ -10,3 +10,4 @@ $query = mysqli_query($link, "Select count(*) from users where email='$email'");
     $count = $row[0];
 	    if($count>0) echo "<span class='status-not-available alert alert-danger'> This email is already registered with us!</span>";
 		else echo "";
+?>
