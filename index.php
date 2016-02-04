@@ -854,7 +854,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
         <!-- Rules -->
 
-        <h1 class="main-title" > <span> Rules </span></h1>
+        <!--h1 class="main-title" > <span> Rules </span></h1>
         
 
         <div class="row">
@@ -866,7 +866,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
             </div>
         </div>
 
-        <hr />
+        <hr /-->
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
         
