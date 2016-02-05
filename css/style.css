@@ -700,6 +700,9 @@ p{
 	z-index: -2;
 }
 
+.section#profile {
+	right: 80%;
+}
 
 /* Switch Section */
 .switch-section {

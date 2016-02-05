@@ -33,6 +33,14 @@ $(document).ready(function () {
     $(".section-about i").toggleClass("active");
   })
 
+  $(".section-profile").click(function () {
+    $(".section").removeClass("section-expand");
+    $("#profile").addClass("section-expand");
+  })
+  $("#profile").click(function () {
+    $(".section-profile i").toggleClass("active");
+  })
+
   /* --- event Section start --- */
     $(".section-boombox").click(function () {
         $(".section").removeClass("section-expand");
@@ -594,6 +602,13 @@ $(document).ready(function () {
 	$(".section-contact i").addClass("active");
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i").removeClass("active");
 	e.stopPropagation();
+  })
+
+  $(".goto-profile").click(function (e) {
+    $("#profile").addClass("section-expand").siblings().removeClass("section-expand");
+    $(".section-profile i").addClass("active");
+    $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i").removeClass("active");
+    e.stopPropagation();
   })
 
   /* --- Active Filter Menu --- */
