@@ -47,7 +47,9 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
     <ul class="slides-container">
 
         <!-- Slider Single Item -->
-        <li><a href="#about" ><img src="img/countdown.jpg" alt="swat" /></a>
+
+        <li><a href="#about" ><img src="anim.svg" alt="swat" /></a>
+
             <div class="slides-detail">
                 <div class="countdown styled"></div></div>
         </li>
@@ -853,7 +855,18 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <div class="row">
             <div class="span8 offset3">
-                <p class="text-center margin-bottom">Lorem ipsum dolor sit amet, consectetuer <a href="#">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                <p class="text-center margin-bottom">Brush up your python skills with the hands on workshop on practical python.
+
+                    This is an intermediate level python programming workshop for those who are already familiar with the basic syntax of the language.
+                    Participants will be introduced to exciting python libraries and will work on interesting problems such as:
+                </p>
+                <ul  class="margin-bottom">
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statistical analysis of text documents</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building a chat server</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building a game</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .. and much more</ol>
+
+                </ul>
             </div>
         </div>
 
@@ -2589,7 +2602,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 </div>
 
 <!-- Switch Section -->
-<div id="switch" class="switch-section "><div class="switch-header"><h5 >Events</h5></div>
+<div id="switch" class="switch-section "><div class="switch-header goto-services"><h5 >Events</h5></div>
     <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
                                           <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
                                             <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-film"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
