@@ -2,9 +2,8 @@
 include("config.php");
 $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
 $id = $_GET['id'];
-$id = 'act';
 if(!isset($id)) {
-   echo "";
+   echo "not set";
 }
 
 ?>
@@ -118,7 +117,7 @@ if(!isset($id)) {
                                              <!-- Title -->
                                              <tr>
                                                 <td style="font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size: 24px; line-height:24px;">
-                                                   <?if($id=='act' || $id=='aact') {
+                                                   <?php if($id=='act' || $id=='aact') {
                                                       echo "Thank you !";
                                                    } elseif ($id=='nact') {
                                                       echo "Oops !";
@@ -135,7 +134,7 @@ if(!isset($id)) {
                                              <!-- Content -->
                                              <tr>
                                                 <td style="font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size:14px; color: #0E0E0E; line-height:18px; text-align:center;">
-                                                   <?if($id=='act') {
+                                                   <?php if($id=='act') {
                                                       echo "Thank you for registering with us . Kindly login to view your profile.";
                                                    } elseif ($id=='nact') {
                                                       echo "Your account could not be activated. Please recheck the link or contact the system administrator.";
@@ -158,7 +157,7 @@ if(!isset($id)) {
                                                          <tr>
                                                             <td width="auto" align="center" valign="middle" height="40" style="background-color:#ea3a52; border-top-left-radius:5px; border-bottom-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px; background-clip: padding-box; font-size:17px; font-family: Helvetica, Arial, sans-serif; text-align:center; color:#ffffff; font-weight: bold; letter-spacing: 1px; padding-left:42px; padding-right:42px;">
                                                                <span style="color: #ffffff; font-size:17px;">
-                                                               <a style="color: #ffffff; text-align:center;text-decoration: none;" href="http://dvaita16.com">Go to Home</a>
+                                                               <a style="color: #ffffff; text-align:center;text-decoration: none;" href="http://www.dvaita16.com">Go to Home</a>
                                                                </span>
                                                             </td>
                                                          </tr>
@@ -182,16 +181,6 @@ if(!isset($id)) {
          </tr>
    </table>
    <!-- End of Block 1 -->
-
-
-
-
-
-
-
-
-
-
 
   </body>
 </html>

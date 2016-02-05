@@ -16,11 +16,10 @@ while($row = mysqli_fetch_assoc($query)) // display all rows from query
         }
 if (isset($email) && isset($key))
 {
-   if($activated==1)
-          {
-            header("location: activated.php?id=aact");
-            echo '<div class="success"><h3>Your account is already active. You may now <a href="login">Log in</a></h3></div>';}
-     else{
+   if($activated==1) {
+        header("location: activated.php?id=aact");
+    }
+    else{
     $query_activate_account = "UPDATE users SET activation=NULL,activated=1 WHERE(email ='$email' AND activation='$key')LIMIT 1";
 
     
@@ -33,7 +32,6 @@ if (isset($email) && isset($key))
     } else
     {
         header("location: activated.php?id=nact");
-        echo '<div class="errormsgbox"><h3>Oops !Your account could not be activated. Please recheck the link or contact the system administrator.</h3></div>';
 
     }
 }

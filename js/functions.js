@@ -468,7 +468,7 @@ $(document).ready(function () {
 
 
   $(".goto-cognizance").click(function (e) {
-    $("#pirate").addClass("section-expand").siblings().removeClass("section-expand");
+    $("#cognizance").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-cognizance i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
