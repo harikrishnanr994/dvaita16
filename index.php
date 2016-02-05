@@ -48,7 +48,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
         <!-- Slider Single Item -->
 
-        <li><a href="#about" ><img src="anim.svg" alt="swat" /></a>
+        <li><a href="#about" ><img src="img/anim.svg" alt="count down" /></a>
 
             <div class="slides-detail">
                 <div class="countdown styled"></div></div>
@@ -175,7 +175,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-bashemup">
-                    <div class="thumbnail"><i class="icon-bar-chart"></i>
+                    <div class="thumbnail"><i class="icon-code"></i>
                         <h3><span>Bash'em up!</span> </h3>
                         <h5>“It is easier to port a shell than a shell script”e</h5>
                         <p style="color: #ffffff">Show off your advanced shell scripting skills</p>
@@ -370,7 +370,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
                 <!-- Service Detail -->
                 <li class=" goto-embedded">
-                    <div class="thumbnail"><i class="icon-linux"></i>
+                    <div class="thumbnail"><i class="icon-"></i>
                         <h3>Workshop on <span>GNU/Linux and Embedded Systems</span></h3>
 
                         <p>This is a beginner level hands-on workshop for   students with knowledge of C programming. </p>
@@ -378,15 +378,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
                 </li>
 
                 <!-- Service Detail -->
-                <li class=" ">
+                <li class=" goto-python">
                     <div class="thumbnail"><i class="icon-code"></i>
                         <h3>Workshop on <span>Python</span> </h3>
-                        <p>This is a beginner level hands-on workshop for students .</p>
-                        <a href="#" class="btn ">Details</a></div>
+                        <p>This is a beginner level workshop for students .</p>
+                        <a href="#" class="btn goto-python">Details</a></div>
                 </li>
 
                 <li class=" goto-codezilla">
-                    <div class="thumbnail"><i class="icon-code"></i>
+                    <div class="thumbnail"><i class="icon-cloud"></i>
                         <h3> <span>CodeZilla</span> </h3>
                         <p>Think you have the mad skills to be a cracker jack programmer?</p>
                         <a href="#" class="btn goto-codezilla">Details</a></div>
@@ -778,15 +778,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="blank"  />
+        <img class="pic" src="img/Tux.png"  alt="blank"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
 
 
         <div class="row">
-            <div class="span8 offset3">
-                <p class="text-center margin-bottom">This is a beginner level hands-on workshop ideal for  students with knowledge of C programming. Topics covered<br>
+            <div class="span6 offset3">
+                <p class=" margin-bottom">This is a beginner level hands-on workshop ideal for  students with knowledge of C programming. Topics covered<br>
 
                     are: an introduction to GNU/Linux and Free Software,  working with Linux commands, programming Texas Instrument's ARM <br>
 
@@ -847,15 +847,15 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
         <hr />
 
 
-        <img class="pic" src="img/blank.jpg"  alt="banner"  />
+        <img class="pic" src="img/Python.png"  alt="banner"  />
 
 
         <h1 class="main-title"><span>Description</span></h1>
         
 
         <div class="row">
-            <div class="span8 offset3">
-                <p class="text-center margin-bottom">Brush up your python skills with the hands on workshop on practical python.
+            <div class="span6 offset3">
+                <p class=" margin-bottom">Brush up your python skills with the hands on workshop on practical python.
 
                     This is an intermediate level python programming workshop for those who are already familiar with the basic syntax of the language.
                     Participants will be introduced to exciting python libraries and will work on interesting problems such as:
@@ -1123,7 +1123,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="bashemup" class="section">
-    <div class="section-title"><i class="icon-bar-chart"></i><strong>BASH EM UP</strong>
+    <div class="section-title"><i class="icon-code"></i><strong>BASH EM UP</strong>
         <p><span> “It is easier to port a shell than a shell script”</span> </p>
     </div>
 
@@ -1394,7 +1394,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 
 
 <div id="codezilla" class="section">
-    <div class="section-title"><i class="icon-code"></i><strong>CodeZilla</strong>
+    <div class="section-title"><i class="icon-cloud"></i><strong>CodeZilla</strong>
         <p><span>“Treat your code like poetry”</span></p>
     </div>
 
@@ -2604,7 +2604,7 @@ $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connecti
 <!-- Switch Section -->
 <div id="switch" class="switch-section "><div class="switch-header goto-services"><h5 >Events</h5></div>
     <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
-                                          <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-bar-chart"></i></a> <a href="#" class="section-codezilla"><i class="icon-code"></i></a>
+                                          <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-code"></i></a> <a href="#" class="section-codezilla"><i class="icon-cloud"></i></a>
                                             <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-film"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
                                         <a href="#" class="section-highq"><i class="icon-question-sign"></i></a> <a href="#" class="section-contraption"><i class="icon-cog"></i></a> <a href="#" class="section-crossfire"><i class="icon-fire"></i></a> <a href="#" class="section-pirate"><i class="icon-map-marker"></i></a><a href="#" class="section-mysteriarch"><i class="icon-question"></i></a>
         <a href="#" class="section-hudrolaunch"><i class="icon-rocket"></i></a><a href="#" class="section-disco"><i class="icon-lightbulb"></i></a><a href="#" class="section-cognizance"><i class="icon-cogs"></i></a><a href="#" class="section-wikisurf"><i class="icon-book"></i></a><a href="#" class="section-roadies"><i class="icon-road"></i></a><a href="#" class="section-python"><i class="icon-laptop"></i></a><a href="#" class="section-embedded"><i class="icon-linux"></i></a>
