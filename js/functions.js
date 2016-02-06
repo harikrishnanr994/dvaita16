@@ -3,7 +3,7 @@
 $(document).ready(function () {
 
   if($('#user_session').val() == 1) {
-    $("#profile").css('z-index', 1);
+    $("#profile").css('z-index', 2);
     $("#login").css('z-index', -2);
   } else {
     $("#login").css('z-index', 2);

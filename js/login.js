@@ -22,7 +22,7 @@ $(document).ready(function() {
 				} else {
 					$("#message-login").fadeIn().show();
 				    $("#reg-form")[0].reset();
-				    window.location.replace("http://www.dvzita16.com");
+				    window.location.replace("http://www.dvaita16.com");
 				}
 			})
 			.fail(function(data) {
