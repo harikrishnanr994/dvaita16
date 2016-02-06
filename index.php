@@ -3,11 +3,14 @@
 require_once("config.php");
 $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
 session_start();
+<<<<<<< HEAD
 $has_session_user = 0;
 if(isset($_SESSION['user'])) {
     $has_session_user = 1;
     $uid = $_SESSION['uid'];
 }
+=======
+>>>>>>> origin/master
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
@@ -31,7 +34,12 @@ if(isset($_SESSION['user'])) {
     <link rel="shortcut icon" href="img/favicon.png" />
 </head>
 <body>
+<<<<<<< HEAD
 <input type=hidden id="user_session" value="<?=$has_session_user;?>"></input>
+=======
+
+<input type="hidden" name="user" value="<?=$_SESSION['user'];?>"></input>
+>>>>>>> origin/master
 <div id="loader-wrapper">
     <div id="loader"></div>
 
