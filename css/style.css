@@ -140,6 +140,7 @@ fieldset[disabled] .checkbox-inline {
 	max-width: 300px;
 } 
 
+
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -582,122 +583,97 @@ p{
 
 
 .section#hackerjack {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#bashemup {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#hacknight {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#maestro {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#codezilla {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#codeswap {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#highq {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#langx {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#sidhandics {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 
 .section#startaction {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#mrcad {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#shutterbug {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#swatthebug {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#contraption {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#crossfire {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#pirate {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 .section#mysteriarch {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 .section#hudrolaunch {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 .section#disco {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 .section#cognizance {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 .section#wikisurf {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 .section#roadies {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#python {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 .section#embedded {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 .section#register {
-	right: 10%;
-	z-index: -2;
+	right: -100%;
 }
 
 

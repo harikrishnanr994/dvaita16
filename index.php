@@ -2,7 +2,6 @@
 
 require_once("config.php");
 $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
-session_start();
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
@@ -27,7 +26,7 @@ session_start();
 </head>
 <body>
 
-<input type="hidden" name="user" value="<?=$_SESSION['user'];?>"></input>
+
 <div id="loader-wrapper">
     <div id="loader"></div>
 
@@ -37,9 +36,11 @@ session_start();
 </div>
 <!-- Logo -->
 
+
 <div class="logo"><img src="img/logo.png" alt="logo"/></div>
 <div class="dept "><h1>Department of Computer Science and Engineering</h1></div>
 <div class="nssce"><img src="img/nssce.png" alt="nssce"/></div>
+
 
 <!-- Slider -->
 <div id="slides">
@@ -47,7 +48,7 @@ session_start();
 
         <!-- Slider Single Item -->
 
-        <li><a href="#about" ><img src="img/anim.svg" alt="countdown" /></a>
+        <li><a href="#about" ><img src="anim.svg" alt="swat" /></a>
 
             <div class="slides-detail">
                 <div class="countdown styled"></div></div>

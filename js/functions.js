@@ -15,8 +15,7 @@ $(document).ready(function () {
     $(".section").removeClass("section-expand");
     $(".switch-section").hide(250);
     $(".section-close").hide(250);
-     $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
-    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hackerjack i,.section-hacknight i, .section-contact i,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-codezilla i,.section-roadies i").removeClass("active");
+    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hackerjack i,.section-hacknight i, .section-contact i,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-roadies i").removeClass("active");
   })
 
   /* --- Side Menu --- */
@@ -45,7 +44,6 @@ $(document).ready(function () {
 
   $(".section-python").click(function () {
     $(".section").removeClass("section-expand");
-    $("#python").css('z-index', 2);
     $("#python").addClass("section-expand");
 
   })
@@ -54,7 +52,6 @@ $(document).ready(function () {
   })
     $(".section-embedded").click(function () {
     $(".section").removeClass("section-expand");
-    $("#embedded").css('z-index', 2);
     $("#embedded").addClass("section-expand");
 
   })
@@ -64,7 +61,6 @@ $(document).ready(function () {
 
   $(".section-sidhandics").click(function () {
     $(".section").removeClass("section-expand");
-    $("#sidhandics").css('z-index', 2);
     $("#sidhandics").addClass("section-expand");
 
   })
@@ -74,7 +70,6 @@ $(document).ready(function () {
 
     $(".section-hackerjack").click(function () {
       $(".section").removeClass("section-expand");
-      $("#hackerjack").css('z-index', 2);
       $("#hackerjack").addClass("section-expand");
 
     })
@@ -85,7 +80,6 @@ $(document).ready(function () {
 
     $(".section-swatthebug").click(function () {
         $(".section").removeClass("section-expand");
-        $("#swatthebug").css('z-index', 2);
         $("#swatthebug").addClass("section-expand");
 
 
@@ -103,7 +97,6 @@ $(document).ready(function () {
 
   $(".section-codezilla").click(function () {
     $(".section").removeClass("section-expand");
-    $("#codezilla").css('z-index', 2);
     $("#codezilla").addClass("section-expand");
   })
   $("#codezilla").click(function () {
@@ -116,7 +109,6 @@ $(document).ready(function () {
 
   $(".section-bashemup").click(function () {
     $(".section").removeClass("section-expand");
-    $("#bashemup").css('z-index', 2);
     $("#bashemup").addClass("section-expand");
   })
 
@@ -135,7 +127,6 @@ $(document).ready(function () {
 
   $(".section-maestro").click(function () {
     $(".section").removeClass("section-expand");
-    $("#maestro").css('z-index', 2);
     $("#maestro").addClass("section-expand");
   })
 
@@ -145,7 +136,6 @@ $(document).ready(function () {
 
   $(".section-codeswap").click(function () {
     $(".section").removeClass("section-expand");
-    $("#codeswap").css('z-index', 2);
     $("#codeswap").addClass("section-expand");
   })
 
@@ -155,13 +145,11 @@ $(document).ready(function () {
 
   $(".section-highq").click(function () {
     $(".section").removeClass("section-expand");
-    $("#highq").css('z-index', 2);
     $("#highq").addClass("section-expand");
   })
 
   $(".section-langx").click(function () {
     $(".section").removeClass("section-expand");
-    $("#langx").css('z-index', 2);
     $("#langx").addClass("section-expand");
   })
   $("#langx").click(function () {
@@ -170,7 +158,6 @@ $(document).ready(function () {
 
   $(".section-startaction").click(function () {
     $(".section").removeClass("section-expand");
-    $("#startaction").css('z-index', 2);
     $("#startaction").addClass("section-expand");
   })
 
@@ -180,7 +167,6 @@ $(document).ready(function () {
 
   $(".section-mrcad").click(function () {
     $(".section").removeClass("section-expand");
-    $("#mrcad").css('z-index', 2);
     $("#mrcad").addClass("section-expand");
   })
 
@@ -190,7 +176,6 @@ $(document).ready(function () {
 
   $(".section-shutterbug").click(function () {
     $(".section").removeClass("section-expand");
-    $("#shutterbug").css('z-index', 2);
     $("#shutterbug").addClass("section-expand");
   })
   $("#shutterbug").click(function () {
@@ -204,7 +189,6 @@ $(document).ready(function () {
 
   $(".section-contraption").click(function () {
     $(".section").removeClass("section-expand");
-    $("#contraption").css('z-index', 2);
     $("#contraption").addClass("section-expand");
   })
 
@@ -214,7 +198,6 @@ $(document).ready(function () {
 
   $(".section-crossfire").click(function () {
     $(".section").removeClass("section-expand");
-    $("#crossfire").css('z-index', 2);
     $("#crossfire").addClass("section-expand");
   })
 
@@ -224,7 +207,6 @@ $(document).ready(function () {
 
   $(".section-pirate").click(function () {
     $(".section").removeClass("section-expand");
-    $("#piratecrossfire").css('z-index', 2);
     $("#pirate").addClass("section-expand");
   })
   $("#pirate").click(function () {
@@ -233,7 +215,6 @@ $(document).ready(function () {
 
   $(".section-mysteriarch").click(function () {
     $(".section").removeClass("section-expand");
-    $("#mysteriarch").css('z-index', 2);
     $("#mysteriarch").addClass("section-expand");
   })
   $("#mysteriarch").click(function () {
@@ -242,7 +223,6 @@ $(document).ready(function () {
 
   $(".section-hudrolaunch").click(function () {
     $(".section").removeClass("section-expand");
-    $("#hudrolaunch").css('z-index', 2);
     $("#hudrolaunch").addClass("section-expand");
   })
   $("#hudrolaunch").click(function () {
@@ -251,7 +231,6 @@ $(document).ready(function () {
 
   $(".section-disco").click(function () {
     $(".section").removeClass("section-expand");
-    $("#disco").css('z-index', 2);
     $("#disco").addClass("section-expand");
   })
   $("#disco").click(function () {
@@ -260,7 +239,6 @@ $(document).ready(function () {
 
   $(".section-cognizance").click(function () {
     $(".section").removeClass("section-expand");
-    $("#cognizance").css('z-index', 2);
     $("#cognizance").addClass("section-expand");
   })
   $("#cognizance").click(function () {
@@ -269,7 +247,6 @@ $(document).ready(function () {
 
   $(".section-wikisurf").click(function () {
     $(".section").removeClass("section-expand");
-    $("#wikisurf").css('z-index', 2);
     $("#wikisurf").addClass("section-expand");
   })
   $("#wikisurf").click(function () {
@@ -278,7 +255,6 @@ $(document).ready(function () {
 
   $(".section-roadies").click(function () {
     $(".section").removeClass("section-expand");
-    $("#roadies").css('z-index', 2);
     $("#roadies").addClass("section-expand");
   })
   $("#roadies").click(function () {
@@ -305,7 +281,6 @@ $(document).ready(function () {
 
   $(".section-register").click(function () {
     $(".section").removeClass("section-expand");
-    $("#register").css('z-index', 2);
     $("#register").addClass("section-expand");
   })
   $("#register").click(function () {
@@ -341,7 +316,6 @@ $(document).ready(function () {
     })
 
     $(".goto-swatthebug").click(function (e) {
-        $("#swatthebug").css('z-index', 2);
         $("#swatthebug").addClass("section-expand").siblings().removeClass("section-expand");
         $(".section-swatthebug i").addClass("active");
         $(".section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -356,7 +330,6 @@ $(document).ready(function () {
   })
 
   $(".goto-hackerjack").click(function (e) {
-    $("#hackerjack").css('z-index', 2);
     $("#hackerjack").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-hackerjack i").addClass("active");
     $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -364,7 +337,6 @@ $(document).ready(function () {
   })
 
   $(".goto-bashemup").click(function (e) {
-    $("#bashemup").css('z-index', 2);
     $("#bashemup").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-bashemup i").addClass("active");
     $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -372,7 +344,6 @@ $(document).ready(function () {
   })
 
   $(".goto-maestro").click(function (e) {
-    $("#maestro").css('z-index', 2);
     $("#maestro").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-maestro i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -380,7 +351,6 @@ $(document).ready(function () {
   })
 
   $(".goto-codeswap").click(function (e) {
-    $("#codeswap").css('z-index', 2);
     $("#codeswap").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-codeswap i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -388,14 +358,12 @@ $(document).ready(function () {
   })
 
   $(".goto-codezilla").click(function (e) {
-    $("#codezilla").css('z-index', 2);
     $("#codezilla").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-codezilla i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
   })
   $(".goto-langx").click(function (e) {
-    $("#langx").css('z-index', 2);
     $("#langx").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-langx i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -403,7 +371,6 @@ $(document).ready(function () {
   })
 
   $(".goto-sidhandics").click(function (e) {
-    $("#sidhandics").css('z-index', 2);
     $("#sidhandics").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-sidhandics i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -412,7 +379,6 @@ $(document).ready(function () {
 
 
   $(".goto-highq").click(function (e) {
-    $("#highq").css('z-index', 2);
     $("#highq").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-highq i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -428,7 +394,6 @@ $(document).ready(function () {
   })
 
     $(".goto-startaction").click(function (e) {
-      $("#startaction").css('z-index', 2);
       $("#startaction").addClass("section-expand").siblings().removeClass("section-expand");
       $(".section-startaction i").addClass("active");
 
@@ -437,7 +402,6 @@ $(document).ready(function () {
   })
 
   $(".goto-mrcad").click(function (e) {
-    $("#mrcad").css('z-index', 2);
     $("#mrcad").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-mrcad i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -445,7 +409,6 @@ $(document).ready(function () {
   })
 
    $(".goto-shutterbug").click(function (e) {
-    $("#shutterbug").css('z-index', 2);
     $("#shutterbug").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-shutterbug i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -460,7 +423,6 @@ $(document).ready(function () {
   })
 
   $(".goto-contraption").click(function (e) {
-    $("#contraption").css('z-index', 2);
     $("#contraption").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-contraption i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -468,7 +430,6 @@ $(document).ready(function () {
   })
 
   $(".goto-crossfire").click(function (e) {
-    $("#crossfire").css('z-index', 2);
     $("#crossfire").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-crossfire i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -476,7 +437,6 @@ $(document).ready(function () {
   })
 
   $(".goto-pirate").click(function (e) {
-    $("#pirate").css('z-index', 2);
     $("#pirate").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-pirate i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -484,7 +444,6 @@ $(document).ready(function () {
   })
 
   $(".goto-mysteriarch").click(function (e) {
-    $("#mysteriarch").css('z-index', 2);
     $("#mysteriarch").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-mysteriarch i").addClass("active");
     $(".section-hudrolaunch i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -493,7 +452,6 @@ $(document).ready(function () {
 
 
   $(".goto-hudrolaunch").click(function (e) {
-    $("#hudrolaunch").css('z-index', 2);
     $("#hudrolaunch").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-hudrolaunch i").addClass("active");
     $(".section-hudrolaunch i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -502,7 +460,6 @@ $(document).ready(function () {
 
 
   $(".goto-disco").click(function (e) {
-    $("#disco").css('z-index', 2);
     $("#disco").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-disco i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -511,7 +468,6 @@ $(document).ready(function () {
 
 
   $(".goto-cognizance").click(function (e) {
-    $("#cognizance").css('z-index', 2);
     $("#cognizance").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-cognizance i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -521,7 +477,6 @@ $(document).ready(function () {
 
 
   $(".goto-wikisurf").click(function (e) {
-    $("#wikisurf").css('z-index', 2);
     $("#wikisurf").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-wikisurf i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -530,7 +485,6 @@ $(document).ready(function () {
 
 
   $(".goto-roadies").click(function (e) {
-    $("#roadies").css('z-index', 2);
     $("#roadies").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-roadies i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -538,7 +492,6 @@ $(document).ready(function () {
   })
 
   $(".goto-embedded").click(function (e) {
-    $("#embedded").css('z-index', 2);
     $("#embedded").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-embedded i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
@@ -547,7 +500,6 @@ $(document).ready(function () {
 
 
   $(".goto-python").click(function (e) {
-    $("#python").css('z-index', 2);
     $("#python").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-python i").addClass("active");
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
