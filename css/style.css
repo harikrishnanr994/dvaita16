@@ -326,7 +326,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, p span {
 	max-width: 300px;
 	border: 1px solid #FFFFFF;
     color: #ffffff;
-    z-index:2;
+    z-index:4;
 	display: block;
 }
 a {
@@ -364,7 +364,7 @@ hr {
 	text-align: center;
 	font-size: 25px;
 	color: #ffffff;
-    z-index: 2;
+    z-index: 4;
 }
 .hero-unit {
 	padding: 50px;
@@ -501,6 +501,7 @@ p{
 /* Sections */
 .section {
 	margin-bottom : -5px;
+	
 	width: 12%;
 	height: 18%;
 	background-color: #000;
@@ -523,7 +524,7 @@ p{
 	overflow: auto;
 	top: 0;
 	right: 0 !important;
-	z-index: 2;
+	z-index: 4;
 }
 .section.section-expand:hover {
 	cursor: default;
@@ -534,6 +535,7 @@ p{
 
 .section#about {
 	right: 86%;
+	z-index: 2
 }
 
 .section#login {
@@ -547,42 +549,31 @@ p{
 
 .section#services {
 	right: 62%;
+	z-index: 2
 }
 
 .section#predvaita {
 	right: 50%;
+	z-index: 2
 }
 
 .section#contact {
 	right: 38%;
+	z-index: 2
 }
 .section#bestengineer  {
 	right: 26%;
+	z-index: 2
 }
 
 .section#boombox {
     right: 14%;
+    z-index: 2
 }
 .section#respawn {
     right: 2%;
+    z-index: 2
 }
-
-
-/* Sections About */
-
-
-/* Sections Services */
-
-
-
-
-/* Sections Portfolio */
-
-
-/* Sections register */
-
-
-/* Sections Contact */
 
 
 
@@ -745,7 +736,7 @@ p{
 	position: fixed;
 	top: 0;
 	margin-bottom: 20px;
-	z-index:20;
+	z-index:21;
 	background-color: rgba(0,0,0,0.3);
 	font-size:40px;
 }
