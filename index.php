@@ -3,6 +3,11 @@
 require_once("config.php");
 $link = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die ("connection failed");
 session_start();
+$has_session_user = 0;
+if(isset($_SESSION['user'])) {
+    $has_session_user = 1;
+    $uid = $_SESSION['uid'];
+}
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
@@ -26,8 +31,7 @@ session_start();
     <link rel="shortcut icon" href="img/favicon.png" />
 </head>
 <body>
-
-<input type="hidden" name="user" value="<?=$_SESSION['user'];?>"></input>
+<input type=hidden id="user_session" value="<?=$has_session_user;?>"></input>
 <div id="loader-wrapper">
     <div id="loader"></div>
 
@@ -314,14 +318,14 @@ session_start();
                 </li>
 
                 <!-- Service Detail -->
-                <li class=" goto-disco">
+                <li class="goto-disco">
                     <div class="thumbnail"><i class="icon-lightbulb"></i>
                         <h3><span>Digital Disco</span> </h3>
                         <h5>“Turn on the lights in your head”</h5>
                         <p style="color: #ffffff">Are you fascinated by the twinkling of LEDs?</p>
                         <a href="#" class="btn goto-disco">Details</a></div>
                 </li>
-                <li class=" goto-cognizance">
+                <li class="goto-cognizance">
                     <div class="thumbnail"><i class="icon-cogs"></i>
                         <h3><span>Cognizance battle</span> </h3>
                         <h5>“A simple idea can inspire and motivate”</h5>
@@ -657,16 +661,16 @@ session_start();
 
         <div class="row">
             <div class="span5 offset4">
-                <div id="message" class="alert alert-success">
+                <div id="message-login" class="alert alert-success">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Success!</strong>
                 </div>
 
-                <div id="error" class="alert alert-danger">
+                <div id="error-login" class="alert alert-danger">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                    <strong>Error!</strong>Login failed!. Try again
+                    <strong>Error!</strong>
                 </div>
-                <form id="login-form" action="#" class="contact-form" method="post" style="display: none">
+                <form id="login-form" action="login.php" class="contact-form" method="post"><!-- style="display: none"-->
                     <fieldset>
 
                         <div id="email-group1" class="form-group">
@@ -2316,10 +2320,11 @@ session_start();
     <!-- About Content -->
     <div class="container">
         <hr />
-
-
-
-
+        <?php $query = mysqli_query($link,"Select * from users WHERE uid = '$uid'"); // SQL Query
+        while($row = mysqli_fetch_array($query))
+        { 
+          
+?>
         <h1 class="main-title"><span>Details</span></h1>
         <p class="lead"></p>
 
@@ -2335,11 +2340,11 @@ session_start();
 
             </div>
             <div class="span4 offset3">
-                <ol id="name1">a</ol>
-                <ol id="email1">b</ol>
-                <ol id="phone1">c</ol>
-                <ol id="college1">d</ol>
-                <ol id="accomo1">e</ol>
+                <ol id="name1"><?=$row['name'];?></ol>
+                <ol id="email1"><?=$row['email'];?></ol>
+                <ol id="phone1"><?=$row['mobile'];?></ol>
+                <ol id="college1"><?=$row['college'];?></ol>
+                <ol id="accomo1"><?=$row['accommodation'];?></ol>
 
             </div>
                 </div>
@@ -2348,7 +2353,7 @@ session_start();
         <hr />
         <!-- Rules -->
 
-
+<?php }?>
 
     </div>
 </div>
@@ -2655,6 +2660,7 @@ session_start();
 <!-- Scripts -->  
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/register.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -2692,5 +2698,5 @@ session_start();
             });
             /* ]]> */
         </script>
-</body>
+    </body>
 </html>

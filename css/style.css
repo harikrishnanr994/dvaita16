@@ -129,12 +129,12 @@ fieldset[disabled] .checkbox-inline {
 .form-horizontal .form-group:after {
 	clear: both;
 }
-#error { 
+#error, #error-login{ 
     display: none;
     margin: 0 auto 15px;
 	max-width: 300px;
 } 
-#message { 
+#message, #message-login{ 
     display: none; 
     margin: 0 auto 15px;
 	max-width: 300px;
@@ -538,6 +538,11 @@ p{
 
 .section#login {
 	right: 74%;
+	z-index: 2;
+}
+.section#profile {
+	right: 74%;
+	z-index: -2;
 }
 
 .section#services {
@@ -698,10 +703,6 @@ p{
 .section#register {
 	right: 10%;
 	z-index: -2;
-}
-
-.section#profile {
-	right: 80%;
 }
 
 /* Switch Section */
@@ -1487,6 +1488,7 @@ body {
 
 	.section#login {
 		right: 74%;
+		z-index: 2;
 	}
 
 	.section#services {

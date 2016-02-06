@@ -14,29 +14,21 @@ $(document).ready(function() {
 			encode 		: true
 		})
 			.done(function(data) {
-
 				console.log(data); 
-
 				if ( ! data.success) {
-					
-					if (data.errors.email) {
-						$('#email-group').addClass('has-error');
-						$('#email-group').append('<div class="help-block">' + data.errors.email + '</div>');
+					if (data.errors) {
+						$('#errors-login').append('' + data.errors + '');
 					}
-
 				} else {
-
-					$("#message").fadeIn().show();
+					$("#message-login").fadeIn().show();
 				    $("#reg-form")[0].reset();
+				    window.location.replace("http://www.dvzita16.com");
 				}
 			})
-
 			.fail(function(data) {
-				$("#errors").fadeIn().show();
+				$("#errors-login").fadeIn().show();
 				console.log(data);
 			});
-
-		
 	});
 
 });
