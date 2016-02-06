@@ -2309,8 +2309,9 @@ session_start();
     </div>
 </div>
 
-<div id="profile" class="section">
-    <div class="section-title"><i class="icon-lightbulb"></i><strong>Profile</strong>
+<div id="disco" class="section">
+    <div class="section-title"><i class="icon-lightbulb"></i><strong>Digital disco</strong>
+        <p><span> “Turn on the lights in your head”</span></p>
     </div>
 
     <!-- About Content -->
@@ -2318,36 +2319,62 @@ session_start();
         <hr />
 
 
+        <img class="pic" src="img/digitaldisco.png"  alt="Digital Disco"  />
 
 
-        <h1 class="main-title"><span>Details</span></h1>
+        <h1 class="main-title"><span>Description</span></h1>
         <p class="lead"></p>
 
         <div class="row">
-            <div class="span6">
-            <div class="span4 offset3">
-
-                    <ol >Name:</ol>
-                    <ol>Email:</ol>
-                    <ol>Phone:</ol>
-                    <ol>College:</ol>
-                    <ol>Accomodation:</ol>
-
+            <div class="span6 offset3">
+                <p class="text-center margin-bottom">Are you fascinated by the twinkling of LEDs?
+                    Logic teaches rules for presentation, not thinking.
+                    The event aims at illuminating the LEDs provided in a specific sequence.</p>
             </div>
-            <div class="span4 offset3">
-                <ol id="name1">a</ol>
-                <ol id="email1">b</ol>
-                <ol id="phone1">c</ol>
-                <ol id="college1">d</ol>
-                <ol id="accomo1">e</ol>
-
-            </div>
-                </div>
         </div>
 
         <hr />
         <!-- Rules -->
 
+        <h1 class="main-title"> <span> Rules </span></h1>
+
+        <div class="row">
+            <div class="span8 offset3">
+                <ul  class="margin-bottom">
+                    <ol style="color: #ffffff;  "  > 1. The team should not consist of more than two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2. A preliminary MCQ test regarding digital and analog circuits will be conducted.</ol>
+                    <ol style="color: #ffffff;  "  > 3. In the next round participants have to blink the LEDs as per the given </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sequence using the given components.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Pin-out diagrams of ICs, flip-flops, timer, etc will be provided.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Function generator, Digital IC trainer kit, etc will not be provided.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Participants are permitted to use only the tested components and devices.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Clocking circuits should be made by your own using the given components, if it is necessary.</ol>
+                    <ol style="color: #ffffff;  "  > 8. Blinking of LEDs should be perfectly detectable (Sequence interval>=1 second)</ol>
+                    <ol style="color: #ffffff;  "  > 9. The whole circuit should work independently, i.e, external DC supply would be the</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;only input given to the whole circuit.</ol>
+                    <ol style="color: #ffffff;  "  > 10. Those who get the correct sequence within a specified time limit will be the winner.</ol>
+                    <ol style="color: #ffffff;  "  > 11. If there is a tie/any other things happen, judges' decision regarding it will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 12. Rules are subjected to change as per the decision of the organising committee.</ol>
+                    <ol style="color: #ffffff;  "  > 13. All participants should have proper ID cards at the time of registration.</ol>
+
+                </ul>
+            </div>
+        </div>
+
+        <hr />
+        <!-- Contact -->
+        <h1 class="main-title"> <span>Contact</span></h1>
+        
+
+        <div class="row">
+            <div class="span6 offset3">
+
+                <h4 style="color: #fff" align="center">Akhil K J - +91 984 697 8402  </h4>
+                <h4 style="color: #fff" align="center">Hariharan M -   - +91 889 109 0369  </h4>
+                <br><br>
+
+            </div>
+        </div>
 
 
     </div>
@@ -2416,7 +2443,6 @@ session_start();
 
     </div>
 </div>
-
 
 <div id="wikisurf" class="section">
     <div class="section-title"><i class="icon-book"></i><strong>Wikisurf</strong>
@@ -2573,72 +2599,6 @@ session_start();
 
     </div>
 </div>
-
-<div id="cognizance" class="section">
-    <div class="section-title"><i class="icon-cogs"></i><strong>Cognizance</strong>
-        <p><span> “A simple idea can inspire and motivate”</span></p>
-    </div>
-
-    <!-- About Content -->
-    <div class="container">
-        <hr />
-
-
-        <img class="pic" src="img/Cognizance.png"  alt="Cognizance Battle"  />
-
-
-        <h1 class="main-title"><span>Description</span></h1>
-
-
-        <div class="row">
-            <div class="span6 offset3">
-                <p class="text-center margin-bottom">It is a battle of innovative project ideas. Gather some brilliant concepts which guarantee to inspire.
-                    Despite the heavy research topics, we'll be super happy if you guys finally “click_on_something..inspiring”.Here the battle is between ideas.
-                    Mission is to make the event a little bit less perfect and a bit more innovative.</p>
-            </div>
-        </div>
-
-        <hr />
-        <!-- Rules -->
-
-        <h1 class="main-title"> <span> Rules </span></h1>
-
-        <div class="row">
-            <div class="span8 offset3">
-                <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1. Each team shall consist a maximum of 2 participants.</ol>
-                    <ol style="color: #ffffff;  "  > 2. All the participants must submit their college ID card during registration.</ol>
-                    <ol style="color: #ffffff;  "  > 3. Project ideas from any discipline is welcomed.</ol>
-                    <ol style="color: #ffffff;  "  > 4. Project ideas should have a possible working model.</ol>
-                    <ol style="color: #ffffff;  "  > 5. Project ideas submitted should be relevant and innovative.</ol>
-                    <ol style="color: #ffffff;  "  > 6. Candidates should submit one soft copy and hard copy of their ideas on the day of presentation.</ol>
-                    <ol style="color: #ffffff;  "  > 7. Registration can be done on or before the day of presentation.</ol>
-                    <ol style="color: #ffffff;  "  > 8. Plagiarism is strictly prohibited. Any candidates found doing so will be disqualified.</ol>
-                    <ol style="color: #ffffff;  "  > 9. Decision of the judging committee will be final.</ol>
-                </ul>
-            </div>
-        </div>
-
-        <hr />
-        <!-- Contact -->
-        <h1 class="main-title"> <span>Contact</span></h1>
-
-
-        <div class="row">
-            <div class="span6 offset3">
-
-                <h4 style="color: #fff" align="center">Aravind Sai - +91 828 130 5736  </h4>
-                <br><br>
-
-            </div>
-        </div>
-
-
-
-    </div>
-</div>
-
-
 
 <!-- Switch Section -->
 <div id="switch" class="switch-section "><div class="switch-header goto-services"><h5 >Events</h5></div>
