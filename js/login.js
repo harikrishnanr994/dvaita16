@@ -17,12 +17,23 @@ $(document).ready(function() {
 				console.log(data); 
 				if ( ! data.success) {
 					if (data.errors) {
-						$('#errors-login').append('' + data.errors + '');
+						$('#error-login').fadeIn().show();
+						if (data.errors.pwd) {
+						$('#error-login').append('<div class="alert alert-danger">' + data.errors.pwd + '</div>');
+					}
+
+					if (data.errors.email) {
+						$('#error-login').append('<div class="alert alert-danger">' + data.errors.email + '</div>');
+					}
+					if (data.errors.act) {
+						$('#error-login').append('<div class="alert alert-danger">' + data.errors.act + '</div>');
+					}
+
 					}
 				} else {
 					$("#message-login").fadeIn().show();
 				    $("#reg-form")[0].reset();
-				    window.location.replace("http://www.dvaita16.com");
+				    window.location.replace("index.php");
 				}
 			})
 			.fail(function(data) {

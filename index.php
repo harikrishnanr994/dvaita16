@@ -620,6 +620,7 @@ if(isset($_SESSION['user'])) {
                         <input type="password" placeholder="Confirm Password" class="form-control" class="span3" name="cpwd" id="cpwd" required/>
                         <div id='cpassword'></div>
                         <input type="number" placeholder="Phone" class="form-control" class="span3" name="phone" id="phone" required/>
+                        <div id='phone'></div>
                         <input type="text" placeholder="College" class="form-control" class="span3" name="college" id="college" required/>
                         
                         <div class="span6 radio-group label1" >
@@ -657,8 +658,6 @@ if(isset($_SESSION['user'])) {
     <div class="container">
         <hr />
         <h1 class="main-title"><span>Login</span> Now</h1>
-
-
         <div class="row">
             <div class="span5 offset4">
                 <div id="message-login" class="alert alert-success">
@@ -677,20 +676,15 @@ if(isset($_SESSION['user'])) {
                             <input type="email" placeholder="Email" class="form-control" class="span3" name="email" id="email" required/>
                         </div>
                         <input type="password" placeholder="Password" class="form-control" class="span3" name="pwd" id="pwd" required/>
-
-
-
                         <button type="submit" class="btn btn-large">Submit</button>
                         <button type="reset" class="btn btn-large">Reset</button>
                         <button class="btn btn-large goto-register">Not Registered yet ?</button>
 
                     </fieldset>
                 </form>
-
-
-                <div  class="alert alert-info">
+                <!--div  class="alert alert-info">
                     <strong>Login </strong>Coming Soon
-                </div>
+                </div-->
             </div>
         </div>
     <hr />
@@ -2319,6 +2313,7 @@ if(isset($_SESSION['user'])) {
 
     <!-- About Content -->
     <div class="container">
+        <a href="logout.php"><p class="lead">Logout</p></a>
         <hr />
         <?php $query = mysqli_query($link,"Select * from users WHERE uid = '$uid'"); // SQL Query
         while($row = mysqli_fetch_array($query))
@@ -2673,30 +2668,60 @@ if(isset($_SESSION['user'])) {
 <script type="text/javascript" src="js/global.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
-<script type="text/javascript" src="/js/jquery.validate.js"></script>
-<script type="text/javascript" src="/js/jquery.validation.functions.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
         <script type="text/javascript">
+$("#reg-form").validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 4
+                },
+                pwd: {
+                    required: true,
+                    minlength: 5
+                },
+                cpwd: {
+                    required: true,
+                    minlength: 5,
+                    equalTo: "#pwd"
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone: {
+                    required: true,
+                    digits: true,
+                    minlength:10,
+                    maxlength:10
+                },
+                gender: {
+                    required: "#gender:checked"
+                }
+            },
+            messages: {
+                name: {
+                    required: "Please enter a username",
+                    minlength: "Your username must consist of at least 4 characters"
+                },
+                pwd: {
+                    required: "Please provide a password",
+                    minlength: "Your password must be at least 5 characters long"
+                },
+                cpwd: {
+                    required: "Please provide a password",
+                    minlength: "Your password must be at least 5 characters long",
+                    equalTo: "Please enter the same password as above"
+                },
+                phone: {
+                    required: "Please provide a phone number",
+                    minlength: "Your password must be 10 digit number",
+                    digits: "Please enter a valid phone number"
+                },
+                email: "Please enter a valid email address"
+            }
+        });
 
-            /* <![CDATA[ */
-            jQuery(function(){
-                jQuery("#phone").validate({
-                    expression: "if (!isNaN(VAL) && VAL) return true; else return false;",
-                    message: "Please enter a valid number"
-                });
-                jQuery("#email").validate({
-                    expression: "if (VAL.match(/^[^\\W][a-zA-Z0-9\\_\\-\\.]+([a-zA-Z0-9\\_\\-\\.]+)*\\@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9_]+)*\\.[a-zA-Z]{2,4}$/)) return true; else return false;",
-                    message: "Please enter a valid Email ID"
-                });
-                jQuery("#pwd").validate({
-                    expression: "if (VAL.length > 5 && VAL) return true; else return false;",
-                    message: "Please enter a valid Password"
-                });
-                jQuery("#cpwd").validate({
-                    expression: "if ((VAL == jQuery('#pwd').val()) && VAL) return true; else return false;",
-                    message: "Confirm password field doesn't match the password field"
-                });
-            });
-            /* ]]> */
         </script>
     </body>
 </html>

@@ -1,4 +1,4 @@
-// JavaScript Functions ( Statti Template )
+// JavaScript Functions
 
 $(document).ready(function () {
 
@@ -737,6 +737,10 @@ $(document).ready(function () {
   $(".goto-about").click(function (e) {
     $("#about").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-about i").addClass("active");
+  $("#about").css("z-index",4);
+        $(" #login, #profile, #event, #predvaita, #contact, #bestengineer, #respawn").css("z-index",2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+
     $(".section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
@@ -755,6 +759,10 @@ $(document).ready(function () {
   $(".goto-register").click(function (e) {
     $("#register").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-register i").addClass("active");
+  $("#register").css("z-index",4);
+        $("#about, #login, #profile, #event, #predvaita, #contact, #bestengineer, #respawn").css("z-index",2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
 	e.stopPropagation();
   })
@@ -762,6 +770,10 @@ $(document).ready(function () {
   $(".goto-login").click(function (e) {
     $("#login").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-login i").addClass("active");
+    $("#login").css("z-index",4);
+        $("#about, #profile, #event, #predvaita, #contact, #bestengineer, #respawn").css("z-index",2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
     e.stopPropagation();
   })
@@ -769,6 +781,10 @@ $(document).ready(function () {
   $(".goto-contact").click(function (e) {
     $("#contact").addClass("section-expand").siblings().removeClass("section-expand");
 	$(".section-contact i").addClass("active");
+  $("#contact").css("z-index",4);
+        $("#about, #login, #profile, #event, #predvaita, #bestengineer, #respawn").css("z-index",2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i").removeClass("active");
 	e.stopPropagation();
   })
@@ -776,6 +792,10 @@ $(document).ready(function () {
   $(".goto-profile").click(function (e) {
     $("#profile").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-profile i").addClass("active");
+    $("#profile").css("z-index",4);
+        $("#about, #login, #event, #predvaita, #contact, #bestengineer, #respawn").css("z-index",2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i").removeClass("active");
     e.stopPropagation();
   })

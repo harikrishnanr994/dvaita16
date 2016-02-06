@@ -5,7 +5,8 @@ session_start();
     $email= mysqli_real_escape_string($mysqli, $_POST['email']);
     $password = mysqli_real_escape_string($mysqli, $_POST['pwd']);
     $bool = true;
-    $data = array(); 
+    $data = array();
+    $errors = array(); 
     $error = "";
     $query = mysqli_query($mysqli, "Select * from users WHERE email='$email'"); // Query the users table
     $exists = mysqli_num_rows($query); //Checks if email exists
@@ -46,20 +47,20 @@ session_start();
               else
               {
                 $data['success'] = false;
-                $error = 'Incorrect Password!';
+                $errors['pwd'] = 'Incorrect Password!';
               }
           }
           else
           {
             $data['success'] = false;
-            $error = 'Activate your account from your e-mail!';
+            $errors['act'] = 'Activate your account from your e-mail!';
           }
     }
     else
       {
         $data['success'] = false;
-        $error = 'Incorrect email!';
+        $errors['email'] = 'Incorrect email!';
       }
-      $data['errors']  = $error;
+      $data['errors']  = $errors;
       echo json_encode( $data );
 ?>

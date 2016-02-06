@@ -55,3 +55,10 @@ function checkAvailability() {
         error:function (){}
     });
 }
+
+/*function checkLength() {
+	var len = document.getElementById("phone").lenghth;
+	if(len != 10){
+
+	}
+}*/
