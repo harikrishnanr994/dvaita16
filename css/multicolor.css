@@ -138,11 +138,11 @@
 }
 
 .section#embedded, .section-embedded i.active {
-    background: #103a68;
+    background: #2196f3;
 }
 
 .section#python, .section-python i.active {
-    background: #0d2f09;
+    background: #009688;
 }
 
 .section#login, .section-login i.active {
