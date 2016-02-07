@@ -96,7 +96,7 @@ if(isset($_SESSION['user'])) {
         <p class="lead">Learn it , code it , hack it , loop it</p>
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom " style="color: #ffffff">The Computer Science & Engineering department of NSS College of Engineering, Palakkad is organizing a National level Technical fest - DVAITA'16 on 19th and 20th February, 2016.<br>
+                <p class="  margin-bottom " style="color: #ffffff">The Computer Science & Engineering department of NSS College of Engineering, Palakkad is organizing a National level Technical fest - DVAITA'16 on 19th and 20th February, 2016.<br>
 
                     DVAITA that contributes some of the core Indian beliefs on the nature of reality finds its relevance on the Binary system of our scientific world. This is the reason why this event got entitled by the name "DVAITA".<br>
 
@@ -109,7 +109,7 @@ if(isset($_SESSION['user'])) {
         <!-- About Slogan -->
 
         <!-- About ADV -->
-        <div class="hero-unit text-center">
+        <div class="hero-unit  ">
             <h2> <span>NSS COLLEGE OF ENGINEERING</span></h2>
             <p class="lead">NSS College of Engineering, Palakkad was established in 1960 with three branches during the second Five – Year plan with the assistance of Central and State Government under the Grand in – Aid scheme.<br><br>
                 Currently it is one of the most reputed, premier Engineering educational institutions in Kerala, managed by Nair Service Society affiliated to the University of Calicut.<br><br>
@@ -540,7 +540,7 @@ if(isset($_SESSION['user'])) {
         </div>
 
         <!-- Folio ADV
-        <div class="hero-unit text-center">
+        <div class="hero-unit  ">
             <h2>efficiency and <span>reliability</span></h2>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention</p>
             <a class="btn btn-large">Get a Quote</a></div>
@@ -713,7 +713,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span8 offset3">
-                <p class="text-center margin-bottom">Dance is the most aesthetic form of art that our race has ever developed. <br>
+                <p class="  margin-bottom">Dance is the most aesthetic form of art that our race has ever developed. <br>
                     Dancing speaks a language right from the heart. Do you have what it takes to beat the best? <br>
                     Then put on your dancing shoes, Compete with the finest crews across the nation and stand a chance to be the ultimate dancing crew.<br> 
                     The stage is set, dancers pumped up. Let the dance begin.
@@ -926,7 +926,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span8 offset3">
-                <p class="text-center margin-bottom"> <br>
+                <p class="  margin-bottom"> <br>
                     1. checking the contenders knowledge on current cyber vulnerability<br>
                     2. Their skills on prevention measures<br>
                     3. Penetration testing<br>
@@ -1006,7 +1006,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom"> <br>
+                <p class="  margin-bottom"> <br>
                     </p>
             </div>
         </div>
@@ -1200,7 +1200,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Programming is not just a science, but an art. This event focuses on testing the <br>
+                <p class="  margin-bottom">Programming is not just a science, but an art. This event focuses on testing the <br>
                     conceptual understanding of programming methodology to implement, test and debug the programs.</p>
             </div>
         </div>
@@ -1268,7 +1268,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">A battleground for programmers to unleash the coder in them.<br>
+                <p class="  margin-bottom">A battleground for programmers to unleash the coder in them.<br>
 
                     Do not miss this opportunity to  gratify the creative longings built deep within you. Come and have fun coding.</p>
             </div>
@@ -1332,7 +1332,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Code Swap is a coordination based programming challenge where the players <br>
+                <p class="  margin-bottom">Code Swap is a coordination based programming challenge where the players <br>
                     in a team will interchange their codes while coding.SWAPPING allows the players to code for, not only one, <br>
                     but more than one program in different languages which makes it all more interesting and challenging.<br>
                     However, the players must note that, in the event, time plays an important factor.<br>
@@ -1407,7 +1407,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Think you have the mad skills to be a cracker jack programmer? <br>
+                <p class="  margin-bottom">Think you have the mad skills to be a cracker jack programmer? <br>
                     Waiting for a cool way to show off your coding skills or are you just a super geek too <br>
                     lazy to move out of your room? Then this is the right place for you!! Take part in our <br><strong></strong>International</strong> <br>
                     level online coding contest and have a go at the amazing prizes up for grabs.</p>
@@ -1474,7 +1474,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">The thing about being the best is that you can only get better.<br>
+                <p class="  margin-bottom">The thing about being the best is that you can only get better.<br>
                     A set of tasks have been set that shall test your grey matter.Those who can adapt, <br>
                     improvise and implement easily shall find this as a cake walk.<br>
 
@@ -1542,7 +1542,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Flex you neurones to catch hold of the fleeting facts. Here is a chance to iterate your knowledge and unload your answers. If you think you have got what it takes to leave everyone biting the dust with your knowledge, this brain battle extravaganza is just the place to be. Welcome to the open quiz of Dvaita!!!</p>
+                <p class="  margin-bottom">Flex you neurones to catch hold of the fleeting facts. Here is a chance to iterate your knowledge and unload your answers. If you think you have got what it takes to leave everyone biting the dust with your knowledge, this brain battle extravaganza is just the place to be. Welcome to the open quiz of Dvaita!!!</p>
             </div>
         </div>
 
@@ -1604,7 +1604,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Start action cut is an Ad film contest which is bound to thrill the young talents.
+                <p class="  margin-bottom">Start action cut is an Ad film contest which is bound to thrill the young talents.
                     It has become a necessity for students and institutes offering professional courses to develop their understanding
                     of present marketing and advertising trends. Ad film making requires knowledge, sensibility and great communication
                     skills to create an instant effect on audience. It is an excellent opportunity to exercise their creative skill and
@@ -1681,7 +1681,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Reveal the magic of new perspective. Manifest your skill in AutoCAD.
+                <p class="  margin-bottom">Reveal the magic of new perspective. Manifest your skill in AutoCAD.
                     Get the 2d,imagine the 3d, build the figure & beat d Euclid.</p>
             </div>
         </div>
@@ -1809,7 +1809,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Ready for an astounding gaming experience? Here you go! Swank your gaming skills the way you want to..!!</p>
+                <p class="  margin-bottom">Ready for an astounding gaming experience? Here you go! Swank your gaming skills the way you want to..!!</p>
             </div>
         </div>
 
@@ -1971,7 +1971,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Break In Style is the kind of event which puts your engineering skill set to the test.
+                <p class="  margin-bottom">Break In Style is the kind of event which puts your engineering skill set to the test.
                     Unlock your imagination and build a complex structure based on engineering principles to perform a task.</p>
             </div>
         </div>
@@ -2044,7 +2044,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">It is better to debate a question than to settling it than to settle a question without debating it.</p>
+                <p class="  margin-bottom">It is better to debate a question than to settling it than to settle a question without debating it.</p>
             </div>
         </div>
 
@@ -2115,7 +2115,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Be The Pirate! Is a game for teams having 3 or 4 members,
+                <p class="  margin-bottom">Be The Pirate! Is a game for teams having 3 or 4 members,
                     in which team try to find hidden objects or places by using a series of clues.
                     The game may contain many rounds in which a number of teams get eliminated in each round.
                     The first team to find the key to the treasure in the final round will be declared as the winner.</p>
@@ -2188,7 +2188,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Do you have a team of two to be the next Sherlock and Watson to unravel the mysteries
+                <p class="  margin-bottom">Do you have a team of two to be the next Sherlock and Watson to unravel the mysteries
                     behind the scenes? Then put on your thinking cap and investigate on the crime event. Record, Refresh and,
                     Reiterate your findings and LOCK the culprit…</p>
             </div>
@@ -2254,7 +2254,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Have you ever experienced the magic of Aerodynamics? Here comes an opportunity
+                <p class="  margin-bottom">Have you ever experienced the magic of Aerodynamics? Here comes an opportunity
                     to build an air pressurized rocket propelled with water.
 
                     <br><br>Get ready with your rocket. 1.. 2.. 3.. Splash off…
@@ -2439,7 +2439,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">It is a battle of innovative project ideas. Gather some brilliant concepts which guarantee to inspire.
+                <p class="  margin-bottom">It is a battle of innovative project ideas. Gather some brilliant concepts which guarantee to inspire.
                     Despite the heavy research topics, we'll be super happy if you guys finally “click_on_something..inspiring”.Here the battle is between ideas.
                     Mission is to make the event a little bit less perfect and a bit more innovative.</p>
             </div>
@@ -2504,7 +2504,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Surf from one wiki page to another using the links provided in each page.
+                <p class="  margin-bottom">Surf from one wiki page to another using the links provided in each page.
                     A start wiki page and end wiki page will be given to the contestant. Constraints can be changed in each level.
                     Winning criteria can be the minimum number of pages navigated between source and destination,
                     minimum time taken or even reaching the destination by visiting a particular number of pages.</p>
@@ -2592,7 +2592,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">Roadies - the name that strikes terror into the weakhearted, the one that makes the brave impatient for the next adventure.
+                <p class="  margin-bottom">Roadies - the name that strikes terror into the weakhearted, the one that makes the brave impatient for the next adventure.
                     DVAITA'16 brings you ROADIES in all its true spirit.
                     Push yourself to the limits that you never knew existed. Face the unknown and struggle through obstacles.
                     Wake up the warrior in you and fight against all odds till your last breath, or until you win.</p>
@@ -2660,7 +2660,7 @@ if(isset($_SESSION['user'])) {
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="text-center margin-bottom">It is a battle of innovative project ideas. Gather some brilliant concepts which guarantee to inspire.
+                <p class="  margin-bottom">It is a battle of innovative project ideas. Gather some brilliant concepts which guarantee to inspire.
                     Despite the heavy research topics, we'll be super happy if you guys finally “click_on_something..inspiring”.Here the battle is between ideas.
                     Mission is to make the event a little bit less perfect and a bit more innovative.</p>
             </div>
