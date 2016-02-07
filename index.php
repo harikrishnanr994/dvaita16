@@ -2324,17 +2324,17 @@ if(isset($_SESSION['user'])) {
         <p class="lead"></p>
 
         <div class="row">
-            <div class="span6">
-            <div class="span4 offset3">
 
-                    <ol >Name:</ol>
-                    <ol>Email:</ol>
-                    <ol>Phone:</ol>
-                    <ol>College:</ol>
-                    <ol>Accomodation:</ol>
+            <div class="span2 offset4">
+
+                    <ol >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:</ol>
+                    <ol>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</ol>
+                    <ol>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone:</ol>
+                    <ol>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;College:</ol>
+                    <ol>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accomodation:</ol>
 
             </div>
-            <div class="span4 offset3">
+            <div class="span4 ">
                 <ol id="name1"><?=$row['name'];?></ol>
                 <ol id="email1"><?=$row['email'];?></ol>
                 <ol id="phone1"><?=$row['mobile'];?></ol>
@@ -2343,10 +2343,78 @@ if(isset($_SESSION['user'])) {
 
             </div>
                 </div>
-        </div>
+
 
         <hr />
         <!-- Rules -->
+
+            <h1 class="main-title"><span>Event Details</span></h1>
+            <p class="lead"></p>
+
+            <div class="row">
+
+                <div class="span2 offset4">
+
+                    <ol >Boom Box:</ol><br>
+                    <ol>Respawn Arena:</ol><br>
+                    <ol>Best Engineer:</ol><br>
+                    <ol>Code Maestro:</ol><br>
+                    <ol>Swat the Bug:</ol><br>
+                    <ol>Hacker Jack:</ol><br>
+                    <ol>Language X:</ol><br>
+                    <ol>Bash Em Up:</ol><br>
+                    <ol>CodeZilla:</ol><br>
+                    <ol>Code Swap:</ol><br>
+                    <ol>Sidhandhics:</ol><br>
+                    <ol>Start Action Cut:</ol><br>
+                    <ol>Mr Cad:</ol><br>
+                    <ol>Shutter Bug:</ol><br>
+                    <ol>High Q:</ol><br>
+                    <ol>Break In Style:</ol><br>
+                    <ol>Cross Fire:</ol><br>
+                    <ol>Be the Pirate:</ol><br>
+                    <ol>Mysteriarch:</ol><br>
+                    <ol>Hydrolaunch:</ol><br>
+                    <ol>Digital Disco:</ol><br>
+                    <ol>Cognizance Battle:</ol><br>
+                    <ol>WikiSurf:</ol><br>
+                    <ol>Roadies:</ol>
+
+
+
+                </div>
+                <div class="span4 ">
+                    <button class="btn-info" id="boombox_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-success " id="boombox_pay" style="margin-bottom: 1px">Pay now</button>           <button  class="btn-danger" id="boombox_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="respawn_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-danger" id="respawn_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="bestengineer_in" style="margin-bottom: 1px">I am in </button> <button class="btn-danger" id="bestengineer_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="maestro_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-danger" id="maestro_out" style="margin-bottom: 1px"> I am out </button><br><br>
+                    <button class="btn-info" id="swatthebug_in" style="margin-bottom: 1px">I am in </button>   <button class="btn-danger" id="swatthebug_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="hackerjack_in" style="margin-bottom: 1px">I am in </button>   <button class="btn-danger" id="hackerjack_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="langx_in" style="margin-bottom: 1px">I am in </button>        <button class="btn-danger" id="langx_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="bashemup_in">I am in </button>     <button class="btn-danger" id="bashemup_out">I am out </button><br><br>
+                    <button class="btn-info" id="codezilla_in">I am in </button>    <button class="btn-danger"  id="codezilla_out">I am out </button><br><br>
+                    <button class="btn-info" id="codeswap_in">I am in </button>     <button class="btn-danger" id="codeswap_out">I am out </button><br><br>
+                    <button class="btn-info" id="sidhandics_in">I am in </button>   <button  class="btn-success " id="sidhandics_pay">Pay now</a>          <button class="btn-danger" id="sidhandics_out">I am out </button><br><br>
+                    <button class="btn-info" id="startaction_in">I am in </button>  <button   class="btn-success " id="startaction_pay">Pay now</a>       <button class="btn-danger" id="startaction_out">I am out </button><br><br>
+                    <button class="btn-info" id="mrcad_in">I am in </button>        <button class="btn-danger" id="mrcad_out">I am out </button><br><br>
+                    <button class="btn-info" id="shutterbug_in">I am in </button>   <button  class="btn-success " id="shutterbug_pay">Pay now</a>        <button class="btn-danger" id="shutterbug_out">I am out </button><br><br>
+                    <button class="btn-info" id="highq_in" style="margin-bottom: 1px">I am in </button>        <button class="btn-danger"  id="highq_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="contraption_in" style="margin-bottom: 1px">I am in </button>  <button class="btn-danger" id="contraption_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="crossfire_in" style="margin-bottom: 1px">I am in </button>    <button class="btn-danger" id="crossfire_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="pirate_in" style="margin-bottom: 1px">I am in </button>       <button class="btn-danger" id="pirate_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="mysteriarch_in" style="margin-bottom: 1px">I am in </button>  <button class="btn-danger" id="mysteriarch_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="hudrolaunch_in" style="margin-bottom: 1px">I am in </button>  <button class="btn-danger" id="hudrolaunch_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="disco_in" style="margin-bottom: 1px">I am in </button>        <button class="btn-danger" id="disco_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="cognizance_in" style="margin-bottom: 1px">I am in </button>   <button class="btn-danger" id="cognizance_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="wikisurf_in" style="margin-bottom: 1px">I am in </button>     <button class="btn-danger" id="wikisurf_out" style="margin-bottom: 1px">I am out </button><br><br>
+                    <button class="btn-info" id="roadies_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-danger" id="roadies_out" style="margin-bottom: 1px">I am out </button><br><br>
+
+
+                </div>
+            </div>
+
+
+            <hr />
 
 <?php }?>
 
