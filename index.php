@@ -1932,7 +1932,7 @@ if(isset($_SESSION['user'])) {
             </div>
         </div>
 
-
+        <img class="pic" src="img/roadrash.png"  alt=Roadrash"  />
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
@@ -2394,10 +2394,10 @@ if(isset($_SESSION['user'])) {
                     <button class="btn-info" id="bashemup_in">I am in </button>     <button class="btn-danger" id="bashemup_out">I am out </button><br><br>
                     <button class="btn-info" id="codezilla_in">I am in </button>    <button class="btn-danger"  id="codezilla_out">I am out </button><br><br>
                     <button class="btn-info" id="codeswap_in">I am in </button>     <button class="btn-danger" id="codeswap_out">I am out </button><br><br>
-                    <button class="btn-info" id="sidhandics_in">I am in </button>   <button  class="btn-success " id="sidhandics_pay">Pay now</a>          <button class="btn-danger" id="sidhandics_out">I am out </button><br><br>
-                    <button class="btn-info" id="startaction_in">I am in </button>  <button   class="btn-success " id="startaction_pay">Pay now</a>       <button class="btn-danger" id="startaction_out">I am out </button><br><br>
+                    <button class="btn-info" id="sidhandics_in">I am in </button>   <button  class="btn-success " id="sidhandics_pay">Pay now</button>          <button class="btn-danger" id="sidhandics_out">I am out </button><br><br>
+                    <button class="btn-info" id="startaction_in">I am in </button>  <button   class="btn-success " id="startaction_pay">Pay now</button>       <button class="btn-danger" id="startaction_out">I am out </button><br><br>
                     <button class="btn-info" id="mrcad_in">I am in </button>        <button class="btn-danger" id="mrcad_out">I am out </button><br><br>
-                    <button class="btn-info" id="shutterbug_in">I am in </button>   <button  class="btn-success " id="shutterbug_pay">Pay now</a>        <button class="btn-danger" id="shutterbug_out">I am out </button><br><br>
+                    <button class="btn-info" id="shutterbug_in">I am in </button>    <button class="btn-danger" id="shutterbug_out">I am out </button><br><br>
                     <button class="btn-info" id="highq_in" style="margin-bottom: 1px">I am in </button>        <button class="btn-danger"  id="highq_out" style="margin-bottom: 1px">I am out </button><br><br>
                     <button class="btn-info" id="contraption_in" style="margin-bottom: 1px">I am in </button>  <button class="btn-danger" id="contraption_out" style="margin-bottom: 1px">I am out </button><br><br>
                     <button class="btn-info" id="crossfire_in" style="margin-bottom: 1px">I am in </button>    <button class="btn-danger" id="crossfire_out" style="margin-bottom: 1px">I am out </button><br><br>
