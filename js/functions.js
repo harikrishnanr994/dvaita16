@@ -1014,6 +1014,3 @@ $(document).ready(function() {
     }, 3000);
 
 });
-$("#boombox_pay").click(function () {
-    //$(".section-crossfire i").toggleClass("active");
-  })

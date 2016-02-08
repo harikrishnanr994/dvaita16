@@ -1,4 +1,28 @@
 $(document).ready(function() {
+	$('#boombox_cancel').click(function(e) {
+		$('#verify_boombox').fadeIn().hide();
+		$('#boombox_pay').fadeIn().show();
+	})
+	$('#sidhandics_cancel').click(function(e) {
+		$('#verify_sidhandics').fadeIn().hide();
+		$('#sidhandics_pay').fadeIn().show();
+	})
+	$('#startaction_cancel').click(function(e) {
+		$('#verify_startaction').fadeIn().hide();
+		$('#startaction_pay').fadeIn().show();
+	})
+	/*$('#boombox_pay').click(function(e) {
+		$('#verify_boombox').fadeIn().show();
+		$('#boombox_pay').fadeIn().hide();
+	})
+	$('#sidhandics_pay').click(function(e) {
+		$('#verify_sidhandics').fadeIn().show();
+		$('#sidhandics_pay').fadeIn().hide();
+	})
+	$('#startaction_pay').click(function(e) {
+		$('#verify_startaction').fadeIn().show();
+		$('#startaction_pay').fadeIn().hide();
+	})*/
 
 	$('#reg-form').submit(function(event) {
 		event.preventDefault();
@@ -37,6 +61,90 @@ $(document).ready(function() {
 	});
 
 });
+
+$('#verify_boombox').submit(function(event) {
+		event.preventDefault();
+
+		$.ajax({
+			type 		: 'POST',
+			url 		: 'verify_pay.php',
+			data 		: $("#verify_boombox").serialize(),
+			dataType 	: 'json',
+			encode 		: true
+		})
+			.done(function(data) {
+				console.log(data); 
+				if ( ! data.success) {
+				} else {
+					$('#verify_boombox').fadeIn().hide();
+					$('#boombox_pay').fadeIn().hide();
+					$('#boombox_out').fadeIn().hide();
+					$('#regd-bb').fadeIn().show();
+				}
+			})
+
+			.fail(function(data) {
+				console.log(data);
+			});
+
+		
+	});
+
+$('#verify_sidhandics').submit(function(event) {
+		event.preventDefault();
+
+		$.ajax({
+			type 		: 'POST',
+			url 		: 'verify_pay.php',
+			data 		: $("#verify_sidhandics").serialize(),
+			dataType 	: 'json',
+			encode 		: true
+		})
+			.done(function(data) {
+				console.log(data); 
+				if ( ! data.success) {
+				} else {
+					$('#verify_sidhandics').fadeIn().hide();
+					$('#sidhandics_pay').fadeIn().hide();
+					$('#sidhandics_out').fadeIn().hide();
+					$('#regd-sd').fadeIn().show();
+				}
+			})
+
+			.fail(function(data) {
+				console.log(data);
+			});
+
+		
+	});
+$('#verify_startaction').submit(function(event) {
+		event.preventDefault();
+
+		$.ajax({
+			type 		: 'POST',
+			url 		: 'verify_pay.php',
+			data 		: $("#verify_startaction").serialize(),
+			dataType 	: 'json',
+			encode 		: true
+		})
+			.done(function(data) {
+				console.log(data); 
+				if ( ! data.success) {
+				} else {
+					$('#verify_startaction').fadeIn().hide();
+					$('#startaction_pay').fadeIn().hide();
+					$('#startaction_out').fadeIn().hide();
+					$('#regd-sa').fadeIn().show();
+				}
+			})
+
+			.fail(function(data) {
+				console.log(data);
+			});
+
+		
+	});
+
 
 function checkAvailability() {
     document.getElementById("submit-btn").disabled = true; 
