@@ -62,3 +62,49 @@ function checkAvailability() {
 
 	}
 }*/
+
+function enterEvent(uid, _event) {
+	//var event_clicked = document.getElementById(_event);
+	var formData = {
+			'uid' 				: uid,
+			'event' 			: _event,
+			'action'			:'in'
+		}; 
+   $.ajax({
+			type 		: 'GET',
+			url 		: 'check_event.php',
+			data 		: formData,
+			dataType 	: 'json',
+			encode 		: true
+		})
+			.done(function(data) {
+				console.log(data); 
+				if ( ! data.success) {
+
+				} else {
+					switch (_event) { 
+						case 'boombox_in': 
+							$('#boombox_in').fadeIn().hide();
+							$('#boombox_out').fadeIn().show();
+							$('#boombox_pay').fadeIn().show();
+							break;
+						case 'respawn_in': 
+							$('#respawn_in').fadeIn().hide();
+							$('#respawn_out').fadeIn().show();
+							break;
+						case 'mootools': 
+							alert('mootools Wins!');
+							break;		
+						case 'dojo': 
+							alert('dojo Wins!');
+							break;
+						default:
+							alert('Nobody Wins!');
+					}
+				}
+			})
+
+			.fail(function(data) {
+				console.log(data);
+			});
+}

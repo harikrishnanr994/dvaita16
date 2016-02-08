@@ -669,7 +669,7 @@ if(isset($_SESSION['user'])) {
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>
                 </div>
-                <form id="login-form" action="login.php" class="contact-form" method="post"  style="display: none">
+                <form id="login-form" action="login.php" class="contact-form" method="post" ><!-- style="display: none"-->
                     <fieldset>
 
                         <div id="email-group1" class="form-group">
@@ -1931,7 +1931,7 @@ if(isset($_SESSION['user'])) {
             </div>
         </div>
 
-        <img class="pic" src="img/roadrash.png"  alt=Roadrash"  />
+        <img class="pic" src="img/roadrash.png"  alt="Roadrash"  />
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
@@ -2357,19 +2357,19 @@ if(isset($_SESSION['user'])) {
 
                     <tr>
                         <td id="boombox_1"><ol >Boom Box:</ol></td>
-                        <td id="boombox_2" ><button class="btn-info" id="boombox_in" >I am in </button></td>
-                        <td id="boombox_4" ><button  class="btn-danger" id="boombox_out" >I am out </button></td>
-                        <td id="boombox_3" ><button class="btn-success " id="boombox_pay" >Pay now</button></td>
+                        <td id="boombox_2" ><button class="btn-info" id="boombox_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                        <td id="boombox_4"><button  class="btn-danger" id="boombox_out">I am out </button></td>
+                        <td id="boombox_3"><button class="btn-success " id="boombox_pay">Pay now</button></td>
                     </tr>
 
                       <tr>
                           <td id="respawn_1"> <ol>Respawn Arena:</ol></td>
-                          <td id="respawn_2" ><button class="btn-info" id="respawn_in" >I am in </button></td>
-                          <td id="respawn_3" ><button class="btn-danger" id="respawn_out" >I am out </button></td>
+                          <td id="respawn_2"><button class="btn-info" id="respawn_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="respawn_3"><button class="btn-danger" id="respawn_out" style="display:none;">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="bestengineer_1"><ol>Best Engineer:</ol></td>
-                          <td id="bestengineer_1" ><button class="btn-info" id="bestengineer_in" ">I am in </button></td>
+                          <td id="bestengineer_1" ><button class="btn-info" id="bestengineer_in">I am in </button></td>
                           <td id="bestengineer_1" ><button  class="btn-danger" id="bestengineer_out" >I am out </button></td>
                       </tr>
                       <tr>

@@ -523,6 +523,9 @@ p{
 .section:hover {
 	cursor: pointer;
 }
+#boombox_out, #boombox_pay {
+	display: none;
+}
 .section.section-expand {
 	margin: 0;
 	width: 100%;
