@@ -696,7 +696,7 @@ if(isset($_SESSION['user'])) {
 
 <!--Boombox Section -->
 <div id="boombox" class="section">
-    <div class="section-title"><i class="icon-instagram"></i><strong>Boom BOX</strong>
+    <div class="section-title"><i class="icon-bullhorn"></i><strong>Boom BOX</strong>
         <p><span>“Dancing with the feet is one thing, but dancing with the heart is another"</span></p>
     </div>
 
@@ -766,7 +766,7 @@ if(isset($_SESSION['user'])) {
 
 
 <div id="embedded" class="section">
-    <div class="section-title"><i class="icon-coffee"></i><strong>Workshop on</strong>
+    <div class="section-title"><i class="icon-code"></i><strong>Workshop on</strong>
         <p><span> GNU/Linux and Embedded Systems. </span></p>
     </div>
 
@@ -890,9 +890,8 @@ if(isset($_SESSION['user'])) {
         <div class="row">
             <div class="span6 offset3">
 
-                <h4 style="color: #fff" align="center">Ruby Paul   - +91 954 401 4948  </h4>
-                <h4 style="color: #fff" align="center">Arjun K M   - +91 811 181 5967  </h4>
-                <h4 style="color: #fff" align="center">Bineesh P B - +91 859 033 2334  </h4>
+                <h4 style="color: #fff" align="center">Amal  - +91 828 136 0530  </h4>
+                <h4 style="color: #fff" align="center">Shafeeq  - +91 808 965 2690  </h4>
                 <br><br>
 
             </div>
@@ -1120,7 +1119,7 @@ if(isset($_SESSION['user'])) {
 
 
 <div id="bashemup" class="section">
-    <div class="section-title"><i class="icon-code"></i><strong>BASH EM UP</strong>
+    <div class="section-title"><i class="icon-linux"></i><strong>BASH EM UP</strong>
         <p><span> “It is easier to port a shell than a shell script”</span> </p>
     </div>
 
@@ -1429,7 +1428,7 @@ if(isset($_SESSION['user'])) {
                     <ol style="color: #ffffff;  "  > 5. Any case of code plagiarism will result in disqualification of both the users from the contest.</ol>
                     <ol style="color: #ffffff;  "  > 6. Please refrain from discussing strategy during the contest.</ol>
                     <ol style="color: #ffffff;  "  > 4. Decision of judges will be final.</ol>
-                    <ol style="color: #ffffff;  "  > 7. For details regarding the rules, please visit: <a href="https://www.hackerrank.com/contests"> https://www.hackerrank.com/contests</a></ol>
+                    <ol style="color: #ffffff;  "  > 7. For details regarding the rules, please visit: <a target="_blank" href="https://www.hackerrank.com/codezilla2016"> https://www.hackerrank.com/codezilla2016 </a></ol>
                 </ul>
             </div>
         </div>
@@ -2790,12 +2789,34 @@ if(isset($_SESSION['user'])) {
 
 
 <!-- Switch Section -->
-<div id="switch" class="switch-section "><div class="switch-header goto-services"><h5 >Events</h5></div>
-    <p class="switch-section-cont bottom"><a href="#" class="section-boombox"><i class="icon-instagram"></i></a> <a href="#" class="section-respawn"><i class="icon-gamepad"></i></a> <a href="#" class="section-bestengineer"><i class="icon-male"></i></a> <a href="#" class="section-maestro"><i class="icon-magic"></i></a>
-                                          <a href="#" class="section-swatthebug"><i class="icon-bug"></i></a> <a href="#" class="section-hackerjack"><i class="icon-desktop"></i></a> <a href="#" class="section-langx"><i class="icon-xing-sign"></i></a> <a href="#" class="section-bashemup"><i class="icon-code"></i></a> <a href="#" class="section-codezilla"><i class="icon-cloud"></i></a>
-                                            <a href="#" class="section-codeswap"><i class="icon-code-fork"></i></a> <a href="#" class="section-sidhandics"><i class="icon-file-alt"></i></a> <a href="#" class="section-startaction"><i class="icon-film"></i></a> <a href="#" class="section-mrcad"><i class="icon-building"></i></a> <a href="#" class="section-shutterbug"><i class="icon-camera"></i></a>
-                                        <a href="#" class="section-highq"><i class="icon-question-sign"></i></a> <a href="#" class="section-contraption"><i class="icon-cog"></i></a> <a href="#" class="section-crossfire"><i class="icon-fire"></i></a> <a href="#" class="section-pirate"><i class="icon-map-marker"></i></a><a href="#" class="section-mysteriarch"><i class="icon-question"></i></a>
-        <a href="#" class="section-hudrolaunch"><i class="icon-rocket"></i></a><a href="#" class="section-disco"><i class="icon-lightbulb"></i></a><a href="#" class="section-cognizance"><i class="icon-cogs"></i></a><a href="#" class="section-wikisurf"><i class="icon-book"></i></a><a href="#" class="section-roadies"><i class="icon-road"></i></a><a href="#" class="section-python"><i class="icon-laptop"></i></a><a href="#" class="section-embedded"><i class="icon-linux"></i></a>
+<div id="switch" class="switch-section "><div class="switch-header goto-services" data-toggle="tooltip" data-placement="right" title="Events"><h5 >Events</h5></div>
+    <p class="switch-section-cont bottom">
+        <a href="#" data-toggle="tooltip" data-placement="right" title="BoomBox"        class="section-boombox"><i class="icon-bullhorn"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Respawn Arena"  class="section-respawn"><i class="icon-gamepad"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Best Engineer"  class="section-bestengineer"><i class="icon-male"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Code Maestro"   class="section-maestro"><i class="icon-magic"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Swat the Bug"   class="section-swatthebug"><i class="icon-bug"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Hacker Jack"    class="section-hackerjack"><i class="icon-desktop"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Language X"     class="section-langx"><i class="icon-xing-sign"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Bash em Up"     class="section-bashemup"><i class="icon-linux"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="CodeZilla"      class="section-codezilla"><i class="icon-cloud"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="CodeSwap"       class="section-codeswap"><i class="icon-code-fork"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Sidhandhics"    class="section-sidhandics"><i class="icon-file-alt"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Start Action Cut"class="section-startaction"><i class="icon-film"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Mr Cad"         class="section-mrcad"><i class="icon-building"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Shutterbug"     class="section-shutterbug"><i class="icon-camera"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="High Q"         class="section-highq"><i class="icon-question-sign"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Break In Style" class="section-contraption"><i class="icon-cog"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Cross Fire"     class="section-crossfire"><i class="icon-fire"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Be the Pirate"  class="section-pirate"><i class="icon-map-marker"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Mysteriarch"    class="section-mysteriarch"><i class="icon-question"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Hydrolaunch"    class="section-hudrolaunch"><i class="icon-rocket"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Digital Disco"  class="section-disco"><i class="icon-lightbulb"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Cognizance Battle" class="section-cognizance"><i class="icon-cogs"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="WikiSurf"       class="section-wikisurf"><i class="icon-book"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Roadies"        class="section-roadies"><i class="icon-road"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Workshop on Python " class="section-python"><i class="icon-laptop"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Workshop on GNU/LINUX and Embedded system" class="section-embedded"><i class="icon-code"></i></a>
     </p>
 </div>
 
