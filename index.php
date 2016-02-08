@@ -2359,9 +2359,15 @@ if(isset($_SESSION['user'])) {
 
                     <tr>
                         <td id="boombox_1"><ol >Boom Box:</ol></td>
-                        <td id="boombox_2" ><button class="btn-info" id="boombox_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                        <td id="boombox_2" ><button class="btn-info" id="boombox_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button>  </td>
                         <td id="boombox_4"><button  class="btn-danger" id="boombox_out" onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                        <td id="boombox_3"><button class="btn-success " id="boombox_pay">Pay now</button></td>
+                        <td id="boombox_3" width="300px"><button class="btn-success " id="boombox_pay">Pay now</button>
+                            <form id="verify_boombox" action="verify_pay.php" class="form-inline" method="post" style="display: none;">
+                                <input type="text" placeholder="Ticket Id"  class="span1" name="boombox_ticket_no" id="ticket" required/>
+                                <button id="pay_verify" type="submit" class="btn-small btn-success" >Verify</button>
+                                <button id="pay_cancel" class="btn-small btn-danger">Cancel</button>
+                            </form>
+                        </td>
                     </tr>
 
                       <tr>
@@ -2408,14 +2414,26 @@ if(isset($_SESSION['user'])) {
                           <td id="sidhandics_1"><ol>Sidhandhics:</ol></td>
                           <td id="sidhandics_2" ><button class="btn-info" id="sidhandics_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
                           <td id="sidhandics_4" ><button  class="btn-danger" id="sidhandics_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                          <td id="sidhandics_3" ><button class="btn-success " id="sidhandics_pay" >Pay now</button></td>
+                          <td id="sidhandics_3" ><button class="btn-success " id="sidhandics_pay" >Pay now</button>
+                              <form id="verify_sidhandics" action="verify_pay.php" class="form-inline" method="post" style="display: none;">
+                                  <input type="text" placeholder="Ticket Id"  class="span1" name="sidhandics_ticket_no" id="ticket" required/>
+                                  <button id="pay_verify" type="submit" class="btn-small btn-success" >Verify</button>
+                                  <button id="pay_cancel" class="btn-small btn-danger">Cancel</button>
+                              </form>
+                          </td>
 
                       </tr>
                       <tr>
                           <td id="startaction_1"><ol>Start Action Cut:</ol></td>
                           <td id="startaction_2" ><button class="btn-info" id="startaction_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
                           <td id="startaction_4" ><button  class="btn-danger" id="startaction_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                          <td id="startaction_3" ><button class="btn-success " id="startaction_pay" >Pay now</button></td>
+                          <td id="startaction_3" ><button class="btn-success " id="startaction_pay" >Pay now</button>
+                              <form id="verify_startaction" action="verify_pay.php" class="form-inline" method="post" style="display: none;">
+                                  <input type="text" placeholder="Ticket No."  class="span1" name="startaction_ticket_no" id="ticket" required/>
+                                  <button id="pay_verify" type="submit" class="btn-small btn-success" >Verify</button>
+                                  <button id="pay_cancel" class="btn-small btn-danger">Cancel</button>
+                              </form>
+                          </td>
 
                       </tr>
                       <tr>
