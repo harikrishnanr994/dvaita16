@@ -61,14 +61,14 @@ if ($action == 'in') {
 		case 'mysteriarch_in':
 			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','mysteriarch')");
 			break;
-		case 'hudrolauch_in':
-			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','hudrolauch')");
+		case 'hudrolaunch_in':
+			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','hudrolaunch')");
 			break;
 		case 'disco_in':
 			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','disco')");
 			break;
-		case 'cognizence_in':
-			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','cognizence')");
+		case 'cognizance_in':
+			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','cognizance')");
 			break;
 		case 'wikisurf_in':
 			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','wikisurf')");
@@ -145,14 +145,14 @@ if ($action == 'in') {
 		case 'mysteriarch_out':
 			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='mysteriarch'");
 			break;
-		case 'hudrolauch_out':
-			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='hudrolauch'");
+		case 'hudrolaunch_out':
+			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='hudrolaunch'");
 			break;
 		case 'disco_out':
 			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='disco'");
 			break;
-		case 'cognizence_out':
-			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='cognizence'");
+		case 'cognizance_out':
+			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='cognizance'");
 			break;
 		case 'wikisurf_out':
 			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='wikisurf'");

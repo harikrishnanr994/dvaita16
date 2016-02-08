@@ -32,6 +32,7 @@ if(isset($_SESSION['user'])) {
 </head>
 <body>
 <input type=hidden id="user_session" value="<?=$has_session_user;?>"></input>
+<input type=hidden name="user_session_uid" value="<?=$uid;?>"></input>
 <div id="loader-wrapper">
     <div id="loader"></div>
 
@@ -2314,7 +2315,8 @@ if(isset($_SESSION['user'])) {
     <div class="container">
         <a href="logout.php"><p class="lead">Logout</p></a>
         <hr />
-        <?php $query = mysqli_query($link,"Select * from users WHERE uid = '$uid'"); // SQL Query
+        <?php
+        $query = mysqli_query($link,"Select * from users WHERE uid = '$uid'"); // SQL Query
         while($row = mysqli_fetch_array($query))
         { 
           
@@ -2358,123 +2360,123 @@ if(isset($_SESSION['user'])) {
                     <tr>
                         <td id="boombox_1"><ol >Boom Box:</ol></td>
                         <td id="boombox_2" ><button class="btn-info" id="boombox_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                        <td id="boombox_4"><button  class="btn-danger" id="boombox_out">I am out </button></td>
+                        <td id="boombox_4"><button  class="btn-danger" id="boombox_out" onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                         <td id="boombox_3"><button class="btn-success " id="boombox_pay">Pay now</button></td>
                     </tr>
 
                       <tr>
                           <td id="respawn_1"> <ol>Respawn Arena:</ol></td>
                           <td id="respawn_2"><button class="btn-info" id="respawn_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="respawn_3"><button class="btn-danger" id="respawn_out" style="display:none;">I am out </button></td>
+                          <td id="respawn_3"><button class="btn-danger" id="respawn_out" style="display:none;" onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="bestengineer_1"><ol>Best Engineer:</ol></td>
-                          <td id="bestengineer_1" ><button class="btn-info" id="bestengineer_in">I am in </button></td>
-                          <td id="bestengineer_1" ><button  class="btn-danger" id="bestengineer_out" >I am out </button></td>
+                          <td id="bestengineer_1" ><button class="btn-info" id="bestengineer_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="bestengineer_1" ><button  class="btn-danger" id="bestengineer_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="maestro_1"><ol>Code Maestro:</ol></td>
-                          <td id="maestro_2" ><button class="btn-info" id="maestro_in" >I am in </button></td>
-                          <td id="maestro_3" ><button  class="btn-danger" id="maestro_out" >I am out </button></td>
+                          <td id="maestro_2" ><button class="btn-info" id="maestro_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="maestro_3" ><button  class="btn-danger" id="maestro_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="swatthebug_1"><ol>Swat the Bug:</ol></td>
-                          <td id="swatthebug_2" ><button class="btn-info" id="swatthebug_in" >I am in </button></td>
-                          <td id="swatthebug_3" ><button  class="btn-danger" id="swatthebug_out" >I am out </button></td>
+                          <td id="swatthebug_2" ><button class="btn-info" id="swatthebug_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="swatthebug_3" ><button  class="btn-danger" id="swatthebug_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="hackerjack_1"><ol>Hacker Jack:</ol></td>
-                          <td id="hackerjack_2" ><button class="btn-info" id="hackerjack_in" >I am in </button></td>
-                          <td id="hackerjack_3" ><button  class="btn-danger" id="hackerjack_out" >I am out </button></td>
+                          <td id="hackerjack_2" ><button class="btn-info" id="hackerjack_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="hackerjack_3" ><button  class="btn-danger" id="hackerjack_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="langx_1"><ol>Language X:</ol></td>
-                          <td id="langx_2" ><button class="btn-info" id="langx_in" >I am in </button></td>
-                          <td id="langx_3" ><button  class="btn-danger" id="langx_out" >I am out </button></td>
+                          <td id="langx_2" ><button class="btn-info" id="langx_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="langx_3" ><button  class="btn-danger" id="langx_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="codezilla_1"><ol>CodeZilla:</ol></td>
-                          <td id="codezilla_1" ><button class="btn-info" id="codezilla_in" >I am in </button></td>
-                          <td id="codezilla_1" ><button  class="btn-danger" id="codezilla_out" >I am out </button></td>
+                          <td id="codezilla_1" ><button class="btn-info" id="codezilla_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="codezilla_1" ><button  class="btn-danger" id="codezilla_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="codeswap_1"><ol>Code Swap:</ol></td>
-                          <td id="codeswap_2" ><button class="btn-info" id="codeswap_in" >I am in </button></td>
-                          <td id="codeswap_3" ><button  class="btn-danger" id="codeswap_out" >I am out </button></td>
+                          <td id="codeswap_2" ><button class="btn-info" id="codeswap_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="codeswap_3" ><button  class="btn-danger" id="codeswap_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="sidhandics_1"><ol>Sidhandhics:</ol></td>
-                          <td id="sidhandics_2" ><button class="btn-info" id="sidhandics_in" >I am in </button></td>
-                          <td id="sidhandics_4" ><button  class="btn-danger" id="sidhandics_out" >I am out </button></td>
+                          <td id="sidhandics_2" ><button class="btn-info" id="sidhandics_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="sidhandics_4" ><button  class="btn-danger" id="sidhandics_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                           <td id="sidhandics_3" ><button class="btn-success " id="sidhandics_pay" >Pay now</button></td>
 
                       </tr>
                       <tr>
                           <td id="startaction_1"><ol>Start Action Cut:</ol></td>
-                          <td id="startaction_2" ><button class="btn-info" id="startaction_in" >I am in </button></td>
-                          <td id="startaction_4" ><button  class="btn-danger" id="startaction_out" >I am out </button></td>
+                          <td id="startaction_2" ><button class="btn-info" id="startaction_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="startaction_4" ><button  class="btn-danger" id="startaction_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                           <td id="startaction_3" ><button class="btn-success " id="startaction_pay" >Pay now</button></td>
 
                       </tr>
                       <tr>
                           <td id="mrcad_1"><ol>Mr Cad:</ol></td>
-                          <td id="mrcad_2" ><button class="btn-info" id="mrcad_in" >I am in </button></td>
-                          <td id="mrcad_3" ><button  class="btn-danger" id="mrcad_out" >I am out </button></td>
+                          <td id="mrcad_2" ><button class="btn-info" id="mrcad_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="mrcad_3" ><button  class="btn-danger" id="mrcad_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="shutterbug_1"><ol>Shutter Bug:</ol></td>
-                          <td id="shutterbug_2" ><button class="btn-info" id="shutterbug_in" >I am in </button></td>
-                          <td id="shutterbug_3" ><button  class="btn-danger" id="shutterbug_out" >I am out </button></td>
+                          <td id="shutterbug_2" ><button class="btn-info" id="shutterbug_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="shutterbug_3" ><button  class="btn-danger" id="shutterbug_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="highq_1"><ol>High Q:</ol></td>
-                          <td id="highq_2" ><button class="btn-info" id="highq_in" >I am in </button></td>
-                          <td id="highq_3" ><button  class="btn-danger" id="highq_out" >I am out </button></td>
+                          <td id="highq_2" ><button class="btn-info" id="highq_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="highq_3" ><button  class="btn-danger" id="highq_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="contraption_1"><ol>Break In Style:</ol></td>
-                          <td id="contraption_2" ><button class="btn-info" id="contraption_in" >I am in </button></td>
-                          <td id="contraption_3" ><button  class="btn-danger" id="contraption_out" >I am out </button></td>
+                          <td id="contraption_2" ><button class="btn-info" id="contraption_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="contraption_3" ><button  class="btn-danger" id="contraption_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="crossfire_1"><ol>Cross Fire:</ol></td>
-                          <td id="crossfire_2" ><button class="btn-info" id="crossfire_in" >I am in </button></td>
-                          <td id="crossfire_3" ><button  class="btn-danger" id="crossfire_out" >I am out </button></td>
+                          <td id="crossfire_2" ><button class="btn-info" id="crossfire_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="crossfire_3" ><button  class="btn-danger" id="crossfire_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="pirate_1"><ol>Be the Pirate:</ol></td>
-                          <td id="pirate_2" ><button class="btn-info" id="pirate_in" >I am in </button></td>
-                          <td id="pirate_3" ><button  class="btn-danger" id="pirate_out" >I am out </button></td>
+                          <td id="pirate_2" ><button class="btn-info" id="pirate_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="pirate_3" ><button  class="btn-danger" id="pirate_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="mysteriarch_1"><ol>Mysteriarch:</ol></td>
-                          <td id="mysteriarch_2" ><button class="btn-info" id="mysteriarch_in" >I am in </button></td>
-                          <td id="mysteriarch_3" ><button  class="btn-danger" id="mysteriarch_out" >I am out </button></td>
+                          <td id="mysteriarch_2" ><button class="btn-info" id="mysteriarch_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="mysteriarch_3" ><button  class="btn-danger" id="mysteriarch_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="hudrolaunch_1"><ol>Hydrolaunch:</ol></td>
-                          <td id="hudrolaunch_2" ><button class="btn-info" id="hudrolaunch_in" >I am in </button></td>
-                          <td id="hudrolaunch_3" ><button  class="btn-danger" id="hudrolaunch_out" >I am out </button></td>
+                          <td id="hudrolaunch_2" ><button class="btn-info" id="hudrolaunch_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="hudrolaunch_3" ><button  class="btn-danger" id="hudrolaunch_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="disco_1"><ol>Digital Disco:</ol></td>
-                          <td id="disco_2" ><button class="btn-info" id="disco_in" >I am in </button></td>
-                          <td id="disco_3" ><button  class="btn-danger" id="disco_out" >I am out </button></td>
+                          <td id="disco_2" ><button class="btn-info" id="disco_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="disco_3" ><button  class="btn-danger" id="disco_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="cognizance_1"><ol>Cognizance Battle:</ol></td>
-                          <td id="cognizance_2" ><button class="btn-info" id="cognizance_in" >I am in </button></td>
-                          <td id="cognizance_3" ><button  class="btn-danger" id="cognizance_out" >I am out </button></td>
+                          <td id="cognizance_2" ><button class="btn-info" id="cognizance_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="cognizance_3" ><button  class="btn-danger" id="cognizance_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="wikisurf_1"><ol>WikiSurf:</ol></td>
-                          <td id="wikisurf_2" ><button class="btn-info" id="wikisurf_in" >I am in </button></td>
-                          <td id="wikisurf_3" ><button  class="btn-danger" id="wikisurf_out" >I am out </button></td>
+                          <td id="wikisurf_2" ><button class="btn-info" id="wikisurf_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="wikisurf_3" ><button  class="btn-danger" id="wikisurf_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
                       <tr>
                           <td id="roadies_1"><ol>Roadies:</ol></td>
-                          <td id="roadies_2" ><button class="btn-info" id="roadies_in" >I am in </button></td>
-                          <td id="roadies_3" ><button  class="btn-danger" id="roadies_out" >I am out </button></td>
+                          <td id="roadies_2" ><button class="btn-info" id="roadies_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
+                          <td id="roadies_3" ><button  class="btn-danger" id="roadies_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
                       </tr>
 
 

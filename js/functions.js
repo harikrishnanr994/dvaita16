@@ -1,6 +1,125 @@
 // JavaScript Functions
 
 $(document).ready(function () {
+  var fdata = {
+    'uid': $('input[name=user_session_uid]').val()
+  };
+  $.ajax({
+      type    : 'POST',
+      url     : 'check_event_in.php',
+      data    : fdata,
+      dataType  : 'json',
+      encode    : true
+    })
+      .done(function(data) {
+        console.log(data); 
+        if ( data) {
+            $.each(data, function(i, item) {
+              switch(item) {
+                case 'boombox': 
+                    $('#boombox_in').fadeIn().hide();
+                    $('#boombox_out').fadeIn().show();
+                    $('#boombox_pay').fadeIn().show();
+                    break;
+                  case 'respawn': 
+                    $('#respawn_in').fadeIn().hide();
+                    $('#respawn_out').fadeIn().show();
+                    break;
+                  case 'bestengineer': 
+                    $('#bestengineer_in').fadeIn().hide();
+                    $('#bestengineer_out').fadeIn().show();
+                    break;    
+                  case 'maestro': 
+                    $('#maestro_in').fadeIn().hide();
+                    $('#maestro_out').fadeIn().show();
+                    break;
+                  case 'swatthebug': 
+                    $('#swatthebug_in').fadeIn().hide();
+                    $('#swatthebug_out').fadeIn().show();
+                    break;
+                  case 'hackerjack': 
+                    $('#hackerjack_in').fadeIn().hide();
+                    $('#hackerjack_out').fadeIn().show();
+                    break;
+                  case 'langx': 
+                    $('#langx_in').fadeIn().hide();
+                    $('#langx_out').fadeIn().show();
+                    break;    
+                  case 'codezilla': 
+                    $('#codezilla_in').fadeIn().hide();
+                    $('#codezilla_out').fadeIn().show();
+                    break;
+                  case 'codeswap': 
+                    $('#codeswap_in').fadeIn().hide();
+                    $('#codeswap_out').fadeIn().show();
+                    break;
+                  case 'sidhandics': 
+                    $('#sidhandics_in').fadeIn().hide();
+                    $('#sidhandics_out').fadeIn().show();
+                    $('#sidhandics_pay').fadeIn().show();
+                    break;
+                  case 'startaction': 
+                    $('#startaction_in').fadeIn().hide();
+                    $('#startaction_out').fadeIn().show();
+                    $('#startaction_pay').fadeIn().show();
+                    break;    
+                  case 'mrcad': 
+                    $('#mrcad_in').fadeIn().hide();
+                    $('#mrcad_out').fadeIn().show();
+                    break;
+                  case 'shutterbug': 
+                    $('#shutterbug_in').fadeIn().hide();
+                    $('#shutterbug_out').fadeIn().show();
+                    break;
+                  case 'highq': 
+                    $('#highq_in').fadeIn().hide();
+                    $('#highq_out').fadeIn().show();
+                    break;
+                  case 'contraption': 
+                    $('#contraption_in').fadeIn().hide();
+                    $('#contraption_out').fadeIn().show();
+                    break;    
+                  case 'crossfire': 
+                    $('#crossfire_in').fadeIn().hide();
+                    $('#crossfire_out').fadeIn().show();
+                    break;
+                  case 'pirate': 
+                    $('#pirate_in').fadeIn().hide();
+                    $('#pirate_out').fadeIn().show();
+                    break;
+                  case 'mysteriarch': 
+                    $('#mysteriarch_in').fadeIn().hide();
+                    $('#mysteriarch_out').fadeIn().show();
+                    break;
+                  case 'hudrolaunch': 
+                    $('#hudrolaunch_in').fadeIn().hide();
+                    $('#hudrolaunch_out').fadeIn().show();
+                    break;    
+                  case 'disco': 
+                    $('#disco_in').fadeIn().hide();
+                    $('#disco_out').fadeIn().show();
+                    break;
+                  case 'cognizance': 
+                    $('#cognizance_in').fadeIn().hide();
+                    $('#cognizance_out').fadeIn().show();
+                    break;
+                  case 'wikisurf': 
+                    $('#wikisurf_in').fadeIn().hide();
+                    $('#wikisurf_out').fadeIn().show();
+                    break;
+                  case 'roadies': 
+                    $('#roadies_in').fadeIn().hide();
+                    $('#roadies_out').fadeIn().show();
+                    break;
+                  default:
+              }
+            });
+          }
+      })
+      .fail(function(data) {
+        $("#errors-login").fadeIn().show();
+        console.log(data);
+      });
 
   if($('#user_session').val() == 1) {
     $("#profile").css('z-index', 2);
@@ -895,3 +1014,6 @@ $(document).ready(function() {
     }, 3000);
 
 });
+$("#boombox_pay").click(function () {
+    //$(".section-crossfire i").toggleClass("active");
+  })
