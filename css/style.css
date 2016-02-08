@@ -329,6 +329,12 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, p span {
     z-index:4;
 	display: block;
 }
+
+td{
+	width: 200px;
+}
+
+
 a {
 	text-decoration: none;
 	transition: all linear 0.25s;

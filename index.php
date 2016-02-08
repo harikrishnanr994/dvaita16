@@ -2353,64 +2353,143 @@ if(isset($_SESSION['user'])) {
 
             <div class="row">
 
-                <div class="span2 offset4">
+                <div class="span6 offset4">
+                  <table>
 
-                    <ol >Boom Box:</ol><br>
-                    <ol>Respawn Arena:</ol><br>
-                    <ol>Best Engineer:</ol><br>
-                    <ol>Code Maestro:</ol><br>
-                    <ol>Swat the Bug:</ol><br>
-                    <ol>Hacker Jack:</ol><br>
-                    <ol>Language X:</ol><br>
-                    <ol>Bash Em Up:</ol><br>
-                    <ol>CodeZilla:</ol><br>
-                    <ol>Code Swap:</ol><br>
-                    <ol>Sidhandhics:</ol><br>
-                    <ol>Start Action Cut:</ol><br>
-                    <ol>Mr Cad:</ol><br>
-                    <ol>Shutter Bug:</ol><br>
-                    <ol>High Q:</ol><br>
-                    <ol>Break In Style:</ol><br>
-                    <ol>Cross Fire:</ol><br>
-                    <ol>Be the Pirate:</ol><br>
-                    <ol>Mysteriarch:</ol><br>
-                    <ol>Hydrolaunch:</ol><br>
-                    <ol>Digital Disco:</ol><br>
-                    <ol>Cognizance Battle:</ol><br>
-                    <ol>WikiSurf:</ol><br>
-                    <ol>Roadies:</ol>
+                    <tr>
+                        <td id="boombox_1"><ol >Boom Box:</ol></td>
+                        <td id="boombox_2" ><button class="btn-info" id="boombox_in" >I am in </button></td>
+                        <td id="boombox_3" ><button class="btn-success " id="boombox_pay" >Pay now</button></td>
+                        <td id="boombox_4" ><button  class="btn-danger" id="boombox_out" >I am out </button></td>
+                    </tr>
+
+                      <tr>
+                          <td id="respawn_1"> <ol>Respawn Arena:</ol></td>
+                          <td id="respawn_2" ><button class="btn-info" id="respawn_in" >I am in </button></td>
+                          <td id="respawn_3" ><button class="btn-danger" id="respawn_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="bestengineer_1"><ol>Best Engineer:</ol></td>
+                          <td id="bestengineer_1" ><button class="btn-info" id="bestengineer_in" ">I am in </button></td>
+                          <td id="bestengineer_1" ><button  class="btn-danger" id="bestengineer_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="maestro_1"><ol>Code Maestro:</ol></td>
+                          <td id="maestro_2" ><button class="btn-info" id="maestro_in" >I am in </button></td>
+                          <td id="maestro_3" ><button  class="btn-danger" id="maestro_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="swatthebug_1"><ol>Swat the Bug:</ol></td>
+                          <td id="swatthebug_2" ><button class="btn-info" id="swatthebug_in" >I am in </button></td>
+                          <td id="swatthebug_3" ><button  class="btn-danger" id="swatthebug_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="hackerjack_1"><ol>Hacker Jack:</ol></td>
+                          <td id="hackerjack_2" ><button class="btn-info" id="hackerjack_in" >I am in </button></td>
+                          <td id="hackerjack_3" ><button  class="btn-danger" id="hackerjack_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="langx_1"><ol>Language X:</ol></td>
+                          <td id="langx_2" ><button class="btn-info" id="langx_in" >I am in </button></td>
+                          <td id="langx_3" ><button  class="btn-danger" id="langx_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="codezilla_1"><ol>CodeZilla:</ol></td>
+                          <td id="codezilla_1" ><button class="btn-info" id="codezilla_in" >I am in </button></td>
+                          <td id="codezilla_1" ><button  class="btn-danger" id="codezilla_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="codeswap_1"><ol>Code Swap:</ol></td>
+                          <td id="codeswap_2" ><button class="btn-info" id="codeswap_in" >I am in </button></td>
+                          <td id="codeswap_3" ><button  class="btn-danger" id="codeswap_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="sidhandics_1"><ol>Sidhandhics:</ol></td>
+                          <td id="sidhandics_2" ><button class="btn-info" id="sidhandics_in" >I am in </button></td>
+                          <td id="sidhandics_3" ><button class="btn-success " id="sidhandics_pay" >Pay now</button></td>
+                          <td id="sidhandics_4" ><button  class="btn-danger" id="sidhandics_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="startaction_1"><ol>Start Action Cut:</ol></td>
+                          <td id="startaction_2" ><button class="btn-info" id="startaction_in" >I am in </button></td>
+                          <td id="startaction_3" ><button class="btn-success " id="startaction_pay" >Pay now</button></td>
+                          <td id="startaction_4" ><button  class="btn-danger" id="startaction_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="mrcad_1"><ol>Mr Cad:</ol></td>
+                          <td id="mrcad_2" ><button class="btn-info" id="mrcad_in" >I am in </button></td>
+                          <td id="mrcad_3" ><button  class="btn-danger" id="mrcad_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="shutterbug_1"><ol>Shutter Bug:</ol></td>
+                          <td id="shutterbug_2" ><button class="btn-info" id="shutterbug_in" >I am in </button></td>
+                          <td id="shutterbug_3" ><button  class="btn-danger" id="shutterbug_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="highq_1"><ol>High Q:</ol></td>
+                          <td id="highq_2" ><button class="btn-info" id="highq_in" >I am in </button></td>
+                          <td id="highq_3" ><button  class="btn-danger" id="highq_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="contraption_1"><ol>Break In Style:</ol></td>
+                          <td id="contraption_2" ><button class="btn-info" id="contraption_in" >I am in </button></td>
+                          <td id="contraption_3" ><button  class="btn-danger" id="contraption_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="crossfire_1"><ol>Cross Fire:</ol></td>
+                          <td id="crossfire_2" ><button class="btn-info" id="crossfire_in" >I am in </button></td>
+                          <td id="crossfire_3" ><button  class="btn-danger" id="crossfire_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="pirate_1"><ol>Be the Pirate:</ol></td>
+                          <td id="pirate_2" ><button class="btn-info" id="pirate_in" >I am in </button></td>
+                          <td id="pirate_3" ><button  class="btn-danger" id="pirate_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="mysteriarch_1"><ol>Mysteriarch:</ol></td>
+                          <td id="mysteriarch_2" ><button class="btn-info" id="mysteriarch_in" >I am in </button></td>
+                          <td id="mysteriarch_3" ><button  class="btn-danger" id="mysteriarch_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="hudrolaunch_1"><ol>Hydrolaunch:</ol></td>
+                          <td id="hudrolaunch_2" ><button class="btn-info" id="hudrolaunch_in" >I am in </button></td>
+                          <td id="hudrolaunch_3" ><button  class="btn-danger" id="hudrolaunch_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="disco_1"><ol>Digital Disco:</ol></td>
+                          <td id="disco_2" ><button class="btn-info" id="disco_in" >I am in </button></td>
+                          <td id="disco_3" ><button  class="btn-danger" id="disco_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="cognizance_1"><ol>Cognizance Battle:</ol></td>
+                          <td id="cognizance_2" ><button class="btn-info" id="cognizance_in" >I am in </button></td>
+                          <td id="cognizance_3" ><button  class="btn-danger" id="cognizance_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="wikisurf_1"><ol>WikiSurf:</ol></td>
+                          <td id="wikisurf_2" ><button class="btn-info" id="wikisurf_in" >I am in </button></td>
+                          <td id="wikisurf_3" ><button  class="btn-danger" id="wikisurf_out" >I am out </button></td>
+                      </tr>
+                      <tr>
+                          <td id="roadies_1"><ol>Roadies:</ol></td>
+                          <td id="roadies_2" ><button class="btn-info" id="roadies_in" >I am in </button></td>
+                          <td id="roadies_3" ><button  class="btn-danger" id="roadies_out" >I am out </button></td>
+                      </tr>
+
+
+
+
+
+
+
+                  </table>
+
 
 
 
                 </div>
-                <div class="span4 ">
-                    <button class="btn-info" id="boombox_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-success " id="boombox_pay" style="margin-bottom: 1px">Pay now</button>           <button  class="btn-danger" id="boombox_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="respawn_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-danger" id="respawn_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="bestengineer_in" style="margin-bottom: 1px">I am in </button> <button class="btn-danger" id="bestengineer_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="maestro_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-danger" id="maestro_out" style="margin-bottom: 1px"> I am out </button><br><br>
-                    <button class="btn-info" id="swatthebug_in" style="margin-bottom: 1px">I am in </button>   <button class="btn-danger" id="swatthebug_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="hackerjack_in" style="margin-bottom: 1px">I am in </button>   <button class="btn-danger" id="hackerjack_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="langx_in" style="margin-bottom: 1px">I am in </button>        <button class="btn-danger" id="langx_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="bashemup_in">I am in </button>     <button class="btn-danger" id="bashemup_out">I am out </button><br><br>
-                    <button class="btn-info" id="codezilla_in">I am in </button>    <button class="btn-danger"  id="codezilla_out">I am out </button><br><br>
-                    <button class="btn-info" id="codeswap_in">I am in </button>     <button class="btn-danger" id="codeswap_out">I am out </button><br><br>
-                    <button class="btn-info" id="sidhandics_in">I am in </button>   <button  class="btn-success " id="sidhandics_pay">Pay now</button>          <button class="btn-danger" id="sidhandics_out">I am out </button><br><br>
-                    <button class="btn-info" id="startaction_in">I am in </button>  <button   class="btn-success " id="startaction_pay">Pay now</button>       <button class="btn-danger" id="startaction_out">I am out </button><br><br>
-                    <button class="btn-info" id="mrcad_in">I am in </button>        <button class="btn-danger" id="mrcad_out">I am out </button><br><br>
-                    <button class="btn-info" id="shutterbug_in">I am in </button>    <button class="btn-danger" id="shutterbug_out">I am out </button><br><br>
-                    <button class="btn-info" id="highq_in" style="margin-bottom: 1px">I am in </button>        <button class="btn-danger"  id="highq_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="contraption_in" style="margin-bottom: 1px">I am in </button>  <button class="btn-danger" id="contraption_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="crossfire_in" style="margin-bottom: 1px">I am in </button>    <button class="btn-danger" id="crossfire_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="pirate_in" style="margin-bottom: 1px">I am in </button>       <button class="btn-danger" id="pirate_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="mysteriarch_in" style="margin-bottom: 1px">I am in </button>  <button class="btn-danger" id="mysteriarch_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="hudrolaunch_in" style="margin-bottom: 1px">I am in </button>  <button class="btn-danger" id="hudrolaunch_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="disco_in" style="margin-bottom: 1px">I am in </button>        <button class="btn-danger" id="disco_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="cognizance_in" style="margin-bottom: 1px">I am in </button>   <button class="btn-danger" id="cognizance_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="wikisurf_in" style="margin-bottom: 1px">I am in </button>     <button class="btn-danger" id="wikisurf_out" style="margin-bottom: 1px">I am out </button><br><br>
-                    <button class="btn-info" id="roadies_in" style="margin-bottom: 1px">I am in </button>      <button class="btn-danger" id="roadies_out" style="margin-bottom: 1px">I am out </button><br><br>
 
 
-                </div>
             </div>
 
 
