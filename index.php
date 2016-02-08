@@ -2359,8 +2359,8 @@ if(isset($_SESSION['user'])) {
                     <tr>
                         <td id="boombox_1"><ol >Boom Box:</ol></td>
                         <td id="boombox_2" ><button class="btn-info" id="boombox_in" >I am in </button></td>
-                        <td id="boombox_3" ><button class="btn-success " id="boombox_pay" >Pay now</button></td>
                         <td id="boombox_4" ><button  class="btn-danger" id="boombox_out" >I am out </button></td>
+                        <td id="boombox_3" ><button class="btn-success " id="boombox_pay" >Pay now</button></td>
                     </tr>
 
                       <tr>
@@ -2406,14 +2406,16 @@ if(isset($_SESSION['user'])) {
                       <tr>
                           <td id="sidhandics_1"><ol>Sidhandhics:</ol></td>
                           <td id="sidhandics_2" ><button class="btn-info" id="sidhandics_in" >I am in </button></td>
-                          <td id="sidhandics_3" ><button class="btn-success " id="sidhandics_pay" >Pay now</button></td>
                           <td id="sidhandics_4" ><button  class="btn-danger" id="sidhandics_out" >I am out </button></td>
+                          <td id="sidhandics_3" ><button class="btn-success " id="sidhandics_pay" >Pay now</button></td>
+
                       </tr>
                       <tr>
                           <td id="startaction_1"><ol>Start Action Cut:</ol></td>
                           <td id="startaction_2" ><button class="btn-info" id="startaction_in" >I am in </button></td>
-                          <td id="startaction_3" ><button class="btn-success " id="startaction_pay" >Pay now</button></td>
                           <td id="startaction_4" ><button  class="btn-danger" id="startaction_out" >I am out </button></td>
+                          <td id="startaction_3" ><button class="btn-success " id="startaction_pay" >Pay now</button></td>
+
                       </tr>
                       <tr>
                           <td id="mrcad_1"><ol>Mr Cad:</ol></td>
