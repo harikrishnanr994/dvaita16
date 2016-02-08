@@ -669,7 +669,7 @@ if(isset($_SESSION['user'])) {
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>Error!</strong>
                 </div>
-                <form id="login-form" action="login.php" class="contact-form" method="post"><!-- style="display: none"-->
+                <form id="login-form" action="login.php" class="contact-form" method="post"  style="display: none">
                     <fieldset>
 
                         <div id="email-group1" class="form-group">
@@ -682,9 +682,9 @@ if(isset($_SESSION['user'])) {
 
                     </fieldset>
                 </form>
-                <!--div  class="alert alert-info">
+                <div  class="alert alert-info">
                     <strong>Login </strong>Coming Soon
-                </div-->
+                </div>
             </div>
         </div>
     <hr />
@@ -2654,6 +2654,78 @@ if(isset($_SESSION['user'])) {
 
     </div>
 </div>
+
+<div id="disco" class="section">
+    <div class="section-title"><i class="icon-lightbulb"></i><strong>Digital disco</strong>
+        <p><span> “Turn on the lights in your head”</span></p>
+    </div>
+
+    <!-- About Content -->
+    <div class="container">
+        <hr />
+
+
+        <img class="pic" src="img/digitaldisco.png"  alt="Digital Disco"  />
+
+
+        <h1 class="main-title"><span>Description</span></h1>
+        <p class="lead"></p>
+
+        <div class="row">
+            <div class="span6 offset3">
+                <p class="margin-bottom">Are you fascinated by the twinkling of LEDs?
+                    Logic teaches rules for presentation, not thinking.
+                    The event aims at illuminating the LEDs provided in a specific sequence.</p>
+            </div>
+        </div>
+
+        <hr />
+        <!-- Rules -->
+
+        <h1 class="main-title"> <span> Rules </span></h1>
+
+        <div class="row">
+            <div class="span8 offset3">
+                <ul  class="margin-bottom">
+                    <ol style="color: #ffffff;  "  > 1. The team should not consist of more than two members.</ol>
+                    <ol style="color: #ffffff;  "  > 2. A preliminary MCQ test regarding digital and analog circuits will be conducted.</ol>
+                    <ol style="color: #ffffff;  "  > 3. In the next round participants have to blink the LEDs as per the given </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sequence using the given components.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Pin-out diagrams of ICs, flip-flops, timer, etc will be provided.</ol>
+                    <ol style="color: #ffffff;  "  > 5. Function generator, Digital IC trainer kit, etc will not be provided.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Participants are permitted to use only the tested components and devices.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Clocking circuits should be made by your own using the given components, if it is necessary.</ol>
+                    <ol style="color: #ffffff;  "  > 8. Blinking of LEDs should be perfectly detectable (Sequence interval>=1 second)</ol>
+                    <ol style="color: #ffffff;  "  > 9. The whole circuit should work independently, i.e, external DC supply would be the</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;only input given to the whole circuit.</ol>
+                    <ol style="color: #ffffff;  "  > 10. Those who get the correct sequence within a specified time limit will be the winner.</ol>
+                    <ol style="color: #ffffff;  "  > 11. If there is a tie/any other things happen, judges' decision regarding it will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 12. Rules are subjected to change as per the decision of the organising committee.</ol>
+                    <ol style="color: #ffffff;  "  > 13. All participants should have proper ID cards at the time of registration.</ol>
+
+                </ul>
+            </div>
+        </div>
+
+        <hr />
+        <!-- Contact -->
+        <h1 class="main-title"> <span>Contact</span></h1>
+
+
+        <div class="row">
+            <div class="span6 offset3">
+
+                <h4 style="color: #fff" align="center">Akhil K J - +91 984 697 8402  </h4>
+                <h4 style="color: #fff" align="center">Hariharan M -   +91 889 109 0369  </h4>
+                <br><br>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
 
 <div id="roadies" class="section">
     <div class="section-title"><i class="icon-road"></i><strong>Roadies</strong>
