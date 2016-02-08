@@ -523,7 +523,7 @@ p{
 .section:hover {
 	cursor: pointer;
 }
-#boombox_out, #boombox_pay {
+#boombox_out, #boombox_pay,#respawn_out,#bestengineer_out,#maestro_out,#swatthebug_out,#hackerjack_out,#langx_out,#codezilla_out,#codeswap_out,#sidhandics_out,#sidhandics_pay,#startaction_out,#startaction_pay,#mrcad_out,#shutterbug_out,#highq_out,#contraption_out,#crossfire_out,#pirate_out,#mysteriarch_out,#hudrolaunch_out,#disco_out,#cognizance_out,#wikisurf_out,#roadies_out {
 	display: none;
 }
 .section.section-expand {
