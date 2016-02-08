@@ -2861,7 +2861,7 @@ if(isset($_SESSION['user'])) {
 
 
 <!-- Switch Section -->
-<div id="switch" class="switch-section "><div class="switch-header goto-services" data-toggle="tooltip" data-placement="right" title="Events"><h5 >Events</h5></div>
+<div id="switch" class="switch-section "><div class="switch-header " data-toggle="tooltip" data-placement="right" title="Events"><h5 >Events</h5></div>
     <p class="switch-section-cont bottom">
         <a href="#" data-toggle="tooltip" data-placement="right" title="BoomBox"        class="section-boombox"><i class="icon-bullhorn"></i></a>
         <a href="#" data-toggle="tooltip" data-placement="right" title="Respawn Arena"  class="section-respawn"><i class="icon-gamepad"></i></a>
