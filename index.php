@@ -51,7 +51,7 @@ if(isset($_SESSION['user'])) {
 
         <!-- Slider Single Item -->
 
-        <li><a href="#about" ><img src="img/anim.svg" alt="count down" /></a>
+        <li><a href="#about" ><img src="img/countdown.jpg" alt="count down" /></a>
 
             <div class="slides-detail">
                 <div class="countdown styled"></div></div>
