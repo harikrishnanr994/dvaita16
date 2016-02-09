@@ -2370,7 +2370,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
                         <td id="boombox_1"><ol >Boom Box:</ol></td>
                         <td id="boombox_2" ><button class="btn-info" id="boombox_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button>  </td>
                         <td id="boombox_4"><button  class="btn-danger" id="boombox_out" onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                        <td id="boombox_3" width="300px"><a class="btn-success" href="http://www.thecollegefever.com/dvaita16" target="_blank" id="boombox_pay">Pay now</a>
+                        <td id="boombox_3" ><a class=" btn-success" href="http://www.thecollegefever.com/dvaita16" target="_blank" id="boombox_pay">Pay now</a>
                             <form id="verify_boombox" action="verify_pay.php" class="form-inline" method="post" style="display: none;">
                                 <input type=hidden name="event" id="event" value="boombox"></input>
                                 <input type=hidden name="uid" value="<?=$uid;?>"></input>
