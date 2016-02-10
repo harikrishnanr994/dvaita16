@@ -692,9 +692,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
                     </fieldset>
                 </form>
-                <div  class="alert alert-info">
-                    <strong>Login </strong>Coming Soon
-                </div>
+               
             </div>
         </div>
     <hr />
