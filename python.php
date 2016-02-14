@@ -94,7 +94,6 @@
 
 
 
-                <div ><img class="pic" src="img/img7.jpg" alt="Portfolio" class="thumb" /></div>
 
 
 
@@ -103,10 +102,6 @@
 
 
                 <div ><img class="pic" src="img/img10.jpg" alt="Portfolio" class="thumb" /></div>
-
-
-                <div ><img class="pic" src="img/img11.jpg" alt="Portfolio" class="thumb" /></div>
-
 
                 <div ><img class="pic" src="img/img9.jpg" alt="Portfolio" class="thumb" /></div>
 
@@ -127,8 +122,9 @@
             <div class="row">
                 <div class="span6 offset3">
 
-                    <h4 style="color: #fff" align="center">Amal  - +91 828 136 0530  </h4>
-                    <h4 style="color: #fff" align="center">Shafeeq  - +91 808 965 2690  </h4>
+                    <h4 style="color: #fff" align="center">contact@dvaita16.com</h4>
+                    <h4 style="color: #fff" align="center">Amal  - +91 828 136 0530 &nbsp;&nbsp;&nbsp;itsmeamal@gmail.com </h4>
+                    <h4 style="color: #fff" align="center">Shafeeq  - +91 808 965 2690      &nbsp;&nbsp;&nbsp;  shafeeq94@gmail.com </h4>
                     <br><br>
 
                 </div>
