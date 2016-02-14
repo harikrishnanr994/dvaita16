@@ -78,7 +78,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         <li><a href="#"><img src="img/boombox_slide.gif" alt="boombox" /></a>
             <div class="slides-detail">
                 <h1><span>BOOM BOX</span></h1>
-                <span class="lead"><strong>Dancing with the feet is one thing, but dancing with the heart is anothers</strong></span></div>
+                <span class="lead"><strong>Dancing with the feet is one thing, but dancing with the heart is another</strong></span></div>
         </li>
         <!-- Slider Single Item -->
         <li><a href="#hackerjack" class="goto-hackerjack"><img src="img/Hacking.gif" alt="Photo" /></a>
@@ -142,20 +142,12 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             <!-- TECHnical List Carousel -->
             <ul class="thumbnails slides">
 
-                <!-- Service Detail -->
-                <li >
-                    <div class="thumbnail"><i class="icon-arrow-right"></i>
-                        <h3><span>Technical</span></h3>
-                        <h5>Events</h5>
-                        <p><br><br><br><br></p>
-
-                </li>
 
                 <!-- Service Detail -->
                 <li class=" goto-maestro">
                     <div class="thumbnail"><i class="icon-magic"></i>
                         <h3><span>Code Maestro</span> </h3>
-                        <h5>“Talk is cheap. Show me the code”</h5>
+                        <h5>“Talk is cheap, Show me the code”</h5>
                         <p style="color: #ffffff">A battleground for programmers to unleash the coder in them.</p>
                         <a href="#" class="btn goto-maestro">Details</a></div>
                 </li>
@@ -188,9 +180,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
                 <!-- Service Detail -->
                 <li class=" goto-bashemup">
-                    <div class="thumbnail"><i class="icon-code"></i>
+                    <div class="thumbnail"><i class="icon-linux"></i>
                         <h3><span>Bash'em up!</span> </h3>
-                        <h5>“It is easier to port a shell than a shell script”e</h5>
+                        <h5>“It is easier to port a shell than a shell script”</h5>
                         <p style="color: #ffffff">Show off your advanced shell scripting skills</p>
                         <a href="#" class="btn goto-bashemup">Details</a></div>
                 </li>
@@ -723,7 +715,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             <div class="span8 offset3">
                 <p class="  margin-bottom">Dance is the most aesthetic form of art that our race has ever developed. <br>
                     Dancing speaks a language right from the heart. Do you have what it takes to beat the best? <br>
-                    Then put on your dancing shoes, Compete with the finest crews across the nation and stand a chance to be the ultimate dancing crew.<br> 
+                    Then put on your dancing shoes. Compete with the finest crews across the nation and stand a chance to be the ultimate dancing crew.<br>
                     The stage is set, dancers pumped up. Let the dance begin.
                 </p>
             </div>
@@ -739,12 +731,12 @@ $_SESSION['LAST_ACTIVITY'] = $time;
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. A team should have a minimum of 3 members.</ol>
                     <ol style="color: #ffffff;  "  > 2. There is no restriction on the maximum number of participants,</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;but a maximum of only 15 members are allowed at a time on stage.</ol>
-                    <ol style="color: #ffffff;  "  > 3. Time limit for each team is 12 minutes (including narration, stage set up etc.)</ol>
-                    <ol style="color: #ffffff;  "  > 4. The teams should not use any kind of explosives that would disrupt the stage.</ol>
-                    <ol style="color: #ffffff;  "  > 5. Spot registration is mandatory.</ol>
-                    <ol style="color: #ffffff;"  > 6. There are no restrictions on the choice of music.</ol>
-                    <ol style="color: #ffffff;"  > 7. The judges' decisions will be final.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Maximum of only 16 members are allowed at a time on stage.</ol>
+                    <ol style="color: #ffffff;  "  > 4. Time limit for each team is 15 minutes (including narration, stage set up etc.)</ol>
+                    <ol style="color: #ffffff;  "  > 5. The teams should not use any kind of explosives that would disrupt the stage.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Spot registration is mandatory.</ol>
+                    <ol style="color: #ffffff;"  > 7. There are no restrictions on the choice of music.</ol>
+                    <ol style="color: #ffffff;"  > 8. The judges' decisions will be final.</ol>
                 </ul>
             </div>
         </div>
@@ -784,7 +776,11 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
 
         <img class="pic" src="img/Tux.png"  alt="blank"  />
+        <br>
 
+        <h1 class="main-title"> <span>06 Feb 2016</span></h1>
+
+        <br>
 
         <h1 class="main-title"><span>Description</span></h1>
 
@@ -803,6 +799,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <hr />
         <!-- Rules -->
+
+
+
         <h1 class="main-title"> <span> Pre Requisites </span></h1>
 
         <div class="row">
@@ -854,6 +853,11 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <img class="pic" src="img/Python.png"  alt="banner"  />
 
+        <br>
+
+        <h1 class="main-title"> <span>13 Feb 2016</span></h1>
+
+        <br>
 
         <h1 class="main-title"><span>Description</span></h1>
         
@@ -866,9 +870,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
                     Participants will be introduced to exciting python libraries and will work on interesting problems such as:
                 </p>
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statistical analysis of text documents</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building a chat server</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building a game</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Simple text games.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mathematical simulation and problems.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A chat server , a GUI client.</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .. and much more</ol>
 
                 </ul>
@@ -924,24 +928,14 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
 
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">
-            He who exceeds the boundaries of literate knowledge excels in the art of penetration testing.<br>
-            So explore yourself in the world of cyber security and hack the Jack prize<br>
-            Hack jacker is mainly concerned with
 
-        </p>
 
         <div class="row">
             <div class="span8 offset3">
-                <p class="  margin-bottom"> <br>
-                    1. checking the contenders knowledge on current cyber vulnerability<br>
-                    2. Their skills on prevention measures<br>
-                    3. Penetration testing<br>
-                    4. Vulnerability Exploitation skills<br>
-                    5. Familiarisation with common used tools for vulnerability assessment.<br>
-                    6. Knowledge in dark web<br>
-                    7. Google hacks<br>
-                    8. Basic Linux and windows commands.</p>
+                <p class="margin-bottom"> <br>
+                    He who exceeds the boundaries of literate knowledge excels in the art of penetration testing.<br>
+                    So explore yourself in the world of cyber security and hack the Jack prize<br>
+                    Hack jacker is mainly concerned with.</p>
             </div>
         </div>
 
@@ -954,12 +948,12 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. The competition will be based on individuals.</ol>
-                    <ol style="color: #ffffff;  "  > 2.The first prelims of the competition will be an aptitude test </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where in the top contenders will be selected for the next round</ol>
+                    <ol style="color: #ffffff;  "  > 2. The first prelims of the competition will be an aptitude test </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where in the top contestants will be selected for the next round</ol>
                     <ol style="color: #ffffff;  "  > 3. The next stage will be a set of tasks having different points for each.</ol>
                     <ol style="color: #ffffff;  "  > 4. Internet connectivity will be provided in this round.</ol>
                     <ol style="color: #ffffff;  "  > 5. The one who complete all the tasks first will be the winner.</ol>
-                    <ol style="color: #ffffff;  "  > 6. In case of non-completion of tasks, the one who scores the highest point will be the winner.</ol>
+                    <ol style="color: #ffffff;  "  > 6. In case the tasks remain incomplete , the one who scored the highest point will be the winner.</ol>
                     <ol style="color: #ffffff;  "  > 7. Organising committee’s decisions will be final.</ol>
                     <ol style="color: #ffffff;  "  > 8. College ID card is mandatory for registration.</ol>
                 </ul>
@@ -989,7 +983,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
 <div id="langx" class="section">
     <div class="section-title"><i class="icon-xing"></i><strong>Language X</strong>
-        <p><span>Learn the principle, Abide by the principle, Dissolve the principle”</span></p>
+        <p><span>"Learn the principle, Abide by the principle, Dissolve the principle”</span></p>
     </div>
 
     <!-- About Content -->
@@ -1002,18 +996,14 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
            </div>
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">
-            The coding contest that pushes you beyond your comfort zones.<br>
-            The contest is aimed at the grasping power of contestants and their ability to learn and code <br>
-            in an esoteric programming language.Within a given time the participants have to study <br>
-            the language provided and solve problem based on the logic and codes of the program.
 
-
-        </p>
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom"> <br>
+                <p class="  margin-bottom"> The coding contest that pushes you beyond your comfort zones.<br>
+                    The contest is aimed at the grasping power of contestants and their ability to learn and code <br>
+                    in an esoteric programming language. Within a given time the participants have to study <br>
+                    the language provided and solve the problem based on the logic and syntax of the program.
                     </p>
             </div>
         </div>
@@ -1026,15 +1016,15 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <ol style="color: #ffffff;  "  > 1.The competition will be conducted in two stages.</ol>
-                    <ol style="color: #ffffff;  "  > 2. Preliminary screening round will contain 20 MCQ questions from basic C language.</ol>
+                    <ol style="color: #ffffff;  "  > 1. The competition will be conducted in two stages.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Preliminary screening round will contain 20 Multiple Choice Questions based on C language.</ol>
                     <ol style="color: #ffffff;  "  > 3. Selected candidates will proceed to the coding round.</ol>
-                    <ol style="color: #ffffff;  "  > 4. In Coding round, the participants would be given the documentation for an esoteric coding language.</ol>
+                    <ol style="color: #ffffff;  "  > 4. In the Coding round, the participants would be given the documentation for an esoteric coding language.</ol>
                     <ol style="color: #ffffff;  "  > 5. Participants has to code for a given problem using the syntax and logic of the given language.</ol>
                     <ol style="color: #ffffff;  "  > 6. Apart from the documentation, the participants are not allowed to refer anything else.</ol>
                     <ol style="color: #ffffff;  "  > 7. Quickest person to solve the problem will be declared as the winner.</ol>
                     <ol style="color: #ffffff;  "  > 8. In case of a tie, the scores from the preliminary screening round would  be considered.</ol>
-                    <ol style="color: #ffffff;  "  > 9. Organising committee have the right to disqualify a participant, in the event of any misconduct or malpractice.</ol>
+                    <ol style="color: #ffffff;  "  > 9. Decisions of the organising committee will be final.</ol>
                     <ol style="color: #ffffff;  "  > 10. College ID card is mandatory for registration.</ol>
                 </ul>
             </div>
@@ -1142,15 +1132,17 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         </div>
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">
-            Show off your advanced shell scripting skills and compete to win exciting prizes.<br>
-            Work your way through interesting tasks using only the bash shell.<br>
-            So get your terminals ready to Bash 'em Up!
 
 
-        </p>
 
-
+        <div class="row">
+            <div class="span6 offset3">
+                <p class="  margin-bottom">Show off your advanced shell scripting skills and compete to win exciting prizes.
+                    Work your way through interesting tasks using only the bash shell.
+                    So get your terminals ready to Bash 'em Up!
+                </p>
+            </div>
+        </div>
 
         <hr />
         <!-- Rules -->
@@ -1160,13 +1152,13 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Participants can be single or a team of two.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Prelims will be conducted online, out of which ideally 7 teams will be selected.</ol>
-                    <ol style="color: #ffffff;  "  > 3.Prelims will be MCQ</ol>
-                    <ol style="color: #ffffff;  "  > 4.The next stage of the event will be conducted at NSSCE during the tech fest.</ol>
-                    <ol style="color: #ffffff;  "  > 5.This shall consist of maximum of two rounds.</ol>
-                    <ol style="color: #ffffff;  "  > 6.Round 2 will be conducted only if there is a tie in scores between teams in round 1.</ol>
-                    <ol style="color: #ffffff;  "  > 7.Rules are subjected to change as per the decision of the organizing committee.</ol>
-                    <ol style="color: #ffffff;  "  > 8.All participants should have proper ID cards.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Prelims will be conducted online, out of which ideally 7 teams will be selected.</ol>
+                    <ol style="color: #ffffff;  "  > 3. Prelims will be MCQ.</ol>
+                    <ol style="color: #ffffff;  "  > 4. The next stage of the event will be conducted at NSSCE during Dvaita'16.</ol>
+                    <ol style="color: #ffffff;  "  > 5. This shall consist of maximum of two rounds.</ol>
+                    <ol style="color: #ffffff;  "  > 6. Round 2 will be conducted only if there is a tie in scores between teams in round 1.</ol>
+                    <ol style="color: #ffffff;  "  > 7. Rules are subject to change as per the decision of the organizing committee.</ol>
+                    <ol style="color: #ffffff;  "  > 8. All participants should have proper ID cards.</ol>
                 </ul>
             </div>
         </div>
@@ -1208,7 +1200,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom">Programming is not just a science, but an art. This event focuses on testing the <br>
+                <p class="margin-bottom">Programming is not just a science, but an art. This event focuses on testing the <br>
                     conceptual understanding of programming methodology to implement, test and debug the programs.</p>
             </div>
         </div>
@@ -1223,13 +1215,14 @@ $_SESSION['LAST_ACTIVITY'] = $time;
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. This event is to be competed in team of two members. Both participants have to register for the event.</ol>
                     <ol style="color: #ffffff;  "  > 2. College ID card is mandatory for registration. </ol>
-                    <ol style="color: #ffffff;  "  > 3. Laptops, books or any type of written/printed materials, use of internet/mobile phones are strictly prohibited during the event. </ol>
+                    <ol style="color: #ffffff;  "  > 3. Laptops, books or any type of written/printed materials, use of internet/mobile phones are strictly  </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prohibited during the event.</ol>
                     <ol style="color: #ffffff;  "  > 4. The event is onsite and will consist of two rounds.</ol>
                     <ol style="color: #ffffff;  "  > 5. The first round is a written objective test of 30 minutes. This is an elimination round and</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will consist of objective questions with/without multiple choices from the basics of programming.</ol>
-                    <ol style="color: #ffffff;  "  > 6. The final round contains the implementation, debugging and error solving of one/ more complex </ol>
+                    <ol style="color: #ffffff;  "  > 6. The final round contains the implementation, debugging and error solving of one/more complex </ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;programs in C/C++ programming language with prescribed time limit. </ol>
-                    <ol style="color: #ffffff;  "  > 8. Organizing committee has a right to disqualify a participant in case of any indiscipline.</ol>
+                    <ol style="color: #ffffff;  "  > 8. Organizing committee has the right to disqualify a participant in case of any indiscipline.</ol>
                     <ol style="color: #ffffff;  "  > 9. Decision of the judges shall be final and it will be binding to all. </ol>
                     <ol style="color: #ffffff;  "  > 10.On the spot registration is allowed.
                     </ol>
@@ -1286,18 +1279,17 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         <!-- Rules -->
 
         <h1 class="main-title"> <span> Rules </span></h1>
-        <p class="lead">The Rules and Regulations</p>
 
         <div class="row">
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
-                    <ol   > 1.Code Maestro is not a team event. Only individuals are allowed to compete.</ol>
-                    <ol   > 2.All contestants are required to present a valid student identification card during the time of registration.</ol>
-                    <ol  > 3.A preliminary MCQ test based on programming will be conducted.</ol>
-                    <ol > 4.Those contestants who qualify in the prelims can enter the next round of the competition.</ol>
-                    <ol  > 5.Contestants have to code the questions given to them in the stipulated period of time.</ol>
-                    <ol   > 6.Rules are subjected to change as per the decision of the organising committee.</ol>
-                    <ol  > 7. Organising committee have the right to disqualify a participant, in the event of any misconduct or malpractices.</ol>
+                    <ol> 1. Code Maestro is not a team event. Only individuals are allowed to compete.</ol>
+                    <ol> 2. All contestants are required to present a valid student identification card during the time of registration.</ol>
+                    <ol> 3. A preliminary MCQ test based on programming will be conducted.</ol>
+                    <ol> 4. Those contestants who qualify in the prelims can enter the next round of the competition.</ol>
+                    <ol> 5. Contestants have to code the questions given to them in the stipulated period of time.</ol>
+                    <ol> 6. Rules are subjected to change as per the decision of the organising committee.</ol>
+                    <ol> 7. Organising committee have the right to disqualify a participant, in the event of any misconduct or malpractices.</ol>
                 </ul>
             </div>
         </div>
@@ -1415,9 +1407,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom">Think you have the mad skills to be a cracker jack programmer? <br>
-                    Waiting for a cool way to show off your coding skills or are you just a super geek too <br>
-                    lazy to move out of your room? Then this is the right place for you!! Take part in our <br><strong></strong>International</strong> <br>
+                <p class="  margin-bottom">Think you have the mad skills to be a cracker jack programmer?
+                    Waiting for a cool way to show off your coding skills or are you just a super geek too
+                    lazy to move out of your room? Then this is the right place for you!! Take part in our <strong></strong>International</strong>
                     level online coding contest and have a go at the amazing prizes up for grabs.</p>
             </div>
         </div>
@@ -1827,12 +1819,13 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         <h1 class="main-title"> <span> Rules </span></h1>
         <br><br><br><br>
         <h4 class="main-title"> <span> General Guidelines </span></h4>
+        <br>
         <div class="row">
             <div class="span8 offset3">
 
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Spot registration is compulsory.</ol>
-                    <ol style="color: #ffffff;  "  > 2.Registration will be closed after prelims.</ol>
+                    <ol style="color: #ffffff;  "  > 2. Registration will be closed after prelims.</ol>
                     <ol style="color: #ffffff;  "  > 3. In case of unintentional disconnection, admin will decide on how to proceed.</ol>
                     <ol style="color: #ffffff;  "  > 4. If at any time, a player intentionally disconnects/exits the game, he/she will be disqualified. </ol>
                     <ol style="color: #ffffff;  "  > 5. In case of alt-tabbing, the admin will decide whether it was intentionally/mistake and </ol>
@@ -1877,9 +1870,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
                     <ol style="color: #ffffff;  "  > 2. In case of unintentional disconnection, admin will decide on how to proceed.</ol>
                     <ol style="color: #ffffff;  "  > 3. If game is within half time, and no goals have been scored, the game will be restarted</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with same teams for a full time game.</ol>
-                    <ol style="color: #ffffff;  "  > 4. If not, the game will be played for the remaining time based on what time it was </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disconnected with scores being carried over.</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If not, the game will be played for the remaining time based on what time it disconnected with scores being carried over.</ol>
+                    <ol style="color: #ffffff;  "  > 4. If not, the game will be played for the remaining time based on what time it is </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disconnected with scores being carried over.If not, the game will be played for the  </ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remaining time based on what time it disconnected with scores being carried over.</ol>
                     <ol style="color: #ffffff;  "  > 5. Teams can be either clubs or countries (classic x1 and world x1 is not allowed).</ol>
                     <ol style="color: #ffffff;  "  > 6. The prelims and league will be classic 4 min half time matches.</ol>
                     <ol style="color: #ffffff;  "  > 7. Quarter and Semis will all be 5 min half time matches.</ol>
