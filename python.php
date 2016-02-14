@@ -24,7 +24,8 @@
 </head>
 <body style="background-color:#0d2f09;" >
 <div >
-
+    <a href="http://www.dvaita16.com" class="logo"><img src="img/logo.png" alt="logo"/></a>
+    <a href="https://www.python.org/psf/" class="nssce"><img src="img/psf_logo.png" alt="psf"/></a>
 
     <!-- About Content -->
     <div class="container">
@@ -49,9 +50,9 @@
 
             <div class="row">
                 <div class="span6 offset3">
-                    <p class=" margin-bottom">A workshop on ‘Practical Python’ was held, on Saturday, 13th February 2016, as part of DVAITA’16, the National level technical fest organized by Department of  Computer Science & Engineering of NSS College of Engineering, Palakkad, India. Kerala, India,The workshop was conducted by Mr. Noufal Ibrahim, an expert trainer and member of Python Software Foundation.
-                        <br><br>The workshop began at 10 in the morning with about 80 students.The workshop was a lively one with regular interaction between the instructor and the students. It helped the students, gain an in-depth knowledge in python programming. There were also five student volunteers to help students during the workshop.<br><br>
-                        Mr.Ibrahim began the workshop by introducing a few warm up questions. Then the students approximated the value of PI using the python random library. Afterwards, they built a hangman style game and a chat server.<br><br>An orientation class was also conducted by student volunteers on Wednesday, 10th February to introduce the basic python syntax to students who were interested in participating in the workshop.<br><br>
+                    <p class=" margin-bottom">A workshop on ‘Practical Python’ was held on Saturday, 13th February 2016. It was organised as part of DVAITA’16, the National level technical fest organized by Department of  Computer Science & Engineering of NSS College of Engineering, Palakkad, Kerala, India. The workshop was conducted by Mr. Noufal Ibrahim, an expert trainer and member of the Python Software Foundation.
+                        <br><br>The workshop began at 10:00  in the morning with about 80 students.The workshop was a lively one with regular interaction between the instructor and the students. It helped the students gain an in-depth knowledge in python programming. There were also five student volunteers to help students during the workshop.<br><br>
+                        Mr.Ibrahim began the workshop by introducing a few warm up questions. Then the students approximated the value of PI using the python random library. Afterwards, they built a hangman style game and a chat server.The workshop concluded at 4:30 PM.<br><br>An orientation class was also conducted by student volunteers on Wednesday, 10th February to introduce the basic python syntax to students who were interested in participating in the workshop.<br><br>
                         The workshop had support from the Python Software Foundation.
                     </p>
 
