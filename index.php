@@ -880,19 +880,65 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         </div>
 
         <hr />
-        <!-- Rules -->
 
-        <!--h1 class="main-title" > <span> Rules </span></h1>
+        <h1 class="main-title"> <span> Gallery </span></h1>
+
+        <div class="masonry">
+
+            <!-- Portfolio Single item -->
+            <div class="item webdesign"><img src="img/img1.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+
+
+            <div class="item illustration"><img src="img/img2.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+
+
+            <div class="item webdesign"><img src="img/img3.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+
+            <div class="item abstract"><img src="img/img4.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+
+
+            <div class="item illustration"><img src="img/img5.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+
+
+            <div class="item abstract"><img src="img/img6.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+
+
+            <div class="item webdesign"><img src="img/img7.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+
+
+            <div class="item webdesign"><img src="img/img8.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+            <div class="item webdesign"><img src="img/img10.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+            <div class="item webdesign"><img src="img/img11.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+            <div class="item webdesign"><img src="img/img9.jpg" alt="Portfolio" class="thumb" /></div>
+
+
+        </div>
+
+
+
         
 
-        <div class="row">
-            <div class="span6 offset3">
-                <ul  class="margin-bottom">
-                    <li > Lorem ipsum dolor sit amet, consectetuer  </li>
-                    <li  >Lorem ipsum dolor sit amet, consectetuer  </li>
-                </ul>
-            </div>
-        </div>
+
 
         <hr /-->
         <!-- Contact -->
