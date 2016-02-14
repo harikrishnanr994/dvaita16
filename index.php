@@ -1076,7 +1076,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         <h1 class="main-title"><span>Description</span></h1>
         <p class="lead">
             Sidhandhics provides a platform to put forward your innovative ideas related to computer science. <br>
-            Submit your ideas and get invited for a live presentation during Dvaita ‘16. <br>
+            Submit your ideas and get invited for the conference during Dvaita ‘16. <br>
             Participation can be individual or group (not more than 5).
 
 
@@ -1093,12 +1093,13 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             <div class="span8 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  >1. Maximum of five authors per paper.</ol>
-                    <ol style="color: #ffffff;  "  >2. Undergraduate students from any institute are eligible to participate.</ol>
+                    <ol style="color: #ffffff;  "  >2. Undergraduate  or Postgraduate students from any institute are eligible to participate.</ol>
                     <ol style="color: #ffffff;  "  >3. Interested candidates may send the soft copy of the paper (PDF) to </ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sidhandhics@dvaita16.com" > sidhandhics@dvaita16.com</a>on or before 12th February 2016.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sidhandhics@dvaita16.com" > sidhandhics@dvaita16.com</a>on or before 18th February 2016.</ol>
                     <ol style="color: #ffffff;  "  > 4. Name, e-mail ID and contact number of authors should be mentioned in the e-mail.</ol>
                     <ol style="color: #ffffff;  "  > 5. Subject of the e-mail should specify the domain of CS under which the paper is</ol>
-                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;submitted. Eg:- Data mining, Cloud Computing etc.</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;submitted.  Domains are  : Speech and language processing Algorithms , Cloud computing , Cryptography & Network security</ol>
+                    <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data mining , Big data,Artificial intelligence/ Machine learning , Other advanced topics etc.</ol>
                     <ol style="color: #ffffff;  "  > 6. Submitted papers should be in the following format:</ol>
                     <ol style="color: #ffffff;  "  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full length paper not exceeding 4 pages of A4 size in IEEE double column format.</ol>
 
