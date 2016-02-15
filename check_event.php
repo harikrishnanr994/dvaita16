@@ -16,6 +16,9 @@ if ($action == 'in') {
 		case 'bestengineer_in':
 			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','bestengineer')");
 			break;
+		case 'bashemup_in':
+			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','bashemup')");
+			break;
 		case 'maestro_in':
 			$query = mysqli_query($link, "INSERT INTO events (uid, event) VALUES ('$uid','maestro')");
 			break;
@@ -99,6 +102,9 @@ if ($action == 'in') {
 			break;
 		case 'bestengineer_out':
 			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='bestengineer'");
+			break;
+		case 'bashemup_out':
+			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='bashemup'");
 			break;
 		case 'maestro_out':
 			$query_out = mysqli_query($link, "DELETE FROM events WHERE event='maestro'");

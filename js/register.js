@@ -203,7 +203,11 @@ function enterEvent(uid, _event) {
 						case 'bestengineer_in': 
 							$('#bestengineer_in').fadeIn().hide();
 							$('#bestengineer_out').fadeIn().show();
-							break;		
+							break;
+						case 'bashemup_in':
+							$('#bashemup_in').fadeIn().hide();
+							$('#bashemup_out').fadeIn().show();
+							break;
 						case 'maestro_in': 
 							$('#maestro_in').fadeIn().hide();
 							$('#maestro_out').fadeIn().show();
@@ -328,7 +332,11 @@ function exitEvent(uid, _event) {
 						case 'bestengineer_out': 
 							$('#bestengineer_in').fadeIn().show();
 							$('#bestengineer_out').fadeIn().hide();
-							break;		
+							break;
+						case 'bashemup_out':
+							$('#bashemup_in').fadeIn().show();
+							$('#bashemup_out').fadeIn().hide();
+							break;
 						case 'maestro_out': 
 							$('#maestro_in').fadeIn().show();
 							$('#maestro_out').fadeIn().hide();

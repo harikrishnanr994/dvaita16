@@ -407,7 +407,20 @@ hr {
 	padding: 10px 20px;
 	font-size: 18px;
 	border-radius: 0;
+	margin: 0 auto 15px 10%;
 }
+
+.btn-register {
+	margin: 0 auto 15px;
+	padding: 19px;
+	width: 300px;
+	border: 1px solid #FFFFFF;
+	background: rgba(255,255,255,0.1);
+	z-index:4;
+	display: block;
+}
+
+
 .btn:hover, .btn:focus, .btn-primary:hover, .btn-primary:focus {
 	height: 23px;
 	background: rgba(255,255,255,0.9);
