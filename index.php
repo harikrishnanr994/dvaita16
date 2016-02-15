@@ -40,8 +40,8 @@ $_SESSION['LAST_ACTIVITY'] = $time;
     <link rel="shortcut icon" href="img/favicon.png" />
 </head>
 <body>
-<input type=hidden id="user_session" value="<?=$has_session_user;?>"></input>
-<input type=hidden name="user_session_uid" value="<?=$uid;?>"></input>
+<input type=hidden id="user_session" value="<?=$has_session_user;?>"/>
+<input type=hidden name="user_session_uid" value="<?=$uid;?>"/>
 <div id="loader-wrapper">
     <div id="loader"></div>
 
@@ -713,9 +713,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span8 offset3">
-                <p class="  margin-bottom">Dance is the most aesthetic form of art that our race has ever developed. <br>
-                    Dancing speaks a language right from the heart. Do you have what it takes to beat the best? <br>
-                    Then put on your dancing shoes. Compete with the finest crews across the nation and stand a chance to be the ultimate dancing crew.<br>
+                <p class="  margin-bottom">Dance is the most aesthetic form of art that our race has ever developed.
+                    Dancing speaks a language right from the heart. Do you have what it takes to beat the best?
+                    Then put on your dancing shoes. Compete with the finest crews across the nation and stand a chance to be the ultimate dancing crew.
                     The stage is set, dancers pumped up. Let the dance begin.
                 </p>
             </div>
@@ -743,9 +743,11 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <hr />
 
-               <button class=" btn-register" id="boombox_in" onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1> </button>  </td>
-                <button  class="btn-register" id="boombox_out" onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am out</h1> </button></td>
-                <a class="btn-register"  href="http://www.thecollegefever.com/dvaita16" target="_blank" id="boombox_pay"><h1>Pay now</h1></a>
+
+                        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
+                        <button class=" btn-register" style="display:none" id="boombox_in" onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1> </button>
+                        <button  class="btn-register" style="display:none" id="boombox_out" onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am out</h1> </button>
+                        <a class="btn-register" style="display:none"  href="http://www.thecollegefever.com/dvaita16" target="_blank" id="boombox_pay"><h1>Pay now</h1></a>
 
         <hr />
 
@@ -795,11 +797,11 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class=" margin-bottom">This is a beginner level hands-on workshop ideal for  students with knowledge of C programming. Topics covered<br>
+                <p class=" margin-bottom">This is a beginner level hands-on workshop ideal for  students with knowledge of C programming. Topics covered
 
-                    are: an introduction to GNU/Linux and Free Software,  working with Linux commands, programming Texas Instrument's ARM <br>
+                    are: an introduction to GNU/Linux and Free Software,  working with Linux commands, programming Texas Instrument's ARM 
 
-                    microcontroller based "Launchpad" development boards  using an Arduino-like IDE called "Energia". Students will be provided  the<br>
+                    microcontroller based "Launchpad" development boards  using an Arduino-like IDE called "Energia". Students will be provided  the
 
                     required hardware (TI Stellaris and MSP432 launchpads) by the workshop organizers.</p>
             </div>
@@ -987,11 +989,10 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
 
         <div class="row">
-            <div class="span8 offset3">
+            <div class="span6 offset3">
                 <p class="margin-bottom"> <br>
-                    He who exceeds the boundaries of literate knowledge excels in the art of penetration testing.<br>
-                    So explore yourself in the world of cyber security and hack the Jack prize<br>
-                    Hack jacker is mainly concerned with.</p>
+                    He who exceeds the boundaries of literate knowledge excels in the art of penetration testing.
+                    So explore yourself in the world of cyber security and hack the Jack prize.</p>
             </div>
         </div>
 
@@ -1016,6 +1017,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr />
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="hackerjack_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1> </button>
         <button  class="btn-register" id="hackerjack_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am out</h1> </button>
         <hr />
@@ -1058,9 +1060,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom"> The coding contest that pushes you beyond your comfort zones.<br>
-                    The contest is aimed at the grasping power of contestants and their ability to learn and code <br>
-                    in an esoteric programming language. Within a given time the participants have to study <br>
+                <p class="  margin-bottom"> The coding contest that pushes you beyond your comfort zones.
+                    The contest is aimed at the grasping power of contestants and their ability to learn and code
+                    in an esoteric programming language. Within a given time the participants have to study
                     the language provided and solve the problem based on the logic and syntax of the program.
                     </p>
             </div>
@@ -1088,6 +1090,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="langx_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="langx_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1> </button>
         <hr />
@@ -1124,15 +1127,15 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         </div>
         <h1 class="main-title"><span>Description</span></h1>
-        <p class="lead">
-            Sidhandhics provides a platform to put forward your innovative ideas related to computer science. <br>
-            Submit your ideas and get invited for the conference during Dvaita ‘16. <br>
-            Participation can be individual or group (not more than 5).
 
-
-        </p>
-
-
+        <div class="row">
+            <div class="span6 offset3">
+                <p class="  margin-bottom">Sidhandhics provides a platform to put forward your innovative ideas related to computer science.
+                    Submit your ideas and get invited for the conference during Dvaita ‘16.
+                    Participation can be individual or group (not more than 5).
+                </p>
+            </div>
+        </div>
 
         <hr />
         <!-- Rules -->
@@ -1157,6 +1160,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="sidhandics_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="sidhandics_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <a class="btn-register" href="http://www.thecollegefever.com/dvaita16" target="_blank" id="sidhandics_pay" ><h1>Pay now</h1></a>
@@ -1226,6 +1230,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr />
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="bashemup_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="bashemup_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
 
@@ -1266,7 +1271,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="margin-bottom">Programming is not just a science, but an art. This event focuses on testing the <br>
+                <p class="margin-bottom">Programming is not just a science, but an art. This event focuses on testing the
                     conceptual understanding of programming methodology to implement, test and debug the programs.</p>
             </div>
         </div>
@@ -1297,6 +1302,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr />
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="swatthebug_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="swatthebug_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
 
@@ -1338,7 +1344,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom">A battleground for programmers to unleash the coder in them.<br>
+                <p class="  margin-bottom">A battleground for programmers to unleash the coder in them.
 
                     Do not miss this opportunity to  gratify the creative longings built deep within you. Come and have fun coding.</p>
             </div>
@@ -1364,6 +1370,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         </div>
 
         <hr />
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="maestro_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="maestro_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am out</h1> </button>
         <hr />
@@ -1404,12 +1411,12 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom">Code Swap is a coordination based programming challenge where the players <br>
-                    in a team will interchange their codes while coding.SWAPPING allows the players to code for, not only one, <br>
-                    but more than one program in different languages which makes it all more interesting and challenging.<br>
-                    However, the players must note that, in the event, time plays an important factor.<br>
-                    Here, the players must construct a code such that, it gets executed by using your programming <br>
-                    capabilities with the ability to get the desired result.<br>
+                <p class="  margin-bottom">Code Swap is a coordination based programming challenge where the players
+                    in a team will interchange their codes while coding.SWAPPING allows the players to code for, not only one,
+                    but more than one program in different languages which makes it all more interesting and challenging.
+                    However, the players must note that, in the event, time plays an important factor.
+                    Here, the players must construct a code such that, it gets executed by using your programming
+                    capabilities with the ability to get the desired result.
 
                     <strong>PREREQUISITE: Basic Programming knowledge of Java ,python,c/c++</strong>
                 </p>
@@ -1440,8 +1447,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="codeswap_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
-        <button  class="btn-register" id="codeswap_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am outsidha</h1></button>
+        <button  class="btn-register" id="codeswap_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am out</h1></button>
         <hr />
         <!-- Contact -->
         <h1 class="main-title"> <span>Contact</span></h1>
@@ -1508,6 +1516,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="codezilla_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1> </button>
         <button  class="btn-register" id="codezilla_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
 
@@ -1551,9 +1560,9 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom">The thing about being the best is that you can only get better.<br>
-                    A set of tasks have been set that shall test your grey matter.Those who can adapt, <br>
-                    improvise and implement easily shall find this as a cake walk.<br>
+                <p class="  margin-bottom">The thing about being the best is that you can only get better.
+                    A set of tasks have been set that shall test your grey matter.Those who can adapt,
+                    improvise and implement easily shall find this as a cake walk.
 
                    <strong> To be the best you need to beat the rest.</strong> </p>
             </div>
@@ -1582,6 +1591,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr />
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="bestengineer_in" onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1> </button>
         <button  class="btn-register" id="bestengineer_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am out </h1></button>
         <hr />
@@ -1621,7 +1631,10 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="row">
             <div class="span6 offset3">
-                <p class="  margin-bottom">Flex you neurones to catch hold of the fleeting facts. Here is a chance to iterate your knowledge and unload your answers. If you think you have got what it takes to leave everyone biting the dust with your knowledge, this brain battle extravaganza is just the place to be. Welcome to the open quiz of Dvaita!!!</p>
+                <p class="  margin-bottom">Flex you neurones to catch hold of the fleeting facts. Here is a chance to
+                    iterate your knowledge and unload your answers. If you think you have got what it takes to leave
+                    everyone biting the dust with your knowledge, this brain battle extravaganza is just the place to be.
+                    Welcome to the open quiz of Dvaita!!!</p>
             </div>
         </div>
 
@@ -1647,6 +1660,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="highq_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="highq_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -1726,6 +1740,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="startaction_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="startaction_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <a class="btn-register" href="http://www.thecollegefever.com/dvaita16" target="_blank" id="startaction_pay" ><h1>Pay now</h1></a>
@@ -1789,6 +1804,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="mrcad_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="mrcad_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -1858,6 +1874,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="shutterbug_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="shutterbug_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2023,7 +2040,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <img class="pic" src="img/roadrash.png"  alt="Roadrash"  />
         <hr />
-
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="respawn_in" onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count Me In</h1></button>
         <button class="btn-register" id="respawn_out" style="display:none;" onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am out</h1> </button>
 
@@ -2102,6 +2119,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="contraption_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="contraption_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2175,6 +2193,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="crossfire_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="crossfire_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2226,7 +2245,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
         <h1 class="main-title"> <span> Rules </span></h1>
 
         <div class="row">
-            <div class="span8 offset3">
+            <div class="span9 offset3">
                 <ul  class="margin-bottom">
                     <ol style="color: #ffffff;  "  > 1. Be the Pirate is a team event comprising of 4 members in each team.</ol>
                     <ol style="color: #ffffff;  "  > 2. The event features 4 rounds that tests different skill levels of the participants.</ol>
@@ -2248,6 +2267,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="pirate_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="pirate_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2317,6 +2337,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="mysteriarch_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1> </button>
         <button  class="btn-register" id="mysteriarch_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2390,6 +2411,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="hudrolaunch_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="hudrolaunch_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2461,147 +2483,6 @@ $_SESSION['LAST_ACTIVITY'] = $time;
                 <div class="span6 offset4">
 
 
-                      <tr>
-                          <td id="respawn_1"> <ol>Respawn Arena:</ol></td>
-                          <td id="respawn_2">
-                      </tr>
-                      <tr>
-                          <td id="bestengineer_1"><ol>Best Engineer:</ol></td>
-                          <td id="bestengineer_1" ><button class="btn-info" id="bestengineer_in" onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="bestengineer_1" ><button  class="btn-danger" id="bestengineer_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="maestro_1"><ol>Code Maestro:</ol></td>
-                          <td id="maestro_2" ><button class="btn-info" id="maestro_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="maestro_3" ><button  class="btn-danger" id="maestro_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="swatthebug_1"><ol>Swat the Bug:</ol></td>
-                          <td id="swatthebug_2" ><button class="btn-info" id="swatthebug_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="swatthebug_3" ><button  class="btn-danger" id="swatthebug_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="hackerjack_1"><ol>Hacker Jack:</ol></td>
-                          <td id="hackerjack_2" ><button class="btn-info" id="hackerjack_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="hackerjack_3" ><button  class="btn-danger" id="hackerjack_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="langx_1"><ol>Language X:</ol></td>
-                          <td id="langx_2" ><button class="btn-info" id="langx_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="langx_3" ><button  class="btn-danger" id="langx_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="codezilla_1"><ol>CodeZilla:</ol></td>
-                          <td id="codezilla_1" ><button class="btn-info" id="codezilla_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="codezilla_1" ><button  class="btn-danger" id="codezilla_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="codeswap_1"><ol>Code Swap:</ol></td>
-                          <td id="codeswap_2" ><button class="btn-info" id="codeswap_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="codeswap_3" ><button  class="btn-danger" id="codeswap_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="sidhandics_1"><ol>Sidhandhics:</ol></td>
-                          <td id="sidhandics_2" ><button class="btn-info" id="sidhandics_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="sidhandics_4" ><button  class="btn-danger" id="sidhandics_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                          <td id="sidhandics_3" ><a class="btn-success" href="http://www.thecollegefever.com/dvaita16" target="_blank" id="sidhandics_pay" >Pay now</a>
-                              <form id="verify_sidhandics" action="verify_pay.php" class="form-inline" method="post" style="display: none;">
-                                <input type=hidden name="event" id="event" value="sidhandics"></input>
-                                <input type=hidden name="uid" value="<?=$uid;?>"></input>
-                                  <input type="text" placeholder="Ticket Id"  class="span1" name="ticket_no" id="ticket" required/>
-                                  <button id="pay_verify" type="submit" class="btn-small btn-success" >Verify</button>
-                                  <button id="sidhandics_cancel" class="btn-small btn-danger">Cancel</button>
-                              </form>
-                              <p id="regd-sd" style="display:none;">Registered</p>
-                          </td>
-
-                      </tr>
-                      <tr>
-                          <td id="startaction_1"><ol>Start Action Cut:</ol></td>
-                          <td id="startaction_2" ><button class="btn-info" id="startaction_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="startaction_4" ><button  class="btn-danger" id="startaction_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                          <td id="startaction_3" ><a class="btn-success" href="http://www.thecollegefever.com/dvaita16" target="_blank" id="startaction_pay" >Pay now</a>
-                              <form id="verify_startaction" action="verify_pay.php" class="form-inline" method="post" style="display: none;">
-                                <input type=hidden name="event" id="event" value="startaction"></input>
-                                <input type=hidden name="uid" value="<?=$uid;?>"></input>
-                                  <input type="text" placeholder="Ticket No."  class="span1" name="ticket_no" id="ticket" required/>
-                                  <button id="pay_verify" type="submit" class="btn-small btn-success" >Verify</button>
-                                  <button id="startaction_cancel" class="btn-small btn-danger">Cancel</button>
-                              </form>
-                              <p id="regd-sa" style="display:none;">Registered</p>
-                          </td>
-
-                      </tr>
-                      <tr>
-                          <td id="mrcad_1"><ol>Mr Cad:</ol></td>
-                          <td id="mrcad_2" ><button class="btn-info" id="mrcad_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="mrcad_3" ><button  class="btn-danger" id="mrcad_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="shutterbug_1"><ol>Shutter Bug:</ol></td>
-                          <td id="shutterbug_2" ><button class="btn-info" id="shutterbug_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="shutterbug_3" ><button  class="btn-danger" id="shutterbug_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="highq_1"><ol>High Q:</ol></td>
-                          <td id="highq_2" ><button class="btn-info" id="highq_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="highq_3" ><button  class="btn-danger" id="highq_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="contraption_1"><ol>Break In Style:</ol></td>
-                          <td id="contraption_2" ><button class="btn-info" id="contraption_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="contraption_3" ><button  class="btn-danger" id="contraption_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="crossfire_1"><ol>Cross Fire:</ol></td>
-                          <td id="crossfire_2" ><button class="btn-info" id="crossfire_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="crossfire_3" ><button  class="btn-danger" id="crossfire_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="pirate_1"><ol>Be the Pirate:</ol></td>
-                          <td id="pirate_2" ><button class="btn-info" id="pirate_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="pirate_3" ><button  class="btn-danger" id="pirate_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="mysteriarch_1"><ol>Mysteriarch:</ol></td>
-                          <td id="mysteriarch_2" ><button class="btn-info" id="mysteriarch_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="mysteriarch_3" ><button  class="btn-danger" id="mysteriarch_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="hudrolaunch_1"><ol>Hydrolaunch:</ol></td>
-                          <td id="hudrolaunch_2" ><button class="btn-info" id="hudrolaunch_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="hudrolaunch_3" ><button  class="btn-danger" id="hudrolaunch_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="disco_1"><ol>Digital Disco:</ol></td>
-                          <td id="disco_2" ><button class="btn-info" id="disco_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="disco_3" ><button  class="btn-danger" id="disco_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="cognizance_1"><ol>Cognizance Battle:</ol></td>
-                          <td id="cognizance_2" ><button class="btn-info" id="cognizance_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="cognizance_3" ><button  class="btn-danger" id="cognizance_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="wikisurf_1"><ol>WikiSurf:</ol></td>
-                          <td id="wikisurf_2" ><button class="btn-info" id="wikisurf_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="wikisurf_3" ><button  class="btn-danger" id="wikisurf_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-                      <tr>
-                          <td id="roadies_1"><ol>Roadies:</ol></td>
-                          <td id="roadies_2" ><button class="btn-info" id="roadies_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)">I am in </button></td>
-                          <td id="roadies_3" ><button  class="btn-danger" id="roadies_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)">I am out </button></td>
-                      </tr>
-
-
-
-
-
-
-
-                  </table>
-
-
 
 
                 </div>
@@ -2662,6 +2543,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="cognizance_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="cognizance_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2753,6 +2635,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="wikisurf_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="wikisurf_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2764,7 +2647,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             <div class="span6 offset3">
 
                 <h4 style="color: #fff" align="center">Arjun K -  +91 828 125 8322  </h4>
-                <h4 style="color: #fff" align="center">Nidhin K-   - +91 860 609 5263   </h4>
+                <h4 style="color: #fff" align="center">Nidhin K  -   +91 860 609 5263   </h4>
                 <br><br>
 
             </div>
@@ -2827,6 +2710,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr />
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="disco_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="disco_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />
@@ -2894,6 +2778,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
             </div>
         </div>
         <hr/>
+        <button  class=" btn-register1 goto-login"><h1>Login</h1> </button>
         <button class="btn-register" id="roadies_in"  onClick="enterEvent('<?php echo $uid;?>',this.id)"><h1>Count me In</h1></button>
         <button  class="btn-register" id="roadies_out"  onClick="exitEvent('<?php echo $uid;?>',this.id)"><h1>I am Out</h1></button>
         <hr />

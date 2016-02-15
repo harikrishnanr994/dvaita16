@@ -128,9 +128,13 @@ $(document).ready(function () {
   if($('#user_session').val() == 1) {
     $("#profile").css('z-index', 2);
     $("#login").css('z-index', -2);
+      $(".btn-register1").hide();
+      $(".btn-register").show();
   } else {
     $("#login").css('z-index', 2);
     $("#profile").css('z-index', -2);
+      $(".btn-register1").show();
+      $(".btn-register").hide();
   }
   
   /* --- Open Section --- */
@@ -148,15 +152,19 @@ $(document).ready(function () {
     $(".switch-section").hide(250);
     $(".section-close").hide(250);
     $("#about, #profile, #event, #python, #contact, #bestengineer, #boombox, #respawn,#services").css("z-index",2);
-    $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#register,#predvaita").css("z-index", -2);
-    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hackerjack i,.section-hacknight i, .section-contact i,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-codezilla i,.section-roadies i").removeClass("active");
+    $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#register,#predvaita,#embedded").css("z-index", -2);
+    $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hackerjack i,.section-hacknight i, .section-contact i,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-codezilla i,.section-roadies i,.section-embedded i").removeClass("active");
   
   if($('#user_session').val() == 1) {
     $("#profile").css('z-index', 2);
     $("#login").css('z-index', -2);
+      $(".btn-register1").show();
+
   } else {
     $("#login").css('z-index', 2);
     $("#profile").css('z-index', -2);
+      $(".btn-register1").hide();
+
   }
   })
 
@@ -186,7 +194,7 @@ $(document).ready(function () {
     $(".section-boombox").click(function () {
         $("#boombox").css("z-index",4);
         $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#register,#predvaita").css("z-index", -2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#register,#predvaita,#embedded").css("z-index", -2);
         $(".section").removeClass("section-expand");
         $("#boombox").addClass("section-expand");
 
@@ -198,7 +206,7 @@ $(document).ready(function () {
   $(".section-python").click(function () {
     $("#python").css("z-index",4);
     $("#about, #profile, #event, #python, #contact, #bestengineer, #boombox, #respawn,#services").css("z-index",2);
-    $(" #swatthebug ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+    $(" #swatthebug ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
     $(".section").removeClass("section-expand");
     $("#python").addClass("section-expand");
 
@@ -208,7 +216,7 @@ $(document).ready(function () {
   })
     $(".section-embedded").click(function () {
       $("#embedded").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
         $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#register,#predvaita").css("z-index", -2);
     $(".section").removeClass("section-expand");
     $("#embedded").addClass("section-expand");
@@ -220,8 +228,8 @@ $(document).ready(function () {
 
   $(".section-sidhandics").click(function () {
             $("#sidhandics").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug  ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug  ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
     $(".section").removeClass("section-expand");
     $("#sidhandics").addClass("section-expand");
 
@@ -232,8 +240,8 @@ $(document).ready(function () {
 
     $(".section-hackerjack").click(function () {
               $("#hackerjack").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug,#hacknight,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug,#hacknight,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
       $(".section").removeClass("section-expand");
       $("#hackerjack").addClass("section-expand");
@@ -246,8 +254,8 @@ $(document).ready(function () {
 
     $(".section-swatthebug").click(function () {
               $("#swatthebug").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $("#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
         $(".section").removeClass("section-expand");
         $("#swatthebug").addClass("section-expand");
@@ -268,8 +276,8 @@ $(document).ready(function () {
 
   $(".section-codezilla").click(function () {
             $("#codezilla").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#codezilla").addClass("section-expand");
@@ -284,8 +292,8 @@ $(document).ready(function () {
 
   $(".section-bashemup").click(function () {
             $("#bashemup").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#bashemup").addClass("section-expand");
@@ -298,7 +306,7 @@ $(document).ready(function () {
   $(".section-bestengineer").click(function () {
             $("#bestengineer").css("z-index",4);
         $("#about, #profile, #event, #python, #contact, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#bestengineer").addClass("section-expand");
@@ -310,8 +318,8 @@ $(document).ready(function () {
 
   $(".section-maestro").click(function () {
             $("#maestro").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#maestro").addClass("section-expand");
@@ -323,8 +331,8 @@ $(document).ready(function () {
 
   $(".section-codeswap").click(function () {
             $("#codeswap").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#codeswap").addClass("section-expand");
@@ -336,8 +344,8 @@ $(document).ready(function () {
 
   $(".section-highq").click(function () {
             $("#highq").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#highq").addClass("section-expand");
@@ -346,7 +354,7 @@ $(document).ready(function () {
   $(".section-langx").click(function () {
             $("#langx").css("z-index",4);
         $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#langx").addClass("section-expand");
@@ -357,8 +365,8 @@ $(document).ready(function () {
 
   $(".section-startaction").click(function () {
             $("#startaction").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#startaction").addClass("section-expand");
@@ -370,8 +378,8 @@ $(document).ready(function () {
 
   $(".section-mrcad").click(function () {
             $("#mrcad").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#mrcad").addClass("section-expand");
@@ -383,8 +391,8 @@ $(document).ready(function () {
 
   $(".section-shutterbug").click(function () {
             $("#shutterbug").css("z-index",4);
-        $("#about, #profile, #event, #predvaita, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#python").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#shutterbug").addClass("section-expand");
@@ -396,7 +404,7 @@ $(document).ready(function () {
   $(".section-respawn").click(function () {
             $("#respawn").css("z-index",4);
         $("#about, #profile, #event, #python, #contact, #bestengineer,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#respawn").addClass("section-expand");
@@ -404,8 +412,8 @@ $(document).ready(function () {
 
   $(".section-contraption").click(function () {
             $("#contraption").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#contraption").addClass("section-expand");
@@ -417,8 +425,8 @@ $(document).ready(function () {
 
   $(".section-crossfire").click(function () {
             $("#crossfire").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#crossfire").addClass("section-expand");
@@ -430,8 +438,8 @@ $(document).ready(function () {
 
   $(".section-pirate").click(function () {
             $("#pirate").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#pirate").addClass("section-expand");
@@ -442,8 +450,8 @@ $(document).ready(function () {
 
   $(".section-mysteriarch").click(function () {
             $("#mysteriarch").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#mysteriarch").addClass("section-expand");
@@ -454,8 +462,8 @@ $(document).ready(function () {
 
   $(".section-hudrolaunch").click(function () {
             $("#hudrolaunch").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#hudrolaunch").addClass("section-expand");
@@ -466,8 +474,8 @@ $(document).ready(function () {
 
   $(".section-disco").click(function () {
             $("#disco").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#disco").addClass("section-expand");
@@ -478,8 +486,8 @@ $(document).ready(function () {
 
   $(".section-cognizance").click(function () {
             $("#cognizance").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#cognizance").addClass("section-expand");
@@ -490,8 +498,8 @@ $(document).ready(function () {
 
   $(".section-wikisurf").click(function () {
             $("#wikisurf").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#wikisurf").addClass("section-expand");
@@ -502,8 +510,8 @@ $(document).ready(function () {
 
   $(".section-roadies").click(function () {
             $("#roadies").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#roadies").addClass("section-expand");
@@ -532,8 +540,8 @@ $(document).ready(function () {
 
   $(".section-register").click(function () {
             $("#register").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
     $(".section").removeClass("section-expand");
     $("#register").addClass("section-expand");
   })
@@ -543,8 +551,8 @@ $(document).ready(function () {
 
   $(".section-contact").click(function () {
             $("#contact").css("z-index",4);
-        $("#about, #profile, #event, #python #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#contact").addClass("section-expand");
@@ -555,8 +563,8 @@ $(document).ready(function () {
 
   $(".section-login").click(function () {
             $("#login").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox,#boombox").css("z-index",2);
+        $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section").removeClass("section-expand");
     $("#login").addClass("section-expand");
@@ -573,8 +581,8 @@ $(document).ready(function () {
         $("#boombox").addClass("section-expand").siblings().removeClass("section-expand");
         $(".section-boombox i").addClass("active");
         $("#boombox").css("z-index",4);
-        $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#swatthebug,#predvaita,#embedded,#hacknight,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services#boombox").css("z-index",2);
+        $("#swatthebug,#predvaita,#embedded,#hacknight,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
         $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
 
         e.stopPropagation();
@@ -585,7 +593,7 @@ $(document).ready(function () {
         $(".section-swatthebug i").addClass("active");
         $("#swatthebug").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
         $(".section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
         e.stopPropagation();
@@ -596,7 +604,7 @@ $(document).ready(function () {
     $(".section-hackerjack i").addClass("active");
     $("#hackerjack").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -607,7 +615,7 @@ $(document).ready(function () {
     $(".section-bashemup i").addClass("active");
     $("#bashemup").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -618,7 +626,7 @@ $(document).ready(function () {
     $(".section-maestro i").addClass("active");
     $("#maestro").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -629,7 +637,7 @@ $(document).ready(function () {
     $(".section-codeswap i").addClass("active");
     $("#codeswap").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -640,7 +648,7 @@ $(document).ready(function () {
     $(".section-codezilla i").addClass("active");
     $("#codezilla").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -650,7 +658,7 @@ $(document).ready(function () {
     $(".section-langx i").addClass("active");
     $("#langx").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -661,7 +669,7 @@ $(document).ready(function () {
     $(".section-sidhandics i").addClass("active");
     $("#sidhandics").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -673,7 +681,7 @@ $(document).ready(function () {
     $(".section-highq i").addClass("active");
     $("#highq").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -684,7 +692,7 @@ $(document).ready(function () {
     $(".section-bestengineer i").addClass("active");
     $("#bestengineer").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -695,7 +703,7 @@ $(document).ready(function () {
       $(".section-startaction i").addClass("active");
       $("#startaction").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
       $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
       e.stopPropagation();
@@ -706,7 +714,7 @@ $(document).ready(function () {
     $(".section-mrcad i").addClass("active");
     $("#mrcad").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -717,7 +725,7 @@ $(document).ready(function () {
     $(".section-shutterbug i").addClass("active");
     $("#shutterbug").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -728,7 +736,7 @@ $(document).ready(function () {
     $(".section-respawn i").addClass("active");
     $("#respawn").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -739,7 +747,7 @@ $(document).ready(function () {
     $(".section-contraption i").addClass("active");
     $("#contraption").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -750,7 +758,7 @@ $(document).ready(function () {
     $(".section-crossfire i").addClass("active");
     $("#crossfire").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -761,7 +769,7 @@ $(document).ready(function () {
     $(".section-pirate i").addClass("active");
     $("#pirate").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -772,7 +780,7 @@ $(document).ready(function () {
     $(".section-mysteriarch i").addClass("active");
     $("#mysteriarch").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-hudrolaunch i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -784,7 +792,7 @@ $(document).ready(function () {
     $(".section-hudrolaunch i").addClass("active");
     $("#hudrolaunch").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-hudrolaunch i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -796,7 +804,7 @@ $(document).ready(function () {
     $(".section-disco i").addClass("active");
     $("#disco").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -808,7 +816,7 @@ $(document).ready(function () {
     $(".section-cognizance i").addClass("active");
     $("#cognizance").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#wikisurf,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -821,7 +829,7 @@ $(document).ready(function () {
     $(".section-wikisurf i").addClass("active");
     $("#wikisurf").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#roadies").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#roadies,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -833,7 +841,7 @@ $(document).ready(function () {
     $(".section-roadies i").addClass("active");
     $("#roadies").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf").css("z-index", -2);
+        $("#hacknight,#predvaita,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -855,8 +863,8 @@ $(document).ready(function () {
     $("#python").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-python i").addClass("active");
     $("#python").css("z-index",4);
-        $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #login, #profile, #event, #python, #contact, #bestengineer,#respawn,#services,#boombox").css("z-index",2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section-swatthebug i,.section-hacknight i,.section-about i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -870,7 +878,7 @@ $(document).ready(function () {
 	$(".section-about i").addClass("active");
   $("#about").css("z-index",4);
         $(" #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i, .section-contact i").removeClass("active");
 	e.stopPropagation();
@@ -892,7 +900,7 @@ $(document).ready(function () {
 	$(".section-register i").addClass("active");
   $("#register").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
 	e.stopPropagation();
@@ -902,8 +910,8 @@ $(document).ready(function () {
     $("#login").addClass("section-expand").siblings().removeClass("section-expand");
     $(".section-login i").addClass("active");
     $("#login").css("z-index",4);
-        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita").css("z-index", -2);
+        $("#about, #profile, #event, #python, #contact, #bestengineer, #respawn,#services,#boombox").css("z-index",2);
+        $("#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#predvaita,#embedded").css("z-index", -2);
 
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-contact i").removeClass("active");
     e.stopPropagation();
@@ -914,7 +922,7 @@ $(document).ready(function () {
 	$(".section-contact i").addClass("active");
   $("#contact").css("z-index",4);
         $("#about, #login, #profile, #event, #python, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#predvaita,#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#predvaita,#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i").removeClass("active");
 	e.stopPropagation();
@@ -925,7 +933,7 @@ $(document).ready(function () {
     $(".section-profile i").addClass("active");
     $("#profile").css("z-index",4);
         $("#about, #login, #event, #python, #contact, #bestengineer, #respawn,#services").css("z-index",2);
-        $("#predvaita,#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies").css("z-index", -2);
+        $("#predvaita,#hacknight,#embedded,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#embedded").css("z-index", -2);
 
     $(".section-about i,.section-hacknight i,.section-swatthebug i,.section-services i, .section-folio i, .section-register i").removeClass("active");
     e.stopPropagation();
