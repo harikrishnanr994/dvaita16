@@ -431,9 +431,14 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
         <div class="container">
             <hr />
-                <h1 class="main-title"><span> Title Sponsor</span></h1>
-                <img src="img/gail.jpg" alt="Portfolio" class="offset4"/>
-                <br><br>
+            <h1 class="main-title"><span> Title Sponsor</span></h1>
+            <img src="img/gail.jpg" alt="Portfolio" class="offset4"/>
+            <br><br>
+            <hr/>
+            <h1 class="main-title"><span> Event  Sponsors</span></h1>
+            <img src="img/pepsi.jpg"  class="offset3" style="width: 250px;height: 250px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="img/phacsin.jpg" style="width: 250px;height: 250px;"/>
+            <br><br>
             <hr/>
         </div>
 
