@@ -531,7 +531,7 @@ p{
 .section {
 	margin-bottom : -5px;
 	
-	width: 12%;
+	width: 10%;
 	height: 18%;
 	background-color: #000;
 	position: absolute ;
@@ -566,49 +566,55 @@ p{
 /* Sections About */
 
 .section#about {
-	right: 86%;
+	right: 85%;
 	z-index: 2
 }
 
 .section#login {
-	right: 74%;
+	right: 75%;
 	z-index: 2;
 }
 .section#profile {
-	right: 74%;
+	right: 75%;
 	z-index: -2;
 }
 
 .section#services {
-	right: 62%;
+	right: 65%;
 	z-index: 2
 }
-
-
-
+.section#schedule {
+	right: 55%;
+	z-index:2;
+}
+.section#folio {
+	right: 45%;
+	z-index:2;
+}
 .section#contact {
-	right: 38%;
+	right: 35%;
 	z-index: 2
 }
 .section#bestengineer  {
-	right: 26%;
+	right: 25%;
 	z-index: 2
 }
 
 .section#boombox {
-    right: 14%;
+    right: 15%;
     z-index: 2
 }
 .section#respawn {
-    right: 2%;
+    right: 5%;
     z-index: 2
 }
 
-.section#python {
-	right: 50%;
-	z-index:2;
-}
 
+
+.section#python {
+	right: 10%;
+	z-index:-2;
+}
 .section#hackerjack {
 	right: 10%;
 	z-index: -2;
@@ -774,7 +780,7 @@ p{
 	font-size:40px;
 }
 
-.section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i ,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-codezilla i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-roadies i,.section-predvaita i,.section-python i,.section-embedded i,.section-login i{
+.section-about i,.section-swatthebug i,.section-boombox i, .section-hacknight i,.section-services i, .section-folio i, .section-register i, .section-contact i ,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-codezilla i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-roadies i,.section-predvaita i,.section-python i,.section-embedded i,.section-login i,.section-schedule i{
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -789,7 +795,7 @@ p{
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
-.section-about i:hover, .section-boombox i:hover,.section-swatthebug i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover, .section-hackerjack i:hover, .section-bashemup i:hover , .section-bestengineer i:hover, .section-codeswap i:hover , .section-codezilla i:hover , .section-highq i:hover, .section-langx i:hover , .section-sidhandics i:hover, .section-startaction i:hover , .section-mrcad i:hover, .section-shutterbug i:hover , .section-respawn i:hover, .section-contraption i:hover , .section-crossfire i:hover , .section-pirate i:hover, .section-mysteriarch i:hover , .section-hudrolaunch i:hover , .section-disco i:hover , .section-cognizance i:hover, .section-wikisurf i:hover, .section-roadies i:hover, .section-predvaita i:hover, .section-python i:hover, .section-embedded i:hover , .section-login i:hover {
+.section-about i:hover, .section-boombox i:hover,.section-swatthebug i:hover, .section-hacknight i:hover,.section-services i:hover, .section-folio i:hover, .section-register i:hover, .section-contact i:hover, .section-hackerjack i:hover, .section-bashemup i:hover , .section-bestengineer i:hover, .section-codeswap i:hover , .section-codezilla i:hover , .section-highq i:hover, .section-langx i:hover , .section-sidhandics i:hover, .section-startaction i:hover , .section-mrcad i:hover, .section-shutterbug i:hover , .section-respawn i:hover, .section-contraption i:hover , .section-crossfire i:hover , .section-pirate i:hover, .section-mysteriarch i:hover , .section-hudrolaunch i:hover , .section-disco i:hover , .section-cognizance i:hover, .section-wikisurf i:hover, .section-roadies i:hover, .section-predvaita i:hover, .section-python i:hover, .section-embedded i:hover , .section-login i:hover , .section-schedule i:hover {
 	background: rgba(0,0,0,0.1);
 	font-size: 30px;
 	opacity: 1;
@@ -797,6 +803,10 @@ p{
 .section-boombox i.active {
     font-size: 30px;
     opacity: 1;
+}
+.section-schedule i.active {
+	font-size: 30px;
+	opacity: 1;
 }
 .section-swatthebug i.active {
     font-size: 30px;

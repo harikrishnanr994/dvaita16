@@ -35,6 +35,10 @@
 
 	background: #2196f3;
 }
+.section#schedule, .section-schedule i.active {
+
+    background: #f4934a;
+}
 .section#swatthebug, .section-swatthebug i.active {
 	background: #7e6189;
 }
