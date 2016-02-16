@@ -151,7 +151,7 @@ $(document).ready(function () {
     $(".section").removeClass("section-expand");
     $(".switch-section").hide(250);
     $(".section-close").hide(250);
-    $("#about, #profile, #event, #schedule, #contact, #bestengineer, #boombox, #respawn,#services").css("z-index",2);
+    $("#about, #profile, #event, #schedule, #contact, #bestengineer, #boombox, #respawn,#services,#folio").css("z-index",2);
     $(" #swatthebug ,#hackerjack ,#hacknight,#hackerjack,#bashemup,#codezilla,#maestro,#codeswap,#highq,#langx,#sidhandics,#startaction,#mrcad,#shutterbug,#contraption,#crossfire,#pirate,#mysteriarch,#hudrolaunch,#disco,#cognizance,#wikisurf,#roadies,#register,#predvaita,#embedded,#python").css("z-index", -2);
     $(".section-about i, .section-services i, .section-folio i, .section-register i, .section-boombox i, .section-swatthebug i,.section-hackerjack i,.section-hacknight i, .section-contact i,.section-hackerjack i,.section-bashemup i,.section-bestengineer i,.section-maestro i,.section-codeswap i,.section-highq i,.section-langx i,.section-sidhandics i,.section-startaction i,.section-mrcad i,.section-shutterbug i,.section-respawn i,.section-contraption i,.section-crossfire i,.section-pirate i,.section-mysteriarch i,.section-hudrolaunch i,.section-disco i,.section-cognizance i,.section-wikisurf i,.section-codezilla i,.section-roadies i,.section-embedded i").removeClass("active");
   
